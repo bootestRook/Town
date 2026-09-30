@@ -1,0 +1,87 @@
+{
+  "camp": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/c5bae363-8ec3-4866-aa39-35ad30829e6a.png",
+    "uuid": "c5bae363-8ec3-4866-aa39-35ad30829e6a",
+    "sha256": "97dd812413f1e963cb537f6f868d41fb497ee99e2fb651e7c2a518896e86c2c0"
+  },
+  "count": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/e9796fd2-0ed4-4eff-8291-98eed51b99ce.png",
+    "uuid": "e9796fd2-0ed4-4eff-8291-98eed51b99ce",
+    "sha256": "b2d3cf964c0b0e52d540e2589c91b0cd534e76ff5d664f4dea5f50a1817307ae"
+  },
+  "pedestal": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/d83472eb-7a03-42b6-8f94-ed7392f68d77.png",
+    "uuid": "d83472eb-7a03-42b6-8f94-ed7392f68d77",
+    "sha256": "30bb245da7182544f19e4696af3184750f6d456d19031edb245236ffab6fb95f"
+  },
+  "add": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/7a7f296a-84c4-44f5-bdc6-34254165bd37.png",
+    "uuid": "7a7f296a-84c4-44f5-bdc6-34254165bd37",
+    "sha256": "9371b99af58382cc61a451afcaa93d73eea0605f38c2744e8c53e7f825fdca59"
+  },
+  "lock": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/e329286b-c013-44c0-b484-7063929a0a5b.png",
+    "uuid": "e329286b-c013-44c0-b484-7063929a0a5b",
+    "sha256": "4ae67c34ee99382fcdeef50f75eadd0ea7db91100d050eda682e94650c78b34b"
+  },
+  "check": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/c687d4b4-e233-4efc-b536-9686b2fe4494.png",
+    "uuid": "c687d4b4-e233-4efc-b536-9686b2fe4494",
+    "sha256": "d42430863df75ed2a67b70e36d41d327fcc594751400122cc7facb722ab50e1b"
+  },
+  "filter": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/f156bd00-7b4a-48f7-b8f4-84acba6afe64.png",
+    "uuid": "f156bd00-7b4a-48f7-b8f4-84acba6afe64",
+    "sha256": "79a658b988c9ae03b8bab514b14cf36313c839371c3f5983646805bb2afa6667"
+  },
+  "filter_selected": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/24326ff8-5a01-4f4e-86de-d3fa14443d9e.png",
+    "uuid": "24326ff8-5a01-4f4e-86de-d3fa14443d9e",
+    "sha256": "5c3afe57bf4fadae57e44ef4c0ea8950155a4d9d352642655608d654330260f6"
+  },
+  "category": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/16c7d330-546d-4749-8f6d-c37ca60a07ce.png",
+    "uuid": "16c7d330-546d-4749-8f6d-c37ca60a07ce",
+    "sha256": "82ec3236d911d9f8a84b5896ba1130fb7b7589d4b307190cfd0d2f96fe8912b1"
+  },
+  "category_selected": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/d4823edc-4c8d-4b1d-a6f3-67e48d75c1f9.png",
+    "uuid": "d4823edc-4c8d-4b1d-a6f3-67e48d75c1f9",
+    "sha256": "56718f22726f7c96c50418ac1f1067c55f63e7753b1e83ff207a3b732c206063"
+  },
+  "training_row": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/ac6ebb75-3ff2-4595-b145-4d62501f5ecf.png",
+    "uuid": "ac6ebb75-3ff2-4595-b145-4d62501f5ecf",
+    "sha256": "243d20bf17e9aa9ed3de9c01ab073f60feae2297aa3b5a800adb88bff25cc61c"
+  },
+  "upgrade": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/ab54d18a-1045-4654-bc3d-82477da8d733.png",
+    "uuid": "ab54d18a-1045-4654-bc3d-82477da8d733",
+    "sha256": "f0da2241064c6e2a76617d9df9353a3eb9883bf6dabd9298865f8c306d14acb9"
+  },
+  "deployed": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/d042ecd6-ce17-4e0f-a5aa-4817ff6acf84.png",
+    "uuid": "d042ecd6-ce17-4e0f-a5aa-4817ff6acf84",
+    "sha256": "66e750f85b879c712783e788d7951b690b231c5b1c4d720bce69af2e9dddba89"
+  },
+  "tab_1": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/78336a59-826b-487d-80b9-f60681cebe9b.png",
+    "uuid": "78336a59-826b-487d-80b9-f60681cebe9b",
+    "sha256": "0a39933e8b7dba7e40258e3040011877cf0f24ec4b037cb8d76c6b170a85dd9a"
+  },
+  "tab_1_selected": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/40a8babf-a8fc-4861-81e6-0211db4b526f.png",
+    "uuid": "40a8babf-a8fc-4861-81e6-0211db4b526f",
+    "sha256": "0d2d97b8669d1fc7ae7cb1ff1ea40972e65e4a151b29c050e96b2c7172890828"
+  },
+  "tab_2": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/6e3d1312-18e5-4c05-9a8d-8cadd05da73d.png",
+    "uuid": "6e3d1312-18e5-4c05-9a8d-8cadd05da73d",
+    "sha256": "9ab6a856de6a32a8502dc7ba9438aafc94a58951309e360a1bd50d8aedb9b13b"
+  },
+  "tab_2_selected": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/538cc2fe-2f50-457d-9034-e8f6eb2f8dbb.png",
+    "uuid": "538cc2fe-2f50-457d-9034-e8f6eb2f8dbb",
+    "sha256": "20ce672702ed2158a57c5872f19823a46c8d840c811c6e27d2798a8bad484ddd"
+  }
+}

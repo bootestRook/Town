@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Hongbandugu",
+    "skeleton": "art_source/main_ui/spine/Hongbandugu/hongbandugu.json",
+    "output": "art_source/main_ui/baked/Hongbandugu.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/Hongbandugu/hongbandugu/hongbandugu.json"
+  },
+  {
+    "name": "Kuangtaojulong",
+    "skeleton": "art_source/main_ui/spine/Kuangtaojulong/kuangtaojulong.json",
+    "output": "art_source/main_ui/baked/Kuangtaojulong.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/Kuangtaojulong/kuangtaojulong/kuangtaojulong.json"
+  },
+  {
+    "name": "Nufengjulong",
+    "skeleton": "art_source/main_ui/spine/Nufengjulong/nufengjulong.json",
+    "output": "art_source/main_ui/baked/Nufengjulong.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/Nufengjulong/nufengjulong/nufengjulong.json"
+  },
+  {
+    "name": "Rongyanjulong",
+    "skeleton": "art_source/main_ui/spine/Rongyanjulong/rongyanjulong.json",
+    "output": "art_source/main_ui/baked/Rongyanjulong.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/Rongyanjulong/rongyanjulong/rongyanjulong.json"
+  },
+  {
+    "name": "Santoushu",
+    "skeleton": "art_source/main_ui/spine/Santoushu/santoushu.json",
+    "output": "art_source/main_ui/baked/Santoushu.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/Santoushu/santoushu/santoushu.json"
+  },
+  {
+    "name": "Shirenhua",
+    "skeleton": "art_source/main_ui/spine/Shirenhua/shirenhua.json",
+    "output": "art_source/main_ui/baked/Shirenhua.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/Shirenhua/shirenhua/shirenhua.json"
+  },
+  {
+    "name": "boss1",
+    "skeleton": "art_source/main_ui/spine/boss1/zijingjuren.json",
+    "output": "art_source/main_ui/baked/boss1.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/boss1/zijingjuren/zijingjuren.json"
+  },
+  {
+    "name": "boss2",
+    "skeleton": "art_source/main_ui/spine/boss2/taitanzhiwang.json",
+    "output": "art_source/main_ui/baked/boss2.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/boss2/taitanzhiwang/taitanzhiwang.json"
+  },
+  {
+    "name": "boss3",
+    "skeleton": "art_source/main_ui/spine/boss3/heiankaijia.json",
+    "output": "art_source/main_ui/baked/boss3.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/boss3/heiankaijia/heiankaijia.json"
+  },
+  {
+    "name": "boss4",
+    "skeleton": "art_source/main_ui/spine/boss4/heianmolong.json",
+    "output": "art_source/main_ui/baked/boss4.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/boss4/heianmolong/heianmolong.json"
+  },
+  {
+    "name": "boss5",
+    "skeleton": "art_source/main_ui/spine/boss5/diyumoquan.json",
+    "output": "art_source/main_ui/baked/boss5.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/boss5/diyumoquan/diyumoquan.json"
+  },
+  {
+    "name": "boss6",
+    "skeleton": "art_source/main_ui/spine/boss6/shuwang.json",
+    "output": "art_source/main_ui/baked/boss6.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/boss6/shuwang/shuwang.json"
+  },
+  {
+    "name": "boss7",
+    "skeleton": "art_source/main_ui/spine/boss7/shengyuanlingzhu.json",
+    "output": "art_source/main_ui/baked/boss7.png",
+    "source": "03_美术资源/03_Spine骨骼/resources/tmp/role/monster/boss7/shengyuanlingzhu/shengyuanlingzhu.json"
+  }
+]

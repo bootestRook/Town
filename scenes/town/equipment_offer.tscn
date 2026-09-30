@@ -1,0 +1,160 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/offer.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/up.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/money_bg.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/coin.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/trade.png" id="5"]
+
+[node name="Offer" type="Control"]
+custom_minimum_size = Vector2(704,166)
+
+[node name="Background" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 704.0
+offset_bottom = 166.0
+texture = ExtResource("1")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Quality" type="TextureRect" parent="."]
+offset_left = 23.0
+offset_top = 23.0
+offset_right = 141.0
+offset_bottom = 141.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="."]
+offset_left = 28.0
+offset_top = 26.0
+offset_right = 134.0
+offset_bottom = 132.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Tier" type="TextureRect" parent="."]
+offset_left = 25.0
+offset_top = 22.0
+offset_right = 70.0
+offset_bottom = 48.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Stars" type="Label" parent="."]
+offset_left = 30.0
+offset_top = 115.0
+offset_right = 132.0
+offset_bottom = 140.0
+text = ""
+theme_override_font_sizes/font_size = 19
+theme_override_colors/font_color = Color(1,0.8,0.05,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Name" type="Label" parent="."]
+offset_left = 184.0
+offset_top = 21.0
+offset_right = 529.0
+offset_bottom = 59.0
+text = ""
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Power" type="RichTextLabel" parent="."]
+offset_left = 184.0
+offset_top = 99.0
+offset_right = 419.0
+offset_bottom = 140.0
+bbcode_enabled = true
+scroll_active = false
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 26
+theme_override_colors/default_color = Color(0.953, 0.953, 0.827, 1)
+theme_override_colors/font_outline_color = Color(0.01,0.025,0.03,1)
+theme_override_constants/outline_size = 3
+
+[node name="Up" type="TextureRect" parent="."]
+offset_left = 434.0
+offset_top = 100.0
+offset_right = 473.0
+offset_bottom = 139.0
+texture = ExtResource("2")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Money" type="TextureRect" parent="."]
+offset_left = 539.0
+offset_top = 17.0
+offset_right = 682.0
+offset_bottom = 56.0
+texture = ExtResource("3")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Coin" type="TextureRect" parent="."]
+offset_left = 539.0
+offset_top = 13.0
+offset_right = 582.0
+offset_bottom = 56.0
+texture = ExtResource("4")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Price" type="Label" parent="."]
+offset_left = 582.0
+offset_top = 10.0
+offset_right = 681.0
+offset_bottom = 60.0
+text = ""
+theme_override_font_sizes/font_size = 29
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Buy" type="Button" parent="."]
+offset_left = 541.0
+offset_top = 56.0
+offset_right = 686.0
+offset_bottom = 108.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Buy"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 145.0
+offset_bottom = 52.0
+texture = ExtResource("5")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Buy"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 145.0
+offset_bottom = 52.0
+text = "交易"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(1,0.92,0.08,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2

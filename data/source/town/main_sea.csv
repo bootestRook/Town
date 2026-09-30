@@ -1,0 +1,4 @@
+id,display_name,cost,seconds,resource_id,source_id
+sea.1,破旧沉船,20,3600,main_ui.sea_1,1
+sea.2,精致沉船,25,7200,main_ui.sea_2,2
+sea.3,豪华沉船,30,14400,main_ui.sea_3,3

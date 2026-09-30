@@ -1,0 +1,190 @@
+{
+  "reference_root": "F:\\GameResearch\\佣兵小镇",
+  "purpose": "用户提供的小镇地图原型参考资源",
+  "assets": {
+    "town.jianzhu_icon_yiyuan": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_yiyuan.png",
+      "sha256": "578f7f9af4f7ee0c4980262c79bd96ee87cb6ccf297d28f816c6e329b40597ca"
+    },
+    "town.jianzhu_icon_yiyuan_poshun": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/jianzhu_icon_yiyuan_poshun.png",
+      "sha256": "1cf1a3f5295feedf99b79d4ba7b54f7a02afd6b6ec12fe2f0da3d3a63540e8e1"
+    },
+    "town.jianzhu_icon_fandian": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_fandian.png",
+      "sha256": "dfd4d20db118b5d317881e24194c2ff4a77c0d8352f97001ee769f1182688aa3"
+    },
+    "town.zhangai_icon_dafangzi_3_xf": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/zhangai_icon_dafangzi_3_xf.png",
+      "sha256": "e91c4336d81ac589304f9963038afda561c6e93099797087a180fd46af8aa969"
+    },
+    "town.jianzhu_icon_lvdian": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_lvdian.png",
+      "sha256": "72061574fc0035a6cd7aa9a5bfeea04e5883d04bc900b07d5cf117e5c1f41830"
+    },
+    "town.zhangai_icon_xiaofangzi_xf": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/zhangai_icon_xiaofangzi_xf.png",
+      "sha256": "da98857b6659067e5af83780dc0d42c1123b625beb5bcdc26b9ecd0a2a11ce28"
+    },
+    "town.jianzhu_icon_jiuguan": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_jiuguan.png",
+      "sha256": "fae59fac3940d8c8603f16fb75bb6a62d6ce191409d317e2d20df8515571d4ed"
+    },
+    "town.zhangai_icon_dafangzi_2_xf": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/zhangai_icon_dafangzi_2_xf.png",
+      "sha256": "06b03eabcf2914dcf46cf60901dc6aab39a47f62e6c24cdb2009062fd6aa1293"
+    },
+    "town.jianzhu_icon_zhucheng": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_zhucheng.png",
+      "sha256": "ba98cfacd629821a1176a3d1c97883e671bcdd351b99cb865483b9edae3c7a57"
+    },
+    "town.jianzhu_icon_tiejiangpu": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_tiejiangpu.png",
+      "sha256": "afa5523508ab98ebbce117a15d8f391809db5ab0e4424d3badf5fea1eee885a6"
+    },
+    "town.jianzhu_icon_jiaoyisuo": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_jiaoyisuo.png",
+      "sha256": "1b904134fe583565ba8745a8aec0850d859c8d6cf0a52e0a7429f358ee108038"
+    },
+    "town.jianzhu_icon_fangju": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_fangju.png",
+      "sha256": "013a6ad81ad1fb60c51a5249254574aa6ce14b6b87d62fe0cccf4de5043952d3"
+    },
+    "town.jianzhu_icon_shipindian": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_shipindian.png",
+      "sha256": "091e9d3e52f7a59a7e36708b4192ce0ebc98cc43dbe0ae99e8bd92d4c40a58fb"
+    },
+    "town.jianzhu_icon_fuhuotan": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_fuhuotan.png",
+      "sha256": "b92f495935d06690bce60d4acf4edaf64c8aa5986e997d742cd348ae342dcf7c"
+    },
+    "town.jianzhu_icon_bosszhaohuan": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_bosszhaohuan.png",
+      "sha256": "0a7f66c1205cfe1b92ed2d3f7e799828651dfcf0a1b70bea0f1df1c81486b2b3"
+    },
+    "town.jianzhu_icon_qianghuasuo": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_qianghuasuo.png",
+      "sha256": "71fe11410f1568cfe07310356bdf69c5b3d5f5a41a3afc5585c54bd8d94eb24c"
+    },
+    "town.jianzhu_icon_dixiachengrukou": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_dixiachengrukou.png",
+      "sha256": "0ba528f7c0fb2c2e4883f65b8e58d04435f5687c5ebaa950bc2678396c1e0cfc"
+    },
+    "town.jianzhu_icon_dixiachengrukou_poshun": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/jianzhu_icon_dixiachengrukou_poshun.png",
+      "sha256": "2d719fb3103c23705625b07a08306d96178e4e0b69fae5747dc1ea2a683266f2"
+    },
+    "town.jianzhu_icon_zhuanshengsuo": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_zhuanshengsuo.png",
+      "sha256": "b6630a7287f181c3b34545a0e2957a514bee1e13771927942f7df0905b9a93dc"
+    },
+    "town.jianzhu_icon_xiuliansuo": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_xiuliansuo.png",
+      "sha256": "e91fa5d0cb891e96fd379d190c50ac3d4731d0dd36b1d00bbdcf5d89d2da9643"
+    },
+    "town.jianzhu_icon_shikongzhimen1": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_shikongzhimen1.png",
+      "sha256": "2ba2db644a786c23320ecad5f952f4cf5ca3a7e399880c3bcd13977f470b5d78"
+    },
+    "town.jianzhu_icon_gongyu": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_gongyu.png",
+      "sha256": "ad89d06de5fe1d7a6fc21eedcba775c2ff7530eef6a4879199005252ef8f83bc"
+    },
+    "town.jianzhu_icon_xueyuan": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/build/jianzhu_icon_xueyuan.png",
+      "sha256": "25b1c806c836d8fc20a4eca61b1eac47485044381e6fe891c2f8f5f25dcc4f44"
+    },
+    "town.zhangai_icon_caocong1": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/zhangai_icon_caocong1.png",
+      "sha256": "5c030aa7bd4263d490eb1131399001cd5904e2747fbafdbecd61a75e06b01447"
+    },
+    "town.zhangai_icon_shuzhuang": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/zhangai_icon_shuzhuang.png",
+      "sha256": "0d78c0750ac9c89c02665991f045e9ee7b417a1bf921c732d3718ca493cd100f"
+    },
+    "town.zhangai_icon_guanzi": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/zhangai_icon_guanzi.png",
+      "sha256": "ca3cf113bb4ecca649766944663aa7ae8a8d1ab2c994ec10f1caeb0776a61fac"
+    },
+    "town.zhangai_icon_poche": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/zhangai_icon_poche.png",
+      "sha256": "088bd64490deadca9b11b626ebf56fa390c163413117f97a9e4f34eb5c13b0cc"
+    },
+    "town.zhangai_icon_kushu": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/zhangai_icon_kushu.png",
+      "sha256": "04f8c781d1f74c503ee7f5eb1ab72d469199f31f28ab32ab304c4fe06c113249"
+    },
+    "town.zhangai_icon_shitoudui1": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/barrier/zhangai_icon_shitoudui1.png",
+      "sha256": "b3ae2dbdb5a70917330a4f6c1df9de874551fcf6380840bebc0d680df1d49b57"
+    },
+    "town.zhaungshi_daolu2_14": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhaungshi_daolu2_14.png",
+      "sha256": "9ed630ec39599c20c708fc09a257f4d07adf4bef58f71958b6792da05ab3acd7"
+    },
+    "town.zhaungshi_daolu2_2": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhaungshi_daolu2_2.png",
+      "sha256": "a5e938af3e989f6d180ccedf4d941686696587d3c71233dcd8b23117c61a3e63"
+    },
+    "town.zhaungshi_daolu2_5": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhaungshi_daolu2_5.png",
+      "sha256": "eccdd59ecda4f9f79550bb0b1b9838e88666a0922aaac840bafa60d3022483c0"
+    },
+    "town.zhaungshi_daolu2_7": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhaungshi_daolu2_7.png",
+      "sha256": "9547b357c62dff56b9d037be26a0c6166619b2a8c14ea7ac99eaba4a6ae7836a"
+    },
+    "town.zhaungshi_daolu2_16": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhaungshi_daolu2_16.png",
+      "sha256": "f3f26a3eab2329eac733bc348211cec55eeeb9d52754c56887430cf0193484a5"
+    },
+    "town.zhaungshi_daolu2_15": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhaungshi_daolu2_15.png",
+      "sha256": "703c02b64d5f6afb6028e06ad6942d7c37b68fb88fbbbb4093ba4059662da14d"
+    },
+    "town.zhaungshi_daolu2_1": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhaungshi_daolu2_1.png",
+      "sha256": "850d24e0c20733b3aada7cacacb9e6d05fcdaa4c6d5638982ac51f4ee4acd89b"
+    },
+    "town.zhaungshi_daolu2_13": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhaungshi_daolu2_13.png",
+      "sha256": "14af1da5fc7a130bf0ef2303ad5d6ff2ab2721c80adfc646378e984ce27426b6"
+    },
+    "town.zhuangshi_icon_yingxiongshixiang": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhuangshi_icon_yingxiongshixiang.png",
+      "sha256": "77401ea6615e63c53f8349bbf96cfb77711879d056ae4c9fdd226eefabaead13"
+    },
+    "town.zhuangshi_icon_xiaotingyuanshu": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhuangshi_icon_xiaotingyuanshu.png",
+      "sha256": "dd85dc04892db3c56a72f2b51f9ac37da47530805e702c368ec6a593d335100b"
+    },
+    "town.zhuangshi_icon_datingyuanshu": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/disassembly/ornament/zhuangshi_icon_datingyuanshu.png",
+      "sha256": "7562c24ad5f600d0d15dea59e00563315324a253579fd369af609f2ceb769eef"
+    },
+    "town.bg1": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/map/common/bg1.png",
+      "sha256": "e938079ff35c53e769446c8198170df080819e55fa441a96821b768213bbbe6d"
+    },
+    "town.bg2": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/map/common/bg2.png",
+      "sha256": "ca3fad2c7f157892839088cf5502644a8b8b41b1c7e50b09a70a8419f76bb12f"
+    },
+    "town.bg3": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/map/common/bg3.png",
+      "sha256": "84de1747c9c6d2330cba77db0498fe192e68e39609b8fdaf54a1de55f970cb1b"
+    },
+    "town.bg4": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/map/common/bg4.png",
+      "sha256": "9e5c503c454e04d46dca149871b5c287fe205bd1b4e3aee8fdea2ba5b65141ce"
+    },
+    "town.bg5": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/map/common/bg5.png",
+      "sha256": "e13077732359ba025531662439831fffbe6008de2f62cc30220f735890cca4ba"
+    },
+    "town.bg6": {
+      "source": "03_美术资源/02_透明切图/resources/tmp/map/common/bg6.png",
+      "sha256": "082c5d8971a1aa196768e741e3e78f8bafb57d2b7c98ec0f016afe3ee42d1ed5"
+    }
+  }
+}

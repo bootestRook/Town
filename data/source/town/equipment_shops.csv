@@ -1,0 +1,3 @@
+id,display_name,description,slots,arrival_resource
+building.6,武器店,打造和售卖武器的建筑,1,equipment_shop.arrival
+building.9,防具店,打造和售卖防具的建筑物,2;4,equipment_shop.armor_arrival

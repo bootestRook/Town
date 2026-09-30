@@ -1,0 +1,5 @@
+id,display_name,power,dungeon,combat_enabled
+town,主城,0,0,false
+field,兽人密林,0,0,true
+field2,亡灵墓地,1000,9,true
+field3,魔族战场,2000,18,true

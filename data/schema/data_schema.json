@@ -1,0 +1,4815 @@
+{
+  "schema_version": 1,
+  "data_classes": {
+    "definition": "Immutable identities and editor-facing metadata.",
+    "localization": "Source-language keys and translated values.",
+    "platform_override": "Explicit platform or quality-tier differences.",
+    "relation": "Ordered or weighted links between definitions.",
+    "resource_binding": "Logical asset IDs mapped to runtime resources and source evidence.",
+    "system_setting": "Typed project-wide configuration with ownership and units.",
+    "tuning": "Frequently balanced numeric values with declared bounds and units."
+  },
+  "tables": {
+    "definitions": {
+      "class": "definition",
+      "source": "definitions.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "feature_id",
+          "type": "ref",
+          "required": true,
+          "table": "feature_catalog",
+          "field": "id"
+        },
+        {
+          "name": "definition_type",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name_key",
+          "type": "ref",
+          "required": true,
+          "table": "localization",
+          "field": "key"
+        },
+        {
+          "name": "tags",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": false,
+          "table": "resource_bindings",
+          "field": "id"
+        }
+      ]
+    },
+    "feature_catalog": {
+      "class": "system_setting",
+      "source": "feature_catalog.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "owner",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "save_namespace",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "active",
+            "experimental",
+            "deprecated"
+          ]
+        },
+        {
+          "name": "domain_root",
+          "type": "res_path",
+          "required": true
+        },
+        {
+          "name": "presentation_root",
+          "type": "res_path",
+          "required": true
+        }
+      ]
+    },
+    "localization": {
+      "class": "localization",
+      "source": "localization.csv",
+      "primary_key": [
+        "key"
+      ],
+      "fields": [
+        {
+          "name": "key",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "en",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "zh_CN",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "platform_overrides": {
+      "class": "platform_override",
+      "source": "platform_overrides.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "platform",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "desktop",
+            "mobile",
+            "web"
+          ]
+        },
+        {
+          "name": "setting_id",
+          "type": "ref",
+          "required": true,
+          "table": "system_settings",
+          "field": "id"
+        },
+        {
+          "name": "override_value",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "presentation_cues": {
+      "class": "resource_binding",
+      "source": "presentation_cues.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "feature_id",
+          "type": "ref",
+          "required": true,
+          "table": "feature_catalog",
+          "field": "id"
+        },
+        {
+          "name": "cue_type",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "ui",
+            "audio",
+            "vfx",
+            "animation"
+          ]
+        },
+        {
+          "name": "display_name_key",
+          "type": "ref",
+          "required": true,
+          "table": "localization",
+          "field": "key"
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": false,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "channel",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "duration_ms",
+          "type": "int",
+          "required": true,
+          "min": 0,
+          "max": 600000
+        }
+      ]
+    },
+    "quality_budgets": {
+      "class": "system_setting",
+      "source": "quality_budgets.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "category",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "asset_bytes",
+            "texture_width",
+            "texture_height",
+            "audio_bytes",
+            "frame_ms",
+            "memory_bytes",
+            "load_ms"
+          ]
+        },
+        {
+          "name": "platform",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "all",
+            "desktop",
+            "mobile",
+            "web"
+          ]
+        },
+        {
+          "name": "limit_value",
+          "type": "float",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "unit",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "bytes",
+            "pixels",
+            "milliseconds"
+          ]
+        },
+        {
+          "name": "severity",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "warn",
+            "error"
+          ]
+        }
+      ]
+    },
+    "relations": {
+      "class": "relation",
+      "source": "relations.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "feature_id",
+          "type": "ref",
+          "required": true,
+          "table": "feature_catalog",
+          "field": "id"
+        },
+        {
+          "name": "source_definition_id",
+          "type": "ref",
+          "required": true,
+          "table": "definitions",
+          "field": "id"
+        },
+        {
+          "name": "relation_type",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "target_definition_id",
+          "type": "ref",
+          "required": true,
+          "table": "definitions",
+          "field": "id"
+        },
+        {
+          "name": "order",
+          "type": "int",
+          "required": true,
+          "min": 0,
+          "max": 999999
+        },
+        {
+          "name": "weight",
+          "type": "float",
+          "required": true,
+          "min": 0
+        }
+      ]
+    },
+    "resource_bindings": {
+      "class": "resource_binding",
+      "source": "resource_bindings.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "asset_kind",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "texture_2d",
+            "model_3d",
+            "ui",
+            "audio",
+            "animation",
+            "vfx",
+            "font",
+            "misc"
+          ]
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "runtime_path",
+          "type": "res_path",
+          "required": true
+        },
+        {
+          "name": "policy_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_policies",
+          "field": "id"
+        },
+        {
+          "name": "budget_group",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "owner",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "license_id",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "project_owned",
+            "mit",
+            "ofl",
+            "commercial",
+            "third_party"
+          ]
+        },
+        {
+          "name": "required",
+          "type": "bool",
+          "required": true
+        },
+        {
+          "name": "consumer",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "resource_policies": {
+      "class": "resource_binding",
+      "source": "resource_policies.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "asset_kind",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "texture_2d",
+            "model_3d",
+            "ui",
+            "audio",
+            "animation",
+            "vfx",
+            "font",
+            "misc"
+          ]
+        },
+        {
+          "name": "allowed_extensions",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "max_bytes",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "max_width",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "max_height",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "import_mode",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "default",
+            "lossless",
+            "vram_compressed",
+            "stream"
+          ]
+        },
+        {
+          "name": "source_required",
+          "type": "bool",
+          "required": true
+        }
+      ]
+    },
+    "system_settings": {
+      "class": "system_setting",
+      "source": "system_settings.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "category",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "core",
+            "gameplay",
+            "presentation",
+            "platform",
+            "debug",
+            "save"
+          ]
+        },
+        {
+          "name": "value_type",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "int",
+            "float",
+            "bool",
+            "string"
+          ]
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "unit",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "none",
+            "seconds",
+            "pixels",
+            "count",
+            "ratio",
+            "percent",
+            "locale"
+          ]
+        },
+        {
+          "name": "runtime_mutable",
+          "type": "bool",
+          "required": true
+        },
+        {
+          "name": "description_key",
+          "type": "ref",
+          "required": true,
+          "table": "localization",
+          "field": "key"
+        }
+      ]
+    },
+    "tuning": {
+      "class": "tuning",
+      "source": "tuning.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "feature_id",
+          "type": "ref",
+          "required": true,
+          "table": "feature_catalog",
+          "field": "id"
+        },
+        {
+          "name": "owner_definition_id",
+          "type": "ref",
+          "required": true,
+          "table": "definitions",
+          "field": "id"
+        },
+        {
+          "name": "parameter",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "value",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "min_value",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "max_value",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "unit",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "none",
+            "seconds",
+            "pixels",
+            "count",
+            "ratio",
+            "percent"
+          ]
+        }
+      ]
+    },
+    "town_buildings": {
+      "class": "definition",
+      "source": "town/town_buildings.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "grid_x",
+          "type": "int",
+          "required": true,
+          "min": 0,
+          "max": 112
+        },
+        {
+          "name": "grid_y",
+          "type": "int",
+          "required": true,
+          "min": 0,
+          "max": 109
+        },
+        {
+          "name": "width",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 20
+        },
+        {
+          "name": "height",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 20
+        },
+        {
+          "name": "built_resource",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "before_resource",
+          "type": "ref",
+          "required": false,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "built_offset_x",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "built_offset_y",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "before_offset_x",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "before_offset_y",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "initially_built",
+          "type": "bool",
+          "required": true
+        },
+        {
+          "name": "door_x",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "door_y",
+          "type": "int",
+          "required": true,
+          "min": 0
+        }
+      ]
+    },
+    "town_scenery": {
+      "class": "definition",
+      "source": "town/town_scenery.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "grid_x",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "grid_y",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "offset_x",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "offset_y",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "layer",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "ground",
+            "objects"
+          ]
+        },
+        {
+          "name": "height",
+          "type": "int",
+          "required": true,
+          "min": 1
+        }
+      ]
+    },
+    "town_backgrounds": {
+      "class": "definition",
+      "source": "town/town_backgrounds.csv",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "x",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "y",
+          "type": "int",
+          "required": true,
+          "min": 0
+        }
+      ]
+    },
+    "town_items": {
+      "source": "town/town_items.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "buy_price",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "sell_price",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 5
+        },
+        {
+          "name": "order_limit",
+          "type": "int",
+          "required": true,
+          "min": 0,
+          "max": 1000
+        },
+        {
+          "name": "tier",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "name": "sort_order",
+          "type": "int",
+          "required": true,
+          "min": 0
+        }
+      ]
+    },
+    "town_services": {
+      "source": "town/town_services.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "ref",
+          "required": true,
+          "table": "town_buildings",
+          "field": "id"
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "stat",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "hp",
+            "energy",
+            "tired",
+            "mood"
+          ]
+        },
+        {
+          "name": "material",
+          "type": "ref",
+          "required": true,
+          "table": "town_items",
+          "field": "id"
+        },
+        {
+          "name": "product",
+          "type": "ref",
+          "required": true,
+          "table": "town_items",
+          "field": "id"
+        },
+        {
+          "name": "material_cost",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "service_seconds",
+          "type": "float",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "recovery_ratio",
+          "type": "float",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "room",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "machine",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "seat_cost_2",
+          "type": "int",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "seat_cost_3",
+          "type": "int",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "stat_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "seat_title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "price_tip",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "time_tip",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "seat_tip",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "machine_scale",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "help_description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "material_description",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "town_service_levels": {
+      "source": "town/town_service_levels.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "building",
+          "type": "ref",
+          "required": true,
+          "table": "town_buildings",
+          "field": "id"
+        },
+        {
+          "name": "level",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "cost",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "bonus",
+          "type": "float",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "seats",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "reduction",
+          "type": "float",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "city_level",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "stage_end",
+          "type": "bool",
+          "required": true
+        }
+      ]
+    },
+    "town_equipment": {
+      "source": "town/town_equipment.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "building",
+          "type": "ref",
+          "required": true,
+          "table": "town_buildings",
+          "field": "id"
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "material_a",
+          "type": "ref",
+          "required": true,
+          "table": "town_items",
+          "field": "id"
+        },
+        {
+          "name": "count_a",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "material_b",
+          "type": "ref",
+          "required": true,
+          "table": "town_items",
+          "field": "id"
+        },
+        {
+          "name": "count_b",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "price",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "job",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "slot",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "attribute",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "power",
+          "type": "float",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true,
+          "min": 0
+        }
+      ]
+    },
+    "town_heroes": {
+      "source": "town/town_heroes.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "visual",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "job",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "name": "level",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "source_appearance",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "wallet",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "hp",
+          "type": "float",
+          "required": true,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "name": "max_hp",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "attack",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "defense",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "start_delay",
+          "type": "float",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "initially_owned",
+          "type": "bool",
+          "required": true
+        },
+        {
+          "name": "attack_range",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "speed",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "city_speed",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        }
+      ]
+    },
+    "town_monsters": {
+      "source": "town/town_monsters.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "visual",
+          "type": "ref",
+          "required": true,
+          "table": "town_appearances",
+          "field": "id"
+        },
+        {
+          "name": "max_hp",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "attack",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "defense",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "attack_range",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "speed",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "respawn_seconds",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "coins",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "city_speed",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "patrol_range",
+          "type": "float",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "experience",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "area",
+          "type": "ref",
+          "required": true,
+          "table": "town_regions",
+          "field": "id"
+        },
+        {
+          "name": "mutant",
+          "type": "bool",
+          "required": true
+        },
+        {
+          "name": "skill",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "appearance",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "town_drops": {
+      "source": "town/town_drops.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "monster",
+          "type": "ref",
+          "required": true,
+          "table": "town_monsters",
+          "field": "id"
+        },
+        {
+          "name": "recipient",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "hero",
+            "ground"
+          ]
+        },
+        {
+          "name": "item",
+          "type": "ref",
+          "required": true,
+          "table": "town_loot_items",
+          "field": "id"
+        },
+        {
+          "name": "chance",
+          "type": "int",
+          "required": true,
+          "min": 0,
+          "max": 10000
+        },
+        {
+          "name": "minimum",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "maximum",
+          "type": "int",
+          "required": true,
+          "min": 1
+        }
+      ]
+    },
+    "town_navigation": {
+      "source": "town/town_navigation.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "x",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "y",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "zone",
+          "type": "ref",
+          "required": true,
+          "table": "town_regions",
+          "field": "id"
+        }
+      ]
+    },
+    "town_animations": {
+      "source": "town/town_animations.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "actor",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "direction",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "front",
+            "back"
+          ]
+        },
+        {
+          "name": "action",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "idle",
+            "move",
+            "attack",
+            "death"
+          ]
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "frames",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "seconds",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "columns",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 4096
+        },
+        {
+          "name": "rows",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 4096
+        },
+        {
+          "name": "frame_width",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 4096
+        },
+        {
+          "name": "frame_height",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 4096
+        },
+        {
+          "name": "variant",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "name": "source_animation",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "origin_y",
+          "type": "int",
+          "required": true,
+          "min": 0,
+          "max": 4096
+        }
+      ]
+    },
+    "town_attacks": {
+      "source": "town/town_attacks.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "variants",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "name": "windup",
+          "type": "float",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "duration",
+          "type": "float",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "cooldown",
+          "type": "float",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "recovery",
+          "type": "float",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "fly_speed",
+          "type": "float",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "projectile",
+          "type": "ref",
+          "table": "town_effects",
+          "field": "id",
+          "required": false
+        },
+        {
+          "name": "impact",
+          "type": "ref",
+          "required": true,
+          "table": "town_effects",
+          "field": "id"
+        },
+        {
+          "name": "emit_x",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "emit_y",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "hit_x",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "hit_y",
+          "type": "float",
+          "required": true
+        }
+      ]
+    },
+    "town_effects": {
+      "source": "town/town_effects.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "frames",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "seconds",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "scale",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "rotation",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "columns",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "rows",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "anchor",
+          "type": "int",
+          "required": true,
+          "min": 1
+        }
+      ]
+    },
+    "town_regions": {
+      "source": "town/town_regions.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "origin_x",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "origin_y",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "tile_width",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "tile_height",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "count_x",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "count_y",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "center_x",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "center_y",
+          "type": "int",
+          "required": true,
+          "min": 0
+        }
+      ]
+    },
+    "town_exits": {
+      "source": "town/town_exits.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "x",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "y",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "area",
+          "type": "ref",
+          "required": true,
+          "table": "town_regions",
+          "field": "id"
+        }
+      ]
+    },
+    "town_appearances": {
+      "source": "town/town_appearances.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "scale",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "name_x",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "name_y",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "font_size",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "front_y",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "back_y",
+          "type": "float",
+          "required": true
+        }
+      ]
+    },
+    "main_purchase": {
+      "source": "town/main_purchase.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "kind",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "city_level",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "step",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "cost",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "limit",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "free_amount",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "free_limit",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "capacity",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "initial",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_recruit": {
+      "source": "town/main_recruit.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "experience",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "green",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "blue",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "purple",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "gold",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "interval",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "draw_2",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_2_1",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_2_2",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_2_3",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "draw_3",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_3_1",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_3_2",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_3_3",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "draw_4",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_4_1",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_4_2",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_4_3",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "draw_5",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_5_1",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_5_2",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool_5_3",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_recruit_prices": {
+      "source": "town/main_recruit_prices.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "first",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "second",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "third",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_heroes": {
+      "source": "town/main_heroes.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "appearance",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "job",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "max_level",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "star",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "hp",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "attack",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "defense",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "hp_growth",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "attack_growth",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "defense_growth",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "weight",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "fragment",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "fragment_count",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "skills",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "element",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "frequency",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "hit",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "dodge",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "critical",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "bonus",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "toughness",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "blood",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "hurt",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "reduction",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_dungeons": {
+      "source": "town/main_dungeons.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "chapter",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "floor",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "chapter_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "power",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "city_level",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "rewards",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "enemies",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "cost",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_modes": {
+      "source": "town/main_modes.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "order",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "source_task",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_shop": {
+      "source": "town/main_shop.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "diamonds",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "price",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "first_bonus",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "background_id",
+          "type": "id",
+          "required": true
+        }
+      ]
+    },
+    "main_enemies": {
+      "source": "town/main_enemies.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "hp",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "attack",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "defense",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "frequency",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "element",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "hit",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "dodge",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "critical",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "bonus",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "toughness",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "blood",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "hurt",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "reduction",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "skills",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "role",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "main_encounters": {
+      "source": "town/main_encounters.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "mode",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "stage",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "enemies",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "rewards",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "cost",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "seconds",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_sea": {
+      "source": "town/main_sea.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "cost",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "seconds",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_sea_rewards": {
+      "source": "town/main_sea_rewards.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "low",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "middle",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "high",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_city": {
+      "source": "town/main_city.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "cost",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "dungeon",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_talents": {
+      "source": "town/main_talents.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "appearance",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "star",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "max_level",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "next_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "fragment_count",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "hp",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "attack",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "defense",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "skills",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_items": {
+      "source": "town/main_items.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_rules": {
+      "source": "town/main_rules.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "value",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_skills": {
+      "source": "town/main_skills.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "cooldown",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "damage_type",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "multiplier",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "targets",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "target",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "buffs",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "percent_attribute",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "percent_target",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_pets": {
+      "source": "town/main_pets.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "star",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "family",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "max_level",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "next_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "previous_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "consume",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "count",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "dismantle",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "skills",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_pet_levels": {
+      "source": "town/main_pet_levels.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "city_level",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "cost",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "gold_cost",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "refund",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "gold_refund",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "hp",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "attack",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "defense",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "gold_hp",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "gold_attack",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "gold_defense",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_artifacts": {
+      "source": "town/main_artifacts.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "exclusive",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "growth_min",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "growth_max",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "refine_cost",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_artifact_levels": {
+      "source": "town/main_artifact_levels.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "stats",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "gold_stats",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "cost",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "gold_cost",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "refund",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "gold_refund",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "breakthrough",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_artifact_qualities": {
+      "source": "town/main_artifact_qualities.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "growth_min",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "growth_max",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "dismantle",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_item_uses": {
+      "source": "town/main_item_uses.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "kind",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_shop_gifts": {
+      "source": "town/main_shop_gifts.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "category",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "rewards",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "price",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "limit",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "minimum",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "maximum",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "order",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "start_day",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "end_day",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_passives": {
+      "source": "town/main_passives.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "kind",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "multiplier",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_buffs": {
+      "source": "town/main_buffs.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "kind",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "target",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "targets",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "selector",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "multiplier",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "chance",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "duration",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "interval",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "boss_immune",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "gain",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "effective",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "stack",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "overwrite",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_combat_rules": {
+      "source": "town/main_combat_rules.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "value",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_battle_gates": {
+      "source": "town/main_battle_gates.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "cost",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "dungeon",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "preparation",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_fairy_loot": {
+      "source": "town/main_fairy_loot.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "counts",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "tiers",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "pools",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "main_pet_skills": {
+      "source": "town/main_pet_skills.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "trigger",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "cooldown",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "delay",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "targets",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "multiplier",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "buffs",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "town_monster_spawns": {
+      "source": "town/town_monster_spawns.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "area",
+          "type": "ref",
+          "required": true,
+          "table": "town_regions",
+          "field": "id"
+        },
+        {
+          "name": "number",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "grid_x",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "grid_y",
+          "type": "int",
+          "required": true,
+          "min": 0
+        }
+      ]
+    },
+    "main_star_display": {
+      "source": "town/main_star_display.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "stage",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "count",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "table": "resource_bindings",
+          "field": "id",
+          "required": true
+        }
+      ]
+    },
+    "main_skill_art": {
+      "source": "town/main_skill_art.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "table": "resource_bindings",
+          "field": "id",
+          "required": true
+        }
+      ]
+    },
+    "main_hero_idle": {
+      "source": "town/main_hero_idle.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "appearance",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "table": "resource_bindings",
+          "field": "id",
+          "required": true
+        },
+        {
+          "name": "frames",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "columns",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "duration",
+          "type": "float",
+          "required": true
+        }
+      ]
+    },
+    "main_equipment_rules": {
+      "source": "town/main_equipment_rules.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "star",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "rank",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "buyback",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "refine_quality",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "affix_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "effect",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "minimum",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "maximum",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "percent",
+          "type": "bool",
+          "required": true
+        }
+      ]
+    },
+    "main_hero_catalog": {
+      "source": "town/main_hero_catalog.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "show_talent",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "star",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "rank",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_hero_camp": {
+      "source": "town/main_hero_camp.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "level",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 13
+        },
+        {
+          "name": "capacity",
+          "type": "int",
+          "required": true,
+          "min": 3,
+          "max": 15
+        },
+        {
+          "name": "cost",
+          "type": "int",
+          "required": true,
+          "min": 0
+        }
+      ]
+    },
+    "main_recruit_rules": {
+      "source": "town/main_recruit_rules.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "value",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_recruit_pool": {
+      "source": "town/main_recruit_pool.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "hero",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "pool",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "weight",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "main_horn_levels": {
+      "source": "town/main_horn_levels.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "level",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 30
+        },
+        {
+          "name": "monster_id",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "skill",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "cost",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "dungeon",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "ticket_count",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "coins",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "max_hp",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "attack",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "defense",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "speed",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "patrol_range",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "attack_range",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "prepare_seconds",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "fight_seconds",
+          "type": "float",
+          "required": true,
+          "min": 0.01
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "visual",
+          "type": "ref",
+          "required": true,
+          "table": "town_appearances",
+          "field": "id"
+        },
+        {
+          "name": "rewards",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "drop_ground",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "drop_hero",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "chest",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "experience",
+          "type": "int",
+          "required": true,
+          "min": 0
+        }
+      ]
+    },
+    "main_horn_chests": {
+      "source": "town/main_horn_chests.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "rewards",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "main_horn_items": {
+      "source": "town/main_horn_items.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 6
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        }
+      ]
+    },
+    "town_loot_items": {
+      "source": "town/town_loot_items.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "max_count",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "tier",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "sort_order",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "order_limit",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "buy_price",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "sell_price",
+          "type": "int",
+          "required": true,
+          "min": -1
+        }
+      ]
+    },
+    "town_loot_rules": {
+      "source": "town/town_loot_rules.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "normal_seconds",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "boss_seconds",
+          "type": "int",
+          "required": true,
+          "min": 1
+        }
+      ]
+    },
+    "town_hero_levels": {
+      "source": "town/town_hero_levels.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "level",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 100
+        },
+        {
+          "name": "experience",
+          "type": "int",
+          "required": true,
+          "min": 1
+        }
+      ]
+    },
+    "town_dispatch": {
+      "source": "town/town_dispatch.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "ref",
+          "table": "town_regions",
+          "field": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "power",
+          "type": "int",
+          "min": 0,
+          "required": true
+        },
+        {
+          "name": "dungeon",
+          "type": "int",
+          "min": 0,
+          "required": true
+        },
+        {
+          "name": "combat_enabled",
+          "type": "bool",
+          "required": true
+        }
+      ]
+    },
+    "equipment_shops": {
+      "source": "town/equipment_shops.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "slots",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "arrival_resource",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        }
+      ]
+    },
+    "equipment_shop_levels": {
+      "source": "town/equipment_shop_levels.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "building",
+          "type": "ref",
+          "required": true,
+          "table": "equipment_shops",
+          "field": "id"
+        },
+        {
+          "name": "level",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "tier",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "cost",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "city",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "capacity",
+          "type": "int",
+          "required": true,
+          "min": 0
+        }
+      ]
+    },
+    "equipment_shop_recipes": {
+      "source": "town/equipment_shop_recipes.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "building",
+          "type": "ref",
+          "required": true,
+          "table": "equipment_shops",
+          "field": "id"
+        },
+        {
+          "name": "slot",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "equipment",
+          "type": "ref",
+          "required": true,
+          "table": "equipment_shop_equipment",
+          "field": "id"
+        },
+        {
+          "name": "tier",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "job",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "unlock_level",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "one_use",
+          "type": "bool",
+          "required": true
+        },
+        {
+          "name": "cost",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "equipment_shop_equipment": {
+      "source": "town/equipment_shop_equipment.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "building",
+          "type": "ref",
+          "required": true,
+          "table": "equipment_shops",
+          "field": "id"
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "price",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "job",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "slot",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "attribute",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "attribute_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "power",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "rank",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "star",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "resolve",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "equipment_shop_affixes": {
+      "source": "town/equipment_shop_affixes.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "equipment",
+          "type": "ref",
+          "required": true,
+          "table": "equipment_shop_equipment",
+          "field": "id"
+        },
+        {
+          "name": "slot",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "effect",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "minimum",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "maximum",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "weight",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "percent",
+          "type": "bool",
+          "required": true
+        }
+      ]
+    },
+    "equipment_shop_items": {
+      "source": "town/equipment_shop_items.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "town_region_levels": {
+      "source": "town/town_region_levels.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "area",
+          "type": "ref",
+          "required": true,
+          "table": "town_regions",
+          "field": "id"
+        },
+        {
+          "name": "level",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "dungeon",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "normal_seconds",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "leader_seconds",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "mutant_chance",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "mutant_count",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "leader_chance",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "leader_count",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "normal_points",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "leader_points",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "gate_resource",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        }
+      ]
+    },
+    "town_region_members": {
+      "source": "town/town_region_members.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "stage",
+          "type": "ref",
+          "required": true,
+          "table": "town_region_levels",
+          "field": "id"
+        },
+        {
+          "name": "monster",
+          "type": "ref",
+          "required": true,
+          "table": "town_monsters",
+          "field": "id"
+        },
+        {
+          "name": "count",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "role",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "normal",
+            "leader"
+          ]
+        }
+      ]
+    },
+    "town_region_gates": {
+      "source": "town/town_region_gates.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "ref",
+          "required": true,
+          "table": "town_regions",
+          "field": "id"
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "gate_x",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "gate_y",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "click_x",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "click_y",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "drops",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "help_text",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "town_region_items": {
+      "source": "town/town_region_items.csv",
+      "class": "definition",
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "id",
+          "required": true
+        },
+        {
+          "name": "source_id",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "required": true,
+          "min": 1
+        },
+        {
+          "name": "tier",
+          "type": "int",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "resource_id",
+          "type": "ref",
+          "required": true,
+          "table": "resource_bindings",
+          "field": "id"
+        }
+      ]
+    }
+  },
+  "constraints": [
+    {
+      "type": "typed_value",
+      "table": "system_settings",
+      "type_field": "value_type",
+      "value_field": "value"
+    },
+    {
+      "type": "numeric_range",
+      "table": "tuning",
+      "value_field": "value",
+      "minimum_field": "min_value",
+      "maximum_field": "max_value"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+; THESIS: Source regional activation controls real monster density.
+; OWN-WORLD: Original inked orange frame, teal panels, Chinese cream type.
+; STORY: Inspect drops and species, activate an unlocked density, hunt its population.
+; FIRST VIEWPORT: Dim town, source title and drops, three density rows, blank dismissal.
+; FORM: Source-pinned screenshots and prefab; expand incumbent world.
+; FINISH: unreviewed and undocumented is unfinished; finish review, verdict, DESIGN.md and provenance required.
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/town_region_page.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/runtime/operations/font.ttf" id="2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/slider_handle.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/slider_track.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/region/modal.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/runtime/region/help.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/runtime/region/shelf.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/runtime/region/drop_title.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/runtime/region/divider.png" id="17"]
+[ext_resource type="PackedScene" path="res://scenes/town/equipment_dialog.tscn" id="18"]
+[sub_resource type="StyleBoxFlat" id="Track"]
+bg_color = Color(0.025,0.055,0.065,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.01,0.02,0.025,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxFlat" id="Thumb"]
+bg_color = Color(0.2,0.37,0.39,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.04,0.08,0.09,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxFlat" id="Highlight"]
+bg_color = Color(0.34,0.48,0.42,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.78,0.67,0.35,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxFlat" id="Input"]
+bg_color = Color(0.05,0.1,0.13,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.28,0.43,0.45,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxFlat" id="InputFocus"]
+bg_color = Color(0.05,0.1,0.13,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.91,0.76,0.37,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxFlat" id="ReadOnly"]
+bg_color = Color(0.045,0.07,0.085,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.15,0.22,0.24,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxTexture" id="SliderTrack"]
+texture = ExtResource("4")
+texture_margin_left = 4.0
+texture_margin_right = 4.0
+texture_margin_top = 4.0
+texture_margin_bottom = 4.0
+[sub_resource type="Theme" id="WeaponTheme"]
+default_font = ExtResource("2")
+default_font_size = 24
+LineEdit/colors/font_color = Color(0.95,0.92,0.76,1)
+LineEdit/colors/font_placeholder_color = Color(0.55,0.67,0.66,1)
+LineEdit/colors/font_uneditable_color = Color(0.4,0.5,0.5,1)
+LineEdit/colors/caret_color = Color(0.95,0.83,0.49,1)
+LineEdit/colors/selection_color = Color(0.2,0.4,0.42,1)
+LineEdit/styles/normal = SubResource("Input")
+LineEdit/styles/focus = SubResource("InputFocus")
+LineEdit/styles/read_only = SubResource("ReadOnly")
+VScrollBar/styles/scroll = SubResource("Track")
+VScrollBar/styles/scroll_focus = SubResource("InputFocus")
+VScrollBar/styles/grabber = SubResource("Thumb")
+VScrollBar/styles/grabber_highlight = SubResource("Highlight")
+VScrollBar/styles/grabber_pressed = SubResource("Highlight")
+HSlider/styles/slider = SubResource("SliderTrack")
+HSlider/styles/grabber_area = SubResource("Thumb")
+HSlider/styles/grabber_area_highlight = SubResource("Highlight")
+HSlider/icons/grabber = ExtResource("3")
+HSlider/icons/grabber_highlight = ExtResource("3")
+HSlider/icons/grabber_disabled = ExtResource("3")
+
+[node name="RegionUI" type="Control"]
+script = ExtResource("1")
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = SubResource("WeaponTheme")
+
+[node name="Dismiss" type="Button" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+flat = true
+focus_mode = 0
+
+[node name="Dim" type="ColorRect" parent="Dismiss"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0,0,0,0.72)
+mouse_filter = 2
+
+[node name="Stage" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 750.0
+offset_bottom = 1334.0
+mouse_filter = 2
+
+[node name="Panel" type="Control" parent="Stage"]
+offset_left = 15.0
+offset_top = 70.0
+offset_right = 735.0
+offset_bottom = 1215.0
+mouse_filter = 0
+
+[node name="Art" type="TextureRect" parent="Stage/Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1145.0
+texture = ExtResource("13")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Stage"]
+offset_left = 215.0
+offset_top = 113.0
+offset_right = 535.0
+offset_bottom = 155.0
+text = "兽人密林"
+theme_override_font_sizes/font_size = 30
+theme_override_colors/font_color = Color(1,0.93,0.05,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Help" type="Button" parent="Stage"]
+offset_left = 95.0
+offset_top = 84.0
+offset_right = 182.0
+offset_bottom = 171.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Stage/Help"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 87.0
+offset_bottom = 87.0
+texture = ExtResource("14")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Shelf" type="TextureRect" parent="Stage"]
+offset_left = 61.0
+offset_top = 197.0
+offset_right = 689.0
+offset_bottom = 332.0
+texture = ExtResource("15")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="DropTitle" type="TextureRect" parent="Stage"]
+offset_left = 265.0
+offset_top = 181.0
+offset_right = 495.0
+offset_bottom = 215.0
+texture = ExtResource("16")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="DropLabel" type="Label" parent="Stage"]
+offset_left = 243.0
+offset_top = 179.0
+offset_right = 513.0
+offset_bottom = 216.0
+text = "本区域会掉落以下材料"
+theme_override_font_sizes/font_size = 21
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Drops" type="ScrollContainer" parent="Stage"]
+offset_left = 70.0
+offset_top = 219.0
+offset_right = 680.0
+offset_bottom = 323.0
+vertical_scroll_mode = 0
+horizontal_scroll_mode = 3
+
+[node name="Items" type="HBoxContainer" parent="Stage/Drops"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Divider" type="TextureRect" parent="Stage"]
+offset_left = 210.0
+offset_top = 382.0
+offset_right = 540.0
+offset_bottom = 423.0
+texture = ExtResource("17")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Rows" type="VBoxContainer" parent="Stage"]
+offset_left = 83.0
+offset_top = 427.0
+offset_right = 667.0
+offset_bottom = 1159.0
+theme_override_constants/separation = 12
+
+[node name="Hint" type="Label" parent="Stage"]
+offset_left = 155.0
+offset_top = 1254.0
+offset_right = 595.0
+offset_bottom = 1298.0
+text = "点击空白处关闭界面"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.75,0.85,0.85,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Dialog" parent="Stage" instance=ExtResource("18")]
+visible = false

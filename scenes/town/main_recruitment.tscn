@@ -1,0 +1,810 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/main_recruitment.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/background.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/captain.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/xp_frame.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/xp_fill.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/xp_empty.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/level.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/info.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/energy.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/ticket.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/timer.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/help.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/reference.png" id="13"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="15"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/element_1.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/check.png" id="17"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="18"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/element_1.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/check.png" id="20"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="21"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/element_1.png" id="22"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/check.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/finish.png" id="24"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/cost.png" id="25"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/ticket.png" id="26"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/refresh.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/recruit.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/background.png" id="29"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="30"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/bottom.png" id="31"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/nav_3.png" id="32"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/tab_dragon.png" id="33"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/reference.png" id="34"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/back.png" id="36"]
+[sub_resource type="AtlasTexture" id="Region13"]
+atlas = ExtResource("13")
+region = Rect2(695,919,104,102)
+[sub_resource type="AtlasTexture" id="Region34"]
+atlas = ExtResource("34")
+region = Rect2(171,1438,159,115)
+
+[node name="Recruitment" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 708.0
+script = ExtResource("1")
+mouse_filter = 2
+
+[node name="Body" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 608.0
+mouse_filter = 0
+clip_contents = true
+
+[node name="Background" type="TextureRect" parent="Body"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 714.0
+texture = ExtResource("2")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Captain" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = -289.0
+offset_right = 605.0
+offset_bottom = 0.0
+texture = ExtResource("3")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Speech" type="Label" parent="Captain"]
+offset_left = 220.0
+offset_top = 173.0
+offset_right = 584.0
+offset_bottom = 268.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.04,0.04,0.02,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="XpFrame" type="TextureRect" parent="Body"]
+offset_left = 0.0
+offset_top = 12.0
+offset_right = 632.0
+offset_bottom = 114.0
+texture = ExtResource("4")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Xp" type="TextureProgressBar" parent="Body"]
+offset_left = 83.0
+offset_top = 40.0
+offset_right = 463.0
+offset_bottom = 74.0
+texture_under = ExtResource("5")
+texture_progress = ExtResource("6")
+nine_patch_stretch = true
+mouse_filter = 2
+
+[node name="XpText" type="Label" parent="Body"]
+offset_left = 115.0
+offset_top = 32.0
+offset_right = 449.0
+offset_bottom = 82.0
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Illustration" type="Button" parent="Body"]
+offset_left = 4.0
+offset_top = 5.0
+offset_right = 120.0
+offset_bottom = 107.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Body/Illustration"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 116.0
+offset_bottom = 102.0
+texture = ExtResource("7")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Body/Illustration"]
+offset_left = 6.0
+offset_top = 60.0
+offset_right = 110.0
+offset_bottom = 96.0
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(1,0.92,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Probability" type="Button" parent="Body"]
+offset_left = 484.0
+offset_top = 32.0
+offset_right = 532.0
+offset_bottom = 81.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Body/Probability"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 48.0
+offset_bottom = 49.0
+texture = ExtResource("8")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Tickets" type="Button" parent="Body"]
+offset_left = 586.0
+offset_top = 93.0
+offset_right = 720.0
+offset_bottom = 139.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Bg" type="TextureRect" parent="Body/Tickets"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 134.0
+offset_bottom = 46.0
+texture = ExtResource("9")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Art" type="TextureRect" parent="Body/Tickets"]
+offset_left = 1.0
+offset_top = -5.0
+offset_right = 44.0
+offset_bottom = 40.0
+texture = ExtResource("10")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Value" type="Label" parent="Body/Tickets"]
+offset_left = 49.0
+offset_top = 0.0
+offset_right = 127.0
+offset_bottom = 41.0
+text = ""
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Timer" type="TextureRect" parent="Body"]
+offset_left = 76.0
+offset_top = 140.0
+offset_right = 618.0
+offset_bottom = 190.0
+texture = ExtResource("11")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Countdown" type="RichTextLabel" parent="Body"]
+offset_left = 98.0
+offset_top = 151.0
+offset_right = 619.0
+offset_bottom = 194.0
+bbcode_enabled = true
+scroll_active = false
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 23
+
+[node name="Help" type="Button" parent="Body"]
+offset_left = 28.0
+offset_top = 131.0
+offset_right = 84.0
+offset_bottom = 188.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Body/Help"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 56.0
+offset_bottom = 57.0
+texture = ExtResource("12")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Wish" type="Button" parent="Body"]
+offset_left = 606.0
+offset_top = 150.0
+offset_right = 694.0
+offset_bottom = 242.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Body/Wish"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 88.0
+offset_bottom = 88.0
+texture = SubResource("Region13")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Body/Wish"]
+offset_left = -2.0
+offset_top = 64.0
+offset_right = 90.0
+offset_bottom = 94.0
+text = "未激活"
+theme_override_font_sizes/font_size = 21
+theme_override_colors/font_color = Color(1,0.07,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Hero0" type="Button" parent="Body"]
+offset_left = 48.0
+offset_top = 223.0
+offset_right = 252.0
+offset_bottom = 473.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Portrait" type="TextureRect" parent="Body/Hero0"]
+offset_left = -9.0
+offset_top = -11.0
+offset_right = 216.0
+offset_bottom = 214.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("15")
+
+[node name="Chance" type="Label" parent="Body/Hero0"]
+offset_left = -5.0
+offset_top = 165.0
+offset_right = 209.0
+offset_bottom = 201.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Element" type="TextureRect" parent="Body/Hero0"]
+offset_left = -1.0
+offset_top = 202.0
+offset_right = 42.0
+offset_bottom = 245.0
+texture = ExtResource("16")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Name" type="Label" parent="Body/Hero0"]
+offset_left = 42.0
+offset_top = 203.0
+offset_right = 212.0
+offset_bottom = 246.0
+text = ""
+theme_override_font_sizes/font_size = 29
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Check" type="TextureRect" parent="Body/Hero0"]
+offset_left = 67.0
+offset_top = -50.0
+offset_right = 133.0
+offset_bottom = 25.0
+texture = ExtResource("17")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Hero1" type="Button" parent="Body"]
+offset_left = 259.0
+offset_top = 223.0
+offset_right = 463.0
+offset_bottom = 473.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Portrait" type="TextureRect" parent="Body/Hero1"]
+offset_left = -9.0
+offset_top = -11.0
+offset_right = 216.0
+offset_bottom = 214.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("18")
+
+[node name="Chance" type="Label" parent="Body/Hero1"]
+offset_left = -5.0
+offset_top = 165.0
+offset_right = 209.0
+offset_bottom = 201.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Element" type="TextureRect" parent="Body/Hero1"]
+offset_left = -1.0
+offset_top = 202.0
+offset_right = 42.0
+offset_bottom = 245.0
+texture = ExtResource("19")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Name" type="Label" parent="Body/Hero1"]
+offset_left = 42.0
+offset_top = 203.0
+offset_right = 212.0
+offset_bottom = 246.0
+text = ""
+theme_override_font_sizes/font_size = 29
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Check" type="TextureRect" parent="Body/Hero1"]
+offset_left = 67.0
+offset_top = -50.0
+offset_right = 133.0
+offset_bottom = 25.0
+texture = ExtResource("20")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Hero2" type="Button" parent="Body"]
+offset_left = 470.0
+offset_top = 223.0
+offset_right = 674.0
+offset_bottom = 473.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Portrait" type="TextureRect" parent="Body/Hero2"]
+offset_left = -9.0
+offset_top = -11.0
+offset_right = 216.0
+offset_bottom = 214.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("21")
+
+[node name="Chance" type="Label" parent="Body/Hero2"]
+offset_left = -5.0
+offset_top = 165.0
+offset_right = 209.0
+offset_bottom = 201.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Element" type="TextureRect" parent="Body/Hero2"]
+offset_left = -1.0
+offset_top = 202.0
+offset_right = 42.0
+offset_bottom = 245.0
+texture = ExtResource("22")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Name" type="Label" parent="Body/Hero2"]
+offset_left = 42.0
+offset_top = 203.0
+offset_right = 212.0
+offset_bottom = 246.0
+text = ""
+theme_override_font_sizes/font_size = 29
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Check" type="TextureRect" parent="Body/Hero2"]
+offset_left = 67.0
+offset_top = -50.0
+offset_right = 133.0
+offset_bottom = 25.0
+texture = ExtResource("23")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Recruit" type="Button" parent="Body"]
+offset_left = 214.0
+offset_top = 504.0
+offset_right = 506.0
+offset_bottom = 597.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Body/Recruit"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 292.0
+offset_bottom = 93.0
+texture = ExtResource("24")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Body/Recruit"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 284.0
+offset_bottom = 93.0
+text = "招募"
+theme_override_font_sizes/font_size = 33
+theme_override_colors/font_color = Color(1,0.9,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Cost" type="TextureRect" parent="Body/Recruit"]
+offset_left = 63.0
+offset_top = -4.0
+offset_right = 234.0
+offset_bottom = 29.0
+texture = ExtResource("25")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Body/Recruit/Cost"]
+offset_left = 0.0
+offset_top = -12.0
+offset_right = 47.0
+offset_bottom = 35.0
+texture = ExtResource("26")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Value" type="RichTextLabel" parent="Body/Recruit/Cost"]
+offset_left = 46.0
+offset_top = -2.0
+offset_right = 164.0
+offset_bottom = 32.0
+bbcode_enabled = true
+scroll_active = false
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 26
+
+[node name="Refresh" type="Button" parent="Body"]
+offset_left = 541.0
+offset_top = 522.0
+offset_right = 690.0
+offset_bottom = 577.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Body/Refresh"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 149.0
+offset_bottom = 55.0
+texture = ExtResource("27")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Body/Refresh"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 141.0
+offset_bottom = 55.0
+text = "刷新英雄"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Finish" type="Button" parent="Body"]
+offset_left = 381.0
+offset_top = 508.0
+offset_right = 673.0
+offset_bottom = 601.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Body/Finish"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 292.0
+offset_bottom = 93.0
+texture = ExtResource("28")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Body/Finish"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 284.0
+offset_bottom = 93.0
+text = "换一批"
+theme_override_font_sizes/font_size = 33
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Dragon" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 608.0
+visible = false
+mouse_filter = 0
+
+[node name="Bg" type="TextureRect" parent="Dragon"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 714.0
+texture = ExtResource("29")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Dragon"]
+offset_left = 325.0
+offset_top = 258.0
+offset_right = 395.0
+offset_bottom = 328.0
+texture = ExtResource("30")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Locked" type="Label" parent="Dragon"]
+offset_left = 160.0
+offset_top = 349.0
+offset_right = 560.0
+offset_bottom = 401.0
+text = "未解锁"
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="DragonInfo" type="Button" parent="Dragon"]
+offset_left = 260.0
+offset_top = 219.0
+offset_right = 460.0
+offset_bottom = 413.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Bottom" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 608.0
+offset_right = 720.0
+offset_bottom = 708.0
+mouse_filter = 0
+
+[node name="Bg" type="TextureRect" parent="Bottom"]
+offset_left = 0.0
+offset_top = -16.0
+offset_right = 720.0
+offset_bottom = 100.0
+texture = ExtResource("31")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Tab0" type="Button" parent="Bottom"]
+offset_left = 4.0
+offset_top = 0.0
+offset_right = 145.0
+offset_bottom = 103.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Bottom/Tab0"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 141.0
+offset_bottom = 103.0
+texture = ExtResource("32")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Bottom/Tab0"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 133.0
+offset_bottom = 103.0
+text = ""
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Text2" type="Label" parent="Bottom/Tab0"]
+offset_left = 0.0
+offset_top = 72.0
+offset_right = 141.0
+offset_bottom = 102.0
+text = "英雄"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tab1" type="Button" parent="Bottom"]
+offset_left = 148.0
+offset_top = 0.0
+offset_right = 289.0
+offset_bottom = 103.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Bottom/Tab1"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 141.0
+offset_bottom = 103.0
+texture = ExtResource("33")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Bottom/Tab1"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 133.0
+offset_bottom = 103.0
+text = ""
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Text2" type="Label" parent="Bottom/Tab1"]
+offset_left = 0.0
+offset_top = 72.0
+offset_right = 141.0
+offset_bottom = 102.0
+text = "龙魂技能"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Reference" type="TextureRect" parent="Bottom/Tab1"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 141.0
+offset_bottom = 103.0
+texture = SubResource("Region34")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Back" type="Button" parent="."]
+offset_left = 623.0
+offset_top = -48.0
+offset_right = 720.0
+offset_bottom = 42.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Back"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 97.0
+offset_bottom = 90.0
+texture = ExtResource("36")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Back"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 89.0
+offset_bottom = 90.0
+text = ""
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Strike" type="ColorRect" parent="Body/Recruit/Cost"]
+offset_left = 46.0
+offset_top = 15.0
+offset_right = 98.0
+offset_bottom = 17.0
+color = Color(0.93,0.12,0.08,1)
+mouse_filter = 2
+visible = false

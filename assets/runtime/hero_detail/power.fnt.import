@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://cg35s04fm78ap"
+path="res://.godot/imported/power.fnt-5efb7741677473779825d0a6c458f31e.fontdata"
+
+[deps]
+
+source_file="res://assets/runtime/hero_detail/power.fnt"
+dest_files=["res://.godot/imported/power.fnt-5efb7741677473779825d0a6c458f31e.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

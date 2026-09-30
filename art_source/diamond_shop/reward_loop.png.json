@@ -1,0 +1,10 @@
+{
+  "prompt": "Original source Spine sampled with existing Pixi runtime; not AI generated.",
+  "source": "art_source/recruitment/spine/jiesuanmianban.json",
+  "animation": "js_welcome_XH",
+  "frames": 64,
+  "columns": 4,
+  "width": 620,
+  "height": 180,
+  "duration": 10.600000381469727
+}

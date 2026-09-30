@@ -1,0 +1,86 @@
+{
+  "ring": {
+    "frame": {
+      "bundle": "resources",
+      "uuid": "9941dcf1-c26d-4cde-9bad-5435d5aa2b55",
+      "name": "__未命名/9941dcf1-c26d-4cde-9bad-5435d5aa2b55",
+      "frame_name": "yd_yingdaohuan",
+      "texture_uuid": "1b7035db5",
+      "texture": "03_美术资源/01_完整贴图/resources/__未命名/1b7035db5.png",
+      "rect": [
+        3,
+        3,
+        396,
+        356
+      ],
+      "rotated": true,
+      "original_size": [
+        396,
+        396
+      ],
+      "offset": [
+        0,
+        -20
+      ],
+      "output": "03_美术资源/02_透明切图/resources/__未命名/9941dcf1-c26d-4cde-9bad-5435d5aa2b55.png",
+      "source": "01_解码内容/assets/resources/import/99/9941dcf1-c26d-4cde-9bad-5435d5aa2b55.json"
+    },
+    "sha256": "bb286de4c34fd06ac7ec0c8403c1e49f8780753f52207203c0aed59dec53b4eb"
+  },
+  "detail": {
+    "frame": {
+      "bundle": "resources",
+      "uuid": "22ddc9f3-93cd-44ad-8bac-db4bc81445d1",
+      "name": "__未命名/22ddc9f3-93cd-44ad-8bac-db4bc81445d1",
+      "frame_name": "yd_yingdaohuan_yeqian02",
+      "texture_uuid": "1b7035db5",
+      "texture": "03_美术资源/01_完整贴图/resources/__未命名/1b7035db5.png",
+      "rect": [
+        123,
+        405,
+        107,
+        114
+      ],
+      "rotated": false,
+      "original_size": [
+        107,
+        114
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "output": "03_美术资源/02_透明切图/resources/__未命名/22ddc9f3-93cd-44ad-8bac-db4bc81445d1.png",
+      "source": "01_解码内容/assets/resources/import/22/22ddc9f3-93cd-44ad-8bac-db4bc81445d1.json"
+    },
+    "sha256": "419ed3557070f510a551e8709a376edaab31954bd463e693ebbdb2df912c9c66"
+  },
+  "label": {
+    "frame": {
+      "bundle": "resources",
+      "uuid": "3dafab58-6695-4cf8-8655-137cb6ebbf6f",
+      "name": "__未命名/3dafab58-6695-4cf8-8655-137cb6ebbf6f",
+      "frame_name": "yd_yingdaohuan_yeqian_mingzi",
+      "texture_uuid": "1b7035db5",
+      "texture": "03_美术资源/01_完整贴图/resources/__未命名/1b7035db5.png",
+      "rect": [
+        243,
+        758,
+        92,
+        29
+      ],
+      "rotated": true,
+      "original_size": [
+        92,
+        29
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "output": "03_美术资源/02_透明切图/resources/__未命名/3dafab58-6695-4cf8-8655-137cb6ebbf6f.png",
+      "source": "01_解码内容/assets/resources/import/3d/3dafab58-6695-4cf8-8655-137cb6ebbf6f.json"
+    },
+    "sha256": "5b20bd9feb8509ac8cbe22d7953d28e8d9b9c8f598c1c92e0afbca017c1520cf"
+  }
+}

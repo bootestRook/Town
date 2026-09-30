@@ -1,0 +1,1120 @@
+{
+  "header": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/1a313651-536e-4e29-a55b-9489c0eb7149.png",
+    "uuid": "1a313651-536e-4e29-a55b-9489c0eb7149",
+    "sha256": "c6f0f5e1eec83fb672482136ebf6f585ee73481837ecc0cbea35f6fc60671b3f"
+  },
+  "body": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/bbc9cfa3-1663-4bed-9f47-70df30e19f83.png",
+    "uuid": "bbc9cfa3-1663-4bed-9f47-70df30e19f83",
+    "sha256": "afa351c381185f541795b4c57b1d7f91b57371bf3c7802c3e9ce79b71a3596ba"
+  },
+  "close": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/1254499d-d3a4-47fe-adf5-9c925ac6dbc8.png",
+    "uuid": "1254499d-d3a4-47fe-adf5-9c925ac6dbc8",
+    "sha256": "602017c63a4b717022fec1f975d701b791bc45c3c274a694a39223e314f68a8f"
+  },
+  "pill": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/373dca8a-78b5-42b8-8e3e-118cab21aafc.png",
+    "uuid": "373dca8a-78b5-42b8-8e3e-118cab21aafc",
+    "sha256": "ff95976086ed05193c7c27adfe78a56fe585c65500999d91fc5470b57b57d42b"
+  },
+  "lineup": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/605d7574-f55d-4457-ac88-a29ded0c4a20.png",
+    "uuid": "605d7574-f55d-4457-ac88-a29ded0c4a20",
+    "sha256": "8d813cc73e964994351597ab4efab67d44dc02a6d6d5ebb84fbef1a560ca8dea"
+  },
+  "dispatch": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/b4245900-e46f-4a52-beab-128bf0cdab23.png",
+    "uuid": "b4245900-e46f-4a52-beab-128bf0cdab23",
+    "sha256": "4a824705c18708ab310b723fe43005028ef880e4402c68377b669f54840879b7"
+  },
+  "locate": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/071ae851-0083-44e9-be6a-4fac7443ab95.png",
+    "uuid": "071ae851-0083-44e9-be6a-4fac7443ab95",
+    "sha256": "f35985cc0a4dfef51fb48d84d06e1857dfdd0d011778874dc7818f3ac02234c8"
+  },
+  "power_plate": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/846c2c95-bc23-43c4-b045-2bee113385d1.png",
+    "uuid": "846c2c95-bc23-43c4-b045-2bee113385d1",
+    "sha256": "f0ae0515205c0229d1879369ccc2ae7e9b4d1bab29d21a468560b975f17183b9"
+  },
+  "power_icon": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroIcon/sortSelect/yingxiong_wuli.png",
+    "uuid": "58a86002-db81-41bb-8e35-165b30a8cc85",
+    "sha256": "938a3d416127d40773fde908f429c70a49071a5c3531db6c24504c0d4e73c065"
+  },
+  "rank": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/roundIcon/wuqipu_pingjie1.png",
+    "uuid": "a82be052-2a1e-4336-a7c7-e7412f142196",
+    "sha256": "37986052f1db8ba9d1d41796bbcba6f6a22de852b64568e69407aa0aa0fd3eb6"
+  },
+  "quality_1": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroQuality/third/yx_kuang_01.png",
+    "uuid": "39a6bc5f-6857-4d25-a2f8-54982655dc02",
+    "sha256": "698e60c32d5836bfe69af1045cc10118856b5eca4fc4655bdd5dbebf720f1f99"
+  },
+  "quality_2": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroQuality/third/yx_kuang_02.png",
+    "uuid": "77ad0f9d-5e64-465b-ac49-e702aeccf96b",
+    "sha256": "9eeb3027db82a4f55f9a796b9e26c7bb90c9a5dce3ae180cbd3d86aff4417fef"
+  },
+  "quality_3": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroQuality/third/yx_kuang_03.png",
+    "uuid": "a9b3c39a-81fc-450f-bc6a-2e218d1838d0",
+    "sha256": "1776ce5a77a61e794be07a723268708ccc8c4f96ea1fb02ac01a0051976bfc9f"
+  },
+  "quality_4": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroQuality/third/yx_kuang_04.png",
+    "uuid": "1fd744b5-9b37-47e2-a550-16254f73a6d0",
+    "sha256": "8763b76ecb1f057a66eec72bdd3b7fb3b8cea30abcb2db552afcaa159194112c"
+  },
+  "quality_5": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroQuality/third/yx_kuang_05.png",
+    "uuid": "73370da0-3842-4d98-8434-550c46c35e3d",
+    "sha256": "9f7149543e4b9c6da3ac208f2de616e8050bb294238d3daeb4bf9e32a1a0e4a4"
+  },
+  "job_1": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroOccupation/zhiye01.png",
+    "uuid": "002da029-36cb-4e7e-b3a2-1ae7025841f0",
+    "sha256": "cc91be16764376b3b26027874ded2b94553f2713813884e25d64ffa7794c1b3f"
+  },
+  "job_2": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroOccupation/zhiye02.png",
+    "uuid": "f74c06c7-352a-4b96-8861-97dda1e7bc5f",
+    "sha256": "bbf10754f620f35cff3d556f2e876086fb7de127845d02038950d19d5afbc6c1"
+  },
+  "job_3": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroOccupation/zhiye03.png",
+    "uuid": "0b118e8f-81d7-4a78-b6be-8646820bf1d3",
+    "sha256": "218b5fc47d0ca916949ed9f0cdeef1066320d723be73531b8d2887940dfb2c8c"
+  },
+  "element_1": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroCamp/yx_zhenying1.png",
+    "uuid": "ce5579d6-b9e8-480a-8bbd-4c4ab59e9819",
+    "sha256": "eb0e4527634643616943211b206989f689d259a7b305723dc5118e8183d866a4"
+  },
+  "element_2": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroCamp/yx_zhenying2.png",
+    "uuid": "fccb9097-375c-4643-a189-2b1449154d3e",
+    "sha256": "c80d3b884a0fcdc04cf398d3ada792e7dd604346c5134172b42cb8b0d205977c"
+  },
+  "element_3": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroCamp/yx_zhenying3.png",
+    "uuid": "77fecf5d-36dc-46f3-8c95-3fd34f75f8e2",
+    "sha256": "c7bb4ae21336dabddba5aff5f7e22ac1441648bf15321a8a37779a21031dbbe3"
+  },
+  "element_4": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/heroCamp/yx_zhenying4.png",
+    "uuid": "c871da2d-5483-43c0-9860-de8748cbab4f",
+    "sha256": "4d65bd8090888b8b43c5acf100f875bcd07f99ceacf6d569b5e3f70e99e1b426"
+  },
+  "star_1": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji2.png",
+    "uuid": "b17abcc6-26b1-4e41-a852-87eabc7acacd",
+    "sha256": "7ce9cd827b0b7baf3054a7f6f463f8ef35308c3a46f9387621c064ff440567f6"
+  },
+  "star_2": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji2.png",
+    "uuid": "b17abcc6-26b1-4e41-a852-87eabc7acacd",
+    "sha256": "7ce9cd827b0b7baf3054a7f6f463f8ef35308c3a46f9387621c064ff440567f6"
+  },
+  "star_3": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji2.png",
+    "uuid": "b17abcc6-26b1-4e41-a852-87eabc7acacd",
+    "sha256": "7ce9cd827b0b7baf3054a7f6f463f8ef35308c3a46f9387621c064ff440567f6"
+  },
+  "star_4": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji2.png",
+    "uuid": "b17abcc6-26b1-4e41-a852-87eabc7acacd",
+    "sha256": "7ce9cd827b0b7baf3054a7f6f463f8ef35308c3a46f9387621c064ff440567f6"
+  },
+  "star_5": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji3.png",
+    "uuid": "6187c05b-4892-4694-9600-01af71cdae74",
+    "sha256": "a974a05862563f4c0ea2bf5d3b75c720fe8a5be11cc290a3aea3e01772ae8a91"
+  },
+  "star_6": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji3.png",
+    "uuid": "6187c05b-4892-4694-9600-01af71cdae74",
+    "sha256": "a974a05862563f4c0ea2bf5d3b75c720fe8a5be11cc290a3aea3e01772ae8a91"
+  },
+  "star_7": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji3.png",
+    "uuid": "6187c05b-4892-4694-9600-01af71cdae74",
+    "sha256": "a974a05862563f4c0ea2bf5d3b75c720fe8a5be11cc290a3aea3e01772ae8a91"
+  },
+  "star_8": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji3.png",
+    "uuid": "6187c05b-4892-4694-9600-01af71cdae74",
+    "sha256": "a974a05862563f4c0ea2bf5d3b75c720fe8a5be11cc290a3aea3e01772ae8a91"
+  },
+  "star_9": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji4.png",
+    "uuid": "dc433c97-bb93-46b2-98b3-3f4e72797557",
+    "sha256": "7f598fe263c9f8f0c25a2d98e6e440beb1cdad2c29ee7d41bddbf6a68641d849"
+  },
+  "star_10": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji4.png",
+    "uuid": "dc433c97-bb93-46b2-98b3-3f4e72797557",
+    "sha256": "7f598fe263c9f8f0c25a2d98e6e440beb1cdad2c29ee7d41bddbf6a68641d849"
+  },
+  "star_11": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji4.png",
+    "uuid": "dc433c97-bb93-46b2-98b3-3f4e72797557",
+    "sha256": "7f598fe263c9f8f0c25a2d98e6e440beb1cdad2c29ee7d41bddbf6a68641d849"
+  },
+  "star_12": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji4.png",
+    "uuid": "dc433c97-bb93-46b2-98b3-3f4e72797557",
+    "sha256": "7f598fe263c9f8f0c25a2d98e6e440beb1cdad2c29ee7d41bddbf6a68641d849"
+  },
+  "star_13": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji5.png",
+    "uuid": "e5be84db-10dd-4b06-a19c-a27a32bfe32f",
+    "sha256": "27e9919810fd8b94efb119c3fa7a27c9e2899e748fdda795d1609fa71259e478"
+  },
+  "star_14": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji5.png",
+    "uuid": "e5be84db-10dd-4b06-a19c-a27a32bfe32f",
+    "sha256": "27e9919810fd8b94efb119c3fa7a27c9e2899e748fdda795d1609fa71259e478"
+  },
+  "star_15": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji5.png",
+    "uuid": "e5be84db-10dd-4b06-a19c-a27a32bfe32f",
+    "sha256": "27e9919810fd8b94efb119c3fa7a27c9e2899e748fdda795d1609fa71259e478"
+  },
+  "star_16": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji5.png",
+    "uuid": "e5be84db-10dd-4b06-a19c-a27a32bfe32f",
+    "sha256": "27e9919810fd8b94efb119c3fa7a27c9e2899e748fdda795d1609fa71259e478"
+  },
+  "star_17": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji6.png",
+    "uuid": "9c5e3061-0217-467f-8154-a25528e7b75c",
+    "sha256": "03d0c17659119043d801637e03e1e545b2cbcc1211d0fcdf97df4517ff781128"
+  },
+  "star_18": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji6.png",
+    "uuid": "9c5e3061-0217-467f-8154-a25528e7b75c",
+    "sha256": "03d0c17659119043d801637e03e1e545b2cbcc1211d0fcdf97df4517ff781128"
+  },
+  "star_19": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji6.png",
+    "uuid": "9c5e3061-0217-467f-8154-a25528e7b75c",
+    "sha256": "03d0c17659119043d801637e03e1e545b2cbcc1211d0fcdf97df4517ff781128"
+  },
+  "star_20": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji6.png",
+    "uuid": "9c5e3061-0217-467f-8154-a25528e7b75c",
+    "sha256": "03d0c17659119043d801637e03e1e545b2cbcc1211d0fcdf97df4517ff781128"
+  },
+  "star_21": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji7.png",
+    "uuid": "333f0ef1-1b56-463e-9546-7998f83c97a1",
+    "sha256": "af01cdb28e5a48fae4d372fe820d73170f080950e5c07779a75b0f9cab486f02"
+  },
+  "star_22": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji7.png",
+    "uuid": "333f0ef1-1b56-463e-9546-7998f83c97a1",
+    "sha256": "af01cdb28e5a48fae4d372fe820d73170f080950e5c07779a75b0f9cab486f02"
+  },
+  "star_23": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji7.png",
+    "uuid": "333f0ef1-1b56-463e-9546-7998f83c97a1",
+    "sha256": "af01cdb28e5a48fae4d372fe820d73170f080950e5c07779a75b0f9cab486f02"
+  },
+  "star_24": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji7.png",
+    "uuid": "333f0ef1-1b56-463e-9546-7998f83c97a1",
+    "sha256": "af01cdb28e5a48fae4d372fe820d73170f080950e5c07779a75b0f9cab486f02"
+  },
+  "hero_11001": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/boy/front/zhanshi/zhanshi.skel",
+    "parts": {
+      "head": 0,
+      "face": 0,
+      "body": 0
+    },
+    "skin": "pifu1",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "58989772aee9ae49c07b6fb6348e32d2fa364119f2a1b7733432aac4d97ef5d8"
+  },
+  "hero_11002": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/boy/front/zhanshi/zhanshi.skel",
+    "parts": {
+      "head": 3,
+      "face": 7,
+      "body": 6
+    },
+    "skin": "pifu7",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "d80efa687a2be63306e16bc3f9434a81ab5d77e558c5cc377e6f41dabddcb210"
+  },
+  "hero_11003": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/boy/front/zhanshi/zhanshi.skel",
+    "parts": {
+      "head": 6,
+      "face": 6,
+      "body": 4
+    },
+    "skin": "pifu5",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "051cddba4de390a947c0c96058f264b1fa80c31605f7a4aa99ff6bc960e33811"
+  },
+  "hero_11004": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/boy/front/zhanshi/zhanshi.skel",
+    "parts": {
+      "head": 2,
+      "face": 2,
+      "body": 5
+    },
+    "skin": "pifu6",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "9c9800d56700f6479d17b32ce7d0494cd01571c1d89c2abba0adf69fd7d4c326"
+  },
+  "hero_11005": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/boy/front/zhanshi/zhanshi.skel",
+    "parts": {
+      "head": 5,
+      "face": 3,
+      "body": 8
+    },
+    "skin": "pifu9",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "645162ea93289d19534b36b57753a724e52c2d7552fed4ca7a2dcac47d2689ee"
+  },
+  "hero_11006": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/boy/front/zhanshi/zhanshi.skel",
+    "parts": {
+      "head": 7,
+      "face": 1,
+      "body": 7
+    },
+    "skin": "pifu8",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "433e04abd35a8ed699f93c640412c5e46256000a7fa03df3da94093d7ddb5adc"
+  },
+  "hero_11008": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/boy/front/zhanshi/zhanshi.skel",
+    "parts": {
+      "head": 4,
+      "face": 3,
+      "body": 2
+    },
+    "skin": "pifu3",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "444acc0324d0295cc471769f8bffe04bc55e749d7422ea9652de42407b70af9a"
+  },
+  "hero_11010": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/boy/front/zhanshi/zhanshi.skel",
+    "parts": {
+      "head": 9,
+      "face": 9,
+      "body": 9
+    },
+    "skin": "S_1",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "0cea3536cc13286d2b969ec98af0286ff6526fc3811e553b32956be310fa5511"
+  },
+  "hero_11011": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/boy/front/zhanshi/zhanshi.skel",
+    "parts": {
+      "head": 10,
+      "face": 10,
+      "body": 10
+    },
+    "skin": "S_6",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "382e5efa63e931ff70160ed1bb3f96359c693e918202778087eb72339c4bb945"
+  },
+  "hero_11012": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/boy/front/zhanshi/zhanshi.skel",
+    "parts": {
+      "head": 11,
+      "face": 11,
+      "body": 11
+    },
+    "skin": "S_22",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "1840d595f91d06133fd1193ba2fd199a3bd9c316e23cb2eaacfb9380abc09859"
+  },
+  "hero_12001": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 1,
+      "face": 0,
+      "body": 1
+    },
+    "skin": "pifu2",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "e89c3ed4afc0e2306f86f9225e8fd73ccbe1bbbe1871d21f171afbb2f50a4f9a"
+  },
+  "hero_12003": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 7,
+      "face": 7,
+      "body": 7
+    },
+    "skin": "pifu8",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "4b19d5d0fdd28721f52543e48a7c510f09c7c97e229f381d9d868f567da91ab7"
+  },
+  "hero_12004": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 2,
+      "face": 5,
+      "body": 3
+    },
+    "skin": "pifu4",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "1deadbebd3440753ec81f089274d8a49e663978b608de52f6b8804025da8730d"
+  },
+  "hero_12005": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 4,
+      "face": 3,
+      "body": 5
+    },
+    "skin": "pifu6",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "bdaa634e7b83a4e0cf35becac0b323fd8f304a0fa4c980e5c78d182ccbadd2c5"
+  },
+  "hero_12006": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 6,
+      "face": 1,
+      "body": 4
+    },
+    "skin": "pifu5",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "30d5397b14496042e22bbb0c111350ffc44a50720a820106076395272792dc46"
+  },
+  "hero_12007": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 12,
+      "face": 12,
+      "body": 12
+    },
+    "skin": "A_1",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "5c0ba2cf54ef2c660ab2b17ece58fd2512708a67c7490a8360e45bd0d2e9a703"
+  },
+  "hero_12009": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 8,
+      "face": 6,
+      "body": 2
+    },
+    "skin": "pifu3",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "6bbf1e1f248854c5150e4113d0087d150f5de0660cf11ed9989d592c73cff7c9"
+  },
+  "hero_12010": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 9,
+      "face": 9,
+      "body": 9
+    },
+    "skin": "S_2",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "64e0f672b2b8411a243e984b9344b55619a98c774f0ab59d4bd3c37ea9e0b1b2"
+  },
+  "hero_12011": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 10,
+      "face": 10,
+      "body": 10
+    },
+    "skin": "S_11",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "baee777f783c51f7083f558638f0a0ad04852e1bed4f360a5dd10ce4cff2c84f"
+  },
+  "hero_12012": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 11,
+      "face": 11,
+      "body": 11
+    },
+    "skin": "S_12",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "eb0fbca86c1e6cde54755ef29e567ae71ffce36ab9d3fc22312bd4d089c00d91"
+  },
+  "hero_12013": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 13,
+      "face": 13,
+      "body": 13
+    },
+    "skin": "S_16",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "818db24e9e470cf9d51ff6db263fc5a7e7b7da301e4a62e31fb5367331a3c533"
+  },
+  "hero_12014": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 14,
+      "face": 14,
+      "body": 14
+    },
+    "skin": "S_20",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "37b0e0968135fddd89eb14ae2b9b82bbe6626036883f063f48f86cc20bf58c51"
+  },
+  "hero_12015": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 15,
+      "face": 15,
+      "body": 15
+    },
+    "skin": "S_29",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "964e487f7bedb1643509b1eaf5b1c6214eb332f1e6b37a61937ece3cec8389c5"
+  },
+  "hero_12016": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/master/girl/front/nvzhanshi/nvzhanshi.skel",
+    "parts": {
+      "head": 17,
+      "face": 17,
+      "body": 17
+    },
+    "skin": "S_33",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_zs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "6b9ea11c29c48d539883874d8839b1c4a8e883ea370693c467b1f10d7592143a"
+  },
+  "hero_21001": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/boy/front/nangongjianshou/nangongjianshou.skel",
+    "parts": {
+      "head": 0,
+      "face": 0,
+      "body": 0
+    },
+    "skin": "pifu1",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "63d3baab1acd82795d913c052a41b50f0e727fb41400c84513ded121c6290707"
+  },
+  "hero_21002": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/boy/front/nangongjianshou/nangongjianshou.skel",
+    "parts": {
+      "head": 3,
+      "face": 1,
+      "body": 3
+    },
+    "skin": "pifu4",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "fabc2b73109e22509a0b9237e51309f3340305a860c7cfd1033d220126ae117a"
+  },
+  "hero_21003": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/boy/front/nangongjianshou/nangongjianshou.skel",
+    "parts": {
+      "head": 6,
+      "face": 6,
+      "body": 7
+    },
+    "skin": "pifu8",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "022084a0fff1a32cf07aef8737d577164e9e43944e77841a02c89e0037465ff7"
+  },
+  "hero_21004": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/boy/front/nangongjianshou/nangongjianshou.skel",
+    "parts": {
+      "head": 2,
+      "face": 7,
+      "body": 5
+    },
+    "skin": "pifu6",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "7dc40ad66621924ccd492a2a9cec4841bd1dec2e4959f361eee019cd5e89232e"
+  },
+  "hero_21005": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/boy/front/nangongjianshou/nangongjianshou.skel",
+    "parts": {
+      "head": 5,
+      "face": 4,
+      "body": 2
+    },
+    "skin": "pifu3",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "e0715151a4ea058d696e8a5b529799438a7c5aa6761ef9e34da7c435a218221d"
+  },
+  "hero_21006": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/boy/front/nangongjianshou/nangongjianshou.skel",
+    "parts": {
+      "head": 8,
+      "face": 2,
+      "body": 8
+    },
+    "skin": "pifu9",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "541955c5c68029a6966ef516ee39ba486c57b558cec4ae0882c49245ab8be841"
+  },
+  "hero_21008": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/boy/front/nangongjianshou/nangongjianshou.skel",
+    "parts": {
+      "head": 4,
+      "face": 5,
+      "body": 4
+    },
+    "skin": "pifu5",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "fa3cd411be6a8a8525bb74c8b1d4c23afa84f1447cac370908797fecaf79e8d5"
+  },
+  "hero_21010": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/boy/front/nangongjianshou/nangongjianshou.skel",
+    "parts": {
+      "head": 9,
+      "face": 9,
+      "body": 9
+    },
+    "skin": "S_7",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "461734160725cc70909169a805796adb0333a8512d5ffbf1ccbacabe43be56e1"
+  },
+  "hero_21011": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/boy/front/nangongjianshou/nangongjianshou.skel",
+    "parts": {
+      "head": 10,
+      "face": 10,
+      "body": 10
+    },
+    "skin": "S_18",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "48f9da0d840f9e38a840e40127122461edf1f03bebd6f8ccf91235208676f295"
+  },
+  "hero_22001": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 2,
+      "face": 0,
+      "body": 3
+    },
+    "skin": "pifu4",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "dba0ce06439a422b16378802900ad2fc98fc4ba487b7cea4284a8e6529b68763"
+  },
+  "hero_22003": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 7,
+      "face": 7,
+      "body": 5
+    },
+    "skin": "pifu6",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "50966d238da28a7d9f78c2e3144a8d08b8a1827741fdb6e2358391bc6613a4c6"
+  },
+  "hero_22004": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 1,
+      "face": 3,
+      "body": 8
+    },
+    "skin": "pifu9",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "d5dc7e57ba1d2da3767a5d918050e595facb69515da0a74daaaaab91b68b7a61"
+  },
+  "hero_22006": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 6,
+      "face": 4,
+      "body": 6
+    },
+    "skin": "pifu7",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "ac5938d7e380945173b86ba5e756ff0dc889bd5b52e39de98f800df4e5630be1"
+  },
+  "hero_22007": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 0,
+      "face": 1,
+      "body": 1
+    },
+    "skin": "pifu2",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "e2b81e727eaf9820c6599c3a0f7fed2522bfbb233ef3d9e6f32a985d711cc0c5"
+  },
+  "hero_22008": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 5,
+      "face": 8,
+      "body": 2
+    },
+    "skin": "pifu3",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "6822ed876698e9bd4f8cab9801114450f6680467f742be39a88510c878a937e5"
+  },
+  "hero_22010": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 9,
+      "face": 9,
+      "body": 9
+    },
+    "skin": "S_3",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "eed4fe69d284d997756306153b0b36479400b670d1559aae9c79c4d908525257"
+  },
+  "hero_22011": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 10,
+      "face": 10,
+      "body": 10
+    },
+    "skin": "S_13",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "b75a1b1cbdbcd09d265dab525e81e40b569400e171bff192d24b4e583d28ef8f"
+  },
+  "hero_22012": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 11,
+      "face": 11,
+      "body": 11
+    },
+    "skin": "S_15",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "9fbb41f1a828e64f0f5d550e3b66a5f41c36a89339f8be2fbc586c0f0a4e283e"
+  },
+  "hero_22013": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 12,
+      "face": 12,
+      "body": 12
+    },
+    "skin": "A_2",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "a02b1be17ebe6c1f06f36d3c1c9baa738fc34f7de3b344b1769df336358377ab"
+  },
+  "hero_22014": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 13,
+      "face": 13,
+      "body": 13
+    },
+    "skin": "S_17",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "f18eab0afb1579247783bdd0d695be61149651b05c54330f251a8d92b03d61a2"
+  },
+  "hero_22015": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 14,
+      "face": 14,
+      "body": 14
+    },
+    "skin": "S_21",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "cbb73db7c0699736cb2e84b88a662b4600073681a3dba5d47874cc9d3676e65e"
+  },
+  "hero_22016": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 15,
+      "face": 15,
+      "body": 15
+    },
+    "skin": "S_24",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "93adfb6e9bb6afc510e70f64ae4604903a8b69ca8cd4fe9e5ffe9556efb8dfed"
+  },
+  "hero_22017": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 17,
+      "face": 17,
+      "body": 17
+    },
+    "skin": "S_25",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "849726be4bd6041e2076ee51c7034217f231afbbc0a30aadd2354fc6cf873c3d"
+  },
+  "hero_22018": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 16,
+      "face": 16,
+      "body": 16
+    },
+    "skin": "S_27",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "c3beb0e0d1b7fc94870596d165f91e65c622bee09b9c40153f8c1b1d3eba35d0"
+  },
+  "hero_22019": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 18,
+      "face": 18,
+      "body": 18
+    },
+    "skin": "S_31",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "a91681e5d86e7c5c953934250d7e772f43f73febbba68e48502d6537b1e66353"
+  },
+  "hero_31001": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/boy/front/nanfashi/nanfashi.skel",
+    "parts": {
+      "head": 0,
+      "face": 0,
+      "body": 0
+    },
+    "skin": "pifu1",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "66aebcb48b80117c35aadeb5455e4988aedac2609cde753965330ce37fa3f976"
+  },
+  "hero_31002": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/boy/front/nanfashi/nanfashi.skel",
+    "parts": {
+      "head": 3,
+      "face": 3,
+      "body": 2
+    },
+    "skin": "pifu3",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "743f7dc06b2ccb697117c448fa038d048aef9191b630f425a770f1ab88aa9a5f"
+  },
+  "hero_31004": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/boy/front/nanfashi/nanfashi.skel",
+    "parts": {
+      "head": 2,
+      "face": 8,
+      "body": 6
+    },
+    "skin": "pifu7",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "7aae376abcbf27abb9cb5a3dab52b163e1942fdfb9e315bc66a7c96df0f52548"
+  },
+  "hero_31007": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/boy/front/nanfashi/nanfashi.skel",
+    "parts": {
+      "head": 1,
+      "face": 5,
+      "body": 7
+    },
+    "skin": "pifu8",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "f0633cd318c4318b0ca10a0300d6a0ed56940a28a841ac487c9beffe371d9ff4"
+  },
+  "hero_31008": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/boy/front/nanfashi/nanfashi.skel",
+    "parts": {
+      "head": 5,
+      "face": 6,
+      "body": 4
+    },
+    "skin": "pifu5",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "bea4678f5f6695308b454cfa25875ac6bb9ff027962b79469025343560ee3e8f"
+  },
+  "hero_31009": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/boy/front/nanfashi/nanfashi.skel",
+    "parts": {
+      "head": 8,
+      "face": 7,
+      "body": 1
+    },
+    "skin": "pifu2",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "5074c06ad4e06594f9cef475fc60a6bb00f51cbb774ecdd33b3d9f24f4edda7b"
+  },
+  "hero_31011": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/boy/front/nanfashi/nanfashi.skel",
+    "parts": {
+      "head": 9,
+      "face": 9,
+      "body": 9
+    },
+    "skin": "S_19",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "52cb4deb8adca1ae27801a23f7f3f295a02763b97fb1509dd6ba706d06fa86f8"
+  },
+  "hero_31012": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/boy/front/nanfashi/nanfashi.skel",
+    "parts": {
+      "head": 10,
+      "face": 10,
+      "body": 10
+    },
+    "skin": "S_28",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "7a3b52ccd5dc4292d51030eb6b48d62123deace3701637124cd20329e05bc044"
+  },
+  "hero_32001": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 0,
+      "face": 0,
+      "body": 0
+    },
+    "skin": "pifu1",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "d4848e778ef09db48d0b7501e02a04d0737aa19126d9bceec9c95c4b1eee482d"
+  },
+  "hero_32002": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 5,
+      "face": 3,
+      "body": 3
+    },
+    "skin": "pifu4",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "ee5c228e71501c703649b0e0d92b95443c2f600397527dcb1e225d6f22a7e14d"
+  },
+  "hero_32003": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 7,
+      "face": 2,
+      "body": 8
+    },
+    "skin": "pifu9",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "2396136261bfbf171862fccf4cbc456742e4ca39dd8a5584a2d540310088e396"
+  },
+  "hero_32004": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 1,
+      "face": 6,
+      "body": 2
+    },
+    "skin": "pifu3",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "ad56592d87b7961b36bb3f9ed75b4267f0eaa42dac2a5e35c43f247679a394cc"
+  },
+  "hero_32006": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 6,
+      "face": 4,
+      "body": 4
+    },
+    "skin": "pifu5",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "cb10f3f709b47cd6d0729d3dfaef7b2b00725e72e39b6c797e1ae340928e2181"
+  },
+  "hero_32007": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 3,
+      "face": 1,
+      "body": 6
+    },
+    "skin": "pifu7",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "d3d39e1cb27ab52ed2adb3affab54bcea56ff936ede702d0fb441730f1f8bf67"
+  },
+  "hero_32008": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 4,
+      "face": 5,
+      "body": 5
+    },
+    "skin": "pifu6",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "fde92e8b212177025eb539f46c28c191951663cecc36093b990dbd366b2f4d4b"
+  },
+  "hero_32009": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 8,
+      "face": 8,
+      "body": 7
+    },
+    "skin": "pifu8",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "08836d560e13108e01d9524b958c4a794ca61f332b2c30a3a0bfd3b05bbb178c"
+  },
+  "hero_32010": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 7,
+      "face": 1,
+      "body": 2
+    },
+    "skin": "pifu3",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "176b1614754a90f82b67d0458668caf74a00688ae116581f30287d6d30dd218f"
+  },
+  "hero_32011": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 9,
+      "face": 9,
+      "body": 9
+    },
+    "skin": "S_4",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "b9fe5164bb9f39abb21a4ff68468ca4057ab5c25c7c5dea1f41b66f283512449"
+  },
+  "hero_32012": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 10,
+      "face": 10,
+      "body": 10
+    },
+    "skin": "S_8",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "0692b01540bb86e3d85ab6e533730457925daa73f23d30a9561c08076c709bef"
+  },
+  "hero_32013": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 11,
+      "face": 11,
+      "body": 11
+    },
+    "skin": "S_9",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "6a6ecb83312937536a31e69854272d67f8174b5c9971d612679988ff71028f87"
+  },
+  "hero_32014": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 12,
+      "face": 12,
+      "body": 12
+    },
+    "skin": "S_10",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "4b3a08f6276582a18fe782e938761389e4d649019e1e56f7912eadc3daf94796"
+  },
+  "hero_32015": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 14,
+      "face": 14,
+      "body": 14
+    },
+    "skin": "S_5",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "36add36bf23a679bbb81c30d18c970062bdbe02d7617e752b2fc0a732d9b93f7"
+  },
+  "hero_32016": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 13,
+      "face": 13,
+      "body": 13
+    },
+    "skin": "S_14",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "135a9fd37f75e14b5bac2ca8f49d891e7f27d28e5e100c1d6fadc6a6a7591188"
+  },
+  "hero_32017": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 15,
+      "face": 15,
+      "body": 15
+    },
+    "skin": "S_23",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "8556fa83fdc6f26acea14e3533c3628999ef78264e8f7489a706ae53fbf8402d"
+  },
+  "hero_32018": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/magic/girl/front/nvfashi/nvfashi.skel",
+    "parts": {
+      "head": 16,
+      "face": 16,
+      "body": 16
+    },
+    "skin": "S_26",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_fs_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing",
+    "sha256": "bf9334a1be459328e8b874cbf006aed58e74f79d43da19a73e0e06918aeed00c"
+  }
+}

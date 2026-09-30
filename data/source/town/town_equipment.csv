@@ -1,0 +1,3 @@
+id,building,display_name,resource_id,material_a,count_a,material_b,count_b,price,job,slot,attribute,power,quality
+forge.60201,building.10,幻影项链,operations.equip_1018001,item.30206,15,item.30306,7,63100,0,6,1,4800,2
+forge.70201,building.10,幻影戒指,operations.equip_1019004,item.30206,15,item.30306,7,63100,0,7,1,4800,2

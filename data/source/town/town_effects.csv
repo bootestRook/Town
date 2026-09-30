@@ -1,0 +1,8 @@
+id,resource_id,frames,seconds,scale,rotation,columns,rows,anchor
+bullet.1104,heroes.fx_bullet.1104,1,0.05,0.5,0,1,1,2
+bullet.1105,heroes.fx_bullet.1105,1,0.05,0.5,0,1,1,2
+bullet.2107,heroes.fx_bullet.2107,1,0.05,1,0,1,1,2
+impact.50006,heroes.fx_impact.50006,3,0.15,1,0,3,1,2
+impact.50016,heroes.fx_impact.50016,6,0.3,1,0,6,1,2
+impact.50021,heroes.fx_impact.50021,4,0.2,1,0,4,1,2
+impact.60000,heroes.fx_impact.60000,18,0.594,0.8,0,4,5,1

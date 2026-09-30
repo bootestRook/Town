@@ -1,0 +1,7 @@
+id,display_name,order,resource_id,source_task,source_id
+modes.6,首领战,1,main_ui.mode_6,1105,6
+modes.2,精灵秘境,2,main_ui.mode_2,1903,2
+modes.4,云中城试炼,3,main_ui.mode_4,3807,4
+modes.1,竞技场,4,main_ui.mode_1,2507,1
+modes.3,巨龙宝藏,5,main_ui.mode_3,3302,3
+modes.5,海底遗迹,6,main_ui.mode_5,3404,5

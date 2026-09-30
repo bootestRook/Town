@@ -1,0 +1,1923 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/main_hero_management.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/camp.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/count.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="5"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="6"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="9"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="10"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="13"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="14"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="17"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="18"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="20"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="21"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="22"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="24"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="25"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="26"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="29"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="30"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="31"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="32"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="33"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="34"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="35"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="36"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="37"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="38"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="39"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="40"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="41"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="42"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="43"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="44"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="45"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="46"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="47"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="48"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="49"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="50"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="51"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="52"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="53"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="54"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="55"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="56"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="57"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="58"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="59"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/pedestal.png" id="60"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/add.png" id="61"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="62"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="63"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/filter_selected.png" id="65"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/element_1.png" id="66"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/filter_selected.png" id="67"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/element_2.png" id="68"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/filter_selected.png" id="69"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/element_3.png" id="70"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/filter_selected.png" id="71"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/element_4.png" id="72"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/filter_selected.png" id="73"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category_selected.png" id="75"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="76"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="77"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="78"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="79"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="80"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="81"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="82"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="83"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="84"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="85"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="86"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="87"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="88"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="89"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/count.png" id="90"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="91"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="92"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="93"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/category.png" id="94"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/top.png" id="95"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/diamonds.png" id="96"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/coins.png" id="97"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/lock.png" id="98"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/bottom.png" id="99"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/nav_2.png" id="100"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/tab_1.png" id="101"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/tab_2.png" id="102"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/back.png" id="103"]
+[sub_resource type="StyleBoxFlat" id="AllFilter"]
+bg_color = Color(0.29,0.17,0.31,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.04,0.06,0.07,1)
+corner_radius_top_left = 31
+corner_radius_top_right = 31
+corner_radius_bottom_left = 31
+corner_radius_bottom_right = 31
+[sub_resource type="StyleBoxFlat" id="QuickPill"]
+bg_color = Color(0.29,0.17,0.31,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.89,0.89,0.7,1)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_left = 24
+corner_radius_bottom_right = 24
+
+[node name="HeroManagement" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+script = ExtResource("1")
+mouse_filter = 0
+clip_contents = true
+
+[node name="Base" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.039,0.09,0.105,1)
+mouse_filter = 2
+
+[node name="Formation" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 64.0
+offset_right = 720.0
+offset_bottom = 618.0
+mouse_filter = 2
+
+[node name="Background" type="TextureRect" parent="Formation"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 554.0
+texture = ExtResource("2")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="CountArt" type="TextureRect" parent="Formation"]
+offset_left = 248.0
+offset_top = 18.0
+offset_right = 472.0
+offset_bottom = 57.0
+texture = ExtResource("3")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Count" type="RichTextLabel" parent="Formation"]
+offset_left = 248.0
+offset_top = 24.0
+offset_right = 472.0
+offset_bottom = 58.0
+bbcode_enabled = true
+scroll_active = false
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 22
+
+[node name="Slot0" type="Button" parent="Formation"]
+offset_left = 14.0
+offset_top = 108.0
+offset_right = 151.0
+offset_bottom = 252.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot0"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("4")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot0"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("5")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot0"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("6")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot0"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("7")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot0"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot1" type="Button" parent="Formation"]
+offset_left = 153.0
+offset_top = 108.0
+offset_right = 290.0
+offset_bottom = 252.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot1"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("8")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot1"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("9")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot1"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("10")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot1"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("11")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot1"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot2" type="Button" parent="Formation"]
+offset_left = 292.0
+offset_top = 108.0
+offset_right = 429.0
+offset_bottom = 252.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot2"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("12")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot2"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("13")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot2"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("14")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot2"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("15")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot2"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot3" type="Button" parent="Formation"]
+offset_left = 431.0
+offset_top = 108.0
+offset_right = 568.0
+offset_bottom = 252.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot3"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("16")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot3"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("17")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot3"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("18")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot3"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("19")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot3"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot4" type="Button" parent="Formation"]
+offset_left = 570.0
+offset_top = 108.0
+offset_right = 707.0
+offset_bottom = 252.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot4"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("20")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot4"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("21")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot4"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("22")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot4"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("23")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot4"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot5" type="Button" parent="Formation"]
+offset_left = 14.0
+offset_top = 258.0
+offset_right = 151.0
+offset_bottom = 402.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot5"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("24")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot5"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("25")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot5"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("26")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot5"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("27")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot5"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot6" type="Button" parent="Formation"]
+offset_left = 153.0
+offset_top = 258.0
+offset_right = 290.0
+offset_bottom = 402.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot6"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("28")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot6"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("29")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot6"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("30")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot6"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("31")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot6"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot7" type="Button" parent="Formation"]
+offset_left = 292.0
+offset_top = 258.0
+offset_right = 429.0
+offset_bottom = 402.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot7"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("32")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot7"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("33")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot7"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("34")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot7"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("35")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot7"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot8" type="Button" parent="Formation"]
+offset_left = 431.0
+offset_top = 258.0
+offset_right = 568.0
+offset_bottom = 402.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot8"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("36")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot8"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("37")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot8"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("38")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot8"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("39")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot8"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot9" type="Button" parent="Formation"]
+offset_left = 570.0
+offset_top = 258.0
+offset_right = 707.0
+offset_bottom = 402.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot9"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("40")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot9"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("41")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot9"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("42")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot9"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("43")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot9"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot10" type="Button" parent="Formation"]
+offset_left = 14.0
+offset_top = 408.0
+offset_right = 151.0
+offset_bottom = 552.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot10"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("44")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot10"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("45")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot10"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("46")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot10"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("47")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot10"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot11" type="Button" parent="Formation"]
+offset_left = 153.0
+offset_top = 408.0
+offset_right = 290.0
+offset_bottom = 552.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot11"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("48")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot11"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("49")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot11"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("50")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot11"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("51")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot11"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot12" type="Button" parent="Formation"]
+offset_left = 292.0
+offset_top = 408.0
+offset_right = 429.0
+offset_bottom = 552.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot12"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("52")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot12"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("53")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot12"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("54")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot12"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("55")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot12"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot13" type="Button" parent="Formation"]
+offset_left = 431.0
+offset_top = 408.0
+offset_right = 568.0
+offset_bottom = 552.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot13"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("56")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot13"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("57")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot13"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("58")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot13"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("59")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot13"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Slot14" type="Button" parent="Formation"]
+offset_left = 570.0
+offset_top = 408.0
+offset_right = 707.0
+offset_bottom = 552.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Pedestal" type="TextureRect" parent="Formation/Slot14"]
+offset_left = 0.0
+offset_top = 69.0
+offset_right = 137.0
+offset_bottom = 144.0
+texture = ExtResource("60")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Add" type="TextureRect" parent="Formation/Slot14"]
+offset_left = 11.0
+offset_top = 78.0
+offset_right = 127.0
+offset_bottom = 136.0
+texture = ExtResource("61")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Formation/Slot14"]
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 117.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("62")
+
+[node name="Lock" type="TextureRect" parent="Formation/Slot14"]
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 106.0
+offset_bottom = 103.0
+texture = ExtResource("63")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="Formation/Slot14"]
+offset_left = -12.0
+offset_top = 101.0
+offset_right = 149.0
+offset_bottom = 133.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1,0.31,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Filters" type="Control" parent="."]
+offset_left = 14.0
+offset_top = 625.0
+offset_right = 706.0
+offset_bottom = 693.0
+mouse_filter = 2
+
+[node name="Filter0" type="Button" parent="Filters"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 62.0
+offset_bottom = 62.0
+flat = false
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("AllFilter")
+theme_override_styles/hover = SubResource("AllFilter")
+theme_override_styles/pressed = SubResource("AllFilter")
+
+[node name="Text" type="Label" parent="Filters/Filter0"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 62.0
+offset_bottom = 62.0
+text = "ALL"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Selected" type="TextureRect" parent="Filters/Filter0"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 63.0
+offset_bottom = 63.0
+texture = ExtResource("65")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Filter1" type="Button" parent="Filters"]
+offset_left = 82.0
+offset_top = 0.0
+offset_right = 144.0
+offset_bottom = 62.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Filters/Filter1"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 58.0
+offset_bottom = 58.0
+texture = ExtResource("66")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Selected" type="TextureRect" parent="Filters/Filter1"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 63.0
+offset_bottom = 63.0
+texture = ExtResource("67")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Filter2" type="Button" parent="Filters"]
+offset_left = 164.0
+offset_top = 0.0
+offset_right = 226.0
+offset_bottom = 62.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Filters/Filter2"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 58.0
+offset_bottom = 58.0
+texture = ExtResource("68")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Selected" type="TextureRect" parent="Filters/Filter2"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 63.0
+offset_bottom = 63.0
+texture = ExtResource("69")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Filter3" type="Button" parent="Filters"]
+offset_left = 246.0
+offset_top = 0.0
+offset_right = 308.0
+offset_bottom = 62.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Filters/Filter3"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 58.0
+offset_bottom = 58.0
+texture = ExtResource("70")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Selected" type="TextureRect" parent="Filters/Filter3"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 63.0
+offset_bottom = 63.0
+texture = ExtResource("71")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Filter4" type="Button" parent="Filters"]
+offset_left = 328.0
+offset_top = 0.0
+offset_right = 390.0
+offset_bottom = 62.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Filters/Filter4"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 58.0
+offset_bottom = 58.0
+texture = ExtResource("72")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Selected" type="TextureRect" parent="Filters/Filter4"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 63.0
+offset_bottom = 63.0
+texture = ExtResource("73")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Quick" type="Button" parent="Filters"]
+offset_left = 540.0
+offset_top = 8.0
+offset_right = 678.0
+offset_bottom = 55.0
+flat = false
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("QuickPill")
+theme_override_styles/hover = SubResource("QuickPill")
+theme_override_styles/pressed = SubResource("QuickPill")
+
+[node name="Text" type="Label" parent="Filters/Quick"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 138.0
+offset_bottom = 47.0
+text = "快捷上阵"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="FormationScroll" type="ScrollContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 14.0
+offset_top = 706.0
+offset_right = -14.0
+offset_bottom = -112.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="Grid" type="GridContainer" parent="FormationScroll"]
+mouse_filter = 2
+columns = 4
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 14
+
+[node name="Training" type="Control" parent="."]
+offset_left = 14.0
+offset_top = 76.0
+offset_right = 706.0
+offset_bottom = 287.0
+mouse_filter = 2
+
+[node name="Category0" type="Button" parent="Training"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 63.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Training/Category0"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 63.0
+texture = ExtResource("75")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Training/Category0"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 63.0
+text = "升星"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(1,0.92,0.05,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Category1" type="Button" parent="Training"]
+offset_left = 175.0
+offset_top = 0.0
+offset_right = 341.0
+offset_bottom = 63.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Training/Category1"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 63.0
+texture = ExtResource("76")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Training/Category1"]
+offset_left = 55.0
+offset_top = 4.0
+offset_right = 111.0
+offset_bottom = 60.0
+texture = ExtResource("77")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Category2" type="Button" parent="Training"]
+offset_left = 350.0
+offset_top = 0.0
+offset_right = 516.0
+offset_bottom = 63.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Training/Category2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 63.0
+texture = ExtResource("78")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Training/Category2"]
+offset_left = 55.0
+offset_top = 4.0
+offset_right = 111.0
+offset_bottom = 60.0
+texture = ExtResource("79")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Category3" type="Button" parent="Training"]
+offset_left = 525.0
+offset_top = 0.0
+offset_right = 691.0
+offset_bottom = 63.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Training/Category3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 63.0
+texture = ExtResource("80")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Training/Category3"]
+offset_left = 55.0
+offset_top = 4.0
+offset_right = 111.0
+offset_bottom = 60.0
+texture = ExtResource("81")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Category4" type="Button" parent="Training"]
+offset_left = 0.0
+offset_top = 75.0
+offset_right = 166.0
+offset_bottom = 138.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Training/Category4"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 63.0
+texture = ExtResource("82")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Training/Category4"]
+offset_left = 55.0
+offset_top = 4.0
+offset_right = 111.0
+offset_bottom = 60.0
+texture = ExtResource("83")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Category5" type="Button" parent="Training"]
+offset_left = 175.0
+offset_top = 75.0
+offset_right = 341.0
+offset_bottom = 138.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Training/Category5"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 63.0
+texture = ExtResource("84")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Training/Category5"]
+offset_left = 55.0
+offset_top = 4.0
+offset_right = 111.0
+offset_bottom = 60.0
+texture = ExtResource("85")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Category6" type="Button" parent="Training"]
+offset_left = 350.0
+offset_top = 75.0
+offset_right = 516.0
+offset_bottom = 138.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Training/Category6"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 63.0
+texture = ExtResource("86")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Training/Category6"]
+offset_left = 55.0
+offset_top = 4.0
+offset_right = 111.0
+offset_bottom = 60.0
+texture = ExtResource("87")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Category7" type="Button" parent="Training"]
+offset_left = 525.0
+offset_top = 75.0
+offset_right = 691.0
+offset_bottom = 138.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Training/Category7"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 63.0
+texture = ExtResource("88")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Training/Category7"]
+offset_left = 55.0
+offset_top = 4.0
+offset_right = 111.0
+offset_bottom = 60.0
+texture = ExtResource("89")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="CountArt" type="TextureRect" parent="Training"]
+offset_left = 3.0
+offset_top = 169.0
+offset_right = 208.0
+offset_bottom = 204.0
+texture = ExtResource("90")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Count" type="Label" parent="Training"]
+offset_left = 3.0
+offset_top = 166.0
+offset_right = 208.0
+offset_bottom = 206.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="TrainingScroll" type="ScrollContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 14.0
+offset_top = 299.0
+offset_right = -14.0
+offset_bottom = -112.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="Rows" type="VBoxContainer" parent="TrainingScroll"]
+mouse_filter = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="CatalogTitle" type="Label" parent="."]
+offset_left = 100.0
+offset_top = 78.0
+offset_right = 620.0
+offset_bottom = 114.0
+text = "全部英雄"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="CatalogScroll" type="ScrollContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 14.0
+offset_top = 117.0
+offset_right = -14.0
+offset_bottom = -188.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="Grid" type="GridContainer" parent="CatalogScroll"]
+mouse_filter = 2
+columns = 4
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 14
+
+[node name="CatalogFilters" type="Control" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -187.0
+offset_right = 720.0
+offset_bottom = -121.0
+mouse_filter = 0
+
+[node name="Category0" type="Button" parent="CatalogFilters"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 178.0
+offset_bottom = 65.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="CatalogFilters/Category0"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 178.0
+offset_bottom = 65.0
+texture = ExtResource("91")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="CatalogFilters/Category0"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 178.0
+offset_bottom = 61.0
+text = "全部英雄"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Category1" type="Button" parent="CatalogFilters"]
+offset_left = 180.0
+offset_top = 0.0
+offset_right = 358.0
+offset_bottom = 65.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="CatalogFilters/Category1"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 178.0
+offset_bottom = 65.0
+texture = ExtResource("92")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="CatalogFilters/Category1"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 178.0
+offset_bottom = 61.0
+text = "卡池"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Category2" type="Button" parent="CatalogFilters"]
+offset_left = 360.0
+offset_top = 0.0
+offset_right = 538.0
+offset_bottom = 65.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="CatalogFilters/Category2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 178.0
+offset_bottom = 65.0
+texture = ExtResource("93")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="CatalogFilters/Category2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 178.0
+offset_bottom = 61.0
+text = "特殊卡池"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Category3" type="Button" parent="CatalogFilters"]
+offset_left = 540.0
+offset_top = 0.0
+offset_right = 718.0
+offset_bottom = 65.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="CatalogFilters/Category3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 178.0
+offset_bottom = 65.0
+texture = ExtResource("94")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="CatalogFilters/Category3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 178.0
+offset_bottom = 61.0
+text = "活动"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Empty" type="Label" parent="."]
+offset_left = 150.0
+offset_top = 610.0
+offset_right = 570.0
+offset_bottom = 660.0
+text = "暂无英雄"
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Header" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 64.0
+mouse_filter = 0
+
+[node name="Art" type="TextureRect" parent="Header"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 64.0
+texture = ExtResource("95")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Diamonds" type="Button" parent="Header"]
+offset_left = 91.0
+offset_top = 12.0
+offset_right = 244.0
+offset_bottom = 54.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Header/Diamonds"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 153.0
+offset_bottom = 42.0
+texture = ExtResource("96")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Value" type="Label" parent="Header/Diamonds"]
+offset_left = 53.0
+offset_top = 0.0
+offset_right = 149.0
+offset_bottom = 41.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.77,0.83,0.82,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Coins" type="Button" parent="Header"]
+offset_left = 267.0
+offset_top = 12.0
+offset_right = 420.0
+offset_bottom = 54.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Header/Coins"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 153.0
+offset_bottom = 42.0
+texture = ExtResource("97")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Value" type="Label" parent="Header/Coins"]
+offset_left = 53.0
+offset_top = 0.0
+offset_right = 149.0
+offset_bottom = 41.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.77,0.83,0.82,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Help" type="Button" parent="Header"]
+offset_left = 10.0
+offset_top = 0.0
+offset_right = 76.0
+offset_bottom = 74.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Header/Help"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 66.0
+offset_bottom = 74.0
+texture = ExtResource("98")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Bottom" type="Control" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -108.0
+offset_right = 720.0
+mouse_filter = 0
+
+[node name="Art" type="TextureRect" parent="Bottom"]
+offset_left = 0.0
+offset_top = -22.0
+offset_right = 720.0
+offset_bottom = 108.0
+texture = ExtResource("99")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Tab0" type="TextureButton" parent="Bottom"]
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 142.0
+offset_bottom = 108.0
+texture_normal = ExtResource("100")
+ignore_texture_size = true
+stretch_mode = 0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Text" type="Label" parent="Bottom/Tab0"]
+offset_left = 0.0
+offset_top = 74.0
+offset_right = 142.0
+offset_bottom = 104.0
+text = "上阵"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.78,0.83,0.8,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tab1" type="TextureButton" parent="Bottom"]
+offset_left = 142.0
+offset_top = 4.0
+offset_right = 284.0
+offset_bottom = 108.0
+texture_normal = ExtResource("101")
+ignore_texture_size = true
+stretch_mode = 0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Text" type="Label" parent="Bottom/Tab1"]
+offset_left = 0.0
+offset_top = 74.0
+offset_right = 142.0
+offset_bottom = 104.0
+text = "培养"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.78,0.83,0.8,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tab2" type="TextureButton" parent="Bottom"]
+offset_left = 284.0
+offset_top = 4.0
+offset_right = 426.0
+offset_bottom = 108.0
+texture_normal = ExtResource("102")
+ignore_texture_size = true
+stretch_mode = 0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Text" type="Label" parent="Bottom/Tab2"]
+offset_left = 0.0
+offset_top = 74.0
+offset_right = 142.0
+offset_bottom = 104.0
+text = "图鉴"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.78,0.83,0.8,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Back" type="Button" parent="Bottom"]
+offset_left = 595.0
+offset_top = -36.0
+offset_right = 720.0
+offset_bottom = 68.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Bottom/Back"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 125.0
+offset_bottom = 104.0
+texture = ExtResource("103")
+expand_mode = 1
+mouse_filter = 2

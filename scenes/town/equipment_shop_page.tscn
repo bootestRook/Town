@@ -1,0 +1,908 @@
+; THESIS: Faithful source equipment shops, with real crafting and hero purchases.
+; OWN-WORLD: Original fantasy inked sprites, teal panels, purple banners, cream type.
+; STORY: Browse recipes, craft, manage stock, summon, trade each equipment part.
+; FIRST VIEWPORT: Chained building header above a four-column grid and four bottom tabs.
+; FORM: User-pinned source screenshots; extension of shipped weapon shop, no concept roll.
+; FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/equipment_shop_page.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/runtime/operations/font.ttf" id="2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/slider_handle.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/slider_track.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_camp/backdrop.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_camp/body.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_camp/banner.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_camp/upgrade_panel.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_camp/chain.png" id="17"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_camp/chain.png" id="18"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/upgrade.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_camp/section.png" id="20"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/tier_menu.png" id="21"]
+[ext_resource type="Texture2D" path="res://assets/runtime/battle_horn/checkbox.png" id="22"]
+[ext_resource type="Texture2D" path="res://assets/runtime/battle_horn/checked.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/capacity.png" id="24"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/resolve.png" id="25"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_camp/bottom.png" id="26"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/tab0_off.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/tab1_off.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/tab2_off.png" id="29"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/tab3_off.png" id="30"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/topbar.png" id="31"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_camp/coin_bar.png" id="32"]
+[ext_resource type="Texture2D" path="res://assets/runtime/life_ui/diamond_bar.png" id="33"]
+[ext_resource type="Texture2D" path="res://assets/runtime/life_ui/help.png" id="34"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/dialog.png" id="35"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/tier_menu.png" id="36"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/tier_menu.png" id="37"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/tier_menu.png" id="38"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/tier_menu.png" id="39"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/tier_menu.png" id="40"]
+[ext_resource type="PackedScene" path="res://scenes/town/equipment_trade.tscn" id="41"]
+[ext_resource type="PackedScene" path="res://scenes/town/equipment_dialog.tscn" id="42"]
+[sub_resource type="StyleBoxFlat" id="Track"]
+bg_color = Color(0.025,0.055,0.065,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.01,0.02,0.025,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxFlat" id="Thumb"]
+bg_color = Color(0.2,0.37,0.39,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.04,0.08,0.09,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxFlat" id="Highlight"]
+bg_color = Color(0.34,0.48,0.42,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.78,0.67,0.35,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxFlat" id="Input"]
+bg_color = Color(0.05,0.1,0.13,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.28,0.43,0.45,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxFlat" id="InputFocus"]
+bg_color = Color(0.05,0.1,0.13,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.91,0.76,0.37,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxFlat" id="ReadOnly"]
+bg_color = Color(0.045,0.07,0.085,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.15,0.22,0.24,1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+[sub_resource type="StyleBoxTexture" id="SliderTrack"]
+texture = ExtResource("4")
+texture_margin_left = 4.0
+texture_margin_right = 4.0
+texture_margin_top = 4.0
+texture_margin_bottom = 4.0
+[sub_resource type="Theme" id="WeaponTheme"]
+default_font = ExtResource("2")
+default_font_size = 24
+LineEdit/colors/font_color = Color(0.95,0.92,0.76,1)
+LineEdit/colors/font_placeholder_color = Color(0.55,0.67,0.66,1)
+LineEdit/colors/font_uneditable_color = Color(0.4,0.5,0.5,1)
+LineEdit/colors/caret_color = Color(0.95,0.83,0.49,1)
+LineEdit/colors/selection_color = Color(0.2,0.4,0.42,1)
+LineEdit/styles/normal = SubResource("Input")
+LineEdit/styles/focus = SubResource("InputFocus")
+LineEdit/styles/read_only = SubResource("ReadOnly")
+VScrollBar/styles/scroll = SubResource("Track")
+VScrollBar/styles/scroll_focus = SubResource("InputFocus")
+VScrollBar/styles/grabber = SubResource("Thumb")
+VScrollBar/styles/grabber_highlight = SubResource("Highlight")
+VScrollBar/styles/grabber_pressed = SubResource("Highlight")
+HSlider/styles/slider = SubResource("SliderTrack")
+HSlider/styles/grabber_area = SubResource("Thumb")
+HSlider/styles/grabber_area_highlight = SubResource("Highlight")
+HSlider/icons/grabber = ExtResource("3")
+HSlider/icons/grabber_highlight = ExtResource("3")
+HSlider/icons/grabber_disabled = ExtResource("3")
+
+[node name="EquipmentShop" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 750.0
+offset_bottom = 1334.0
+script = ExtResource("1")
+clip_contents = true
+theme = SubResource("WeaponTheme")
+
+[node name="Backdrop" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 60.0
+offset_right = 750.0
+offset_bottom = 500.0
+texture = ExtResource("13")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Body" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 422.0
+offset_right = 750.0
+offset_bottom = 1334.0
+texture = ExtResource("14")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Banner" type="TextureRect" parent="."]
+offset_left = 19.0
+offset_top = 97.0
+offset_right = 731.0
+offset_bottom = 301.0
+texture = ExtResource("15")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Building" type="TextureRect" parent="."]
+offset_left = 126.0
+offset_top = 123.0
+offset_right = 311.0
+offset_bottom = 277.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="."]
+offset_left = 332.0
+offset_top = 119.0
+offset_right = 662.0
+offset_bottom = 176.0
+text = "武器店 Lv.3"
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(1,0.92,0.06,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Description" type="Label" parent="."]
+offset_left = 329.0
+offset_top = 213.0
+offset_right = 696.0
+offset_bottom = 263.0
+text = "打造和售卖武器的建筑"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="UpgradePanel" type="TextureRect" parent="."]
+offset_left = 34.0
+offset_top = 321.0
+offset_right = 718.0
+offset_bottom = 437.0
+texture = ExtResource("16")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="ChainLeft" type="TextureRect" parent="."]
+offset_left = 84.0
+offset_top = 262.0
+offset_right = 113.0
+offset_bottom = 362.0
+texture = ExtResource("17")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="ChainRight" type="TextureRect" parent="."]
+offset_left = 641.0
+offset_top = 262.0
+offset_right = 670.0
+offset_bottom = 362.0
+texture = ExtResource("18")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Condition" type="RichTextLabel" parent="."]
+offset_left = 132.0
+offset_top = 357.0
+offset_right = 514.0
+offset_bottom = 404.0
+bbcode_enabled = true
+scroll_active = false
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 26
+theme_override_colors/default_color = Color(0.953, 0.953, 0.827, 1)
+theme_override_colors/font_outline_color = Color(0.01,0.025,0.03,1)
+theme_override_constants/outline_size = 3
+
+[node name="Upgrade" type="Button" parent="."]
+offset_left = 545.0
+offset_top = 361.0
+offset_right = 690.0
+offset_bottom = 413.0
+flat = true
+mouse_default_cursor_shape = 2
+focus_mode = 0
+
+[node name="Art" type="TextureRect" parent="Upgrade"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 145.0
+offset_bottom = 52.0
+texture = ExtResource("19")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Upgrade"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 145.0
+offset_bottom = 52.0
+text = "升级"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Go" type="Button" parent="."]
+offset_left = 545.0
+offset_top = 351.0
+offset_right = 690.0
+offset_bottom = 415.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Text" type="Label" parent="Go"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 145.0
+offset_bottom = 64.0
+text = "前往"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(1,0.92,0.08,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Section" type="TextureRect" parent="."]
+offset_left = 193.0
+offset_top = 465.0
+offset_right = 560.0
+offset_bottom = 527.0
+texture = ExtResource("20")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="SectionText" type="Label" parent="."]
+offset_left = 219.0
+offset_top = 477.0
+offset_right = 531.0
+offset_bottom = 517.0
+text = "可打造配方"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tier" type="Button" parent="."]
+offset_left = 27.0
+offset_top = 523.0
+offset_right = 163.0
+offset_bottom = 580.0
+flat = true
+mouse_default_cursor_shape = 2
+focus_mode = 0
+
+[node name="Art" type="TextureRect" parent="Tier"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 136.0
+offset_bottom = 57.0
+texture = ExtResource("21")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Tier"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 136.0
+offset_bottom = 57.0
+text = "一阶 ▾"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="ListMode" type="Button" parent="."]
+offset_left = 25.0
+offset_top = 525.0
+offset_right = 213.0
+offset_bottom = 580.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Box" type="TextureRect" parent="ListMode"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 50.0
+offset_bottom = 50.0
+texture = ExtResource("22")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Check" type="TextureRect" parent="ListMode"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 50.0
+offset_bottom = 50.0
+texture = ExtResource("23")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="ListMode"]
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 188.0
+offset_bottom = 55.0
+text = "列表模式"
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="CapacityPanel" type="TextureRect" parent="."]
+offset_left = 300.0
+offset_top = 536.0
+offset_right = 459.0
+offset_bottom = 574.0
+texture = ExtResource("24")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Capacity" type="Label" parent="."]
+offset_left = 285.0
+offset_top = 526.0
+offset_right = 475.0
+offset_bottom = 582.0
+text = "库存 0/300"
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Resolve" type="Button" parent="."]
+offset_left = 588.0
+offset_top = 528.0
+offset_right = 728.0
+offset_bottom = 578.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Resolve"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 140.0
+offset_bottom = 50.0
+texture = ExtResource("25")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Resolve"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 140.0
+offset_bottom = 50.0
+text = "分解"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(1,0.92,0.08,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Scroll" type="ScrollContainer" parent="."]
+offset_left = 27.0
+offset_top = 588.0
+offset_right = 726.0
+offset_bottom = 1217.0
+horizontal_scroll_mode = 0
+
+[node name="Grid" type="GridContainer" parent="Scroll"]
+layout_mode = 2
+columns = 4
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 9
+
+[node name="Heroes" type="ScrollContainer" parent="."]
+offset_left = 24.0
+offset_top = 532.0
+offset_right = 728.0
+offset_bottom = 1211.0
+horizontal_scroll_mode = 0
+
+[node name="Rows" type="VBoxContainer" parent="Heroes"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 16
+
+[node name="Bottom" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 1217.0
+offset_right = 750.0
+offset_bottom = 1334.0
+texture = ExtResource("26")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Tab0" type="Button" parent="."]
+offset_left = 2.0
+offset_top = 1225.0
+offset_right = 146.0
+offset_bottom = 1334.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Tab0"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 144.0
+offset_bottom = 109.0
+texture = ExtResource("27")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Tab0"]
+offset_left = 0.0
+offset_top = 78.0
+offset_right = 144.0
+offset_bottom = 108.0
+text = "配方"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.85,0.91,0.9,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tab1" type="Button" parent="."]
+offset_left = 148.0
+offset_top = 1225.0
+offset_right = 292.0
+offset_bottom = 1334.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Tab1"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 144.0
+offset_bottom = 109.0
+texture = ExtResource("28")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Tab1"]
+offset_left = 0.0
+offset_top = 78.0
+offset_right = 144.0
+offset_bottom = 108.0
+text = "图纸"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.85,0.91,0.9,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tab2" type="Button" parent="."]
+offset_left = 294.0
+offset_top = 1225.0
+offset_right = 438.0
+offset_bottom = 1334.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Tab2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 144.0
+offset_bottom = 109.0
+texture = ExtResource("29")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Tab2"]
+offset_left = 0.0
+offset_top = 78.0
+offset_right = 144.0
+offset_bottom = 108.0
+text = "货架"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.85,0.91,0.9,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tab3" type="Button" parent="."]
+offset_left = 440.0
+offset_top = 1225.0
+offset_right = 584.0
+offset_bottom = 1334.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Tab3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 144.0
+offset_bottom = 109.0
+texture = ExtResource("30")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Tab3"]
+offset_left = 0.0
+offset_top = 78.0
+offset_right = 144.0
+offset_bottom = 108.0
+text = "英雄"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.85,0.91,0.9,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Topbar" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 750.0
+offset_bottom = 63.0
+texture = ExtResource("31")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="GoldBar" type="TextureRect" parent="."]
+offset_left = 270.0
+offset_top = 10.0
+offset_right = 446.0
+offset_bottom = 54.0
+texture = ExtResource("32")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="GoldValue" type="Label" parent="."]
+offset_left = 313.0
+offset_top = 8.0
+offset_right = 436.0
+offset_bottom = 56.0
+text = ""
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="GoldAdd" type="Button" parent="."]
+offset_left = 270.0
+offset_top = 10.0
+offset_right = 446.0
+offset_bottom = 54.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="DiamondBar" type="TextureRect" parent="."]
+offset_left = 506.0
+offset_top = 10.0
+offset_right = 682.0
+offset_bottom = 54.0
+texture = ExtResource("33")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="DiamondValue" type="Label" parent="."]
+offset_left = 549.0
+offset_top = 8.0
+offset_right = 672.0
+offset_bottom = 56.0
+text = ""
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="DiamondAdd" type="Button" parent="."]
+offset_left = 506.0
+offset_top = 10.0
+offset_right = 682.0
+offset_bottom = 54.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Help" type="Button" parent="."]
+offset_left = 14.0
+offset_top = -5.0
+offset_right = 78.0
+offset_bottom = 87.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Help"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 64.0
+offset_bottom = 92.0
+texture = ExtResource("34")
+mouse_filter = 2
+expand_mode = 1
+
+[node name="TierMenu" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 750.0
+offset_bottom = 1334.0
+visible = false
+z_index = 3
+
+[node name="Shade" type="ColorRect" parent="TierMenu"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 750.0
+offset_bottom = 1334.0
+color = Color(0,0,0,0.72)
+mouse_filter = 2
+
+[node name="Dismiss" type="Button" parent="TierMenu"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 750.0
+offset_bottom = 1334.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Panel" type="TextureRect" parent="TierMenu"]
+offset_left = 27.0
+offset_top = 581.0
+offset_right = 192.0
+offset_bottom = 911.0
+texture = ExtResource("35")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Tier1" type="Button" parent="TierMenu"]
+offset_left = 38.0
+offset_top = 591.0
+offset_right = 180.0
+offset_bottom = 647.0
+flat = true
+mouse_default_cursor_shape = 2
+focus_mode = 0
+
+[node name="Art" type="TextureRect" parent="TierMenu/Tier1"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 142.0
+offset_bottom = 56.0
+texture = ExtResource("36")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="TierMenu/Tier1"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 142.0
+offset_bottom = 56.0
+text = "一阶"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tier2" type="Button" parent="TierMenu"]
+offset_left = 38.0
+offset_top = 652.0
+offset_right = 180.0
+offset_bottom = 708.0
+flat = true
+mouse_default_cursor_shape = 2
+focus_mode = 0
+
+[node name="Art" type="TextureRect" parent="TierMenu/Tier2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 142.0
+offset_bottom = 56.0
+texture = ExtResource("37")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="TierMenu/Tier2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 142.0
+offset_bottom = 56.0
+text = "二阶"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tier3" type="Button" parent="TierMenu"]
+offset_left = 38.0
+offset_top = 713.0
+offset_right = 180.0
+offset_bottom = 769.0
+flat = true
+mouse_default_cursor_shape = 2
+focus_mode = 0
+
+[node name="Art" type="TextureRect" parent="TierMenu/Tier3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 142.0
+offset_bottom = 56.0
+texture = ExtResource("38")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="TierMenu/Tier3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 142.0
+offset_bottom = 56.0
+text = "三阶"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tier4" type="Button" parent="TierMenu"]
+offset_left = 38.0
+offset_top = 774.0
+offset_right = 180.0
+offset_bottom = 830.0
+flat = true
+mouse_default_cursor_shape = 2
+focus_mode = 0
+
+[node name="Art" type="TextureRect" parent="TierMenu/Tier4"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 142.0
+offset_bottom = 56.0
+texture = ExtResource("39")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="TierMenu/Tier4"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 142.0
+offset_bottom = 56.0
+text = "四阶"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tier5" type="Button" parent="TierMenu"]
+offset_left = 38.0
+offset_top = 835.0
+offset_right = 180.0
+offset_bottom = 891.0
+flat = true
+mouse_default_cursor_shape = 2
+focus_mode = 0
+
+[node name="Art" type="TextureRect" parent="TierMenu/Tier5"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 142.0
+offset_bottom = 56.0
+texture = ExtResource("40")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="TierMenu/Tier5"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 142.0
+offset_bottom = 56.0
+text = "五阶"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Trade" parent="." instance=ExtResource("41")]
+visible = false
+
+[node name="Dialog" parent="." instance=ExtResource("42")]
+visible = false

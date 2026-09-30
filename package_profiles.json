@@ -1,0 +1,102 @@
+{
+  "format_version": 1,
+  "design": {
+    "stretch_mode": "canvas_items",
+    "stretch_aspect": "expand"
+  },
+  "profiles": {
+    "webapp": {
+      "platform": "Web",
+      "preset": "Web",
+      "output": "build/web/index.html",
+      "archive": "build/webapp.zip",
+      "max_archive_bytes": 100000000,
+      "resolution": {
+        "mode": "project",
+        "override": null,
+        "reason": ""
+      },
+      "canvas_resize_policy": "adaptive",
+      "vram_texture_targets": [
+        "desktop"
+      ],
+      "required_locales": [
+        "en",
+        "zh_CN"
+      ],
+      "bundled_font_files": [],
+      "test_browsers": [
+        "Chromium",
+        "Firefox"
+      ],
+      "supported_orientations": [
+        "portrait"
+      ],
+      "test_resolutions": [
+        [
+          360,
+          640
+        ],
+        [
+          750,
+          1334
+        ],
+        [
+          1080,
+          1920
+        ],
+        [
+          750,
+          1624
+        ]
+      ],
+      "confirmation": {
+        "resolution_and_mode_confirmed": false,
+        "adaptation_reviewed": false,
+        "color_parity_reviewed": false,
+        "text_and_font_reviewed": false,
+        "editor_candidate_parity_reviewed": false
+      }
+    },
+    "exe": {
+      "platform": "Windows Desktop",
+      "preset": "Windows Desktop",
+      "output": "build/windows/佣兵小镇.exe",
+      "resolution": {
+        "mode": "project",
+        "override": null,
+        "reason": ""
+      },
+      "initial_window_resolution": [
+        750,
+        1334
+      ],
+      "resizable": true,
+      "supported_orientations": [
+        "portrait"
+      ],
+      "test_resolutions": [
+        [
+          360,
+          640
+        ],
+        [
+          750,
+          1334
+        ],
+        [
+          1080,
+          1920
+        ],
+        [
+          750,
+          1624
+        ]
+      ],
+      "confirmation": {
+        "resolution_and_mode_confirmed": false,
+        "adaptation_reviewed": false
+      }
+    }
+  }
+}

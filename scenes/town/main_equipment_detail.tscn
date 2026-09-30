@@ -1,0 +1,445 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/main_equipment_detail.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_inventory/panel.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_inventory/share.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_inventory/underline.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_inventory/line.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/rank.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_inventory/star.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_inventory/star.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_inventory/buyback.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_inventory/panel.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_inventory/buyback.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_inventory/buyback.png" id="13"]
+[sub_resource type="StyleBoxFlat" id="AffixBody"]
+bg_color = Color(0.016,0.061,0.075,0.7)
+border_color = Color(0.012,0.033,0.04,1)
+border_width_left = 4
+border_width_right = 4
+border_width_top = 4
+border_width_bottom = 4
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_left = 16
+corner_radius_bottom_right = 16
+
+[node name="EquipmentDetail" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+script = ExtResource("1")
+mouse_filter = 0
+
+[node name="Shade" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0,0,0,0.76)
+mouse_filter = 2
+
+[node name="Outside" type="Button" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 0.0
+offset_bottom = 0.0
+
+[node name="Panel" type="Control" parent="."]
+offset_left = 71.0
+offset_top = 333.0
+offset_right = 649.0
+offset_bottom = 849.0
+mouse_filter = 0
+
+[node name="Art" type="TextureRect" parent="Panel"]
+offset_left = -19.0
+offset_top = -23.12264150943396
+offset_right = 597.0
+offset_bottom = 539.122641509434
+texture = ExtResource("2")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Panel"]
+offset_left = 106.0
+offset_top = 18.0
+offset_right = 472.0
+offset_bottom = 63.0
+text = ""
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Share" type="Button" parent="Panel"]
+offset_left = 451.0
+offset_top = 13.0
+offset_right = 544.0
+offset_bottom = 56.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Icon" type="TextureRect" parent="Panel/Share"]
+offset_left = 0.0
+offset_top = 3.0
+offset_right = 36.0
+offset_bottom = 39.0
+texture = ExtResource("3")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Share"]
+offset_left = 35.0
+offset_top = 0.0
+offset_right = 94.0
+offset_bottom = 39.0
+text = "分享"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.15,0.75,0.17,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Line" type="TextureRect" parent="Panel/Share"]
+offset_left = 34.0
+offset_top = 36.0
+offset_right = 88.0
+offset_bottom = 40.0
+texture = ExtResource("4")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Line" type="TextureRect" parent="Panel"]
+offset_left = 40.0
+offset_top = 68.0
+offset_right = 538.0
+offset_bottom = 72.0
+texture = ExtResource("5")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Item" type="Control" parent="Panel"]
+offset_left = 40.0
+offset_top = 89.0
+offset_right = 150.0
+offset_bottom = 199.0
+mouse_filter = 2
+
+[node name="Frame" type="TextureRect" parent="Panel/Item"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 110.0
+offset_bottom = 110.0
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Panel/Item"]
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 104.0
+offset_bottom = 104.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Rank" type="TextureRect" parent="Panel/Item"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 40.0
+offset_bottom = 27.0
+texture = ExtResource("6")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Value" type="Label" parent="Panel/Item/Rank"]
+offset_left = 4.0
+offset_top = 0.0
+offset_right = 22.0
+offset_bottom = 25.0
+text = "Ⅰ"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Star" type="TextureRect" parent="Panel/Item"]
+offset_left = 41.0
+offset_top = 84.0
+offset_right = 71.0
+offset_bottom = 112.0
+texture = ExtResource("7")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="StarTitle" type="Label" parent="Panel"]
+offset_left = 165.0
+offset_top = 97.0
+offset_right = 229.0
+offset_bottom = 142.0
+text = "星级"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Star" type="TextureRect" parent="Panel"]
+offset_left = 219.0
+offset_top = 101.0
+offset_right = 257.0
+offset_bottom = 138.0
+texture = ExtResource("8")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Attribute" type="Label" parent="Panel"]
+offset_left = 165.0
+offset_top = 143.0
+offset_right = 390.0
+offset_bottom = 188.0
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Buyback" type="Button" parent="Panel"]
+offset_left = 420.0
+offset_top = 113.0
+offset_right = 535.0
+offset_bottom = 160.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Buyback"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 115.0
+offset_bottom = 47.0
+texture = ExtResource("9")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Buyback"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 115.0
+offset_bottom = 47.0
+text = "回购装备"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="AffixBody" type="Panel" parent="Panel"]
+offset_left = 25.0
+offset_top = 225.0
+offset_right = 553.0
+offset_bottom = 405.0
+theme_override_styles/panel = SubResource("AffixBody")
+mouse_filter = 2
+
+[node name="Affixes" type="RichTextLabel" parent="Panel"]
+offset_left = 38.0
+offset_top = 241.0
+offset_right = 540.0
+offset_bottom = 389.0
+bbcode_enabled = true
+scroll_active = true
+mouse_filter = 0
+theme_override_font_sizes/normal_font_size = 25
+
+[node name="Refine" type="Button" parent="Panel"]
+offset_left = 214.0
+offset_top = 411.0
+offset_right = 364.0
+offset_bottom = 511.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Wings" type="Polygon2D" parent="Panel/Refine"]
+polygon = PackedVector2Array(0,50,34,15,116,15,150,50,116,85,34,85)
+color = Color(0.005,0.025,0.03,1)
+
+[node name="Edge" type="Polygon2D" parent="Panel/Refine"]
+polygon = PackedVector2Array(23,50,75,0,127,50,75,100)
+color = Color(0.004,0.015,0.02,1)
+
+[node name="Outer" type="Polygon2D" parent="Panel/Refine"]
+polygon = PackedVector2Array(29,50,75,6,121,50,75,94)
+color = Color(0.15,0.42,0.51,1)
+
+[node name="Inset" type="Polygon2D" parent="Panel/Refine"]
+polygon = PackedVector2Array(34,50,75,11,116,50,75,89)
+color = Color(0.025,0.11,0.15,1)
+
+[node name="Rim" type="Polygon2D" parent="Panel/Refine"]
+polygon = PackedVector2Array(39,50,75,16,111,50,75,84)
+color = Color(0.28,0.65,0.73,1)
+
+[node name="Fill" type="Polygon2D" parent="Panel/Refine"]
+polygon = PackedVector2Array(42,50,75,20,108,50,75,80)
+color = Color(0.06,0.27,0.34,1)
+
+[node name="Text" type="Label" parent="Panel/Refine"]
+offset_left = 25.0
+offset_top = 28.0
+offset_right = 125.0
+offset_bottom = 71.0
+text = "洗练"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="CloseHint" type="Label" parent="."]
+offset_left = 130.0
+offset_top = 899.0
+offset_right = 590.0
+offset_bottom = 949.0
+text = "点击空白处关闭界面"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.72,0.81,0.82,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Confirm" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 0
+visible = false
+
+[node name="Shade" type="ColorRect" parent="Confirm"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0,0,0,0.55)
+mouse_filter = 2
+
+[node name="Card" type="Control" parent="Confirm"]
+offset_left = 95.0
+offset_top = 510.0
+offset_right = 625.0
+offset_bottom = 770.0
+mouse_filter = 0
+
+[node name="Art" type="TextureRect" parent="Confirm/Card"]
+offset_left = -17.422145328719722
+offset_top = -11.650943396226415
+offset_right = 547.4221453287198
+offset_bottom = 271.6509433962264
+texture = ExtResource("11")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Confirm/Card"]
+offset_left = 26.0
+offset_top = 24.0
+offset_right = 504.0
+offset_bottom = 140.0
+text = ""
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="Cancel" type="Button" parent="Confirm/Card"]
+offset_left = 42.0
+offset_top = 169.0
+offset_right = 238.0
+offset_bottom = 224.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Confirm/Card/Cancel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 196.0
+offset_bottom = 55.0
+texture = ExtResource("12")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Confirm/Card/Cancel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 196.0
+offset_bottom = 55.0
+text = "取消"
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Accept" type="Button" parent="Confirm/Card"]
+offset_left = 292.0
+offset_top = 169.0
+offset_right = 488.0
+offset_bottom = 224.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Confirm/Card/Accept"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 196.0
+offset_bottom = 55.0
+texture = ExtResource("13")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Confirm/Card/Accept"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 196.0
+offset_bottom = 55.0
+text = "确认回购"
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2

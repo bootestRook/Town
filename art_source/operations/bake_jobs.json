@@ -1,0 +1,34 @@
+[
+  {
+    "name": "hospital",
+    "skeleton": "art_source/operations/spine/hospital/yiyuan.json",
+    "animation": "idle",
+    "width": 512,
+    "height": 640,
+    "frames": 8
+  },
+  {
+    "name": "canteen",
+    "skeleton": "art_source/operations/spine/canteen/canting.json",
+    "animation": "idle",
+    "width": 512,
+    "height": 640,
+    "frames": 8
+  },
+  {
+    "name": "hotel",
+    "skeleton": "art_source/operations/spine/hotel/lvdian.json",
+    "animation": "idle",
+    "width": 512,
+    "height": 640,
+    "frames": 8
+  },
+  {
+    "name": "bar",
+    "skeleton": "art_source/operations/spine/bar/jiuguan.json",
+    "animation": "idle",
+    "width": 512,
+    "height": 640,
+    "frames": 8
+  }
+]

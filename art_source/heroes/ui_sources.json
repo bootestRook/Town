@@ -1,0 +1,27 @@
+{
+  "health_track": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/1c7cabb8-b2c8-412f-b001-ba3fdb59be30.png",
+    "sha256": "3ac53c95a151aadd717bdc6933ec6e247648c60b3b48b63cb1dbd1ce620a3a59",
+    "uuid": "1c7cabb8-b2c8-412f-b001-ba3fdb59be30"
+  },
+  "monster_health_track": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/e341e0f5-4a57-4d75-89b6-42b88a23d649.png",
+    "sha256": "1e868785fdd494e240460ff5a2c3acb4b83241bb4443c3098d827dce928f4892",
+    "uuid": "e341e0f5-4a57-4d75-89b6-42b88a23d649"
+  },
+  "health_fill": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/ea139d5a-1ba9-4fe4-b5bf-a487d44226a7.png",
+    "sha256": "77387dbd05e2c1b7df13c9a11faa8b26e5074c555c4af5aa599f602517844608",
+    "uuid": "ea139d5a-1ba9-4fe4-b5bf-a487d44226a7"
+  },
+  "level_badge": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/eb149b61-e545-4f73-bd86-333f2765bec6.png",
+    "sha256": "0ba64bd1970d1e353e6120c94bb813edb401a3feded981660f302c68e735e659",
+    "uuid": "eb149b61-e545-4f73-bd86-333f2765bec6"
+  },
+  "hero_shadow": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/1395faa3-3d25-44ad-8d00-061daaa8e220.png",
+    "sha256": "a6a65e3eca2065c71aa2c033e6a7d7fd0b3262302949b4c7d6a5a41055a91b28",
+    "uuid": "1395faa3-3d25-44ad-8d00-061daaa8e220"
+  }
+}

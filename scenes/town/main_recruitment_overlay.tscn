@@ -1,0 +1,1437 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/main_recruitment_overlay.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/runtime/operations/font.ttf" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/dialog.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/divider.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/purple.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/video.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/orange.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/diamond_icon.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/refresh_reference.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/confirm_reference.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/check.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/purple.png" id="17"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/orange.png" id="18"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/quality_5.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/ticket.png" id="20"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/minus.png" id="21"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/plus.png" id="22"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/cost.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/refresh.png" id="24"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/refresh.png" id="25"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/refresh.png" id="26"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/diamond_icon.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/orange.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/quality_5.png" id="29"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="30"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/job_1.png" id="31"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/element_3.png" id="32"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/check.png" id="33"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/refresh_reference.png" id="34"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/platform.png" id="36"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/house.png" id="37"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/glow.png" id="38"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/column_4_0.png" id="39"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="40"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/house.png" id="41"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/glow.png" id="42"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/column_4_0.png" id="43"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="44"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/house.png" id="45"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/glow.png" id="46"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/column_4_0.png" id="47"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="48"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/beam.png" id="49"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/beam.png" id="50"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/beam.png" id="51"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/rays.png" id="52"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/result_body.png" id="53"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="54"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/job_1.png" id="55"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/element_1.png" id="56"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/bar_empty.png" id="57"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/bar_fill.png" id="58"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/fragment.png" id="59"]
+[sub_resource type="StyleBoxFlat" id="WishFrame"]
+bg_color = Color(0.046,0.112,0.14,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.005,0.016,0.021,1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_left = 16
+corner_radius_bottom_right = 16
+[sub_resource type="StyleBoxFlat" id="WishStatus"]
+bg_color = Color(0.046,0.112,0.14,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.005,0.016,0.021,1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_left = 20
+corner_radius_bottom_right = 20
+[sub_resource type="FontVariation" id="ResultBold"]
+base_font = ExtResource("4")
+variation_embolden = 0.22
+[sub_resource type="AtlasTexture" id="Region12"]
+atlas = ExtResource("12")
+region = Rect2(250,1134,440,164)
+[sub_resource type="AtlasTexture" id="Region14"]
+atlas = ExtResource("14")
+region = Rect2(144,848,78,72)
+[sub_resource type="AtlasTexture" id="Region34"]
+atlas = ExtResource("34")
+region = Rect2(250,1134,440,164)
+
+[node name="RecruitOverlay" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+script = ExtResource("1")
+mouse_filter = 0
+
+[node name="Shade" type="Button" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Tint" type="ColorRect" parent="Shade"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0,0,0,0.76)
+mouse_filter = 2
+
+[node name="Panel" type="Control" parent="."]
+offset_left = 20.0
+offset_top = 365.0
+offset_right = 700.0
+offset_bottom = 895.0
+mouse_filter = 0
+
+[node name="Frame" type="NinePatchRect" parent="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 530.0
+texture = ExtResource("6")
+patch_margin_left = 80
+patch_margin_top = 128
+patch_margin_right = 80
+patch_margin_bottom = 65
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Panel"]
+offset_left = 161.0
+offset_top = 37.0
+offset_right = 519.0
+offset_bottom = 87.0
+text = ""
+theme_override_font_sizes/font_size = 29
+theme_override_colors/font_color = Color(1,0.9,0.02,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Help" type="Control" parent="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 530.0
+visible = false
+mouse_filter = 2
+
+[node name="Refresh" type="Control" parent="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 530.0
+visible = false
+mouse_filter = 2
+
+[node name="Finish" type="Control" parent="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 530.0
+visible = false
+mouse_filter = 2
+
+[node name="Purchase" type="Control" parent="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 530.0
+visible = false
+mouse_filter = 2
+
+[node name="Wish" type="Control" parent="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 530.0
+visible = false
+mouse_filter = 2
+
+[node name="Probability" type="Control" parent="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 530.0
+visible = false
+mouse_filter = 2
+
+[node name="Dragon" type="Control" parent="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 530.0
+visible = false
+mouse_filter = 2
+
+[node name="Privilege" type="Control" parent="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 530.0
+visible = false
+mouse_filter = 2
+
+[node name="Scroll" type="ScrollContainer" parent="Panel/Help"]
+offset_left = 89.0
+offset_top = 130.0
+offset_right = 590.0
+offset_bottom = 475.0
+horizontal_scroll_mode = 0
+
+[node name="Text" type="Label" parent="Panel/Help/Scroll"]
+custom_minimum_size = Vector2(475,0)
+size_flags_horizontal = 3
+autowrap_mode = 2
+theme_override_font_sizes/font_size = 24
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Refresh"]
+offset_left = 87.0
+offset_top = 169.0
+offset_right = 593.0
+offset_bottom = 271.0
+text = "刷新后，将为您重新更换三名英雄"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="Divider" type="TextureRect" parent="Panel/Refresh"]
+offset_left = 109.0
+offset_top = 340.0
+offset_right = 569.0
+offset_bottom = 380.0
+texture = ExtResource("7")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Count" type="Label" parent="Panel/Refresh"]
+offset_left = 117.0
+offset_top = 356.0
+offset_right = 319.0
+offset_bottom = 395.0
+text = ""
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Free" type="Button" parent="Panel/Refresh"]
+offset_left = 91.0
+offset_top = 397.0
+offset_right = 291.0
+offset_bottom = 465.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Refresh/Free"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+texture = ExtResource("8")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Refresh/Free"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 192.0
+offset_bottom = 68.0
+text = "免费刷新"
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Video" type="TextureRect" parent="Panel/Refresh/Free"]
+offset_left = -8.0
+offset_top = -14.0
+offset_right = 36.0
+offset_bottom = 30.0
+texture = ExtResource("9")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Paid" type="Button" parent="Panel/Refresh"]
+offset_left = 389.0
+offset_top = 397.0
+offset_right = 589.0
+offset_bottom = 465.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Refresh/Paid"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+texture = ExtResource("10")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Refresh/Paid"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 192.0
+offset_bottom = 68.0
+text = ""
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Panel/Refresh/Paid"]
+offset_left = 55.0
+offset_top = 14.0
+offset_right = 98.0
+offset_bottom = 54.0
+texture = ExtResource("11")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Cost" type="Label" parent="Panel/Refresh/Paid"]
+offset_left = 105.0
+offset_top = 8.0
+offset_right = 175.0
+offset_bottom = 58.0
+text = "50"
+theme_override_font_sizes/font_size = 29
+theme_override_colors/font_color = Color(1,0.91,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Privilege" type="Button" parent="Panel/Refresh"]
+offset_left = 193.0
+offset_top = 550.0
+offset_right = 573.0
+offset_bottom = 689.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Banner" type="Control" parent="Panel/Refresh/Privilege"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 380.0
+offset_bottom = 139.0
+mouse_filter = 2
+
+[node name="Outline" type="Polygon2D" parent="Panel/Refresh/Privilege/Banner"]
+polygon = PackedVector2Array(5.182,40.683,17.273,28.817,254.773,28.817,259.091,22.037,270.318,11.866,286.727,5.085,307.455,3.39,328.182,5.933,345.455,13.561,362.727,25.427,373.955,38.988,377.409,52.549,373.955,64.415,364.455,77.128,349.773,86.451,332.5,92.384,312.636,93.232,290.182,89.841,270.318,80.518,267.727,93.232,262.545,95.774,267.727,102.555,263.409,108.488,268.591,114.421,268.591,129.677,5.182,129.677)
+clip_children = 1
+antialiased = true
+
+[node name="Art" type="TextureRect" parent="Panel/Refresh/Privilege/Banner/Outline"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 380.0
+offset_bottom = 139.0
+texture = SubResource("Region12")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Finish"]
+offset_left = 89.0
+offset_top = 155.0
+offset_right = 591.0
+offset_bottom = 267.0
+text = "结束后将会更换三名新的英雄,当前未招募的英雄将会离开,确定要结束本次招募吗?"
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="Remember" type="Button" parent="Panel/Finish"]
+offset_left = 95.0
+offset_top = 291.0
+offset_right = 555.0
+offset_bottom = 357.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Box" type="TextureRect" parent="Panel/Finish/Remember"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 67.0
+offset_bottom = 62.0
+texture = SubResource("Region14")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Check" type="TextureRect" parent="Panel/Finish/Remember"]
+offset_left = 9.0
+offset_top = 5.0
+offset_right = 53.0
+offset_bottom = 49.0
+texture = ExtResource("16")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Finish/Remember"]
+offset_left = 77.0
+offset_top = 0.0
+offset_right = 450.0
+offset_bottom = 59.0
+text = "今日不再提醒"
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Cancel" type="Button" parent="Panel/Finish"]
+offset_left = 89.0
+offset_top = 395.0
+offset_right = 300.0
+offset_bottom = 463.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Finish/Cancel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 211.0
+offset_bottom = 68.0
+texture = ExtResource("17")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Finish/Cancel"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 203.0
+offset_bottom = 68.0
+text = "取消"
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Accept" type="Button" parent="Panel/Finish"]
+offset_left = 382.0
+offset_top = 395.0
+offset_right = 593.0
+offset_bottom = 463.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Finish/Accept"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 211.0
+offset_bottom = 68.0
+texture = ExtResource("18")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Finish/Accept"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 203.0
+offset_bottom = 68.0
+text = "确定"
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="ItemFrame" type="TextureRect" parent="Panel/Purchase"]
+offset_left = 75.0
+offset_top = 112.0
+offset_right = 187.0
+offset_bottom = 224.0
+texture = ExtResource("19")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Item" type="TextureRect" parent="Panel/Purchase"]
+offset_left = 75.0
+offset_top = 112.0
+offset_right = 187.0
+offset_bottom = 224.0
+texture = ExtResource("20")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Name" type="Label" parent="Panel/Purchase"]
+offset_left = 202.0
+offset_top = 110.0
+offset_right = 591.0
+offset_bottom = 152.0
+text = "英雄招募卷轴"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Desc" type="Label" parent="Panel/Purchase"]
+offset_left = 202.0
+offset_top = 155.0
+offset_right = 591.0
+offset_bottom = 245.0
+text = "用于招募英雄,可通过挑战BOSS、地下城等渠道获得。"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="QuantityTitle" type="Label" parent="Panel/Purchase"]
+offset_left = 222.0
+offset_top = 268.0
+offset_right = 457.0
+offset_bottom = 312.0
+text = "购买数量"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Minus" type="Button" parent="Panel/Purchase"]
+offset_left = 142.0
+offset_top = 331.0
+offset_right = 203.0
+offset_bottom = 392.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Purchase/Minus"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 61.0
+offset_bottom = 61.0
+texture = ExtResource("21")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Purchase/Minus"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 53.0
+offset_bottom = 61.0
+text = ""
+theme_override_font_sizes/font_size = 36
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Plus" type="Button" parent="Panel/Purchase"]
+offset_left = 477.0
+offset_top = 331.0
+offset_right = 538.0
+offset_bottom = 392.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Purchase/Plus"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 61.0
+offset_bottom = 61.0
+texture = ExtResource("22")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Purchase/Plus"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 53.0
+offset_bottom = 61.0
+text = ""
+theme_override_font_sizes/font_size = 36
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="CountBg" type="TextureRect" parent="Panel/Purchase"]
+offset_left = 232.0
+offset_top = 337.0
+offset_right = 448.0
+offset_bottom = 381.0
+texture = ExtResource("23")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Count" type="Label" parent="Panel/Purchase"]
+offset_left = 232.0
+offset_top = 326.0
+offset_right = 448.0
+offset_bottom = 387.0
+text = "1"
+theme_override_font_sizes/font_size = 31
+theme_override_colors/font_color = Color(0.2,0.85,0.2,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Reset" type="Button" parent="Panel/Purchase"]
+offset_left = 93.0
+offset_top = 451.0
+offset_right = 231.0
+offset_bottom = 501.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Purchase/Reset"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 138.0
+offset_bottom = 50.0
+texture = ExtResource("24")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Purchase/Reset"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 130.0
+offset_bottom = 50.0
+text = "重置"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Ten" type="Button" parent="Panel/Purchase"]
+offset_left = 270.0
+offset_top = 451.0
+offset_right = 408.0
+offset_bottom = 501.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Purchase/Ten"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 138.0
+offset_bottom = 50.0
+texture = ExtResource("25")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Purchase/Ten"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 130.0
+offset_bottom = 50.0
+text = "+10"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Hundred" type="Button" parent="Panel/Purchase"]
+offset_left = 447.0
+offset_top = 451.0
+offset_right = 585.0
+offset_bottom = 501.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Purchase/Hundred"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 138.0
+offset_bottom = 50.0
+texture = ExtResource("26")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Purchase/Hundred"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 130.0
+offset_bottom = 50.0
+text = "+100"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="CostTitle" type="Label" parent="Panel/Purchase"]
+offset_left = 208.0
+offset_top = 549.0
+offset_right = 306.0
+offset_bottom = 592.0
+text = "消耗:"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Diamond" type="TextureRect" parent="Panel/Purchase"]
+offset_left = 324.0
+offset_top = 553.0
+offset_right = 367.0
+offset_bottom = 592.0
+texture = ExtResource("27")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Cost" type="Label" parent="Panel/Purchase"]
+offset_left = 381.0
+offset_top = 549.0
+offset_right = 536.0
+offset_bottom = 592.0
+text = "100"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Limit" type="Label" parent="Panel/Purchase"]
+offset_left = 76.0
+offset_top = 634.0
+offset_right = 223.0
+offset_bottom = 684.0
+text = "限购：∞"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Buy" type="Button" parent="Panel/Purchase"]
+offset_left = 240.0
+offset_top = 616.0
+offset_right = 440.0
+offset_bottom = 684.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Purchase/Buy"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+texture = ExtResource("28")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Purchase/Buy"]
+offset_left = 8.0
+offset_top = 0.0
+offset_right = 192.0
+offset_bottom = 68.0
+text = "购买"
+theme_override_font_sizes/font_size = 30
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Wish"]
+offset_left = 81.0
+offset_top = 119.0
+offset_right = 599.0
+offset_bottom = 194.0
+text = "勾选的心愿英雄，将会提升出现概率!"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="Card" type="Button" parent="Panel/Wish"]
+offset_left = 71.0
+offset_top = 206.0
+offset_right = 248.0
+offset_bottom = 418.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Outer" type="Panel" parent="Panel/Wish/Card"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 177.0
+offset_bottom = 198.0
+theme_override_styles/panel = SubResource("WishFrame")
+mouse_filter = 2
+
+[node name="Frame" type="TextureRect" parent="Panel/Wish/Card"]
+offset_left = 25.0
+offset_top = 14.0
+offset_right = 149.0
+offset_bottom = 169.0
+texture = ExtResource("29")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Panel/Wish/Card"]
+offset_left = 28.0
+offset_top = 21.0
+offset_right = 146.0
+offset_bottom = 166.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("30")
+
+[node name="Name" type="Label" parent="Panel/Wish/Card"]
+offset_left = 43.0
+offset_top = 16.0
+offset_right = 131.0
+offset_bottom = 41.0
+text = ""
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.2,0.86,0.25,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Job" type="TextureRect" parent="Panel/Wish/Card"]
+offset_left = 28.0
+offset_top = 20.0
+offset_right = 55.0
+offset_bottom = 46.0
+texture = ExtResource("31")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Element" type="TextureRect" parent="Panel/Wish/Card"]
+offset_left = 123.0
+offset_top = 16.0
+offset_right = 150.0
+offset_bottom = 43.0
+texture = ExtResource("32")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Star0" type="TextureRect" parent="Panel/Wish/Card"]
+offset_left = 30.0
+offset_top = 140.0
+offset_right = 60.0
+offset_bottom = 170.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Star1" type="TextureRect" parent="Panel/Wish/Card"]
+offset_left = 59.0
+offset_top = 140.0
+offset_right = 89.0
+offset_bottom = 170.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Star2" type="TextureRect" parent="Panel/Wish/Card"]
+offset_left = 88.0
+offset_top = 140.0
+offset_right = 118.0
+offset_bottom = 170.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Star3" type="TextureRect" parent="Panel/Wish/Card"]
+offset_left = 117.0
+offset_top = 140.0
+offset_right = 147.0
+offset_bottom = 170.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="StatusFrame" type="Panel" parent="Panel/Wish/Card"]
+offset_left = 26.0
+offset_top = 176.0
+offset_right = 165.0
+offset_bottom = 213.0
+theme_override_styles/panel = SubResource("WishStatus")
+mouse_filter = 2
+
+[node name="Status" type="Label" parent="Panel/Wish/Card"]
+offset_left = 22.0
+offset_top = 176.0
+offset_right = 169.0
+offset_bottom = 213.0
+text = "获得后解锁"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(1,0.08,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Check" type="TextureRect" parent="Panel/Wish/Card"]
+offset_left = 122.0
+offset_top = 126.0
+offset_right = 170.0
+offset_bottom = 174.0
+texture = ExtResource("33")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Probability"]
+offset_left = 80.0
+offset_top = 132.0
+offset_right = 600.0
+offset_bottom = 468.0
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="Text" type="Label" parent="Panel/Dragon"]
+offset_left = 90.0
+offset_top = 175.0
+offset_right = 590.0
+offset_bottom = 365.0
+text = "龙魂技能未解锁"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="Banner" type="Control" parent="Panel/Privilege"]
+offset_left = 151.0
+offset_top = 140.0
+offset_right = 531.0
+offset_bottom = 279.0
+mouse_filter = 2
+
+[node name="Outline" type="Polygon2D" parent="Panel/Privilege/Banner"]
+polygon = PackedVector2Array(5.182,40.683,17.273,28.817,254.773,28.817,259.091,22.037,270.318,11.866,286.727,5.085,307.455,3.39,328.182,5.933,345.455,13.561,362.727,25.427,373.955,38.988,377.409,52.549,373.955,64.415,364.455,77.128,349.773,86.451,332.5,92.384,312.636,93.232,290.182,89.841,270.318,80.518,267.727,93.232,262.545,95.774,267.727,102.555,263.409,108.488,268.591,114.421,268.591,129.677,5.182,129.677)
+clip_children = 1
+antialiased = true
+
+[node name="Art" type="TextureRect" parent="Panel/Privilege/Banner/Outline"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 380.0
+offset_bottom = 139.0
+texture = SubResource("Region34")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Privilege"]
+offset_left = 80.0
+offset_top = 319.0
+offset_right = 600.0
+offset_bottom = 455.0
+text = "免广告特权\n每日赠送英雄招募卷轴×10"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="CloseTip" type="Label" parent="."]
+offset_left = 110.0
+offset_top = 1105.0
+offset_right = 610.0
+offset_bottom = 1155.0
+text = "点击空白处关闭界面"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.75,0.83,0.84,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Animation" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 250.0
+offset_right = 720.0
+offset_bottom = 980.0
+visible = false
+mouse_filter = 2
+
+[node name="Platform" type="TextureRect" parent="Animation"]
+offset_left = -22.0
+offset_top = 550.0
+offset_right = 741.0
+offset_bottom = 764.0
+texture = ExtResource("36")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Door0" type="Control" parent="Animation"]
+offset_left = 0.0
+offset_top = 220.0
+offset_right = 300.0
+offset_bottom = 660.0
+mouse_filter = 2
+
+[node name="House" type="TextureRect" parent="Animation/Door0"]
+offset_left = -72.0
+offset_top = -53.0
+offset_right = 372.0
+offset_bottom = 408.0
+texture = ExtResource("37")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Glow" type="TextureRect" parent="Animation/Door0"]
+offset_left = -15.0
+offset_top = 55.0
+offset_right = 270.0
+offset_bottom = 380.0
+texture = ExtResource("38")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Column" type="TextureRect" parent="Animation/Door0"]
+offset_left = 72.0
+offset_top = -203.0
+offset_right = 185.0
+offset_bottom = 284.0
+texture = ExtResource("39")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Animation/Door0"]
+offset_left = 29.0
+offset_top = 105.0
+offset_right = 219.0
+offset_bottom = 295.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("40")
+
+[node name="Door1" type="Control" parent="Animation"]
+offset_left = 210.0
+offset_top = 220.0
+offset_right = 510.0
+offset_bottom = 660.0
+mouse_filter = 2
+
+[node name="House" type="TextureRect" parent="Animation/Door1"]
+offset_left = -72.0
+offset_top = -53.0
+offset_right = 372.0
+offset_bottom = 408.0
+texture = ExtResource("41")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Glow" type="TextureRect" parent="Animation/Door1"]
+offset_left = -15.0
+offset_top = 55.0
+offset_right = 270.0
+offset_bottom = 380.0
+texture = ExtResource("42")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Column" type="TextureRect" parent="Animation/Door1"]
+offset_left = 72.0
+offset_top = -203.0
+offset_right = 185.0
+offset_bottom = 284.0
+texture = ExtResource("43")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Animation/Door1"]
+offset_left = 29.0
+offset_top = 105.0
+offset_right = 219.0
+offset_bottom = 295.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("44")
+
+[node name="Door2" type="Control" parent="Animation"]
+offset_left = 420.0
+offset_top = 220.0
+offset_right = 720.0
+offset_bottom = 660.0
+mouse_filter = 2
+
+[node name="House" type="TextureRect" parent="Animation/Door2"]
+offset_left = -72.0
+offset_top = -53.0
+offset_right = 372.0
+offset_bottom = 408.0
+texture = ExtResource("45")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Glow" type="TextureRect" parent="Animation/Door2"]
+offset_left = -15.0
+offset_top = 55.0
+offset_right = 270.0
+offset_bottom = 380.0
+texture = ExtResource("46")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Column" type="TextureRect" parent="Animation/Door2"]
+offset_left = 72.0
+offset_top = -203.0
+offset_right = 185.0
+offset_bottom = 284.0
+texture = ExtResource("47")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="Animation/Door2"]
+offset_left = 29.0
+offset_top = 105.0
+offset_right = 219.0
+offset_bottom = 295.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("48")
+
+[node name="Beam0" type="TextureRect" parent="Animation"]
+offset_left = 36.0
+offset_top = -285.0
+offset_right = 266.0
+offset_bottom = 555.0
+texture = ExtResource("49")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Beam1" type="TextureRect" parent="Animation"]
+offset_left = 248.0
+offset_top = -285.0
+offset_right = 478.0
+offset_bottom = 555.0
+texture = ExtResource("50")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Beam2" type="TextureRect" parent="Animation"]
+offset_left = 465.0
+offset_top = -285.0
+offset_right = 695.0
+offset_bottom = 555.0
+texture = ExtResource("51")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Result" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 430.0
+offset_right = 720.0
+offset_bottom = 890.0
+visible = false
+mouse_filter = 0
+
+[node name="Rays" type="TextureRect" parent="Result"]
+offset_left = 117.0
+offset_top = -248.0
+offset_right = 603.0
+offset_bottom = 232.0
+texture = ExtResource("52")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Base" type="ColorRect" parent="Result"]
+offset_left = 0.0
+offset_top = 12.0
+offset_right = 720.0
+offset_bottom = 462.0
+color = Color(0.036,0.13,0.16,1)
+mouse_filter = 2
+
+[node name="Body" type="TextureRect" parent="Result"]
+offset_left = 0.0
+offset_top = 105.0
+offset_right = 720.0
+offset_bottom = 418.0
+texture = ExtResource("53")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Ribbon" type="TextureRect" parent="Result"]
+offset_left = -124.0
+offset_top = -131.0
+offset_right = 844.0
+offset_bottom = 150.0
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Result"]
+offset_left = 175.0
+offset_top = -9.0
+offset_right = 545.0
+offset_bottom = 75.0
+text = "招募成功"
+theme_override_font_sizes/font_size = 52
+theme_override_colors/font_color = Color(1,0.91,0,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 7
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+theme_override_fonts/font = SubResource("ResultBold")
+
+[node name="Portrait" type="TextureRect" parent="Result"]
+offset_left = 84.0
+offset_top = 126.0
+offset_right = 305.0
+offset_bottom = 383.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("54")
+
+[node name="Name" type="Label" parent="Result"]
+offset_left = 358.0
+offset_top = 129.0
+offset_right = 592.0
+offset_bottom = 175.0
+text = ""
+theme_override_font_sizes/font_size = 29
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Job" type="TextureRect" parent="Result"]
+offset_left = 359.0
+offset_top = 180.0
+offset_right = 434.0
+offset_bottom = 255.0
+texture = ExtResource("55")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Element" type="TextureRect" parent="Result"]
+offset_left = 457.0
+offset_top = 180.0
+offset_right = 532.0
+offset_bottom = 255.0
+texture = ExtResource("56")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Star0" type="TextureRect" parent="Result"]
+offset_left = 378.0
+offset_top = 265.0
+offset_right = 428.0
+offset_bottom = 315.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Star1" type="TextureRect" parent="Result"]
+offset_left = 428.0
+offset_top = 265.0
+offset_right = 478.0
+offset_bottom = 315.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Star2" type="TextureRect" parent="Result"]
+offset_left = 478.0
+offset_top = 265.0
+offset_right = 528.0
+offset_bottom = 315.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Star3" type="TextureRect" parent="Result"]
+offset_left = 528.0
+offset_top = 265.0
+offset_right = 578.0
+offset_bottom = 315.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Progress" type="TextureProgressBar" parent="Result"]
+offset_left = 337.0
+offset_top = 336.0
+offset_right = 587.0
+offset_bottom = 365.0
+texture_under = ExtResource("57")
+texture_progress = ExtResource("58")
+nine_patch_stretch = true
+mouse_filter = 2
+
+[node name="Fragment" type="TextureRect" parent="Result"]
+offset_left = 291.0
+offset_top = 319.0
+offset_right = 351.0
+offset_bottom = 382.0
+texture = ExtResource("59")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Value" type="Label" parent="Result"]
+offset_left = 340.0
+offset_top = 325.0
+offset_right = 584.0
+offset_bottom = 372.0
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Add" type="Label" parent="Result"]
+offset_left = 590.0
+offset_top = 325.0
+offset_right = 703.0
+offset_bottom = 372.0
+text = ""
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.17,0.88,0.18,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="New" type="Label" parent="Result"]
+offset_left = 329.0
+offset_top = 327.0
+offset_right = 607.0
+offset_bottom = 379.0
+text = "获得新英雄"
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.17,0.88,0.18,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2

@@ -1,0 +1,7 @@
+id,display_name,diamonds,price,source_id,first_bonus,resource_id,background_id
+shop.1,钻石60,60,6,1,60,diamond_shop.gem_1,diamond_shop.card_1
+shop.2,钻石300,300,30,2,300,diamond_shop.gem_2,diamond_shop.card_2
+shop.3,钻石980,980,98,3,980,diamond_shop.gem_3,diamond_shop.card_3
+shop.4,钻石1980,1980,198,4,1980,diamond_shop.gem_4,diamond_shop.card_4
+shop.5,钻石3280,3280,328,5,3280,diamond_shop.gem_5,diamond_shop.card_5
+shop.6,钻石6480,6480,648,6,6480,diamond_shop.gem_6,diamond_shop.card_6

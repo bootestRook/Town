@@ -1,0 +1,390 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/main_hero_training_row.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/training_row.png" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/town/main_hero_library_card.tscn" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/deployed.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_frame.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_level.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_lock.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_frame.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_level.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_lock.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_frame.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_level.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_lock.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_frame.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_level.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_lock.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/count.png" id="17"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/upgrade.png" id="18"]
+
+[node name="TrainingRow" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 692.0
+offset_bottom = 180.0
+script = ExtResource("1")
+custom_minimum_size = Vector2(692,180)
+mouse_filter = 2
+
+[node name="Art" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 692.0
+offset_bottom = 180.0
+texture = ExtResource("2")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Card" parent="." instance=ExtResource("3")]
+offset_left = 12.0
+offset_top = 11.0
+offset_right = 177.0
+offset_bottom = 213.0
+scale = Vector2(0.78,0.78)
+
+[node name="Deployed" type="Control" parent="."]
+offset_left = 158.0
+offset_top = 9.0
+offset_right = 400.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Deployed"]
+offset_left = 0.0
+offset_top = 3.0
+offset_right = 25.0
+offset_bottom = 28.0
+texture = ExtResource("4")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Deployed"]
+offset_left = 33.0
+offset_top = 0.0
+offset_right = 242.0
+offset_bottom = 31.0
+text = "已上阵"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.13,1,0.13,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Skill0" type="Button" parent="."]
+offset_left = 169.0
+offset_top = 69.0
+offset_right = 240.0
+offset_bottom = 140.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+mouse_filter = 1
+
+[node name="Art" type="TextureRect" parent="Skill0"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 71.0
+offset_bottom = 71.0
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Frame" type="TextureRect" parent="Skill0"]
+offset_left = -3.0
+offset_top = -3.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Corner" type="TextureRect" parent="Skill0"]
+offset_left = 46.0
+offset_top = -2.0
+offset_right = 73.0
+offset_bottom = 24.0
+texture = ExtResource("6")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Level" type="Label" parent="Skill0"]
+offset_left = 46.0
+offset_top = -2.0
+offset_right = 73.0
+offset_bottom = 26.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Skill0"]
+offset_left = 9.0
+offset_top = 9.0
+offset_right = 62.0
+offset_bottom = 62.0
+texture = ExtResource("7")
+expand_mode = 1
+mouse_filter = 2
+visible = false
+
+[node name="Skill1" type="Button" parent="."]
+offset_left = 254.0
+offset_top = 69.0
+offset_right = 325.0
+offset_bottom = 140.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+mouse_filter = 1
+
+[node name="Art" type="TextureRect" parent="Skill1"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 71.0
+offset_bottom = 71.0
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Frame" type="TextureRect" parent="Skill1"]
+offset_left = -3.0
+offset_top = -3.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("8")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Corner" type="TextureRect" parent="Skill1"]
+offset_left = 46.0
+offset_top = -2.0
+offset_right = 73.0
+offset_bottom = 24.0
+texture = ExtResource("9")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Level" type="Label" parent="Skill1"]
+offset_left = 46.0
+offset_top = -2.0
+offset_right = 73.0
+offset_bottom = 26.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Skill1"]
+offset_left = 9.0
+offset_top = 9.0
+offset_right = 62.0
+offset_bottom = 62.0
+texture = ExtResource("10")
+expand_mode = 1
+mouse_filter = 2
+visible = false
+
+[node name="Skill2" type="Button" parent="."]
+offset_left = 339.0
+offset_top = 69.0
+offset_right = 410.0
+offset_bottom = 140.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+mouse_filter = 1
+
+[node name="Art" type="TextureRect" parent="Skill2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 71.0
+offset_bottom = 71.0
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Frame" type="TextureRect" parent="Skill2"]
+offset_left = -3.0
+offset_top = -3.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("11")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Corner" type="TextureRect" parent="Skill2"]
+offset_left = 46.0
+offset_top = -2.0
+offset_right = 73.0
+offset_bottom = 24.0
+texture = ExtResource("12")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Level" type="Label" parent="Skill2"]
+offset_left = 46.0
+offset_top = -2.0
+offset_right = 73.0
+offset_bottom = 26.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Skill2"]
+offset_left = 9.0
+offset_top = 9.0
+offset_right = 62.0
+offset_bottom = 62.0
+texture = ExtResource("13")
+expand_mode = 1
+mouse_filter = 2
+visible = false
+
+[node name="Skill3" type="Button" parent="."]
+offset_left = 424.0
+offset_top = 69.0
+offset_right = 495.0
+offset_bottom = 140.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+mouse_filter = 1
+
+[node name="Art" type="TextureRect" parent="Skill3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 71.0
+offset_bottom = 71.0
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Frame" type="TextureRect" parent="Skill3"]
+offset_left = -3.0
+offset_top = -3.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("14")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Corner" type="TextureRect" parent="Skill3"]
+offset_left = 46.0
+offset_top = -2.0
+offset_right = 73.0
+offset_bottom = 24.0
+texture = ExtResource("15")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Level" type="Label" parent="Skill3"]
+offset_left = 46.0
+offset_top = -2.0
+offset_right = 73.0
+offset_bottom = 26.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Skill3"]
+offset_left = 9.0
+offset_top = 9.0
+offset_right = 62.0
+offset_bottom = 62.0
+texture = ExtResource("16")
+expand_mode = 1
+mouse_filter = 2
+visible = false
+
+[node name="Portrait" type="TextureRect" parent="."]
+offset_left = 581.0
+offset_top = 35.0
+offset_right = 625.0
+offset_bottom = 79.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="CostArt" type="TextureRect" parent="."]
+offset_left = 567.0
+offset_top = 74.0
+offset_right = 644.0
+offset_bottom = 103.0
+texture = ExtResource("17")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Cost" type="RichTextLabel" parent="."]
+offset_left = 561.0
+offset_top = 74.0
+offset_right = 651.0
+offset_bottom = 104.0
+bbcode_enabled = true
+scroll_active = false
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 21
+
+[node name="Upgrade" type="Button" parent="."]
+offset_left = 550.0
+offset_top = 111.0
+offset_right = 660.0
+offset_bottom = 153.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+mouse_filter = 1
+
+[node name="Art" type="TextureRect" parent="Upgrade"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 110.0
+offset_bottom = 42.0
+texture = ExtResource("18")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Upgrade"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 110.0
+offset_bottom = 42.0
+text = "升星"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(1,0.92,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Max" type="Label" parent="."]
+offset_left = 549.0
+offset_top = 97.0
+offset_right = 663.0
+offset_bottom = 147.0
+text = "已满星"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2

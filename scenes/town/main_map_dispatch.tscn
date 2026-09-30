@@ -1,0 +1,981 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/main_map_dispatch.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/frame.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/help.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/tab.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/tab.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/tab.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/tab.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/town.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/town_title.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/fade.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/move.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/field3.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/title.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/power.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/power_icon.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/fade.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/move.png" id="17"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/field.png" id="18"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/title.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/power.png" id="20"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/power_icon.png" id="21"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/fade.png" id="22"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/move.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/field2.png" id="24"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/title.png" id="25"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/power.png" id="26"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/power_icon.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/fade.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/move.png" id="29"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/dialog.png" id="30"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/move.png" id="31"]
+[ext_resource type="Texture2D" path="res://assets/runtime/dispatch/move.png" id="32"]
+
+[node name="MapDispatch" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+script = ExtResource("1")
+
+[node name="Shade" type="Button" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Tint" type="ColorRect" parent="Shade"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+color = Color(0,0,0,0.74)
+mouse_filter = 2
+
+[node name="Panel" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 40.0
+offset_right = 720.0
+offset_bottom = 1185.0
+mouse_filter = 0
+
+[node name="Frame" type="TextureRect" parent="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1145.0
+texture = ExtResource("2")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Panel"]
+offset_left = 185.0
+offset_top = 40.0
+offset_right = 535.0
+offset_bottom = 90.0
+text = "地图派遣"
+theme_override_font_sizes/font_size = 30
+theme_override_colors/font_color = Color(1,0.96,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Help" type="Button" parent="Panel"]
+offset_left = 80.0
+offset_top = 38.0
+offset_right = 136.0
+offset_bottom = 95.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Help"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 56.0
+offset_bottom = 57.0
+texture = ExtResource("3")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Alltown" type="Button" parent="Panel"]
+offset_left = 82.0
+offset_top = 127.0
+offset_right = 213.0
+offset_bottom = 181.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Alltown"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 131.0
+offset_bottom = 54.0
+texture = ExtResource("4")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Alltown"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 131.0
+offset_bottom = 54.0
+text = "主城"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.94,0.94,0.8,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Allfield" type="Button" parent="Panel"]
+offset_left = 222.0
+offset_top = 127.0
+offset_right = 353.0
+offset_bottom = 181.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Allfield"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 131.0
+offset_bottom = 54.0
+texture = ExtResource("5")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Allfield"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 131.0
+offset_bottom = 54.0
+text = "兽人密林"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.94,0.94,0.8,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Allfield2" type="Button" parent="Panel"]
+offset_left = 362.0
+offset_top = 127.0
+offset_right = 493.0
+offset_bottom = 181.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Allfield2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 131.0
+offset_bottom = 54.0
+texture = ExtResource("6")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Allfield2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 131.0
+offset_bottom = 54.0
+text = "亡灵墓地"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.94,0.94,0.8,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Allfield3" type="Button" parent="Panel"]
+offset_left = 502.0
+offset_top = 127.0
+offset_right = 633.0
+offset_bottom = 181.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/Allfield3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 131.0
+offset_bottom = 54.0
+texture = ExtResource("7")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/Allfield3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 131.0
+offset_bottom = 54.0
+text = "魔族战场"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.94,0.94,0.8,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="town" type="Control" parent="Panel"]
+offset_left = 62.0
+offset_top = 241.0
+offset_right = 354.0
+offset_bottom = 610.0
+mouse_filter = 1
+
+[node name="Ground" type="TextureRect" parent="Panel/town"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 292.0
+offset_bottom = 369.0
+texture = ExtResource("8")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="TitleArt" type="TextureRect" parent="Panel/town"]
+offset_left = 83.0
+offset_top = -18.0
+offset_right = 208.0
+offset_bottom = 19.0
+texture = ExtResource("9")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Panel/town"]
+offset_left = 128.0
+offset_top = -18.0
+offset_right = 198.0
+offset_bottom = 19.0
+text = "主城"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.75,0.82,0.84,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Scroll" type="ScrollContainer" parent="Panel/town"]
+offset_left = 11.0
+offset_top = 36.0
+offset_right = 281.0
+offset_bottom = 356.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+scroll_deadzone = 12
+mouse_filter = 0
+
+[node name="Grid" type="GridContainer" parent="Panel/town/Scroll"]
+layout_mode = 2
+columns = 3
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 12
+
+[node name="Fade" type="TextureRect" parent="Panel/town"]
+offset_left = 8.0
+offset_top = 320.0
+offset_right = 285.0
+offset_bottom = 369.0
+texture = ExtResource("10")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Move" type="Button" parent="Panel/town"]
+offset_left = 46.0
+offset_top = 158.0
+offset_right = 246.0
+offset_bottom = 226.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/town/Move"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+texture = ExtResource("11")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/town/Move"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+text = "派遣至主城"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(1,0.94,0.12,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Locked" type="ColorRect" parent="Panel/town"]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 289.0
+offset_bottom = 366.0
+color = Color(0,0,0,0.6)
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/town/Locked"]
+offset_left = 14.0
+offset_top = 120.0
+offset_right = 272.0
+offset_bottom = 235.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="field3" type="Control" parent="Panel"]
+offset_left = 364.0
+offset_top = 241.0
+offset_right = 656.0
+offset_bottom = 610.0
+mouse_filter = 1
+
+[node name="Ground" type="TextureRect" parent="Panel/field3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 292.0
+offset_bottom = 369.0
+texture = ExtResource("12")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="TitleArt" type="TextureRect" parent="Panel/field3"]
+offset_left = 31.0
+offset_top = -18.0
+offset_right = 261.0
+offset_bottom = 19.0
+texture = ExtResource("13")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="PowerArt" type="TextureRect" parent="Panel/field3"]
+offset_left = 146.0
+offset_top = -17.0
+offset_right = 260.0
+offset_bottom = 18.0
+texture = ExtResource("14")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="PowerIcon" type="TextureRect" parent="Panel/field3"]
+offset_left = 146.0
+offset_top = -17.0
+offset_right = 178.0
+offset_bottom = 17.0
+texture = ExtResource("15")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Panel/field3"]
+offset_left = 34.0
+offset_top = -18.0
+offset_right = 144.0
+offset_bottom = 19.0
+text = "魔族战场"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.75,0.82,0.84,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Power" type="Label" parent="Panel/field3"]
+offset_left = 178.0
+offset_top = -17.0
+offset_right = 251.0
+offset_bottom = 18.0
+text = "0"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Scroll" type="ScrollContainer" parent="Panel/field3"]
+offset_left = 11.0
+offset_top = 36.0
+offset_right = 281.0
+offset_bottom = 356.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+scroll_deadzone = 12
+mouse_filter = 0
+
+[node name="Grid" type="GridContainer" parent="Panel/field3/Scroll"]
+layout_mode = 2
+columns = 3
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 12
+
+[node name="Fade" type="TextureRect" parent="Panel/field3"]
+offset_left = 8.0
+offset_top = 320.0
+offset_right = 285.0
+offset_bottom = 369.0
+texture = ExtResource("16")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Move" type="Button" parent="Panel/field3"]
+offset_left = 46.0
+offset_top = 158.0
+offset_right = 246.0
+offset_bottom = 226.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/field3/Move"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+texture = ExtResource("17")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/field3/Move"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+text = "派遣至魔族战场"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(1,0.94,0.12,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Locked" type="ColorRect" parent="Panel/field3"]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 289.0
+offset_bottom = 366.0
+color = Color(0,0,0,0.6)
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/field3/Locked"]
+offset_left = 14.0
+offset_top = 120.0
+offset_right = 272.0
+offset_bottom = 235.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="field" type="Control" parent="Panel"]
+offset_left = 62.0
+offset_top = 669.0
+offset_right = 354.0
+offset_bottom = 1038.0
+mouse_filter = 1
+
+[node name="Ground" type="TextureRect" parent="Panel/field"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 292.0
+offset_bottom = 369.0
+texture = ExtResource("18")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="TitleArt" type="TextureRect" parent="Panel/field"]
+offset_left = 31.0
+offset_top = -18.0
+offset_right = 261.0
+offset_bottom = 19.0
+texture = ExtResource("19")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="PowerArt" type="TextureRect" parent="Panel/field"]
+offset_left = 146.0
+offset_top = -17.0
+offset_right = 260.0
+offset_bottom = 18.0
+texture = ExtResource("20")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="PowerIcon" type="TextureRect" parent="Panel/field"]
+offset_left = 146.0
+offset_top = -17.0
+offset_right = 178.0
+offset_bottom = 17.0
+texture = ExtResource("21")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Panel/field"]
+offset_left = 34.0
+offset_top = -18.0
+offset_right = 144.0
+offset_bottom = 19.0
+text = "兽人密林"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.75,0.82,0.84,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Power" type="Label" parent="Panel/field"]
+offset_left = 178.0
+offset_top = -17.0
+offset_right = 251.0
+offset_bottom = 18.0
+text = "0"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Scroll" type="ScrollContainer" parent="Panel/field"]
+offset_left = 11.0
+offset_top = 36.0
+offset_right = 281.0
+offset_bottom = 356.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+scroll_deadzone = 12
+mouse_filter = 0
+
+[node name="Grid" type="GridContainer" parent="Panel/field/Scroll"]
+layout_mode = 2
+columns = 3
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 12
+
+[node name="Fade" type="TextureRect" parent="Panel/field"]
+offset_left = 8.0
+offset_top = 320.0
+offset_right = 285.0
+offset_bottom = 369.0
+texture = ExtResource("22")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Move" type="Button" parent="Panel/field"]
+offset_left = 46.0
+offset_top = 158.0
+offset_right = 246.0
+offset_bottom = 226.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/field/Move"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+texture = ExtResource("23")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/field/Move"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+text = "派遣至兽人密林"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(1,0.94,0.12,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Locked" type="ColorRect" parent="Panel/field"]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 289.0
+offset_bottom = 366.0
+color = Color(0,0,0,0.6)
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/field/Locked"]
+offset_left = 14.0
+offset_top = 120.0
+offset_right = 272.0
+offset_bottom = 235.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="field2" type="Control" parent="Panel"]
+offset_left = 364.0
+offset_top = 669.0
+offset_right = 656.0
+offset_bottom = 1038.0
+mouse_filter = 1
+
+[node name="Ground" type="TextureRect" parent="Panel/field2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 292.0
+offset_bottom = 369.0
+texture = ExtResource("24")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="TitleArt" type="TextureRect" parent="Panel/field2"]
+offset_left = 31.0
+offset_top = -18.0
+offset_right = 261.0
+offset_bottom = 19.0
+texture = ExtResource("25")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="PowerArt" type="TextureRect" parent="Panel/field2"]
+offset_left = 146.0
+offset_top = -17.0
+offset_right = 260.0
+offset_bottom = 18.0
+texture = ExtResource("26")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="PowerIcon" type="TextureRect" parent="Panel/field2"]
+offset_left = 146.0
+offset_top = -17.0
+offset_right = 178.0
+offset_bottom = 17.0
+texture = ExtResource("27")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Panel/field2"]
+offset_left = 34.0
+offset_top = -18.0
+offset_right = 144.0
+offset_bottom = 19.0
+text = "亡灵墓地"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.75,0.82,0.84,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Power" type="Label" parent="Panel/field2"]
+offset_left = 178.0
+offset_top = -17.0
+offset_right = 251.0
+offset_bottom = 18.0
+text = "0"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Scroll" type="ScrollContainer" parent="Panel/field2"]
+offset_left = 11.0
+offset_top = 36.0
+offset_right = 281.0
+offset_bottom = 356.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+scroll_deadzone = 12
+mouse_filter = 0
+
+[node name="Grid" type="GridContainer" parent="Panel/field2/Scroll"]
+layout_mode = 2
+columns = 3
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 12
+
+[node name="Fade" type="TextureRect" parent="Panel/field2"]
+offset_left = 8.0
+offset_top = 320.0
+offset_right = 285.0
+offset_bottom = 369.0
+texture = ExtResource("28")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Move" type="Button" parent="Panel/field2"]
+offset_left = 46.0
+offset_top = 158.0
+offset_right = 246.0
+offset_bottom = 226.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Panel/field2/Move"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+texture = ExtResource("29")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/field2/Move"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+text = "派遣至亡灵墓地"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(1,0.94,0.12,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Locked" type="ColorRect" parent="Panel/field2"]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 289.0
+offset_bottom = 366.0
+color = Color(0,0,0,0.6)
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Panel/field2/Locked"]
+offset_left = 14.0
+offset_top = 120.0
+offset_right = 272.0
+offset_bottom = 235.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="Hint" type="Label" parent="Panel"]
+offset_left = 100.0
+offset_top = 1067.0
+offset_right = 620.0
+offset_bottom = 1109.0
+text = "点击英雄后可选择要派遣的地区"
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="DismissHint" type="Label" parent="."]
+offset_left = 130.0
+offset_top = 1200.0
+offset_right = 590.0
+offset_bottom = 1242.0
+text = "点击空白处关闭界面"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.75,0.82,0.84,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Popup" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+visible = false
+
+[node name="Dismiss" type="Button" parent="Popup"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Tint" type="ColorRect" parent="Popup/Dismiss"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+color = Color(0,0,0,0.72)
+mouse_filter = 2
+
+[node name="Box" type="Control" parent="Popup"]
+offset_left = 30.0
+offset_top = 400.0
+offset_right = 690.0
+offset_bottom = 880.0
+mouse_filter = 0
+
+[node name="Frame" type="NinePatchRect" parent="Popup/Box"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 660.0
+offset_bottom = 480.0
+texture = ExtResource("30")
+patch_margin_left = 80
+patch_margin_right = 80
+patch_margin_top = 128
+patch_margin_bottom = 65
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Popup/Box"]
+offset_left = 90.0
+offset_top = 34.0
+offset_right = 570.0
+offset_bottom = 84.0
+text = "提示"
+theme_override_font_sizes/font_size = 29
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Scroll" type="ScrollContainer" parent="Popup/Box"]
+offset_left = 90.0
+offset_top = 105.0
+offset_right = 570.0
+offset_bottom = 349.0
+horizontal_scroll_mode = 0
+scroll_deadzone = 12
+
+[node name="Text" type="Label" parent="Popup/Box/Scroll"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 480.0
+offset_bottom = 244.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+custom_minimum_size = Vector2(480,244)
+
+[node name="Cancel" type="Button" parent="Popup/Box"]
+offset_left = 83.0
+offset_top = 370.0
+offset_right = 283.0
+offset_bottom = 438.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Popup/Box/Cancel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+texture = ExtResource("31")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Popup/Box/Cancel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+text = "取消"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(1,0.94,0.12,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Accept" type="Button" parent="Popup/Box"]
+offset_left = 377.0
+offset_top = 370.0
+offset_right = 577.0
+offset_bottom = 438.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Popup/Box/Accept"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+texture = ExtResource("32")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Popup/Box/Accept"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 68.0
+text = "确定"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(1,0.94,0.12,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2

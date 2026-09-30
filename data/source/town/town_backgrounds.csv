@@ -1,0 +1,7 @@
+id,resource_id,x,y
+background.1,town.bg1,0,0
+background.2,town.bg2,2066,0
+background.3,town.bg3,4132,0
+background.4,town.bg4,0,2427
+background.5,town.bg5,2066,2427
+background.6,town.bg6,4132,2427

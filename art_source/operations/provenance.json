@@ -1,0 +1,334 @@
+{
+  "reference_root": "F:\\GameResearch\\佣兵小镇",
+  "assets": {
+    "operations.tier_menu": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\1a4d46df-44da-4133-9c84-440dd7745890.png",
+      "sha256": "607cc32cf777c4d3329282341ea0029314f7cd80665b4863cc900ac8c6879500"
+    },
+    "operations.building_banner": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\1deea7d3-ab12-42b8-bea0-be4bdf6ddc79.png",
+      "sha256": "6681b9503efbaeea30db8e750b93f2609fcbdee2e42f2b1cfbce0d33e402a233"
+    },
+    "operations.condition_banner": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\548adf23-b9d6-4dd2-9b16-dd646c11df2c.png",
+      "sha256": "808d61ee02cc4e672597a5c95669464928a71e7beb156301edebdac6bb76ddc6"
+    },
+    "operations.chain": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\86a51799-9146-40ca-9c1e-ced5e57d9de9.png",
+      "sha256": "b728992663bc2696d98a17dc8b9123cab971b685b3550c13628904c23dd4f299"
+    },
+    "operations.hospital_room": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\life\\bj4.png",
+      "sha256": "6b4f025a9fb934d0072829771f8e45c4665fe2a2811dcbee2d7929044fb741f6"
+    },
+    "operations.canteen_room": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\life\\bj1.png",
+      "sha256": "22e1b047976de15fb25e220d8c2beeda03b6fddfdbdd5c334746297decb9df66"
+    },
+    "operations.hotel_room": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\life\\bj3.png",
+      "sha256": "c787421577f0aa2ee45458aafd111ae89feba5dcdab31f77132ef995178bf377"
+    },
+    "operations.bar_room": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\life\\bj2.png",
+      "sha256": "7b804ff4b65a84b1c2956c5c068849115b70e2fe9431414053c6b8bb65c8dfe3"
+    },
+    "operations.curtain": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\f08de1d0-f856-43b6-a07e-6ce94d30acca.png",
+      "sha256": "6bb2d0f35a470ced10fae9a2887491867976d20035719dda09d2403f8b2e4efc"
+    },
+    "operations.header": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\4855b934-b5c4-4f01-be90-1cae7e90137a.png",
+      "sha256": "b0edd6d587babeffbfda3c7c6462be576491e68c62eecb12e3624db3a8576500"
+    },
+    "operations.shelf": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\20b8c68a-098b-4c4b-bcd8-65073c614f56.png",
+      "sha256": "d15e4553cf65d3b49c59587f3a551db00138a97d4ac29b35773df2fb0d2ead77"
+    },
+    "operations.desk": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\ae1b7fc0-8922-4954-a753-0acc03f52976.png",
+      "sha256": "cc1b93a82bac07a6c591d51c94e3494aec9f9feee2b8f7f0dca0d2e0d3e84f27"
+    },
+    "operations.topbar": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\f0808877-eb7e-4e64-9c61-031f88d2b225.png",
+      "sha256": "b9ea864ea3a3abc790767f16e4f9f29f0bc182c2b8a5dd60b07200e0356723a2"
+    },
+    "operations.money_bg": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\68342bf0-3722-424d-a25e-9bf514730612.png",
+      "sha256": "cb968eb5cdd73440626bad91ed0bbd5d463663ac3a4e68b93011e19850bc333f"
+    },
+    "operations.coin": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\item_money_00.png",
+      "sha256": "c7ee8bd7ad83b41f22bc7fd8795d025ff61f6a98fe746efae6dad0cb608c2817"
+    },
+    "operations.back": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\e6d82e7f-9557-4b1b-8e09-08aef4128fc5.png",
+      "sha256": "2cd8d7b40fb402217cec9862ddb4094dcd3715cd092d6e39fb11f3bf52609ee7"
+    },
+    "operations.report": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\3519448b-174d-47a0-8682-762b60bf0f4b.png",
+      "sha256": "a32b12c78ccf0aa26b726ee80babd76a7383c647c895481d20e0c7c2eef1821e"
+    },
+    "operations.upgrade": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\693f61cf-4874-4025-9538-4818ed662692.png",
+      "sha256": "7c482ce8c13c1aa20694f3a09252312f19581be6f335ae683f2796f4a5b589b9"
+    },
+    "operations.badge": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\ed70e6c4-a022-4c95-a216-c55eab135d16.png",
+      "sha256": "60d1ca6a0219a602fa8ea0276dce310b613f572b568a45803b82e0aba8675e18"
+    },
+    "operations.chair": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\83314a72-23e8-47b9-896c-c1b1c64e8568.png",
+      "sha256": "d96906372afd4d2a1a3258d8871f47b0e4e5d420ab2b373c54766583677df5e0"
+    },
+    "operations.hourglass": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\life\\shenghuo_icon2.png",
+      "sha256": "3d1fa02f6efd39fb68bbce4f99134d65afcd9470d6ae0b28ebe52a6ab4895584"
+    },
+    "operations.exchange_top": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\920cecdc-41d1-4386-bc56-c460a5c93dc5.png",
+      "sha256": "eed5d2bc169d77615487319c702b7078e676328869091e86705a294ade513d4d"
+    },
+    "operations.exchange_title": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\0c45da94-75f7-4644-a134-9acc32b1c9fe.png",
+      "sha256": "88767624223f2279b6864c32a776114f10202818dc1c1ccd4c8deaf41fe303ca"
+    },
+    "operations.exchange_body": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\1a313651-536e-4e29-a55b-9489c0eb7149.png",
+      "sha256": "c6f0f5e1eec83fb672482136ebf6f585ee73481837ecc0cbea35f6fc60671b3f"
+    },
+    "operations.exchange_bottom": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\9caedb34-1022-48e8-a223-199315d2f05b.png",
+      "sha256": "e5ff2dc42c871fe493d5074b42fbdf9e3eff94cb5416a23d27a7aabb92d7d31d"
+    },
+    "operations.tab_orders": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\09d9c336-f74c-448f-a5b0-81a8051f19b7.png",
+      "sha256": "47e284cf2cc51f671ff7abf82cec45821a358df517e62b0517b1e0cf067c659d"
+    },
+    "operations.tab_heroes": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\95089e8e-9d54-40b5-a541-a3c41e82fdd8.png",
+      "sha256": "a1bf1685d7de3e007177d0dc002e7158decce1a78e2b857a9c58223c82e7289e"
+    },
+    "operations.item_cell": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\exchange\\jiaoyi_wupinglan.png",
+      "sha256": "1d5bf0b44e2e71bee0bb6ab0497a903d0150a0591a0d31bd286d4092c641e967"
+    },
+    "operations.tier": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\roundIcon\\wuqipu_pingjie1.png",
+      "sha256": "37986052f1db8ba9d1d41796bbcba6f6a22de852b64568e69407aa0aa0fd3eb6"
+    },
+    "operations.tier_2": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\roundIcon\\wuqipu_pingjie2.png",
+      "sha256": "1383f68e53a8e342ce2fe937907ce480d5e76c44efa71f0d5c31684568b6b67c"
+    },
+    "operations.dialog": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\1edb56cc-8a53-4666-9fe1-f97297d94e6b.png",
+      "sha256": "9cb170308b9a3da6caa8ac87490e1e96016412c007cb1bd62532f005d862c32a"
+    },
+    "operations.confirm": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\__未命名\\5c1f5b63-8e3a-49c7-97ce-48382bc20346.png",
+      "sha256": "fda17343fd618b2d53d960831f40facbdc917d14614076c2a3516045ae3faac5"
+    },
+    "operations.quality_1": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\quality\\wuqipu_pingjie_dikuang001.png",
+      "sha256": "e0f205da9810058aee34f2f88efc009e4b1e55fa5516bb4cf6d83828a5e8b9ef"
+    },
+    "operations.quality_2": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\quality\\wuqipu_pingjie_dikuang002.png",
+      "sha256": "42336bd4579a91bd451c02572919ebac3797b40c206a7508a8129b5bb841a7c3"
+    },
+    "operations.quality_3": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\quality\\wuqipu_pingjie_dikuang003.png",
+      "sha256": "601ec4e0afe1414ac099f568afbbb36ba143d778bbbb73c7b1b2802e6692f46d"
+    },
+    "operations.quality_4": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\quality\\wuqipu_pingjie_dikuang004.png",
+      "sha256": "002d7028cdc3ae32777e4ef29e53c061c89fa827b5fc847155386fcfca6089c6"
+    },
+    "operations.quality_5": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\quality\\wuqipu_pingjie_dikuang005.png",
+      "sha256": "1a8535ffd4455b4f98db1ae6fa9013487403a9f6a4dd4d587125c60e35b96904"
+    },
+    "operations.font": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\06_粒子材质字体\\resources\\font\\localLib\\DefaultFont2.ttf",
+      "sha256": "f5c3eec9e953edb79037827a000eb6b8bcd6e4f239a0705f1ffbc7967dc3e1cf"
+    },
+    "operations.item_20101": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20101.png",
+      "sha256": "87f4a1067452d156dbfb1158023ffaf14048874d90c54fe3ffe3b7933d780897"
+    },
+    "operations.item_20102": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20102.png",
+      "sha256": "e531c9a596fe36ec3c578ca5e8c53b4f37c43bb3381fed9faaa6b1d50ca28ff8"
+    },
+    "operations.item_20104": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20104.png",
+      "sha256": "894200cd13a59c377c7ae760eba8b17675490b58663d75768dbd4a8ef21fd895"
+    },
+    "operations.item_20103": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20103.png",
+      "sha256": "65818798150f050a98f79f26a91599d0c1366e3f3debb2fc029e4e2ace57dc12"
+    },
+    "operations.item_20206": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20206.png",
+      "sha256": "95b32e62c279c1856073890c629a38eafb0bb18cd512f10d0505f3758d50800d"
+    },
+    "operations.item_20304": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20304.png",
+      "sha256": "3b44c8c47ef558d433fda793e98a08c7af988ad6f6071baf3575aa759831e81e"
+    },
+    "operations.item_20302": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20302.png",
+      "sha256": "f25a9d382833b6fde6ae7079d5ddb6a2aff1cdf2d77611810d18382de55b7f57"
+    },
+    "operations.item_20310": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20310.png",
+      "sha256": "1981d2082044d8da9928d6220149431aa4b6401963a4ea915b99ea4668042172"
+    },
+    "operations.item_20308": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20308.png",
+      "sha256": "337686754ff711f9d82941e4841b4bcce70258d6cd0455d660320e8a5a96b446"
+    },
+    "operations.item_20316": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20316.png",
+      "sha256": "5dc662d971808180aeac2bd058f4eef716b4c32dc5a0f639b2a6308a627cc96d"
+    },
+    "operations.item_20314": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20314.png",
+      "sha256": "4d5b05bc5331067907aa66f6f06dc69271aa0842cd72213ad5418b65dc9603e8"
+    },
+    "operations.item_30101": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30101.png",
+      "sha256": "cd21acae3aa8b6e7c517bb5fb6220e8fd6772b27e2b09e1b574efe433b2d5fd4"
+    },
+    "operations.item_30102": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30102.png",
+      "sha256": "6b94a4b164bf79e62c4e4779d61702339669738f9480240a0ded31442b5bbbcb"
+    },
+    "operations.item_30104": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30104.png",
+      "sha256": "27422202ea70ec52390d622b9e35c3c247e622a7dc14171828a6307a2c54caf9"
+    },
+    "operations.item_30103": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30103.png",
+      "sha256": "d4cbafbb60c29196f6fafb274ab2dbf8a75167e70ee3de454aa25afe49b16b9e"
+    },
+    "operations.item_30201": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30201.png",
+      "sha256": "5a15ba9bba9c24c036596a4a1dbedcd20928785967a72649d440fa744a02d408"
+    },
+    "operations.item_30204": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30204.png",
+      "sha256": "80ec46605592d36e3e2d1e484d04f3d568c9964148d79cac6c938b05c9a10dd7"
+    },
+    "operations.item_30205": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30205.png",
+      "sha256": "7e573eb1ce65f25d290e81068fbe880a0718cc9257933c7fac5da87e94aedc62"
+    },
+    "operations.item_30322": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30322.png",
+      "sha256": "df34b7a49f8cd1fba115eb2b8c9a91c5d354a5fb4058d83fd7b335aaf00ce33c"
+    },
+    "operations.item_30206": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30206.png",
+      "sha256": "63433159560f0e37cc3560596395a4abd530c3ae796182ae65eadc8d8abacc1a"
+    },
+    "operations.item_30304": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30304.png",
+      "sha256": "150c4fe5c15c78587af37ce763767c43ac785acf81c1a9fe015791aa86125ec5"
+    },
+    "operations.item_30302": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30302.png",
+      "sha256": "ad5c18ad2e1cc68c9ab29e2537b8e28483b946e986d5025de863e90969d04307"
+    },
+    "operations.item_30306": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30306.png",
+      "sha256": "cb60cf6a5831894629edeec818aa45e5883daebcdcd6df4e2167162a194eaad5"
+    },
+    "operations.item_30308": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30308.png",
+      "sha256": "9137a800090fa97fb21eab09670b944ec15910fe3a493146116e71382dc8dd95"
+    },
+    "operations.item_30310": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30310.png",
+      "sha256": "ba8b269f66dc5e5ba559c2c398de79a2075ed2dacef152e837572b746c0ff360"
+    },
+    "operations.item_30312": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30312.png",
+      "sha256": "ecde005471900922cfbe372b0322722b5a88a9c7f5226e337fa777b7a8aa7c59"
+    },
+    "operations.item_30314": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30314.png",
+      "sha256": "687f380ce4096bdcb03ed0b10c1711835cedeb29caf4869db4d321608b38aeeb"
+    },
+    "operations.item_30316": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30316.png",
+      "sha256": "8656b81e3480c45fcecd23ec3221de19bb0638926ff09e166e2ee925190d1726"
+    },
+    "operations.item_30318": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\30318.png",
+      "sha256": "bbc54212509388d3e538f1210d0132967235ef34d151532ad70a57edee078983"
+    },
+    "operations.item_20151": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20151.png",
+      "sha256": "4a287556f9ceffec891d53f5624822b313b0c47ea72171ae73ed2b81aff17990"
+    },
+    "operations.item_20152": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20152.png",
+      "sha256": "08291ae68ff97cefc46c31182a8d0f8b0cd37a9133891f17a57a552884fd2a64"
+    },
+    "operations.item_20153": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20153.png",
+      "sha256": "031caab5bae2cfb319322f55451a79b4cff8109b86bead90a372bf91bd1ffb29"
+    },
+    "operations.item_20154": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\prop\\20154.png",
+      "sha256": "02e87039be4571d8be7401d9a95d0372bac662cf43ef571e036da57f9d4a617a"
+    },
+    "operations.equip_1011002": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\eqicon\\wuqi_zs_06.png",
+      "sha256": "8451138b06bbe90d7876109d04b699ad73085f4af1b4be3f44a30f96e4d2ff1b"
+    },
+    "operations.equip_1012002": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\eqicon\\wuqi_lr_06.png",
+      "sha256": "5089503b6ef81fced0f0a2f7f0ae96e854102565d571fd893642157e6947137d"
+    },
+    "operations.equip_1013002": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\eqicon\\wuqi_fs_06.png",
+      "sha256": "c03796b0899245340636b63a5b4e220f66f4e571e8d3e9df658e590393bed636"
+    },
+    "operations.equip_1014002": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\eqicon\\equip_armor_04.png",
+      "sha256": "5144ac9a56c2dc8b5ab8cc6dffc1638d6bae6ef20c6f4dfbb7c20207c60e6194"
+    },
+    "operations.equip_1016002": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\eqicon\\equip_trousers_04.png",
+      "sha256": "8a4edd8a07459c110114026fee98a05a78f3cd85ed1004e6ebfa73032df599c7"
+    },
+    "operations.equip_1018001": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\eqicon\\equip_necklace_01.png",
+      "sha256": "049510a874217bf145a0c2144872fbf23a2591daa07b7069f6dc884b91f24ac6"
+    },
+    "operations.equip_1019004": {
+      "source": "F:\\GameResearch\\佣兵小镇\\03_美术资源\\02_透明切图\\resources\\tmp\\eqicon\\equip_ring_03.png",
+      "sha256": "c41520adca88a1b97a75e44da1b7c4831a301fd49296035eaf67870aa1f0ef1a"
+    },
+    "operations.hospital_idle": {
+      "source": "F:\\T8demo\\T8-demo-15\\art_source\\operations\\hospital_idle.png",
+      "sha256": "017b97614bf2c02b6faafa3a60a1397fa5075a2cfcfc4b4deded77017eefb09a"
+    },
+    "operations.canteen_idle": {
+      "source": "F:\\T8demo\\T8-demo-15\\art_source\\operations\\canteen_idle.png",
+      "sha256": "2816b1820bf8717115306d4fb55c3341657f49786125818dbe1ab43579738b97"
+    },
+    "operations.hotel_idle": {
+      "source": "F:\\T8demo\\T8-demo-15\\art_source\\operations\\hotel_idle.png",
+      "sha256": "0e64c5995a7ed5270bd16b98759c2f782dc983eed55aff8a85dafd82c4bf0d19"
+    },
+    "operations.bar_idle": {
+      "source": "F:\\T8demo\\T8-demo-15\\art_source\\operations\\bar_idle.png",
+      "sha256": "4d2c6ef91786914e68c2c5d51b3e73239337a0368979efb27ea0070de20fe15e"
+    }
+  },
+  "bake": "PixiJS 7.4.3 + pixi-spine 4.0.6; 8 frames; transparent PNG"
+}

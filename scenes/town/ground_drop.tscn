@@ -1,0 +1,9 @@
+[gd_scene format=3]
+
+[node name="GroundDrop" type="Node2D"]
+
+[node name="Glow" type="Sprite2D" parent="."]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(0, -1)
+

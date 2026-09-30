@@ -1,0 +1,46 @@
+class_name MainHUDSignals
+extends RefCounted
+
+
+static func bind(h: Control) -> void:
+	for i in range(5):
+		h.get_node("Stage/Bottom/Nav%d" % i).pressed.connect(func(): h.navigate(h.ROUTES[i]))
+	h.get_node("Stage/Top/Profile").pressed.connect(func(): h._open_top("profile"))
+	h.get_node("Stage/Top/Coins").pressed.connect(func(): h._open_top("coins"))
+	h.get_node("Stage/Top/Diamonds").pressed.connect(func(): h.navigate("shop", false))
+	h.get_node("Stage/Top/Energy").pressed.connect(func(): h._open_top("energy"))
+	h.get_node("Stage/Panels").closed.connect(h.close)
+	h.get_node("Stage/Panels").intent.connect(func(command): h.intent.emit(command))
+	h.get_node("Stage/Panels").detail_requested.connect(h._detail)
+	h.get_node("Stage/HeroRoster").closed.connect(h.close)
+	h.get_node("Stage/HeroRoster").detail_requested.connect(h._detail)
+	h.get_node("Stage/HeroRoster").locate_requested.connect(func(id): h.hero_locate_requested.emit(id))
+	h.get_node("Stage/Dialogs").intent.connect(func(command): h.intent.emit(command))
+	h.get_node("Stage/Dialogs").closed.connect(h._sync_overlay)
+	h.get_node("Stage/Dialogs").hero_requested.connect(func(data): h._detail("hero", data))
+	h.get_node("Stage/Dialogs").equipment_requested.connect(func(data): h._detail("equipment_detail", data))
+	h.get_node("Stage/EquipmentDetail").closed.connect(h._sync_overlay)
+	h.get_node("Stage/EquipmentDetail").intent.connect(func(command): h.intent.emit(command))
+	h.get_node("Stage/EquipmentDetail").notice.connect(h._notice)
+	h.get_node("Stage/HeroDetail").closed.connect(h._close_hero)
+	h.get_node("Stage/HeroDetail").detail_requested.connect(h._detail)
+	h.get_node("Stage/HeroDetail").intent.connect(func(command): h.intent.emit(command))
+	h.get_node("Stage/HeroManagement").closed.connect(h._sync_overlay)
+	h.get_node("Stage/HeroManagement").intent.connect(func(command): h.intent.emit(command))
+	h.get_node("Stage/HeroManagement").detail_requested.connect(h._detail)
+	h.get_node("Stage/HeroManagement").notice.connect(h._notice)
+	for page: String in ["HeroDetail", "HeroManagement", "Dialogs"]:
+		h.get_node("Stage/" + page).skill_requested.connect(h.get_node("Stage/SkillTooltip").toggle)
+	h.get_node("Stage/Recruitment").closed.connect(h.close)
+	h.get_node("Stage/Recruitment").intent.connect(func(command): h.intent.emit(command))
+	h.get_node("Stage/Recruitment").detail_requested.connect(h._detail)
+	h.get_node("Stage/Recruitment").popup_requested.connect(func(kind): h.get_node("Stage/RecruitOverlay").open(kind, h._state); h._sync_overlay())
+	h.get_node("Stage/RecruitOverlay").closed.connect(func(): h.get_node("Stage/Recruitment").busy = false; h._sync_overlay())
+	h.get_node("Stage/RecruitOverlay").intent.connect(func(command): h.intent.emit(command))
+	h.get_node("Stage/RecruitOverlay").detail_requested.connect(h._detail)
+	h.get_node("Stage/DiamondShop").closed.connect(h._close_diamond_store)
+	h.get_node("Stage/DiamondShop").intent.connect(func(command): h.intent.emit(command))
+	h.get_node("Stage/DiamondShop").detail_requested.connect(h._detail)
+
+	h.get_node("Stage/MapDispatch").intent.connect(func(command): h.intent.emit(command))
+	h.get_node("Stage/MapDispatch").closed.connect(h._sync_overlay)

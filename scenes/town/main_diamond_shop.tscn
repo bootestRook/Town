@@ -1,0 +1,1015 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/main_diamond_shop.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/banner.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/card_1.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/gem_1.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/ribbon.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/card_2.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/gem_2.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/ribbon.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/card_3.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/gem_3.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/ribbon.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/card_4.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/gem_4.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/ribbon.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/card_5.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/gem_5.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/ribbon.png" id="17"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/card_6.png" id="18"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/gem_6.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/ribbon.png" id="20"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/top.png" id="21"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/help.png" id="22"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/diamonds.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/coins.png" id="24"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/bottom.png" id="25"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/tab.png" id="26"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/back.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/result_body.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/runtime/recruitment/rays.png" id="29"]
+[ext_resource type="Texture2D" path="res://assets/runtime/diamond_shop/reward_enter.png" id="30"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/quality_4.png" id="31"]
+[ext_resource type="Texture2D" path="res://assets/runtime/main_ui/diamond_icon.png" id="32"]
+[ext_resource type="Texture2D" path="res://assets/runtime/operations/dialog.png" id="33"]
+[ext_resource type="AudioStream" path="res://assets/runtime/diamond_shop/click.wav" id="34"]
+[ext_resource type="AudioStream" path="res://assets/runtime/diamond_shop/reward_sound.wav" id="35"]
+
+[node name="DiamondShop" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+script = ExtResource("1")
+mouse_filter = 0
+
+[node name="Background" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.043,0.105,0.13,1)
+mouse_filter = 2
+
+[node name="Banner" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 60.0
+offset_right = 720.0
+offset_bottom = 358.0
+clip_contents = true
+mouse_filter = 2
+
+[node name="Art" type="TextureRect" parent="Banner"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 350.0
+texture = ExtResource("2")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Offers" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 404.0
+offset_right = 720.0
+offset_bottom = 1108.0
+mouse_filter = 2
+
+[node name="Card0" type="Button" parent="Offers"]
+offset_left = 14.0
+offset_top = 0.0
+offset_right = 238.0
+offset_bottom = 350.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+pivot_offset = Vector2(112,175)
+
+[node name="Frame" type="TextureRect" parent="Offers/Card0"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 224.0
+offset_bottom = 350.0
+texture = ExtResource("3")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Offers/Card0"]
+offset_left = 27.0
+offset_top = 68.0
+offset_right = 197.0
+offset_bottom = 176.0
+texture = ExtResource("4")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Amount" type="Label" parent="Offers/Card0"]
+offset_left = 0.0
+offset_top = 176.0
+offset_right = 224.0
+offset_bottom = 227.0
+text = ""
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Bonus" type="Label" parent="Offers/Card0"]
+offset_left = 0.0
+offset_top = 213.0
+offset_right = 224.0
+offset_bottom = 255.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Price" type="Label" parent="Offers/Card0"]
+offset_left = 31.0
+offset_top = 285.5
+offset_right = 193.0
+offset_bottom = 327.5
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Ribbon" type="TextureRect" parent="Offers/Card0"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 126.0
+offset_bottom = 80.0
+texture = ExtResource("5")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="First" type="Label" parent="Offers/Card0"]
+offset_left = -17.0
+offset_top = 51.0
+offset_right = 138.0
+offset_bottom = 81.0
+text = "首充双倍"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(1,0.94,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+rotation = -0.567
+
+[node name="Card1" type="Button" parent="Offers"]
+offset_left = 248.0
+offset_top = 0.0
+offset_right = 472.0
+offset_bottom = 350.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+pivot_offset = Vector2(112,175)
+
+[node name="Frame" type="TextureRect" parent="Offers/Card1"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 224.0
+offset_bottom = 350.0
+texture = ExtResource("6")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Offers/Card1"]
+offset_left = 27.0
+offset_top = 68.0
+offset_right = 197.0
+offset_bottom = 176.0
+texture = ExtResource("7")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Amount" type="Label" parent="Offers/Card1"]
+offset_left = 0.0
+offset_top = 176.0
+offset_right = 224.0
+offset_bottom = 227.0
+text = ""
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Bonus" type="Label" parent="Offers/Card1"]
+offset_left = 0.0
+offset_top = 213.0
+offset_right = 224.0
+offset_bottom = 255.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Price" type="Label" parent="Offers/Card1"]
+offset_left = 31.0
+offset_top = 287.5
+offset_right = 193.0
+offset_bottom = 329.5
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Ribbon" type="TextureRect" parent="Offers/Card1"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 126.0
+offset_bottom = 80.0
+texture = ExtResource("8")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="First" type="Label" parent="Offers/Card1"]
+offset_left = -17.0
+offset_top = 51.0
+offset_right = 138.0
+offset_bottom = 81.0
+text = "首充双倍"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(1,0.94,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+rotation = -0.567
+
+[node name="Card2" type="Button" parent="Offers"]
+offset_left = 482.0
+offset_top = 0.0
+offset_right = 706.0
+offset_bottom = 350.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+pivot_offset = Vector2(112,175)
+
+[node name="Frame" type="TextureRect" parent="Offers/Card2"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 224.0
+offset_bottom = 350.0
+texture = ExtResource("9")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Offers/Card2"]
+offset_left = 27.0
+offset_top = 68.0
+offset_right = 197.0
+offset_bottom = 176.0
+texture = ExtResource("10")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Amount" type="Label" parent="Offers/Card2"]
+offset_left = 0.0
+offset_top = 176.0
+offset_right = 224.0
+offset_bottom = 227.0
+text = ""
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Bonus" type="Label" parent="Offers/Card2"]
+offset_left = 0.0
+offset_top = 213.0
+offset_right = 224.0
+offset_bottom = 255.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Price" type="Label" parent="Offers/Card2"]
+offset_left = 31.0
+offset_top = 287.5
+offset_right = 193.0
+offset_bottom = 329.5
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Ribbon" type="TextureRect" parent="Offers/Card2"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 126.0
+offset_bottom = 80.0
+texture = ExtResource("11")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="First" type="Label" parent="Offers/Card2"]
+offset_left = -17.0
+offset_top = 51.0
+offset_right = 138.0
+offset_bottom = 81.0
+text = "首充双倍"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(1,0.94,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+rotation = -0.567
+
+[node name="Card3" type="Button" parent="Offers"]
+offset_left = 14.0
+offset_top = 355.0
+offset_right = 238.0
+offset_bottom = 705.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+pivot_offset = Vector2(112,175)
+
+[node name="Frame" type="TextureRect" parent="Offers/Card3"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 224.0
+offset_bottom = 350.0
+texture = ExtResource("12")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Offers/Card3"]
+offset_left = 27.0
+offset_top = 68.0
+offset_right = 197.0
+offset_bottom = 176.0
+texture = ExtResource("13")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Amount" type="Label" parent="Offers/Card3"]
+offset_left = 0.0
+offset_top = 176.0
+offset_right = 224.0
+offset_bottom = 227.0
+text = ""
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Bonus" type="Label" parent="Offers/Card3"]
+offset_left = 0.0
+offset_top = 213.0
+offset_right = 224.0
+offset_bottom = 255.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Price" type="Label" parent="Offers/Card3"]
+offset_left = 31.0
+offset_top = 287.5
+offset_right = 193.0
+offset_bottom = 329.5
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Ribbon" type="TextureRect" parent="Offers/Card3"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 126.0
+offset_bottom = 80.0
+texture = ExtResource("14")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="First" type="Label" parent="Offers/Card3"]
+offset_left = -17.0
+offset_top = 51.0
+offset_right = 138.0
+offset_bottom = 81.0
+text = "首充双倍"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(1,0.94,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+rotation = -0.567
+
+[node name="Card4" type="Button" parent="Offers"]
+offset_left = 248.0
+offset_top = 355.0
+offset_right = 472.0
+offset_bottom = 705.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+pivot_offset = Vector2(112,175)
+
+[node name="Frame" type="TextureRect" parent="Offers/Card4"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 224.0
+offset_bottom = 350.0
+texture = ExtResource("15")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Offers/Card4"]
+offset_left = 27.0
+offset_top = 68.0
+offset_right = 197.0
+offset_bottom = 176.0
+texture = ExtResource("16")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Amount" type="Label" parent="Offers/Card4"]
+offset_left = 0.0
+offset_top = 176.0
+offset_right = 224.0
+offset_bottom = 227.0
+text = ""
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Bonus" type="Label" parent="Offers/Card4"]
+offset_left = 0.0
+offset_top = 213.0
+offset_right = 224.0
+offset_bottom = 255.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Price" type="Label" parent="Offers/Card4"]
+offset_left = 31.0
+offset_top = 287.5
+offset_right = 193.0
+offset_bottom = 329.5
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Ribbon" type="TextureRect" parent="Offers/Card4"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 126.0
+offset_bottom = 80.0
+texture = ExtResource("17")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="First" type="Label" parent="Offers/Card4"]
+offset_left = -17.0
+offset_top = 51.0
+offset_right = 138.0
+offset_bottom = 81.0
+text = "首充双倍"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(1,0.94,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+rotation = -0.567
+
+[node name="Card5" type="Button" parent="Offers"]
+offset_left = 482.0
+offset_top = 355.0
+offset_right = 706.0
+offset_bottom = 705.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+pivot_offset = Vector2(112,175)
+
+[node name="Frame" type="TextureRect" parent="Offers/Card5"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 224.0
+offset_bottom = 350.0
+texture = ExtResource("18")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Offers/Card5"]
+offset_left = 27.0
+offset_top = 68.0
+offset_right = 197.0
+offset_bottom = 176.0
+texture = ExtResource("19")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Amount" type="Label" parent="Offers/Card5"]
+offset_left = 0.0
+offset_top = 176.0
+offset_right = 224.0
+offset_bottom = 227.0
+text = ""
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Bonus" type="Label" parent="Offers/Card5"]
+offset_left = 0.0
+offset_top = 213.0
+offset_right = 224.0
+offset_bottom = 255.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Price" type="Label" parent="Offers/Card5"]
+offset_left = 31.0
+offset_top = 287.5
+offset_right = 193.0
+offset_bottom = 329.5
+text = ""
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Ribbon" type="TextureRect" parent="Offers/Card5"]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 126.0
+offset_bottom = 80.0
+texture = ExtResource("20")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="First" type="Label" parent="Offers/Card5"]
+offset_left = -17.0
+offset_top = 51.0
+offset_right = 138.0
+offset_bottom = 81.0
+text = "首充双倍"
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(1,0.94,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+rotation = -0.567
+
+[node name="Header" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 62.0
+mouse_filter = 0
+
+[node name="Art" type="TextureRect" parent="Header"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 62.0
+texture = ExtResource("21")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Help" type="Button" parent="Header"]
+offset_left = 10.0
+offset_top = -2.0
+offset_right = 79.0
+offset_bottom = 76.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Header/Help"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 69.0
+offset_bottom = 78.0
+texture = ExtResource("22")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Diamonds" type="Button" parent="Header"]
+offset_left = 88.0
+offset_top = 6.0
+offset_right = 243.0
+offset_bottom = 56.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Header/Diamonds"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 155.0
+offset_bottom = 50.0
+texture = ExtResource("23")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Value" type="Label" parent="Header/Diamonds"]
+offset_left = 54.0
+offset_top = 0.0
+offset_right = 148.0
+offset_bottom = 46.0
+text = ""
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.85,0.9,0.88,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Coins" type="Button" parent="Header"]
+offset_left = 258.0
+offset_top = 6.0
+offset_right = 413.0
+offset_bottom = 56.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Header/Coins"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 155.0
+offset_bottom = 50.0
+texture = ExtResource("24")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Value" type="Label" parent="Header/Coins"]
+offset_left = 54.0
+offset_top = 0.0
+offset_right = 148.0
+offset_bottom = 46.0
+text = ""
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.85,0.9,0.88,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Footer" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 1177.0
+offset_right = 720.0
+offset_bottom = 1280.0
+mouse_filter = 0
+
+[node name="Art" type="TextureRect" parent="Footer"]
+offset_left = 0.0
+offset_top = -22.0
+offset_right = 720.0
+offset_bottom = 103.0
+texture = ExtResource("25")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Tab" type="TextureRect" parent="Footer"]
+offset_left = 4.0
+offset_top = 0.0
+offset_right = 145.0
+offset_bottom = 103.0
+texture = ExtResource("26")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="Footer/Tab"]
+offset_left = 0.0
+offset_top = 70.0
+offset_right = 141.0
+offset_bottom = 100.0
+text = "钻石充值"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.8,0.87,0.86,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Back" type="Button" parent="."]
+offset_left = 605.0
+offset_top = 1106.0
+offset_right = 720.0
+offset_bottom = 1212.0
+flat = true
+focus_mode = 0
+mouse_default_cursor_shape = 2
+
+[node name="Art" type="TextureRect" parent="Back"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 115.0
+offset_bottom = 106.0
+texture = ExtResource("27")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Reward" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+visible = false
+mouse_filter = 0
+
+[node name="Shade" type="ColorRect" parent="Reward"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0,0,0,0.78)
+mouse_filter = 2
+
+[node name="Body" type="Control" parent="Reward"]
+offset_left = 0.0
+offset_top = 402.0
+offset_right = 720.0
+offset_bottom = 780.0
+mouse_filter = 2
+
+[node name="Panel" type="TextureRect" parent="Reward/Body"]
+offset_left = 0.0
+offset_top = 70.0
+offset_right = 720.0
+offset_bottom = 362.0
+texture = ExtResource("28")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Rays" type="TextureRect" parent="Reward/Body"]
+offset_left = 30.0
+offset_top = -250.0
+offset_right = 690.0
+offset_bottom = 390.0
+texture = ExtResource("29")
+expand_mode = 1
+mouse_filter = 2
+pivot_offset = Vector2(330,320)
+
+[node name="Ribbon" type="Sprite2D" parent="Reward/Body"]
+position = Vector2(360,45)
+texture = ExtResource("30")
+hframes = 4
+vframes = 20
+
+[node name="Title" type="Label" parent="Reward/Body"]
+offset_left = 138.0
+offset_top = -4.0
+offset_right = 582.0
+offset_bottom = 94.0
+text = "恭喜获得"
+theme_override_font_sizes/font_size = 49
+theme_override_colors/font_color = Color(1,0.94,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+pivot_offset = Vector2(222,49)
+
+[node name="Item" type="Control" parent="Reward/Body"]
+offset_left = 298.0
+offset_top = 141.0
+offset_right = 422.0
+offset_bottom = 299.0
+mouse_filter = 2
+pivot_offset = Vector2(62,62)
+
+[node name="Frame" type="TextureRect" parent="Reward/Body/Item"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 124.0
+offset_bottom = 124.0
+texture = ExtResource("31")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Reward/Body/Item"]
+offset_left = 18.0
+offset_top = 16.0
+offset_right = 106.0
+offset_bottom = 104.0
+texture = ExtResource("32")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Amount" type="Label" parent="Reward/Body/Item"]
+offset_left = 2.0
+offset_top = 85.0
+offset_right = 120.0
+offset_bottom = 123.0
+text = ""
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 2
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Name" type="Label" parent="Reward/Body/Item"]
+offset_left = -40.0
+offset_top = 124.0
+offset_right = 164.0
+offset_bottom = 166.0
+text = "钻石"
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Burst" type="TextureRect" parent="Reward/Body"]
+offset_left = 170.0
+offset_top = 11.0
+offset_right = 550.0
+offset_bottom = 391.0
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Hint" type="Label" parent="Reward"]
+offset_left = 120.0
+offset_top = 982.0
+offset_right = 600.0
+offset_bottom = 1027.0
+text = "点击空白处关闭界面"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.77,0.87,0.86,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="HelpPanel" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 1280.0
+visible = false
+mouse_filter = 0
+
+[node name="Shade" type="ColorRect" parent="HelpPanel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0,0,0,0.74)
+mouse_filter = 2
+
+[node name="Body" type="Control" parent="HelpPanel"]
+offset_left = 0.0
+offset_top = 374.0
+offset_right = 720.0
+offset_bottom = 884.0
+mouse_filter = 0
+
+[node name="Art" type="TextureRect" parent="HelpPanel/Body"]
+offset_left = 38.0
+offset_top = 0.0
+offset_right = 682.0
+offset_bottom = 510.0
+texture = ExtResource("33")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="HelpPanel/Body"]
+offset_left = 170.0
+offset_top = 28.0
+offset_right = 550.0
+offset_bottom = 93.0
+text = "钻石充值"
+theme_override_font_sizes/font_size = 30
+theme_override_colors/font_color = Color(1,0.92,0,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="HelpPanel/Body"]
+offset_left = 103.0
+offset_top = 146.0
+offset_right = 617.0
+offset_bottom = 386.0
+text = "每个档位首次充值，可额外获得同等数量的钻石。\n\n本客户端为模拟充值，不产生真实扣款。"
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+autowrap_mode = 2
+
+[node name="Hint" type="Label" parent="HelpPanel"]
+offset_left = 120.0
+offset_top = 964.0
+offset_right = 600.0
+offset_bottom = 1009.0
+text = "点击空白处关闭界面"
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Click" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("34")
+volume_db = -8.0
+
+[node name="RewardSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("35")
+volume_db = -8.0

@@ -1,0 +1,14 @@
+{
+  "prompt": "Original Mercenary Town artwork or source Spine idle pose; not AI generated.",
+  "source": {
+    "skeleton": "03_美术资源/03_Spine骨骼/resources/tmp/role/hero/archar/girl/front/nvgongjianshou/nvgongjianshou.skel",
+    "parts": {
+      "head": 15,
+      "face": 15,
+      "body": 15
+    },
+    "skin": "S_24",
+    "weapon": "03_美术资源/02_透明切图/resources/tmp/equipSpine/wuqi_lr_01.png",
+    "animation": "complete idl loop at 30Hz; fixed union framing"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "prompt": "Original source Spine js_welcome_XH sampled with existing Pixi runtime; not AI generated.",
+  "source": "03_美术资源\\03_Spine骨骼\\resources\\__未命名\\0c18c0dc-b455-4ea5-bcdb-fee1c9831f14",
+  "frames": 16,
+  "columns": 4,
+  "width": 620,
+  "height": 180,
+  "hashes": {
+    "jiesuanmianban.atlas": "1779d265bcebf85433c8f033e7b996f0c9d0ce894d0686b39b264f4bf6728d79",
+    "jiesuanmianban.json": "e1feec90d4b8e07080205845e3faec26800e17d4bec34790d3036a2b9564043e",
+    "jiesuanmianban.png": "09ac0fe9ae4d9264de9fc9dc01b19e0323c9a56fe3d30b28ab07fb156e467731"
+  }
+}

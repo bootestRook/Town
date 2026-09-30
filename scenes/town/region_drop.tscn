@@ -1,0 +1,35 @@
+[gd_scene format=3]
+
+
+
+[node name="Drop" type="Button"]
+custom_minimum_size = Vector2(94,94)
+flat = true
+focus_mode = 0
+
+[node name="Quality" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 94.0
+offset_bottom = 94.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="."]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 91.0
+offset_bottom = 91.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Tier" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 34.0
+offset_bottom = 23.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2

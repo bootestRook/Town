@@ -1,0 +1,175 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/main_hero_library_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/quality_4.png" id="2"]
+[ext_resource type="Script" path="res://src/features/town/presentation/hero_idle_portrait.gd" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/rank.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/job_1.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_roster/element_1.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/power.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_management/check.png" id="8"]
+
+[node name="Card" type="Button"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 165.0
+offset_bottom = 202.0
+script = ExtResource("1")
+custom_minimum_size = Vector2(165,202)
+flat = true
+focus_mode = 0
+mouse_filter = 1
+mouse_default_cursor_shape = 2
+
+[node name="Quality" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 165.0
+offset_bottom = 198.0
+texture = ExtResource("2")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="."]
+offset_left = 7.0
+offset_top = 20.0
+offset_right = 158.0
+offset_bottom = 171.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+script = ExtResource("3")
+
+[node name="Rank" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 35.0
+offset_bottom = 32.0
+texture = ExtResource("4")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Job" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 34.0
+offset_right = 35.0
+offset_bottom = 58.0
+texture = ExtResource("5")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Element" type="TextureRect" parent="."]
+offset_left = 133.0
+offset_top = -2.0
+offset_right = 170.0
+offset_bottom = 35.0
+texture = ExtResource("6")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Level" type="Label" parent="."]
+offset_left = 31.0
+offset_top = 3.0
+offset_right = 138.0
+offset_bottom = 29.0
+text = ""
+theme_override_font_sizes/font_size = 21
+theme_override_colors/font_color = Color(0.13,1,0.13,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Name" type="Label" parent="."]
+offset_left = 6.0
+offset_top = 139.0
+offset_right = 157.0
+offset_bottom = 169.0
+text = ""
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.13,1,0.13,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="PowerArt" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0,175,153,175,165,188,153,202,0,202)
+color = Color(0,0,0,1)
+
+[node name="PowerIcon" type="TextureRect" parent="."]
+offset_left = 1.0
+offset_top = 172.0
+offset_right = 33.0
+offset_bottom = 204.0
+texture = ExtResource("7")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Power" type="Label" parent="."]
+offset_left = 31.0
+offset_top = 172.0
+offset_right = 159.0
+offset_bottom = 202.0
+text = ""
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Star0" type="TextureRect" parent="."]
+offset_left = 130.0
+offset_top = 108.0
+offset_right = 162.0
+offset_bottom = 140.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Star1" type="TextureRect" parent="."]
+offset_left = 130.0
+offset_top = 83.0
+offset_right = 162.0
+offset_bottom = 115.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Star2" type="TextureRect" parent="."]
+offset_left = 130.0
+offset_top = 58.0
+offset_right = 162.0
+offset_bottom = 90.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Star3" type="TextureRect" parent="."]
+offset_left = 130.0
+offset_top = 33.0
+offset_right = 162.0
+offset_bottom = 65.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Shade" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0,0,0,0.48)
+mouse_filter = 2
+
+[node name="Check" type="TextureRect" parent="."]
+offset_left = 100.0
+offset_top = 149.0
+offset_right = 166.0
+offset_bottom = 203.0
+texture = ExtResource("8")
+expand_mode = 1
+mouse_filter = 2

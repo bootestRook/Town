@@ -1,0 +1,138 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/main_skill_tooltip.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/tip_body.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_frame.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_level.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/hero_detail/skill_lock.png" id="5"]
+
+[node name="SkillTooltip" type="Control"]
+offset_left = 30.0
+offset_top = 550.0
+offset_right = 690.0
+offset_bottom = 764.0
+script = ExtResource("1")
+mouse_filter = 0
+
+[node name="Background" type="NinePatchRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+texture = ExtResource("2")
+patch_margin_left = 14
+patch_margin_top = 14
+patch_margin_right = 14
+patch_margin_bottom = 14
+
+[node name="Icon" type="Control" parent="."]
+offset_left = 24.0
+offset_top = 18.0
+offset_right = 128.0
+offset_bottom = 122.0
+mouse_filter = 2
+
+[node name="Art" type="TextureRect" parent="Icon"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 104.0
+offset_bottom = 104.0
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Frame" type="TextureRect" parent="Icon"]
+offset_left = -3.0
+offset_top = -3.0
+offset_right = 107.0
+offset_bottom = 107.0
+texture = ExtResource("3")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Corner" type="TextureRect" parent="Icon"]
+offset_left = 71.0
+offset_top = -2.0
+offset_right = 106.0
+offset_bottom = 31.0
+texture = ExtResource("4")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Level" type="Label" parent="Icon"]
+offset_left = 73.0
+offset_top = -2.0
+offset_right = 104.0
+offset_bottom = 31.0
+text = ""
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Lock" type="TextureRect" parent="Icon"]
+offset_left = 14.0
+offset_top = 14.0
+offset_right = 90.0
+offset_bottom = 90.0
+texture = ExtResource("5")
+expand_mode = 1
+mouse_filter = 2
+visible = false
+
+[node name="Title" type="Label" parent="."]
+offset_left = 148.0
+offset_top = 13.0
+offset_right = 477.0
+offset_bottom = 50.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(1,0.94,0.04,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Type" type="Label" parent="."]
+offset_left = 479.0
+offset_top = 13.0
+offset_right = 642.0
+offset_bottom = 50.0
+text = ""
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 2
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Unlock" type="Label" parent="."]
+offset_left = 148.0
+offset_top = 49.0
+offset_right = 642.0
+offset_bottom = 83.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(1,0.23,0.29,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Text" type="RichTextLabel" parent="."]
+offset_left = 148.0
+offset_top = 54.0
+offset_right = 642.0
+offset_bottom = 198.0
+bbcode_enabled = true
+scroll_active = false
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 23
+theme_override_colors/default_color = Color(0.953,0.953,0.827,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 4
+theme_override_constants/line_separation = 4

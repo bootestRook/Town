@@ -1,0 +1,9 @@
+id,display_name,stat,material,product,material_cost,service_seconds,recovery_ratio,room,machine,seat_cost_2,seat_cost_3,stat_name,seat_title,price_tip,time_tip,seat_tip,machine_scale,help_description,material_description
+building.1,医院,hp,item.20101,item.20151,1,12.0,1.0,operations.hospital_room,operations.hospital_idle,1500,1800,生命,同时治疗人数,绷带售价增加%s,英雄包扎时间缩短%s秒,支持同时治疗人数%s,1.05,用于回复英雄生命值的建筑,"制造1阶绷带的原材料
+<color=#34cd3f>获取途径：</color>击杀任意1阶怪物、交易所收购、挂机奖励等。"
+building.2,餐馆,energy,item.20102,item.20152,1,12.0,1.0,operations.canteen_room,operations.canteen_idle,1100,1300,饥饿,同时用餐人数,食物售价增加%s,英雄用餐时间缩短%s秒,支持同时用餐人数%s,1.02,英雄用于回复饥饿值的建筑,"烹饪1阶食物的原材料
+<color=#34cd3f>获取途径：</color>击杀任意1阶怪物、交易所收购、挂机奖励等。"
+building.3,旅馆,tired,item.20104,item.20154,1,13.0,1.0,operations.hotel_room,operations.hotel_idle,800,900,疲劳,同时休息人数,英雄住宿价格增加%s,英雄住宿时间缩短%s秒,支持同时休息人数%s,1.02,英雄用于回复疲劳值的建筑,"纺织1阶被褥的原材料
+<color=#34cd3f>获取途径：</color>击杀任意1阶怪物、交易所收购、挂机奖励等。"
+building.4,酒馆,mood,item.20103,item.20153,1,13.0,1.0,operations.bar_room,operations.bar_idle,1050,1150,心情,同时娱乐人数,酒类售价增加%s,英雄喝酒时间缩短%s秒,支持同时娱乐人数%s,1.2,英雄用于回复心情值的建筑,"勾兑1阶饮品的原材料
+<color=#34cd3f>获取途径：</color>击杀任意1阶怪物、交易所收购、挂机奖励等。"

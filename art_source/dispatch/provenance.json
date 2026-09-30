@@ -1,0 +1,67 @@
+{
+  "frame": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/2953d064-80ec-4315-ab0c-130b73dda0bd.png",
+    "uuid": "2953d064-80ec-4315-ab0c-130b73dda0bd",
+    "sha256": "918faa5ba1dfa5732c5a12c88200f1d3b1ceb1edac7dfcc3369dbfe3931b5192"
+  },
+  "town": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/19b63322-e16b-4872-9da8-c5f3b26489c2.png",
+    "uuid": "19b63322-e16b-4872-9da8-c5f3b26489c2",
+    "sha256": "70f92f78b5502947038badd6b0d8605be03c5f684459c4d217004caf73cdf406"
+  },
+  "field": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/cb490369-cbe5-46b4-ad1f-114e5d875db7.png",
+    "uuid": "cb490369-cbe5-46b4-ad1f-114e5d875db7",
+    "sha256": "0e0eedfa6591f5d7277e65b5e52d8de72e95ecd99fc75463055191a34bf5d8e8"
+  },
+  "field2": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/b8cf39e1-2efb-4c87-909a-ed8eb18c2889.png",
+    "uuid": "b8cf39e1-2efb-4c87-909a-ed8eb18c2889",
+    "sha256": "9c7612f49d74bf8e6ee3ed7276f27e48ce598c7a760ab7a78ce87519a31e2fc6"
+  },
+  "field3": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/314116ee-15e8-437c-89cf-7970cff00713.png",
+    "uuid": "314116ee-15e8-437c-89cf-7970cff00713",
+    "sha256": "cfe9e612203ddc0f5c9bf761ec9937e92f90c26ef69d0d865407d36624d41d7e"
+  },
+  "tab": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/c8aef7ca-00be-4eec-949b-8a5ec39abc8e.png",
+    "uuid": "c8aef7ca-00be-4eec-949b-8a5ec39abc8e",
+    "sha256": "fa52e8d47a6e8ab0d2cb2b48b9d881c2c46087ea7c5ae63a4ab84fc33a61a407"
+  },
+  "selected": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/63b08d78-88cc-47af-b000-e560e311be3b.png",
+    "uuid": "63b08d78-88cc-47af-b000-e560e311be3b",
+    "sha256": "49cc1a6e5afae7fbfa81181550a029000ca83226249b6281fbba6423e90bb342"
+  },
+  "town_title": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/9f56b45d-0651-4337-ae1c-88db70a7615f.png",
+    "uuid": "9f56b45d-0651-4337-ae1c-88db70a7615f",
+    "sha256": "cfb122a8bda7c2d5d431bf8c93ccdd525bbc70ba94106dd145909b331386b192"
+  },
+  "power": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/23febec3-8c45-4c43-8bc3-ebb9632148a5.png",
+    "uuid": "23febec3-8c45-4c43-8bc3-ebb9632148a5",
+    "sha256": "6327db1803b856f8e4e1f25895ba168bdc723f2c4ec35aa75e943101dd6bd5a8"
+  },
+  "title": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/8aab314b-db2c-43c8-9dfc-1600124775f5.png",
+    "uuid": "8aab314b-db2c-43c8-9dfc-1600124775f5",
+    "sha256": "766d81c5dc8b392413841fcdcea5cf7050bd5c422053be365bb4e3d10dd69736"
+  },
+  "fade": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/8c5a9100-5272-4d65-b14c-d362454328ab.png",
+    "uuid": "8c5a9100-5272-4d65-b14c-d362454328ab",
+    "sha256": "626b9190b0b2303c4d298f45eb632530a54795837234ad43ed066f50e4bafdda"
+  },
+  "move": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/5c1f5b63-8e3a-49c7-97ce-48382bc20346.png",
+    "uuid": "5c1f5b63-8e3a-49c7-97ce-48382bc20346",
+    "sha256": "fda17343fd618b2d53d960831f40facbdc917d14614076c2a3516045ae3faac5"
+  },
+  "warning": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/86694d13-c584-4ea6-bc7f-10046c8388f2.png",
+    "uuid": "86694d13-c584-4ea6-bc7f-10046c8388f2",
+    "sha256": "47e95631576f286a28756c8288e27278dae32c6f31484a4dc8b7aadb892c3d4a"
+  }
+}

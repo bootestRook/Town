@@ -1,0 +1,183 @@
+extends SceneTree
+
+var _app
+var _hud
+var _failures: Array[String] = []
+
+func _initialize() -> void:
+	call_deferred("_run")
+
+func _run() -> void:
+	root.unfocusable = true
+	root.position = Vector2i(-4000, 0)
+	root.size = Vector2i(750, 1334)
+	_app = load("res://scenes/main.tscn").instantiate()
+	root.add_child(_app)
+	await _settle()
+	_hud = _app.get_node("Interface/MainHUD")
+	await _capture("01_main")
+	var camera = _app.get_node("Town/Camera")
+	var start: Vector2 = camera.position
+	_click(_hud.get_node("Stage/Bottom/Nav2"))
+	await _settle()
+	_check(_hud.route == "heroes", "real hero nav input")
+	await _capture("02_heroes")
+	_click(_hud.get_node("Stage/HeroRoster/Scroll/Grid").get_child(0).get_node("Open"))
+	await _settle()
+	await _capture("03_hero_detail")
+	_click(_hud.get_node("Stage/HeroDetail/Attributes/Info"))
+	await _settle()
+	var coins: int = _app.operations_snapshot().coins
+	_click(_hud.get_node("Stage/Dialogs/Panel/Action"))
+	await _settle()
+	_check(_app.operations_snapshot().coins < coins, "hero upgrade spends wallet via input")
+	_click(_hud.get_node("Stage/Dialogs/Panel/Close"))
+	_click(_hud.get_node("Stage/HeroDetail/Bottom/Back"))
+	_click(_hud.get_node("Stage/Bottom/Nav2"))
+	await _settle()
+	_check(_hud.route.is_empty(), "same tab toggles closed")
+	_check(camera.position == start, "UI does not drag map")
+	_click(_hud.get_node("Stage/Top/Coins"))
+	await _settle()
+	await _capture("04_gold")
+	_click(_hud.get_node("Stage/Dialogs/Panel/Action"))
+	await _settle()
+	_check(_hud.get_node("Stage/Top/Coins/Value").text == MainHUD.compact(_app.operations_snapshot().coins), "HUD reflects wallet mutation")
+	_click(_hud.get_node("Stage/Dialogs/Panel/Close"))
+	_click(_hud.get_node("Stage/Bottom/Nav3"))
+	await _settle()
+	await _capture("05_recruit")
+	_app._operations._state.inventory["item.10001"] = 1
+	_hud.render(_app.operations_snapshot())
+	_click(_hud.get_node("Stage/Recruitment/Body/Recruit"))
+	await _settle()
+	_check(_app.operations_snapshot().main.recruited.size() == 1, "real recruit input")
+	_hud.close()
+	_click(_hud.get_node("Stage/Bottom/Nav4"))
+	await _settle()
+	await _capture("06_shop")
+	_click(_hud.get_node("Stage/DiamondShop/Offers/Card0"))
+	await create_timer(0.9).timeout
+	await _capture("07_purchase")
+	_check(_app.operations_snapshot().main.orders.size() == 1, "simulated recharge confirmed")
+	_click(_hud.get_node("Stage/DiamondShop/Header/Help"))
+	_click(_hud.get_node("Stage/DiamondShop/Back"))
+	await _settle()
+	_click(_hud.get_node("Stage/Bottom/Nav0"))
+	await _settle()
+	await _capture("08_gameplay")
+	_click(_hud.get_node("Stage/Bottom/Nav1"))
+	await _settle()
+	await _capture("09_dungeon")
+	_click(_hud.get_node("Stage/Panels/Footer/Primary"))
+	await _settle()
+	_click(_hud.get_node("Stage/Dialogs/Panel/Action"))
+	await _settle()
+	await _capture("10_battle")
+	_check(not _app.operations_snapshot().main.battle.is_empty(), "battle opens from stage modal")
+	_click(_hud.get_node("Stage/Panels/Battle/Footer/Back"))
+	await _settle()
+	_check(_app.operations_snapshot().main.battle.is_empty(), "retreat closes active battle")
+	_click(_hud.get_node("Stage/Top/Energy"))
+	await _settle()
+	await _capture("11_energy")
+	_click(_hud.get_node("Stage/Dialogs/Panel/Close"))
+	_click(_hud.get_node("Stage/Top/Profile"))
+	await _settle()
+	await _capture("12_profile")
+	_click(_hud.get_node("Stage/Dialogs/Panel/Close"))
+	_click(_hud.get_node("Stage/Bottom/Nav0"))
+	await _settle()
+	_hud.get_node("Stage/Panels/Scroll").scroll_vertical = 10000
+	await _settle()
+	_click(_hud.get_node("Stage/Panels/Scroll/Grid").get_child(5))
+	await _settle()
+	await _capture("13_sea")
+	_check(_hud.get_node("Stage/Panels").mode == "modes.5", "source ordered sea entrance")
+	_click(_hud.get_node("Stage/Panels/Scroll/Grid").get_child(0))
+	await _settle()
+	await _capture("14_sea_detail")
+	_click(_hud.get_node("Stage/Dialogs/Panel/Action"))
+	await _settle()
+	_check(_app.operations_snapshot().main.salvage.jobs.size() == 1, "salvage dispatch via real input")
+	_click(_hud.get_node("Stage/Dialogs/Panel/Close"))
+	_app._operations._main_systems.advance(_app._operations._state, 3600)
+	_hud.render(_app.operations_snapshot())
+	await _settle()
+	_check(_hud.get_node("Stage/Panels/Scroll/Grid").get_child(0).get_node("Detail").text == "可领取", "completed salvage refreshes list label")
+	await _capture("18_sea_ready")
+	_click(_hud.get_node("Stage/Panels/Scroll/Grid").get_child(0))
+	await _settle()
+	_click(_hud.get_node("Stage/Dialogs/Panel/Action"))
+	await _settle()
+	_click(_hud.get_node("Stage/Dialogs/Panel/Close"))
+	await _settle()
+	_check(_hud.get_node("Stage/Panels/Scroll/Grid").get_child(0).get_node("Detail").text == "20体力", "claimed salvage restores idle label")
+	await _capture("19_sea_claimed")
+	_click(_hud.get_node("Stage/Panels/Close"))
+	await _settle()
+	_check(_hud.get_node("Stage/Panels").mode == "dungeon", "submode back returns gameplay list")
+	_hud.close()
+	_app.open_building("building.5")
+	await _settle()
+	await _capture("15_city")
+	_click(_hud.get_node("Stage/Dialogs/Panel/Close"))
+	_click(_hud.get_node("Stage/Bottom/Nav3"))
+	await _settle()
+	_click(_hud.get_node("Stage/Recruitment/Body/Probability"))
+	await _settle()
+	await _capture("16_probability")
+	_hud.close()
+	_click(_hud.get_node("Stage/Bottom/Nav2"))
+	await _settle()
+	_click(_hud.get_node("Stage/HeroRoster/Scroll/Grid").get_child(0).get_node("Open"))
+	await _settle()
+	_click(_hud.get_node("Stage/HeroDetail/AttributePage/Skill0"))
+	await _settle()
+	await _capture("17_skills")
+	_check(_hud.get_node("Stage/SkillTooltip").visible and not _hud.get_node("Stage/Dialogs").visible, "skill opens inline over original full-screen hero")
+	_click(_hud.get_node("Stage/HeroDetail/AttributePage/Skill0"))
+	await _settle()
+	_check(_hud.get_node("Stage/HeroDetail").visible and not _hud.get_node("Stage/SkillTooltip").visible, "repeated skill click closes only inline description")
+	_hud.close()
+	for dimensions in [Vector2i(360,640), Vector2i(750,1624)]:
+		root.size = dimensions
+		await _settle()
+		await _capture("main_%d_%d" % [dimensions.x, dimensions.y])
+		_hud.navigate("heroes")
+		await _settle()
+		await _capture("heroes_%d_%d" % [dimensions.x, dimensions.y])
+		_hud.close()
+		if dimensions.x == 360:
+			_click(_hud.get_node("Stage/Top/Profile"))
+			await _settle()
+			_check(_hud.get_node("Stage/Dialogs").visible and _hud.get_node("Stage/Dialogs").kind == "profile", "narrow profile modal is actually open")
+			await _capture("profile_360_640")
+			_hud.close()
+	if _failures.is_empty(): print("[OK] Main UI native input and 24 captures")
+	else:
+		for message in _failures: push_error(message)
+	_app.queue_free()
+	await process_frame
+	quit(0 if _failures.is_empty() else 1)
+
+func _click(control: Control) -> void:
+	var point := control.get_viewport().get_final_transform() * control.get_global_rect().get_center()
+	for pressed in [true, false]:
+		var event := InputEventMouseButton.new()
+		event.position = point
+		event.button_index = MOUSE_BUTTON_LEFT
+		event.pressed = pressed
+		Input.parse_input_event(event)
+		Input.flush_buffered_events()
+
+func _settle() -> void:
+	for i in range(8): await process_frame
+	await RenderingServer.frame_post_draw
+
+func _capture(name: String) -> void:
+	await RenderingServer.frame_post_draw
+	_check(root.get_texture().get_image().save_png("res://validation/main_ui/" + name + ".png") == OK, "capture " + name)
+
+func _check(condition: bool, message: String) -> void:
+	if not condition: _failures.append(message)

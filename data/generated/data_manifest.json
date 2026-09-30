@@ -1,0 +1,429 @@
+{
+  "catalog_sha256": "2c7191d404bd3ed2c9fa2d440b5e16072554fbf681845a1f137a5ec1a6a5224e",
+  "combined_source_sha256": "7619b56088dd687cff8b9789eaa032e048fb32a9f9d6271b0cce4cfd5a3e7e7f",
+  "format_version": 1,
+  "generator": "tools/content_pipeline.py",
+  "schema_version": 1,
+  "source_files": [
+    {
+      "bytes": 100258,
+      "path": "data/schema/data_schema.json",
+      "sha256": "88d5eb4bddf4602117f26c0bc299ada913ff41ba1bec52118f14c019a0b49d94"
+    },
+    {
+      "bytes": 307,
+      "path": "data/source/definitions.csv",
+      "sha256": "b737d31c326a9ba5be781e89ea0f10ff66531e629e9a78546a6fc21e4a3ccf9a"
+    },
+    {
+      "bytes": 126801,
+      "path": "data/source/town/equipment_shop_affixes.csv",
+      "sha256": "058c9858f3b41302cb95a19bbaab0eb0d906cdadee3cd658df53c581c4785aac"
+    },
+    {
+      "bytes": 25865,
+      "path": "data/source/town/equipment_shop_equipment.csv",
+      "sha256": "d98ae421bc1732e71e142f3d00c52fd3b623a375432982e5c56ddcf64c1587a0"
+    },
+    {
+      "bytes": 25012,
+      "path": "data/source/town/equipment_shop_items.csv",
+      "sha256": "c12aa26afe329e59662042aeadbb148511e2b48c2ea44a46e8b13be2b43497a5"
+    },
+    {
+      "bytes": 1290,
+      "path": "data/source/town/equipment_shop_levels.csv",
+      "sha256": "78889bab151a32786bc40b78ee2cbac11f3fefb3d0d8ccfb30e7fe18c90dcfab"
+    },
+    {
+      "bytes": 22388,
+      "path": "data/source/town/equipment_shop_recipes.csv",
+      "sha256": "c72eca94560e5b7f60898a1860fea28b11021adb939f6096663c4bb54d5596d1"
+    },
+    {
+      "bytes": 216,
+      "path": "data/source/town/equipment_shops.csv",
+      "sha256": "23d79192b6eb31fb261a7ac5165bb78186226a0f43cbd9fd7c40ff6e99294d46"
+    },
+    {
+      "bytes": 305,
+      "path": "data/source/feature_catalog.csv",
+      "sha256": "235a3d868439d2c5b1357630f985d6dce5f59cb27bf5adb40070b1d6e4c954e5"
+    },
+    {
+      "bytes": 706,
+      "path": "data/source/localization.csv",
+      "sha256": "88838a7734b8038457d428163718529a4cb932dd568dfb6ae1ecb36350009d5c"
+    },
+    {
+      "bytes": 64625,
+      "path": "data/source/town/main_artifact_levels.csv",
+      "sha256": "9da085e1fe115e852a4175cce93a9f30d05a6a1cf35f04362ada4714a01a8c53"
+    },
+    {
+      "bytes": 206,
+      "path": "data/source/town/main_artifact_qualities.csv",
+      "sha256": "502df9d3fd3ed59c1bda4ec89ddc5cff3aa477eb7f05078e8b9c8a798398bd69"
+    },
+    {
+      "bytes": 7388,
+      "path": "data/source/town/main_artifacts.csv",
+      "sha256": "f88388e47c649777f3d30ca06fef711441475700b09c05c3a29b883927225632"
+    },
+    {
+      "bytes": 700,
+      "path": "data/source/town/main_battle_gates.csv",
+      "sha256": "4a48f9bbcdbc3f5375900cb013e7049e30fb66f5192e8b3de15a6667e0d192b4"
+    },
+    {
+      "bytes": 43871,
+      "path": "data/source/town/main_buffs.csv",
+      "sha256": "c6350becea46130a3de8a0defeac0eebdb9e6887fc0504dd3ff53212d96caa10"
+    },
+    {
+      "bytes": 658,
+      "path": "data/source/town/main_city.csv",
+      "sha256": "2b9716b4860545f2b66d69963030657ade6ff56f120aaf993545528ab83479cc"
+    },
+    {
+      "bytes": 103,
+      "path": "data/source/town/main_combat_rules.csv",
+      "sha256": "98319e02cd4a54c5b3d6e5a255a4a207f85b6a7b9a31f0040660694baabe7907"
+    },
+    {
+      "bytes": 89845,
+      "path": "data/source/town/main_dungeons.csv",
+      "sha256": "8bc32b2a7478136a16ba5dcee8658cc39e4020f6bd4806ba95208cdcce60f5bc"
+    },
+    {
+      "bytes": 431809,
+      "path": "data/source/town/main_encounters.csv",
+      "sha256": "a6decb7ec0b671dfc05ab1bebe01ecea3f195b9836588f1406c43e93c69b71ed"
+    },
+    {
+      "bytes": 1701777,
+      "path": "data/source/town/main_enemies.csv",
+      "sha256": "b26c9731ae2d8f0d94cdff62dde481915ec835d22f5659bfaff88b673e7207c9"
+    },
+    {
+      "bytes": 17408,
+      "path": "data/source/town/main_equipment_rules.csv",
+      "sha256": "987e02f6cfae4d53194ec396228f9ffb95d9ace9dcf8167c8447f1957bca6f87"
+    },
+    {
+      "bytes": 13054,
+      "path": "data/source/town/main_fairy_loot.csv",
+      "sha256": "9895c8c987d32149e7ea64e2efe29a89c5a6cb315387b281a51eff334d1b564e"
+    },
+    {
+      "bytes": 267,
+      "path": "data/source/town/main_hero_camp.csv",
+      "sha256": "29cbd88a64142b81daa3109544599e01e31eea559964f887eff79b85ddcc9be8"
+    },
+    {
+      "bytes": 2314,
+      "path": "data/source/town/main_hero_catalog.csv",
+      "sha256": "4ba5a6f38c3b1baa580f2a2876f367946c8cc33f039f3ea7f9d1ce071a9a4ce8"
+    },
+    {
+      "bytes": 4786,
+      "path": "data/source/town/main_hero_idle.csv",
+      "sha256": "7e6ac54468456afa4c3a09a344677f27320f31160a9cca044dff42fd122f4439"
+    },
+    {
+      "bytes": 12687,
+      "path": "data/source/town/main_heroes.csv",
+      "sha256": "5d5e6fe2f1ff21ae1f7898635fed4b02b36a600e518f86d0b869ab915af6b360"
+    },
+    {
+      "bytes": 4088,
+      "path": "data/source/town/main_horn_chests.csv",
+      "sha256": "3698d01b288a3ac5d794edb7818aa0b866308fdd71bbce56187c0553fbd7f846"
+    },
+    {
+      "bytes": 5095,
+      "path": "data/source/town/main_horn_items.csv",
+      "sha256": "f265d36e24003f2ae60c889af7066eebe67bb1141d63092b2ec7acbb3cd9edae"
+    },
+    {
+      "bytes": 16938,
+      "path": "data/source/town/main_horn_levels.csv",
+      "sha256": "59343f35729a45d32e22d2eee082231099d54fa199c0966c0a8597e305c4b89f"
+    },
+    {
+      "bytes": 81109,
+      "path": "data/source/town/main_item_uses.csv",
+      "sha256": "2625ed832115dfee09ddf4506efeb74d9eecbbb751daa79fe3a6da356999ad4c"
+    },
+    {
+      "bytes": 48377,
+      "path": "data/source/town/main_items.csv",
+      "sha256": "568a308e8e31478a55393f697e63d428d68e767d23e12f7b4d662f841af77109"
+    },
+    {
+      "bytes": 323,
+      "path": "data/source/town/main_modes.csv",
+      "sha256": "d4ca47928afe09f2866e4468f4c68977860e01710f8a0d80ed8e08846f262ede"
+    },
+    {
+      "bytes": 22401,
+      "path": "data/source/town/main_passives.csv",
+      "sha256": "28274a476b60d23b9c9548801ca6b6fe0099e543910e3fdeb590756f6e194332"
+    },
+    {
+      "bytes": 97777,
+      "path": "data/source/town/main_pet_levels.csv",
+      "sha256": "4a26c047f1ff8393e0691ae9e53b7af99d2311453a32ec74fe573870c02ea6be"
+    },
+    {
+      "bytes": 3836,
+      "path": "data/source/town/main_pet_skills.csv",
+      "sha256": "fee55d3965a8f12c919d9a3212e3eb91ecc3b44c54a75856c898903954bb2394"
+    },
+    {
+      "bytes": 70630,
+      "path": "data/source/town/main_pets.csv",
+      "sha256": "69594c9e1f13d70c4731e7002be41887b9e728a4ee23d347c3eef9f2dcd44ffa"
+    },
+    {
+      "bytes": 16177,
+      "path": "data/source/town/main_purchase.csv",
+      "sha256": "bb45bf406957cee2e09c7a4d672ccfd4eefd90046876584b63cc01c105b07a46"
+    },
+    {
+      "bytes": 2629,
+      "path": "data/source/town/main_recruit.csv",
+      "sha256": "9b44cefcee9d6b3a6fe6d040c1fefa45eb68c65e472ef098b211acbc9f83e05a"
+    },
+    {
+      "bytes": 4940,
+      "path": "data/source/town/main_recruit_pool.csv",
+      "sha256": "2b91ff78264bc0bd2b41c32f661f54f890f7fbe270770d0c28e5c6783c295950"
+    },
+    {
+      "bytes": 156,
+      "path": "data/source/town/main_recruit_prices.csv",
+      "sha256": "04b60a34221359b53fa29f95d3cd9f7fc1d4012510f4b6c2cb725b0cb6fce5a5"
+    },
+    {
+      "bytes": 259,
+      "path": "data/source/town/main_recruit_rules.csv",
+      "sha256": "497532b235705363261299a1a85daba8ba57fff13df01da0a1625feb465325e0"
+    },
+    {
+      "bytes": 77,
+      "path": "data/source/town/main_rules.csv",
+      "sha256": "6ecb951ed010b2d7ede6a47342b31a1b4f9359c09077248ea2c48e910f23986c"
+    },
+    {
+      "bytes": 181,
+      "path": "data/source/town/main_sea.csv",
+      "sha256": "7f4d0cd881da69ed7a346f3e51d9433c0a505c9ecd2ba7fea45d4c06cdc2db93"
+    },
+    {
+      "bytes": 3179,
+      "path": "data/source/town/main_sea_rewards.csv",
+      "sha256": "e435571b886a8676ad24877e96fcedcf2f6848f2eb49947d5e4028013033465a"
+    },
+    {
+      "bytes": 501,
+      "path": "data/source/town/main_shop.csv",
+      "sha256": "14cbe674cf1ab234bebb1ca9288a7725adbd147dc4681a52d8a1798fc4de8904"
+    },
+    {
+      "bytes": 5656,
+      "path": "data/source/town/main_shop_gifts.csv",
+      "sha256": "add6665e9c1a5c6d0b113c4c8cf1690ecc148e204555358cd42922b7d75a9b57"
+    },
+    {
+      "bytes": 12753,
+      "path": "data/source/town/main_skill_art.csv",
+      "sha256": "865057a987216d44b43c52bdffcc9b8a6934c75ab7518340df43555cfeda3aa1"
+    },
+    {
+      "bytes": 24871,
+      "path": "data/source/town/main_skills.csv",
+      "sha256": "aeccffeffb02f8416e7d843600d718a23439cce4cb790be7a42be5cf4d5c6cf6"
+    },
+    {
+      "bytes": 792,
+      "path": "data/source/town/main_star_display.csv",
+      "sha256": "74fadbe40235ffa26a1ef696489120f4c02b36d1dbd8999ad15f45ec6d19eb17"
+    },
+    {
+      "bytes": 189830,
+      "path": "data/source/town/main_talents.csv",
+      "sha256": "4455058eb6ae8a4f2de8359ad79bf75b7c3c80cbd83e268e9cfd1bfeb191b5b6"
+    },
+    {
+      "bytes": 125,
+      "path": "data/source/platform_overrides.csv",
+      "sha256": "e6d2e7229413eb6dd10965263505bdf6c040a59045422e72848861185c60bc9a"
+    },
+    {
+      "bytes": 251,
+      "path": "data/source/presentation_cues.csv",
+      "sha256": "6e4e2c645e1cad0a1e177e62be86a3b525617023e3ba28bfe20f0d8f020e5f99"
+    },
+    {
+      "bytes": 277,
+      "path": "data/source/quality_budgets.csv",
+      "sha256": "ac3fa680e6a6344507116b744dff5eca430198ddb48358645121c58e7ba1a7ce"
+    },
+    {
+      "bytes": 197,
+      "path": "data/source/relations.csv",
+      "sha256": "f34f789ebe1556e18a1202f8de34963a7a9a0644b8d3f2a73f33b702870c6482"
+    },
+    {
+      "bytes": 544725,
+      "path": "data/source/resource_bindings.csv",
+      "sha256": "df59c38424e20af1631783634551f816e47b37c8a3bcbdf1190b886fbf9bb529"
+    },
+    {
+      "bytes": 542,
+      "path": "data/source/resource_policies.csv",
+      "sha256": "92a23b40009ac0a5999b74dd6758705d167e24dc8ee022eb9390857612863b9a"
+    },
+    {
+      "bytes": 421,
+      "path": "data/source/system_settings.csv",
+      "sha256": "6ed40ed9755b9ffcf2194ba4626cb55b3ddbe8e31d83f7fb53d5634ac6024134"
+    },
+    {
+      "bytes": 107284,
+      "path": "data/source/town/town_animations.csv",
+      "sha256": "c87a0b5cb43755d5caea1f3e073ce7584247d5cffdb4382642abeb6257afdae8"
+    },
+    {
+      "bytes": 3665,
+      "path": "data/source/town/town_appearances.csv",
+      "sha256": "e92fa864bc9368c69aa4e37d52eaac5e483abe2a273eb9fef9f90e955db615ff"
+    },
+    {
+      "bytes": 7519,
+      "path": "data/source/town/town_attacks.csv",
+      "sha256": "1f2bd97bf0cecd4ecb20ad9f3eb6546fd6949853669e13fdf6e7f7939ba0daeb"
+    },
+    {
+      "bytes": 196,
+      "path": "data/source/town/town_backgrounds.csv",
+      "sha256": "9d5561ab56859002051397c1d402068b967a70dad94eb22646a42559140548bf"
+    },
+    {
+      "bytes": 2476,
+      "path": "data/source/town/town_buildings.csv",
+      "sha256": "f56c1781c0c29a4a2c83f07c65d76af2f6cfe397b529ea21d404172a705973c8"
+    },
+    {
+      "bytes": 160,
+      "path": "data/source/town/town_dispatch.csv",
+      "sha256": "f1c413c4a44dd2cb8775060daaef88669da125f273ba77f2d3c80431895bb9f3"
+    },
+    {
+      "bytes": 11904,
+      "path": "data/source/town/town_drops.csv",
+      "sha256": "f41ea72e11a3293c78e389dfb4560686049f92f710bfe05494fb7691af52e184"
+    },
+    {
+      "bytes": 436,
+      "path": "data/source/town/town_effects.csv",
+      "sha256": "42bcb03b9f9f7fced217155140b2ca1ba4867538599b839c36da6634354d8bbb"
+    },
+    {
+      "bytes": 330,
+      "path": "data/source/town/town_equipment.csv",
+      "sha256": "c1c3a08890868d881dc1f33688c195122f2a3a68fa5698e0d8022659a5061da9"
+    },
+    {
+      "bytes": 377,
+      "path": "data/source/town/town_exits.csv",
+      "sha256": "639ad0036557ed2b460b46a06069d0028610ee08f66a2b3b8fd49820a6d0f2da"
+    },
+    {
+      "bytes": 1604,
+      "path": "data/source/town/town_hero_levels.csv",
+      "sha256": "11572a13c3644c7f2c5f3a86fe4a992dc237884d49ec9254accc855e6c1e5639"
+    },
+    {
+      "bytes": 7789,
+      "path": "data/source/town/town_heroes.csv",
+      "sha256": "eb7b1b6838413e7309844346f987fda343c9994bebebbbdac6331d07b8799637"
+    },
+    {
+      "bytes": 2191,
+      "path": "data/source/town/town_items.csv",
+      "sha256": "76ada1c9f065bccd8a6dc5b3d91f39c0bf41bc875d8678013eabe537d5c25d47"
+    },
+    {
+      "bytes": 6196,
+      "path": "data/source/town/town_loot_items.csv",
+      "sha256": "b1eeb9526fca63fa6537d68208a4f485664c337d7716046e8400ed9136daba44"
+    },
+    {
+      "bytes": 43,
+      "path": "data/source/town/town_loot_rules.csv",
+      "sha256": "8a855ed1d7cac7304f3606f8ae44048f0fe968ce7017204128f2a13ad42934ec"
+    },
+    {
+      "bytes": 1291,
+      "path": "data/source/town/town_monster_spawns.csv",
+      "sha256": "195707ed344dec18aae6ad75e22c88d4df6a7a57b80e9ecd61589c556f01bf4a"
+    },
+    {
+      "bytes": 2045,
+      "path": "data/source/town/town_monsters.csv",
+      "sha256": "015e2f067a8848bf1fba67df8d72f278075c7e207e019b8509b6de26504fd3f3"
+    },
+    {
+      "bytes": 139606,
+      "path": "data/source/town/town_navigation.csv",
+      "sha256": "4da4fd8cdee3249235d09bdba9dbe903576a84ac87d0fd27c907b52e459a9b96"
+    },
+    {
+      "bytes": 1429,
+      "path": "data/source/town/town_region_gates.csv",
+      "sha256": "1b0937806398b1bd387b9bb69849c525fd332891cac038a115c6bee30f9afdcc"
+    },
+    {
+      "bytes": 2617,
+      "path": "data/source/town/town_region_items.csv",
+      "sha256": "a750ea6ad2871f89890f387f0aa08302612760aab89510a34f3a99b225e1bf42"
+    },
+    {
+      "bytes": 1140,
+      "path": "data/source/town/town_region_levels.csv",
+      "sha256": "0fc22d12fd60983ec8866905c5cbbe1d449e8b07ba7bf9b2db0398ff1a2676b3"
+    },
+    {
+      "bytes": 1183,
+      "path": "data/source/town/town_region_members.csv",
+      "sha256": "d03f4cf376152484a3839e6911fb4697700db60a38fa1e5cfb3ffadf9d6c9339"
+    },
+    {
+      "bytes": 251,
+      "path": "data/source/town/town_regions.csv",
+      "sha256": "b060052f12104e42c2890590ca08c0c256293c2431de1f0f43b8ffd39ab2561a"
+    },
+    {
+      "bytes": 3496,
+      "path": "data/source/town/town_scenery.csv",
+      "sha256": "9f1d7ae0b7a69f82161eb3bb86cb51c600548da10b0439269b01b6f52e2bd069"
+    },
+    {
+      "bytes": 7681,
+      "path": "data/source/town/town_service_levels.csv",
+      "sha256": "e6c2b60710997b4fc2a2b00418a942b61708369ad5b1c40b2950ec387445e26d"
+    },
+    {
+      "bytes": 1779,
+      "path": "data/source/town/town_services.csv",
+      "sha256": "eea82c7dd5ecfe70e1364e4cb4da9de2da090a6fdc75f95f890ee002e1635d90"
+    },
+    {
+      "bytes": 334,
+      "path": "data/source/tuning.csv",
+      "sha256": "4fe4e87c2afa4d28fd0558f4dbf26e302253b478ad4d7a52d62f876780747389"
+    }
+  ]
+}

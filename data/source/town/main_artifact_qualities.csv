@@ -1,0 +1,5 @@
+id,growth_min,growth_max,dismantle,source_id
+artifact_qualities.1,50,60,13001:300,1
+artifact_qualities.2,61,80,13001:600,2
+artifact_qualities.3,81,100,13001:1200,3
+artifact_qualities.4,101,120,13001:2400,4

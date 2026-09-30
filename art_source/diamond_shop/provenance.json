@@ -1,0 +1,157 @@
+{
+  "banner": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\bj.png",
+    "sha256": "a80f6a2a34577ae830a8ca33e35bdca4a92dcec6340be641e87b66703bfd1367"
+  },
+  "ribbon": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\a888c8b8-a65a-48ac-a510-5193e884c082.png",
+    "sha256": "b1be55bc27ee7518f4fe95ac57d034360bd3e483f76bee4a9fdca53e321094fb"
+  },
+  "tab": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\413749e1-1929-44b6-8b4c-c9bc833bea56.png",
+    "sha256": "341a7b6633c3835dc8a88a38e5500d43674de62330fd7b682e7cf51930e7c464"
+  },
+  "top": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\f0808877-eb7e-4e64-9c61-031f88d2b225.png",
+    "sha256": "b9ea864ea3a3abc790767f16e4f9f29f0bc182c2b8a5dd60b07200e0356723a2"
+  },
+  "diamonds": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\7b36356a-f034-4600-9c24-1bf8d3ce0c6f.png",
+    "sha256": "a05879eca8996ec49e3625e55e309b913003189dc31a26cf7fe2310ad68a22ae"
+  },
+  "coins": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\68342bf0-3722-424d-a25e-9bf514730612.png",
+    "sha256": "cb968eb5cdd73440626bad91ed0bbd5d463663ac3a4e68b93011e19850bc333f"
+  },
+  "help": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\14618f68-4445-4fef-8015-b4e92c960acf.png",
+    "sha256": "8ed5835db5b62cb5393361baba693b719661d8c60938579e0c8f24df487ef30d"
+  },
+  "gem_1": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\zuanshi_1.png",
+    "sha256": "b0288900089543736bf95b19d4f029e301beff7400d093fd10e93db3ddbbfb45"
+  },
+  "card_1": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\shangcheng_kuang2.png",
+    "sha256": "3eac674b8b5a887c49e9191706389e57eba3ee14d301e492f70e5935b702a34b"
+  },
+  "gem_2": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\zuanshi_2.png",
+    "sha256": "06a8e063062dc46b4f98c1b2b6898233cef5a1ea366acf6d95e0563dbff333b1"
+  },
+  "card_2": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\shangcheng_kuang3.png",
+    "sha256": "3a6a0b353cb9bf762c3d6d65f452fab492b35d1d9d0fd5d1c555b0ad43770c2d"
+  },
+  "gem_3": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\zuanshi_3.png",
+    "sha256": "a6a1bae75745f4adbbf635c5fe0fc9fb1772999759ff65dd43db330702bc49ad"
+  },
+  "card_3": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\shangcheng_kuang4.png",
+    "sha256": "a8645aadf836d3a96380c8e66569fac907a6f0295c36b00ec1db3ae57123c555"
+  },
+  "gem_4": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\zuanshi_4.png",
+    "sha256": "74b56a7b5c3815ab460c4d13c01cc893dec461fb8a09ec2b11aa26b6d944fc50"
+  },
+  "card_4": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\shangcheng_kuang5.png",
+    "sha256": "dea884bc383179b8537c80b76a2ae21e32814c769b745218bc36f9e364a842a7"
+  },
+  "gem_5": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\zuanshi_5.png",
+    "sha256": "d0d8644b485dcbe7e9126b6c87966158725820181eea9bcb29db7844f1d4d71b"
+  },
+  "card_5": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\shangcheng_kuang6.png",
+    "sha256": "9726b6e13906df2bdc556ecbf171f2d87818bbebd14c0a4968ed601dd2834922"
+  },
+  "gem_6": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\zuanshi_6.png",
+    "sha256": "35f6decfe4594dca27b383c6b4a3ccdc5b7ffe043b8eb11e97fb7a0a8ae7bd20"
+  },
+  "card_6": {
+    "source": "03_美术资源\\02_透明切图\\resources\\tmp\\shop\\shangcheng_kuang7.png",
+    "sha256": "9a2bc06c88f19532fd3deebac043ca3498a0cc17fa6fcb79d806cab14ec747cb"
+  },
+  "burst_0": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\01f280ff-0486-4b43-b9c9-7b2be8b76c1f.png",
+    "sha256": "224b283098f9ee5c6d9677e3d3f430bc1a3e5946ebb2e75f2cf020d2b0f40d1e"
+  },
+  "burst_1": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\b6f29f04-5a12-4fbe-b86d-ceec21fc7e4f.png",
+    "sha256": "43afe2af7a5cb07e5c36be03fe6e8f9197b97ff9b16463c84aed1e83816e3cf3"
+  },
+  "burst_2": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\2dd2f7b1-e9f0-489c-a270-dfb24b24fc53.png",
+    "sha256": "9745483b803cbaa0a0e8a0b2b91927035dd9b6cf45c073070436f45e3fce902f"
+  },
+  "burst_3": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\53ccdee5-46c7-44b7-aea9-eb58857aae09.png",
+    "sha256": "7bbec686230bc8fe272287bd780dcfe2b1e3c3d0b9779b60d5d68014d958d0bd"
+  },
+  "burst_4": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\8d3e6ea1-af40-4895-9280-9ddc941a2de0.png",
+    "sha256": "9b555eea4b2f01f05771bc9e067bc55a55032a6dfd1ef02e99fa7d20766dcead"
+  },
+  "burst_5": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\44ad9dd4-c652-40ba-8ba6-1a4f57b38c04.png",
+    "sha256": "0ad215c6f719a3ff0c3a41806076b8248bc24376becdaf20212b5bd7bdca6c95"
+  },
+  "burst_6": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\b400efd7-1033-4453-a5e2-5a43db4c24d3.png",
+    "sha256": "56a4db0376fb80720f35ecd1058c22877c7c9489aeb044d9a5ecf97e012e47a0"
+  },
+  "burst_7": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\dedafd81-85ba-466b-855f-6b9a067c2e77.png",
+    "sha256": "138acf6c56cd4e820b92aa8b86d71d52332869db3d3b2257a37e7cc87bb36f21"
+  },
+  "burst_8": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\09f5719a-32aa-4811-bd92-5bb0610adf7a.png",
+    "sha256": "ddae7df2a2d0d267d1282c7e5d5deff29e8209d193c6e4b7e147ff595d360d26"
+  },
+  "burst_9": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\6affc9df-a434-44fb-b77d-6a7f31674fc6.png",
+    "sha256": "a6ddda3a993d6c36b2d1b9dccb8b664af8411604aa2dda97c8602121b51d220f"
+  },
+  "burst_10": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\92b110d9-c35c-422b-8b5b-2d5b334d473f.png",
+    "sha256": "1c87ed920bf984b704e521f2319f0620ed33a393f3313a300f00637bd10a0872"
+  },
+  "burst_11": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\4437e414-ea1f-4ed2-a4a8-2332452884e3.png",
+    "sha256": "3a17525ec6e9c4526862cc0810d33a48f8e06fc74edf3df6b37170641228ab19"
+  },
+  "burst_12": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\a1096276-bb6b-4ff2-b9ab-345b041e6fef.png",
+    "sha256": "4f9c19a6cabf64f978ee341dc6da0e7f3c5c1abc28d20af47b9e1716ef450226"
+  },
+  "burst_13": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\3701dac4-9050-4656-8ef5-10af4087b6f8.png",
+    "sha256": "4fac03c4d615e1d48bb091d129b75cd1533d86f0047c9d29126bdd0043115f30"
+  },
+  "burst_14": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\a6772cac-55c3-4ae5-ba67-d2e2e1b4a67d.png",
+    "sha256": "757ec853895356ef050dc70771fab6fae33f101c7162b5a1fcdb4b76b24985e4"
+  },
+  "burst_15": {
+    "source": "03_美术资源\\02_透明切图\\resources\\__未命名\\134cf2e1-06ed-48c4-ab3d-1143abac0adb.png",
+    "sha256": "ed91212bd0347e1ad696d27cc4d726874b1f8a641e2c7e43888519dc485efaf2"
+  },
+  "click": {
+    "source": "05_音频\\resources\\sound\\ui_zhuyao.mp3",
+    "sha256": "646dd316166b172579c9a60cf8a51515947ee9e1e56f07aca8ecec4b698712a0",
+    "source_id": 45
+  },
+  "small_click": {
+    "source": "05_音频\\resources\\sound\\ui_ciyao.mp3",
+    "sha256": "f6d7c8dd790868b72ea6dfc41e2f7d8d1bf52a90300d28d01ad471058356cdc5",
+    "source_id": 46
+  },
+  "reward_sound": {
+    "source": "05_音频\\resources\\sound\\ui_huoodejiangli.mp3",
+    "sha256": "688cafd3c2ed95767c3c6c5322de710b428435f7bf240b1a249ac026b12c7f18",
+    "source_id": 49
+  }
+}

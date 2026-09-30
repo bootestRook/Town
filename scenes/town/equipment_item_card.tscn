@@ -1,0 +1,130 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/town/presentation/equipment_item_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/equipment_shop/cell.png" id="2"]
+
+[node name="Item" type="Button"]
+script = ExtResource("1")
+custom_minimum_size = Vector2(166,214)
+flat = true
+focus_mode = 0
+
+[node name="Background" type="TextureRect" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 166.0
+offset_bottom = 214.0
+texture = ExtResource("2")
+expand_mode = 1
+mouse_filter = 2
+
+[node name="Quality" type="TextureRect" parent="."]
+offset_left = 24.0
+offset_top = 21.0
+offset_right = 143.0
+offset_bottom = 140.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="."]
+offset_left = 28.0
+offset_top = 24.0
+offset_right = 137.0
+offset_bottom = 133.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Tier" type="TextureRect" parent="."]
+offset_left = 24.0
+offset_top = 21.0
+offset_right = 69.0
+offset_bottom = 47.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Name" type="Label" parent="."]
+offset_left = 5.0
+offset_top = 152.0
+offset_right = 161.0
+offset_bottom = 195.0
+text = ""
+theme_override_font_sizes/font_size = 21
+theme_override_colors/font_color = Color(0.79,0.85,0.85,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Count" type="Label" parent="."]
+offset_left = 37.0
+offset_top = 111.0
+offset_right = 142.0
+offset_bottom = 140.0
+text = ""
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 2
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Selected" type="Label" parent="."]
+offset_left = 117.0
+offset_top = 7.0
+offset_right = 158.0
+offset_bottom = 48.0
+text = "✓"
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.2,1,0.15,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Stars" type="Label" parent="."]
+offset_left = 36.0
+offset_top = 117.0
+offset_right = 134.0
+offset_bottom = 140.0
+text = ""
+theme_override_font_sizes/font_size = 17
+theme_override_colors/font_color = Color(1,0.8,0.05,1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Locked" type="Label" parent="."]
+offset_left = 9.0
+offset_top = 5.0
+offset_right = 105.0
+offset_bottom = 35.0
+text = "已锁定"
+theme_override_font_sizes/font_size = 19
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Detail" type="Label" parent="."]
+offset_left = 173.0
+offset_top = 48.0
+offset_right = 618.0
+offset_bottom = 140.0
+text = ""
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 0
+vertical_alignment = 1
+mouse_filter = 2

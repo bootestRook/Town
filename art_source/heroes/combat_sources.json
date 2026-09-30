@@ -1,0 +1,8178 @@
+{
+  "abbi": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32008,
+      "job": 3,
+      "sex": 2,
+      "head": 4,
+      "face": 5,
+      "body": 5,
+      "tj": 1,
+      "name": 232199,
+      "pic": "232199",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女8(艾比)火法师C对攻击最高回复血量范围"
+    },
+    "role_scale": 0.45
+  },
+  "barbara": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22006,
+      "job": 2,
+      "sex": 2,
+      "head": 6,
+      "face": 4,
+      "body": 6,
+      "tj": 1,
+      "name": 232093,
+      "pic": "232093",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "弓手女6(芭芭拉)火弓手C单体"
+    },
+    "role_scale": 0.45
+  },
+  "bear": {
+    "skill": {
+      "id": 10001,
+      "function_name": "Xiongren(棕熊普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 833,
+      "skl_dmg_time": [
+        333
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk9",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "Xiongren",
+      "remark": "棕熊",
+      "atk_sound": "atk9",
+      "death_sound": "death5",
+      "bl": 0.57,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -11,
+        85
+      ],
+      "lhp3": [
+        -101,
+        85
+      ],
+      "lhp4": [
+        -11,
+        161
+      ],
+      "name_point": [
+        0,
+        231
+      ],
+      "path_front": "xiongren",
+      "path_back": "xiongrenbei"
+    },
+    "role_scale": 0.5
+  },
+  "hero_11001": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 11001,
+      "job": 1,
+      "sex": 1,
+      "head": 0,
+      "face": 0,
+      "body": 0,
+      "tj": 1,
+      "name": 231019,
+      "pic": "231019",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "战士男1(亨特)火战士A高防+免伤"
+    },
+    "role_scale": 0.45
+  },
+  "hero_11002": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 11002,
+      "job": 1,
+      "sex": 1,
+      "head": 3,
+      "face": 7,
+      "body": 6,
+      "tj": 1,
+      "name": 231004,
+      "pic": "231004",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "战士男2(洛根)水战士B高防"
+    },
+    "role_scale": 0.45
+  },
+  "hero_11003": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 11003,
+      "job": 1,
+      "sex": 1,
+      "head": 6,
+      "face": 6,
+      "body": 4,
+      "tj": 1,
+      "name": 231088,
+      "pic": "231088",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "战士男3(斯蒂文)风战士A平庸"
+    },
+    "role_scale": 0.45
+  },
+  "hero_11004": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 11004,
+      "job": 1,
+      "sex": 1,
+      "head": 2,
+      "face": 2,
+      "body": 5,
+      "tj": 1,
+      "name": 231016,
+      "pic": "231016",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "战士男4(卡尔森)风战士B流派流血单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_11005": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 11005,
+      "job": 1,
+      "sex": 1,
+      "head": 5,
+      "face": 3,
+      "body": 8,
+      "tj": 1,
+      "name": 231022,
+      "pic": "231022",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "战士男5(康纳)水战士A流派中毒"
+    },
+    "role_scale": 0.45
+  },
+  "hero_11008": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 11008,
+      "job": 1,
+      "sex": 1,
+      "head": 4,
+      "face": 3,
+      "body": 2,
+      "tj": 1,
+      "name": 231025,
+      "pic": "231025",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "战士男8(布赖恩)水战士A普通技能伤害低,异常伤害很高单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_11010": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 11010,
+      "job": 1,
+      "sex": 1,
+      "head": 9,
+      "face": 9,
+      "body": 9,
+      "tj": 1,
+      "name": 231110,
+      "pic": "Role_S_1",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "战士男10（哈里森）火战士S克制伤害高技能打后排单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_11011": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 11011,
+      "job": 1,
+      "sex": 1,
+      "head": 10,
+      "face": 10,
+      "body": 10,
+      "tj": 1,
+      "name": 231060,
+      "pic": "Role_S_6",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "战士男11（艾萨克)水战士S很肉基本不被暴击单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_11012": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 11012,
+      "job": 1,
+      "sex": 1,
+      "head": 11,
+      "face": 11,
+      "body": 11,
+      "tj": 1,
+      "name": 231012,
+      "pic": "Role_S_22",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "战士男12（杰西斯）水战士S不怕高攻敌方,蛮王"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12001": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12001,
+      "job": 1,
+      "sex": 2,
+      "head": 1,
+      "face": 0,
+      "body": 1,
+      "tj": 1,
+      "name": 232015,
+      "pic": "232015",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女1(卡米拉)风战士A高血+眩晕，优先后排单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12003": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12003,
+      "job": 1,
+      "sex": 2,
+      "head": 7,
+      "face": 7,
+      "body": 7,
+      "tj": 1,
+      "name": 232098,
+      "pic": "232098",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女3(黛米)水战士C单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12004": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12004,
+      "job": 1,
+      "sex": 2,
+      "head": 2,
+      "face": 5,
+      "body": 3,
+      "tj": 1,
+      "name": 232121,
+      "pic": "232121",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女4(索菲)火战士A流派灼烧"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12005": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12005,
+      "job": 1,
+      "sex": 2,
+      "head": 4,
+      "face": 3,
+      "body": 5,
+      "tj": 1,
+      "name": 232110,
+      "pic": "232110",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女5(丽芙)风战士C单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12006": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12006,
+      "job": 1,
+      "sex": 2,
+      "head": 6,
+      "face": 1,
+      "body": 4,
+      "tj": 1,
+      "name": 232171,
+      "pic": "232171",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女6(米兰达)火战士B单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12007": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12007,
+      "job": 1,
+      "sex": 2,
+      "head": 12,
+      "face": 12,
+      "body": 12,
+      "tj": 1,
+      "name": 232006,
+      "pic": "232006",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女7(索非亚)火战士A有潜力的A单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12009": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12009,
+      "job": 1,
+      "sex": 2,
+      "head": 8,
+      "face": 6,
+      "body": 2,
+      "tj": 1,
+      "name": 232014,
+      "pic": "232014",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女9(贝丽)风战士B对自己加血和状态单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12010": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12010,
+      "job": 1,
+      "sex": 2,
+      "head": 9,
+      "face": 9,
+      "body": 9,
+      "tj": 1,
+      "name": 232047,
+      "pic": "Role_S_2",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女10(麦德林)火战士S极易暴击+灼烧派系单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12011": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12011,
+      "job": 1,
+      "sex": 2,
+      "head": 10,
+      "face": 10,
+      "body": 10,
+      "tj": 1,
+      "name": 232094,
+      "pic": "Role_S_11",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女11(莎拉)风战士S极易暴击+流血派系单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12012": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12012,
+      "job": 1,
+      "sex": 2,
+      "head": 11,
+      "face": 11,
+      "body": 11,
+      "tj": 1,
+      "name": 232087,
+      "pic": "Role_S_12",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女12(索尔达娜)风战士S很肉生命高单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12013": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12013,
+      "job": 1,
+      "sex": 2,
+      "head": 13,
+      "face": 13,
+      "body": 13,
+      "tj": 1,
+      "name": 231050,
+      "pic": "Role_S_16",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女13形象为男（亚当）水战士S高攻杀手（CD战士）"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12014": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12014,
+      "job": 1,
+      "sex": 2,
+      "head": 14,
+      "face": 14,
+      "body": 14,
+      "tj": 1,
+      "name": 232002,
+      "pic": "Role_S_20",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女14(乔丝琳)光战士S"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12015": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12015,
+      "job": 1,
+      "sex": 2,
+      "head": 15,
+      "face": 15,
+      "body": 15,
+      "tj": 1,
+      "name": 232088,
+      "pic": "Role_S_29",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女15(瓦妮莎)火系战士S纯肉"
+    },
+    "role_scale": 0.45
+  },
+  "hero_12016": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 12016,
+      "job": 1,
+      "sex": 2,
+      "head": 17,
+      "face": 17,
+      "body": 17,
+      "tj": 1,
+      "name": 232205,
+      "pic": "Role_S_33",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "战士女17（锤锤）风系战士S纯肉"
+    },
+    "role_scale": 0.45
+  },
+  "hero_21001": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 21001,
+      "job": 2,
+      "sex": 1,
+      "head": 0,
+      "face": 0,
+      "body": 0,
+      "tj": 1,
+      "name": 231033,
+      "pic": "231033",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "弓手男1(安德鲁)水弓手C单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_21002": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 21002,
+      "job": 2,
+      "sex": 1,
+      "head": 3,
+      "face": 1,
+      "body": 3,
+      "tj": 1,
+      "name": 231029,
+      "pic": "231029",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "弓手男2(艾登)火弓手B单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_21003": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 21003,
+      "job": 2,
+      "sex": 1,
+      "head": 6,
+      "face": 6,
+      "body": 7,
+      "tj": 1,
+      "name": 231015,
+      "pic": "231015",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "弓手男3(肖恩)水弓手A打攻击最高单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_21004": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 21004,
+      "job": 2,
+      "sex": 1,
+      "head": 2,
+      "face": 7,
+      "body": 5,
+      "tj": 1,
+      "name": 231024,
+      "pic": "231024",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "弓手男4(布鲁诺)风弓手A流派流血"
+    },
+    "role_scale": 0.45
+  },
+  "hero_21005": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 21005,
+      "job": 2,
+      "sex": 1,
+      "head": 5,
+      "face": 4,
+      "body": 2,
+      "tj": 1,
+      "name": 231027,
+      "pic": "231027",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "弓手男5(卡森)水弓手B流派中毒单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_21006": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 21006,
+      "job": 2,
+      "sex": 1,
+      "head": 8,
+      "face": 2,
+      "body": 8,
+      "tj": 1,
+      "name": 231035,
+      "pic": "232203",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "弓手男6(戴维)火弓手A技能垃圾,普攻厉害"
+    },
+    "role_scale": 0.45
+  },
+  "hero_21008": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 21008,
+      "job": 2,
+      "sex": 1,
+      "head": 4,
+      "face": 5,
+      "body": 4,
+      "tj": 1,
+      "name": 231073,
+      "pic": "231073",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "弓手男8(安东尼)火弓手A普通技能伤害低,异常伤害很高单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_21010": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 21010,
+      "job": 2,
+      "sex": 1,
+      "head": 9,
+      "face": 9,
+      "body": 9,
+      "tj": 1,
+      "name": 231055,
+      "pic": "Role_S_7",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "弓手男10(乔塞亚)水弓手S极易暴击+中毒派系单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_21011": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 21011,
+      "job": 2,
+      "sex": 1,
+      "head": 10,
+      "face": 10,
+      "body": 10,
+      "tj": 1,
+      "name": 231094,
+      "pic": "Role_S_18",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "弓手男11（德雷蒙德）火弓手S灼烧弓手，高灼烧伤害"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22001": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22001,
+      "job": 2,
+      "sex": 2,
+      "head": 2,
+      "face": 0,
+      "body": 3,
+      "tj": 1,
+      "name": 232018,
+      "pic": "232018",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "弓手女1(吉阿娜)水弓手B单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22003": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22003,
+      "job": 2,
+      "sex": 2,
+      "head": 7,
+      "face": 7,
+      "body": 5,
+      "tj": 1,
+      "name": 232083,
+      "pic": "232083",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "弓手女3(朱丽娅)水弓手A打人厉害技能伤害远优先打后排单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22004": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22004,
+      "job": 2,
+      "sex": 2,
+      "head": 1,
+      "face": 3,
+      "body": 8,
+      "tj": 1,
+      "name": 232004,
+      "pic": "232004",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "弓手女4(安吉丽娜)火弓手B流派灼烧"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22007": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22007,
+      "job": 2,
+      "sex": 2,
+      "head": 0,
+      "face": 1,
+      "body": 1,
+      "tj": 1,
+      "name": 232020,
+      "pic": "232020",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "弓手女7(艾比盖尔)风弓手A普通技能伤害低,异常伤害很高单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22008": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22008,
+      "job": 2,
+      "sex": 2,
+      "head": 5,
+      "face": 8,
+      "body": 2,
+      "tj": 1,
+      "name": 232061,
+      "pic": "232061",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "弓手女8(米厄)风弓手A二连矢CD短,概率激活攻速单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22010": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22010,
+      "job": 2,
+      "sex": 2,
+      "head": 9,
+      "face": 9,
+      "body": 9,
+      "tj": 1,
+      "name": 232145,
+      "pic": "Role_S_3",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "弓手女10(苏梅拉)火弓手S打单人强技能优先打攻击最高的单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22011": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22011,
+      "job": 2,
+      "sex": 2,
+      "head": 10,
+      "face": 10,
+      "body": 10,
+      "tj": 1,
+      "name": 232130,
+      "pic": "Role_S_13",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "弓手女11(希雅)风弓手S攻速快闪避快穿透单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22012": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22012,
+      "job": 2,
+      "sex": 2,
+      "head": 11,
+      "face": 11,
+      "body": 11,
+      "tj": 1,
+      "name": 231146,
+      "pic": "Role_S_15",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        66
+      ],
+      "lhp3": [
+        -88,
+        76
+      ],
+      "lhp4": [
+        -3,
+        136
+      ],
+      "remark": "弓手女12形象为男(狄龙)风弓手S杀怪王打BOSS必上单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22013": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22013,
+      "job": 2,
+      "sex": 2,
+      "head": 12,
+      "face": 12,
+      "body": 12,
+      "tj": 1,
+      "name": 232201,
+      "pic": "232201_1",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        66
+      ],
+      "lhp3": [
+        -88,
+        76
+      ],
+      "lhp4": [
+        -3,
+        136
+      ],
+      "remark": "弓手女13（埃洛尔）风弓手A单眩晕,优先攻击最高单体"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22014": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22014,
+      "job": 2,
+      "sex": 2,
+      "head": 13,
+      "face": 13,
+      "body": 13,
+      "tj": 1,
+      "name": 232050,
+      "pic": "Role_S_17",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        66
+      ],
+      "lhp3": [
+        -88,
+        76
+      ],
+      "lhp4": [
+        -3,
+        136
+      ],
+      "remark": "弓手女14（詹妮西丝）水弓手S上毒弓手，高中毒伤害"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22015": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22015,
+      "job": 2,
+      "sex": 2,
+      "head": 14,
+      "face": 14,
+      "body": 14,
+      "tj": 1,
+      "name": 232016,
+      "pic": "Role_S_21",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        66
+      ],
+      "lhp3": [
+        -88,
+        76
+      ],
+      "lhp4": [
+        -3,
+        136
+      ],
+      "remark": "弓手女15（詹妮芙）水弓手S降低恢复量的英雄"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22016": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22016,
+      "job": 2,
+      "sex": 2,
+      "head": 15,
+      "face": 15,
+      "body": 15,
+      "tj": 1,
+      "name": 231066,
+      "pic": "Role_S_24",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        66
+      ],
+      "lhp3": [
+        -88,
+        76
+      ],
+      "lhp4": [
+        -3,
+        136
+      ],
+      "remark": "弓手女16形象为男（卢克）火弓手S攻击敌方伤害最高并眩晕（通行证）"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22017": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22017,
+      "job": 2,
+      "sex": 2,
+      "head": 17,
+      "face": 17,
+      "body": 17,
+      "tj": 1,
+      "name": 232162,
+      "pic": "Role_S_25",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        66
+      ],
+      "lhp3": [
+        -88,
+        76
+      ],
+      "lhp4": [
+        -3,
+        136
+      ],
+      "remark": "弓手女17（尼基塔）风弓手S降低恢复量的英雄"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22018": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22018,
+      "job": 2,
+      "sex": 2,
+      "head": 16,
+      "face": 16,
+      "body": 16,
+      "tj": 1,
+      "name": 232196,
+      "pic": "Role_S_27",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        66
+      ],
+      "lhp3": [
+        -88,
+        76
+      ],
+      "lhp4": [
+        -3,
+        136
+      ],
+      "remark": "弓手女18（克劳迪娅）光系弓手S高额生命值克制"
+    },
+    "role_scale": 0.45
+  },
+  "hero_22019": {
+    "skill": {
+      "id": 1001,
+      "function_name": "弓手1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1105
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50016
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_lr",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 22019,
+      "job": 2,
+      "sex": 2,
+      "head": 18,
+      "face": 18,
+      "body": 18,
+      "tj": 1,
+      "name": 232043,
+      "pic": "Role_S_31",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        66
+      ],
+      "lhp3": [
+        -88,
+        76
+      ],
+      "lhp4": [
+        -3,
+        136
+      ],
+      "remark": "弓手女19（塞雅）火弓手S韩国活动"
+    },
+    "role_scale": 0.45
+  },
+  "hero_31001": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 31001,
+      "job": 3,
+      "sex": 1,
+      "head": 0,
+      "face": 0,
+      "body": 0,
+      "tj": 1,
+      "name": 231011,
+      "pic": "231011",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "法师男1(利亚姆)水法师B有潜力范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_31002": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 31002,
+      "job": 3,
+      "sex": 1,
+      "head": 3,
+      "face": 3,
+      "body": 2,
+      "tj": 1,
+      "name": 231023,
+      "pic": "231023",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "法师男2(欧文)风法师B直线范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_31004": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 31004,
+      "job": 3,
+      "sex": 1,
+      "head": 2,
+      "face": 8,
+      "body": 6,
+      "tj": 1,
+      "name": 231041,
+      "pic": "231041",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "法师男4(多瑞安)火法师B群灼烧专用范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_31007": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 31007,
+      "job": 3,
+      "sex": 1,
+      "head": 1,
+      "face": 5,
+      "body": 7,
+      "tj": 1,
+      "name": 231085,
+      "pic": "231085",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "法师男7(刘易斯)火法师A群破甲,优先生命最低扇形范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_31008": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 31008,
+      "job": 3,
+      "sex": 1,
+      "head": 5,
+      "face": 6,
+      "body": 4,
+      "tj": 1,
+      "name": 231098,
+      "pic": "231098",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "法师男8(萨纳西斯)风法师A对攻击最高回复血量（回复量少）范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_31009": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 31009,
+      "job": 3,
+      "sex": 1,
+      "head": 8,
+      "face": 7,
+      "body": 1,
+      "tj": 1,
+      "name": 231105,
+      "pic": "231105",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "法师男9(马文)水法师C对任意目标回复血量范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_31011": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 31011,
+      "job": 3,
+      "sex": 1,
+      "head": 9,
+      "face": 9,
+      "body": 9,
+      "tj": 1,
+      "name": 231034,
+      "pic": "Role_S_19",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "法师男11(约瑟夫)风法师S流血法师，高流血伤害"
+    },
+    "role_scale": 0.45
+  },
+  "hero_31012": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 31012,
+      "job": 3,
+      "sex": 1,
+      "head": 10,
+      "face": 10,
+      "body": 10,
+      "tj": 1,
+      "name": 232202,
+      "pic": "Role_S_28",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "法师男12(龟仙人)"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32001": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32001,
+      "job": 3,
+      "sex": 2,
+      "head": 0,
+      "face": 0,
+      "body": 0,
+      "tj": 1,
+      "name": 232003,
+      "pic": "232003",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女1(阿米莉亚)风法师A高闪+debuff扇形群攻"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32002": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32002,
+      "job": 3,
+      "sex": 2,
+      "head": 5,
+      "face": 3,
+      "body": 3,
+      "tj": 1,
+      "name": 232009,
+      "pic": "232009",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女2(凯丽)风法师C扇形范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32003": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32003,
+      "job": 3,
+      "sex": 2,
+      "head": 7,
+      "face": 2,
+      "body": 8,
+      "tj": 1,
+      "name": 232021,
+      "pic": "232021",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女3(伊丽莎白)风法师B群上流血专用范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32004": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32004,
+      "job": 3,
+      "sex": 2,
+      "head": 1,
+      "face": 6,
+      "body": 2,
+      "tj": 1,
+      "name": 232147,
+      "pic": "232202",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女4(麦茜)水法师A后期群体强，减少CD"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32006": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32006,
+      "job": 3,
+      "sex": 2,
+      "head": 6,
+      "face": 4,
+      "body": 4,
+      "tj": 1,
+      "name": 232007,
+      "pic": "232007",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女6(莉莉)水法师B群中毒专用范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32007": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32007,
+      "job": 3,
+      "sex": 2,
+      "head": 3,
+      "face": 1,
+      "body": 6,
+      "tj": 1,
+      "name": 232177,
+      "pic": "232177",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女7(蕾哈娜)水法师A群虚弱,优先攻击最高范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32009": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32009,
+      "job": 3,
+      "sex": 2,
+      "head": 8,
+      "face": 8,
+      "body": 7,
+      "tj": 1,
+      "name": 232154,
+      "pic": "232154",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女9(克里斯汀)火法师A对生命最低单位回复血量范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32010": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32010,
+      "job": 3,
+      "sex": 2,
+      "head": 7,
+      "face": 1,
+      "body": 2,
+      "tj": 1,
+      "name": 232178,
+      "pic": "232178",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女10(敏迪)风法师B对生命值最低单位回复血量范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32011": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32011,
+      "job": 3,
+      "sex": 2,
+      "head": 9,
+      "face": 9,
+      "body": 9,
+      "tj": 1,
+      "name": 232066,
+      "pic": "Role_S_4",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女11(埃拉)火法师S DBUFF王范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32012": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32012,
+      "job": 3,
+      "sex": 2,
+      "head": 10,
+      "face": 10,
+      "body": 10,
+      "tj": 1,
+      "name": 232060,
+      "pic": "Role_S_8",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女12(卡罗琳)水法师S群体怪物杀手扇形范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32013": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32013,
+      "job": 3,
+      "sex": 2,
+      "head": 11,
+      "face": 11,
+      "body": 11,
+      "tj": 1,
+      "name": 232065,
+      "pic": "Role_S_9",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女13(葛蕾熙达)水法师S中毒伤害范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32014": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32014,
+      "job": 3,
+      "sex": 2,
+      "head": 12,
+      "face": 12,
+      "body": 12,
+      "tj": 1,
+      "name": 232073,
+      "pic": "Role_S_10",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女14(奥利维亚)水法师S对生命值最低单位回复血量范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32015": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32015,
+      "job": 3,
+      "sex": 2,
+      "head": 14,
+      "face": 14,
+      "body": 14,
+      "tj": 1,
+      "name": 231048,
+      "pic": "Role_S_5",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女15形象为男(布罗迪)火法师S灼烧伤害范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32016": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32016,
+      "job": 3,
+      "sex": 2,
+      "head": 13,
+      "face": 13,
+      "body": 13,
+      "tj": 1,
+      "name": 231049,
+      "pic": "Role_S_14",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女16形象为男(泽维尔)风法师S流血伤害范围"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32017": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32017,
+      "job": 3,
+      "sex": 2,
+      "head": 15,
+      "face": 15,
+      "body": 15,
+      "tj": 1,
+      "name": 232062,
+      "pic": "Role_S_23",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女17（亚历克西丝）火法师S火系降低恢复"
+    },
+    "role_scale": 0.45
+  },
+  "hero_32018": {
+    "skill": {
+      "id": 1002,
+      "function_name": "法师1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1000,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        1104
+      ],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1160,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "skillSound/atk_fs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 32018,
+      "job": 3,
+      "sex": 2,
+      "head": 16,
+      "face": 16,
+      "body": 16,
+      "tj": 1,
+      "name": 232173,
+      "pic": "Role_S_26",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        65
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        -3,
+        135
+      ],
+      "remark": "法师女18（蒂尔达）风法师S技能打后排"
+    },
+    "role_scale": 0.45
+  },
+  "jiangshi": {
+    "skill": {
+      "id": 10003,
+      "function_name": "Jiangshi(僵尸普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 0,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 666,
+      "skl_dmg_time": [
+        288
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk15",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "Jiangshi",
+      "remark": "僵尸",
+      "atk_sound": "atk15",
+      "death_sound": "death13",
+      "bl": 1,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        100
+      ],
+      "lhp3": [
+        -87,
+        100
+      ],
+      "lhp4": [
+        -16,
+        185
+      ],
+      "name_point": [
+        -13,
+        267
+      ],
+      "path_front": "jiangshi",
+      "path_back": "jiangshibei"
+    },
+    "role_scale": 0.5
+  },
+  "kulou": {
+    "skill": {
+      "id": 10004,
+      "function_name": "Kulou(骷髅战士普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 766,
+      "skl_dmg_time": [
+        332
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk24",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "Kulou",
+      "remark": "骷髅战士",
+      "atk_sound": "atk24",
+      "death_sound": "death14",
+      "bl": 0.67,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        100
+      ],
+      "lhp3": [
+        -126,
+        100
+      ],
+      "lhp4": [
+        -33,
+        175
+      ],
+      "name_point": [
+        -15,
+        269
+      ],
+      "path_front": "kulou",
+      "path_back": "kuloubei"
+    },
+    "role_scale": 0.5
+  },
+  "moling": {
+    "skill": {
+      "id": 10007,
+      "function_name": "Moling(魔灵普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 766,
+      "skl_dmg_time": [
+        357
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk7",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "Moling",
+      "remark": "魔灵",
+      "atk_sound": "atk7",
+      "death_sound": "death15",
+      "bl": 0.67,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        100
+      ],
+      "lhp3": [
+        -87,
+        100
+      ],
+      "lhp4": [
+        0,
+        175
+      ],
+      "name_point": [
+        0,
+        259
+      ],
+      "path_front": "moling2",
+      "path_back": "moling2bei"
+    },
+    "role_scale": 0.5
+  },
+  "mozuwushi": {
+    "skill": {
+      "id": 10006,
+      "function_name": "Mozuwushi(魔族武士普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 833,
+      "skl_dmg_time": [
+        305
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk39",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "Mozuwushi",
+      "remark": "魔族武士",
+      "atk_sound": "atk39",
+      "death_sound": "death15",
+      "bl": 0.57,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -7,
+        120
+      ],
+      "lhp3": [
+        -108,
+        120
+      ],
+      "lhp4": [
+        -7,
+        241
+      ],
+      "name_point": [
+        0,
+        319
+      ],
+      "path_front": "mozuwuhsi",
+      "path_back": "mozuwuhsibei"
+    },
+    "role_scale": 0.5
+  },
+  "slemo": {
+    "skill": {
+      "id": 10008,
+      "function_name": "SLEmo(恶魔普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 833,
+      "skl_dmg_time": [
+        361
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk12",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "SLEmo",
+      "remark": "恶魔",
+      "atk_sound": "atk12",
+      "death_sound": "death4",
+      "bl": 0.71,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -11,
+        141
+      ],
+      "lhp3": [
+        -93,
+        138
+      ],
+      "lhp4": [
+        -20,
+        250
+      ],
+      "name_point": [
+        -14,
+        328
+      ],
+      "path_front": "emo",
+      "path_back": "emobei"
+    },
+    "role_scale": 0.5
+  },
+  "slnitouren": {
+    "skill": {
+      "id": 10002,
+      "function_name": "SLNitouren(牛头人普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 700,
+      "skl_dmg_time": [
+        280
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/death11",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "SLNitouren",
+      "remark": "牛头人",
+      "atk_sound": "death11",
+      "death_sound": "death10",
+      "bl": 0.67,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -3,
+        115
+      ],
+      "lhp3": [
+        -106,
+        115
+      ],
+      "lhp4": [
+        -29,
+        200
+      ],
+      "name_point": [
+        -6,
+        307
+      ],
+      "path_front": "niutouren",
+      "path_back": "niutourenbei"
+    },
+    "role_scale": 0.5
+  },
+  "slwuyaozhanshi": {
+    "skill": {
+      "id": 10005,
+      "function_name": "SLWuyaozhanshi(死亡骑士普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        700
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk1",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "SLWuyaozhanshi",
+      "remark": "死亡骑士",
+      "atk_sound": "atk1",
+      "death_sound": "death11",
+      "bl": 0.7,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        100
+      ],
+      "lhp3": [
+        -125,
+        100
+      ],
+      "lhp4": [
+        -10,
+        181
+      ],
+      "name_point": [
+        -3,
+        307
+      ],
+      "path_front": "wuyaozhanshi",
+      "path_back": "wuyaozhanshibei"
+    },
+    "role_scale": 0.5
+  },
+  "terence": {
+    "skill": {
+      "id": 1000,
+      "function_name": "战士1普攻",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk1",
+        "atk2",
+        "atk3"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50006
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "skillSound/atk_zs",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "id": 11006,
+      "job": 1,
+      "sex": 1,
+      "head": 7,
+      "face": 1,
+      "body": 7,
+      "tj": 1,
+      "name": 231001,
+      "pic": "231001",
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        75
+      ],
+      "lhp3": [
+        -88,
+        75
+      ],
+      "lhp4": [
+        0,
+        150
+      ],
+      "remark": "战士男6(特伦斯)风战士C单体"
+    },
+    "role_scale": 0.45
+  },
+  "wolf": {
+    "skill": {
+      "id": 10000,
+      "function_name": "Langren(疾风狼普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 100,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 833,
+      "skl_dmg_time": [
+        277
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk4",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "Langren",
+      "remark": "疾风狼",
+      "atk_sound": "atk4",
+      "death_sound": "death12",
+      "bl": 0.57,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -15,
+        100
+      ],
+      "lhp3": [
+        -126,
+        100
+      ],
+      "lhp4": [
+        -33,
+        175
+      ],
+      "name_point": [
+        -12,
+        252
+      ],
+      "path_front": "langren",
+      "path_back": "langrenbei"
+    },
+    "role_scale": 0.5
+  },
+  "boss1": {
+    "skill": {
+      "id": 100000,
+      "function_name": "boss1(紫晶巨人普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 200,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 1000,
+      "skl_dmg_time": [
+        566
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        60000
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 1,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk40",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "boss1",
+      "remark": "紫晶巨人",
+      "atk_sound": "atk40",
+      "death_sound": "death9",
+      "bl": 0.6,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        174
+      ],
+      "lhp3": [
+        -160,
+        161
+      ],
+      "lhp4": [
+        -72,
+        272
+      ],
+      "name_point": [
+        0,
+        439
+      ],
+      "path_front": "zijingjuren",
+      "path_back": "zijingjurenbei"
+    },
+    "role_scale": 0.6
+  },
+  "boss2": {
+    "skill": {
+      "id": 100001,
+      "function_name": "boss2(泰坦普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 200,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 1100,
+      "skl_dmg_time": [
+        696
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk10",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "boss2",
+      "remark": "泰坦",
+      "atk_sound": "atk10",
+      "death_sound": "death16",
+      "bl": 0.66,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        200
+      ],
+      "lhp3": [
+        -160,
+        194
+      ],
+      "lhp4": [
+        -18,
+        309
+      ],
+      "name_point": [
+        0,
+        439
+      ],
+      "path_front": "taitanzhiwang",
+      "path_back": "taitanzhiwangbei"
+    },
+    "role_scale": 0.66
+  },
+  "boss3": {
+    "skill": {
+      "id": 100002,
+      "function_name": "boss3(铠甲巨人普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 200,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 1833,
+      "skl_dmg_time": [
+        600
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/sound_monster_atk_30",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "boss3",
+      "remark": "铠甲巨人",
+      "atk_sound": "sound_monster_atk_30",
+      "death_sound": "sound_monster_death_30",
+      "bl": 0.33,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        0,
+        200
+      ],
+      "lhp3": [
+        -150,
+        200
+      ],
+      "lhp4": [
+        0,
+        350
+      ],
+      "name_point": [
+        0,
+        443
+      ],
+      "path_front": "heiankaijia",
+      "path_back": "heiankaijiabei"
+    },
+    "role_scale": 0.33
+  },
+  "boss4": {
+    "skill": {
+      "id": 100003,
+      "function_name": "boss4(黑暗魔龙普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1500,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        2107
+      ],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 1400,
+      "skl_dmg_time": [
+        500
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "monster/death21",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "boss4",
+      "remark": "黑暗魔龙",
+      "atk_sound": "death21",
+      "death_sound": "death3",
+      "bl": 0.36,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -52,
+        123
+      ],
+      "lhp3": [
+        -218,
+        209
+      ],
+      "lhp4": [
+        -71,
+        392
+      ],
+      "name_point": [
+        0,
+        404
+      ],
+      "path_front": "heianmolong",
+      "path_back": "heianmolongbei"
+    },
+    "role_scale": 0.36
+  },
+  "boss5": {
+    "skill": {
+      "id": 100004,
+      "function_name": "boss5(地狱魔犬普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 1,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 1500,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [
+        2107
+      ],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 966,
+      "skl_dmg_time": [
+        354
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 3,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 1,
+      "sounds": "monster/atk28",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "boss5",
+      "remark": "地狱魔犬",
+      "atk_sound": "atk28",
+      "death_sound": "death20",
+      "bl": 0.41,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -35,
+        174
+      ],
+      "lhp3": [
+        -206,
+        100
+      ],
+      "lhp4": [
+        -148,
+        221
+      ],
+      "name_point": [
+        -49,
+        379
+      ],
+      "path_front": "diyumoquan",
+      "path_back": "diyumoquanbei"
+    },
+    "role_scale": 0.41
+  },
+  "boss7": {
+    "skill": {
+      "id": 100010,
+      "function_name": "boss7(深渊领主普攻)",
+      "skl_name": 0,
+      "pic": "",
+      "descriptionid": 0,
+      "skl_type": 0,
+      "spc_range": 0,
+      "spc_width": 0,
+      "target": 0,
+      "sk1_range": 300,
+      "skl_boom_range": 0,
+      "hit_num": 1,
+      "fly_spd": 0,
+      "damage_type": 1,
+      "damage_arg1": 0,
+      "damage_arg2": 0,
+      "level_value": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "cd_time": 1000,
+      "level_limit": 1,
+      "add_buff": [
+        0
+      ],
+      "skl_res1": [],
+      "skl_res2": [],
+      "skl_bone_name": [
+        "atk"
+      ],
+      "skl_take_time": 767,
+      "skl_dmg_time": [
+        567
+      ],
+      "skl_res3": [],
+      "skl_res4": [
+        50021
+      ],
+      "fs_coordinates": 2,
+      "mz_coordinates": 2,
+      "unlock_show": 0,
+      "bullet_size": 0,
+      "sounds": "monster/atk28",
+      "sounds2": "",
+      "skillname_show": 0,
+      "skillname_color": "",
+      "skillname_color1": "",
+      "remarks": ""
+    },
+    "look": {
+      "name": "boss7",
+      "remark": "深渊领主",
+      "atk_sound": "atk16",
+      "death_sound": "death14",
+      "bl": 0.74,
+      "lhp1": [
+        0,
+        0
+      ],
+      "lhp2": [
+        -25,
+        204
+      ],
+      "lhp3": [
+        -210,
+        192
+      ],
+      "lhp4": [
+        -60,
+        337
+      ],
+      "name_point": [
+        -1,
+        491
+      ],
+      "path_front": "shengyuanlingzhu",
+      "path_back": "bshengyuanlingzhu"
+    },
+    "role_scale": 0.74
+  },
+  "bullet.1104": {
+    "config": {
+      "id": 1104,
+      "desc": "法师普攻法球（金色）",
+      "type": 1,
+      "path": "skillBullets/yczd_nlq_huangse13",
+      "orientations": 0,
+      "resizing": 0.5
+    },
+    "frames": [
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillBullets/yczd_nlq_huangse13.png",
+        "sha256": "92c6e2b929b4984da137dfa7839fbb72dfdb2c7ea5aa2717c8bc9601d7a827a8"
+      }
+    ]
+  },
+  "bullet.1105": {
+    "config": {
+      "id": 1105,
+      "desc": "弓手普攻箭矢",
+      "type": 1,
+      "path": "skillBullets/fx_pg_gong",
+      "orientations": 0,
+      "resizing": 0.5
+    },
+    "frames": [
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillBullets/fx_pg_gong.png",
+        "sha256": "3667634335a629c0af0bc2ce374edf115418bb05f2280ce40598bf5ada146d69"
+      }
+    ]
+  },
+  "bullet.2107": {
+    "config": {
+      "id": 2107,
+      "desc": "怪物子弹（暗黑法球）",
+      "type": 1,
+      "path": "skillBullets/yczd_nlq_zise13",
+      "orientations": 0,
+      "resizing": 1
+    },
+    "frames": [
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillBullets/yczd_nlq_zise13.png",
+        "sha256": "2ee54511c762a63fa5255478612540afd6dd1b4f3e8c5a7812edccbf588c908a"
+      }
+    ]
+  },
+  "impact.50006": {
+    "config": {
+      "id": 50006,
+      "desc": "受击特效（白色刀光1段）",
+      "path": "skillEffect/yswm_dg_shouji_02_baise",
+      "list": "yswm_dg_shouji_02_baise",
+      "point": "",
+      "fps_time": 0,
+      "zIndex": 1,
+      "point1": 2,
+      "flip_not": 1,
+      "follow_not": 0,
+      "interval_time": 50,
+      "offset_value": [
+        0,
+        0
+      ],
+      "orientations": 1,
+      "res_type": 0,
+      "hit": 0,
+      "color": "",
+      "resizing": 1
+    },
+    "frames": [
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/71740f77-155d-4724-9275-8e8733297dda.png",
+        "sha256": "237681eb3dad961916f0daab87e0bc22a3394721e83170b242bcc58f61e03e7b"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/aedfb4a6-1089-42ff-8712-f17d6d836af1.png",
+        "sha256": "f45200bd58488f1f097a5348a542faa2dd41bbb338e25309c0dcf7176cdacc82"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/ca2d5b71-447b-4c7b-b792-b25eb7a808d6.png",
+        "sha256": "09538dbd2507d0175ea490aa34658e8c4c689bfd7fac41df0948851f442adc87"
+      }
+    ]
+  },
+  "impact.50016": {
+    "config": {
+      "id": 50016,
+      "desc": "受击特效（白色爆点）",
+      "path": "skillEffect/yswm_shouji_01_baise",
+      "list": "yswm_shouji_01_baise",
+      "point": "",
+      "fps_time": 0,
+      "zIndex": 1,
+      "point1": 2,
+      "flip_not": 1,
+      "follow_not": 0,
+      "interval_time": 50,
+      "offset_value": [
+        0,
+        0
+      ],
+      "orientations": 1,
+      "res_type": 0,
+      "hit": 0,
+      "color": "",
+      "resizing": 1
+    },
+    "frames": [
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/587ea0aa-637e-469a-8052-aa739c44f200.png",
+        "sha256": "c904b5dd066c30c0f1a56e08448f0c039e836be79929d612f122856fda3be91a"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/c8de86f9-611c-4c9f-88ed-f15f2fe1612e.png",
+        "sha256": "3d305a0ec5fb4bccaff8150f6a3bae01d4d40a745b609c0786547cf0a7a1ff7a"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/13c7dddc-d487-4362-a88b-3365285007d2.png",
+        "sha256": "2232891d784fbf00d6a6065843f277c72e93fc985664ff8a8c03a28d45ccc59b"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/fb58f3a1-4500-4918-a55c-210b3046b96b.png",
+        "sha256": "92c7347a149033eb66ec8e526bcee94fb1f5c522d0d4616ed4ce700b078c8418"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/c4dc7435-22d0-45f4-9b72-43212cf29a2b.png",
+        "sha256": "57a78fbd3552d97f2a0324f103d31f60f8c6e729b890436798e48a1d8cd29c41"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/df8912e7-d2fc-4773-8199-709cebb0a340.png",
+        "sha256": "360d15600e91952fd4f584e8fd4ca9a6349e56344e61ad8e979a5d0e5d393293"
+      }
+    ]
+  },
+  "impact.50021": {
+    "config": {
+      "id": 50021,
+      "desc": "受击特效（白色星形爆点）",
+      "path": "skillEffect/yswm_shouji_02_baise",
+      "list": "yswm_shouji_02_baise",
+      "point": "",
+      "fps_time": 0,
+      "zIndex": 1,
+      "point1": 2,
+      "flip_not": 1,
+      "follow_not": 0,
+      "interval_time": 50,
+      "offset_value": [
+        0,
+        0
+      ],
+      "orientations": 1,
+      "res_type": 0,
+      "hit": 0,
+      "color": "",
+      "resizing": 1
+    },
+    "frames": [
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/c1da9d40-941d-42fb-bbd8-94e796d37994.png",
+        "sha256": "82e3518459fcfbbe0d3e7a215d83c603590a62191e6299c9b1db270ef58ebb18"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/adcbde9f-1fe8-445a-b146-9e0096610e77.png",
+        "sha256": "4300fb86461fdaf00448aa92b1cb72d6bacc0ce837365ac60b3acd70c48ea2e4"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/f0ed3066-c2ed-4dfc-822b-e09e7701add2.png",
+        "sha256": "7976b2d5a2dcb4c3cbb12320fafb8e9d591fc833396c17c35683255487db680f"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/__未命名/6ec60b16-3333-43c3-b834-acb53e5b07ca.png",
+        "sha256": "987b4ac418acc8f94e523f7ed32753a95430213dc87dfb4cb3d98a49ce922ffe"
+      }
+    ]
+  },
+  "impact.60000": {
+    "config": {
+      "id": 60000,
+      "desc": "紫金巨人普攻特效",
+      "path": "skillEffect/zijinguairen_atk",
+      "list": "zijingguairen_atk",
+      "point": "",
+      "fps_time": 0,
+      "zIndex": -1,
+      "point1": 1,
+      "flip_not": 1,
+      "follow_not": 0,
+      "interval_time": 33,
+      "offset_value": [
+        0,
+        0
+      ],
+      "orientations": 1,
+      "res_type": 1,
+      "hit": 0,
+      "color": "",
+      "resizing": 0.8
+    },
+    "frames": [
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_00.png",
+        "sha256": "96bcf476f425a8f433f8409dc440f3ff840223eed686539c8901292de7f7a317"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_01.png",
+        "sha256": "71c14dfbf0e8c9f74b08262af45a97b0b8d5fdc052ff5c6a0ed1441797702132"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_02.png",
+        "sha256": "4502e30e3e213b9706f1f714820bf3d8756314cf22b4c0eddadce7c13ef33d6f"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_03.png",
+        "sha256": "e575d7f8aaef9eae24715357eb503f363d2befa7cb7bc3b9d76eac3f28deb337"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_04.png",
+        "sha256": "e979bfcc71c2fe7cb86553aff6664396d605c6616768495eafd7a31f503106f9"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_05.png",
+        "sha256": "c0c70a2be4fd916128f34e9b2683d6bf14fc96d4e19e5d3c4f01888c55c23a64"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_06.png",
+        "sha256": "153755422b505262396e67ee827486fa20f6102fabab8709d42d2a0aa51d8e72"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_07.png",
+        "sha256": "08b18a8af01d65ac7ef88b49090b50730ef1cb4c3985f212aa85af42ff656046"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_08.png",
+        "sha256": "b0cba47220dc0d21c7a5c3483b199e94669434bc84ee8a3fc9d2abcedb86e9b7"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_09.png",
+        "sha256": "35109691a96708a5c8100b272126e2063888713e79942747616162ad18f6cf7d"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_10.png",
+        "sha256": "a7e57e1741edaed172d4200015304cd9a30db5df4238060516f9f7798d2fe6e7"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_11.png",
+        "sha256": "170f468383487f77755ec02384f35c0d682d123bc7030651061d15543ef3a846"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_12.png",
+        "sha256": "736701a301ac46edb8601f8ebbd4e7773066615bd86e9abad780402c67a4d97b"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_13.png",
+        "sha256": "0b54f16ca97cae60f7122b152dbb8f748bec52de972c5c0fd122a85d2a391396"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_14.png",
+        "sha256": "b4e3955105c9e5a1d0516010a355e1d8315a2ecd775094ad05f13d4e97b0036e"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_15.png",
+        "sha256": "fe5a7fe9d31f8dccbb42c6a78c86a0a2d481cb428848dfbae499b74cf638f924"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_16.png",
+        "sha256": "3cfdfb3aff82490f1a70930d917417f37f219d699f2456aba1a8c1f4c332b22b"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_shang_17.png",
+        "sha256": "9e205677161b25eaac2a37310cf7509cfe1c987058870da69f723b9d6b01eb6f"
+      },
+      {
+        "path": "03_美术资源/02_透明切图/resources/tmp/skillEffect/zijinguairen_atk/images/zjgr_atk_xia_00.png",
+        "sha256": "53157cafc2d8b789b7686d09f683639005c1a5b33e788973d2ba511fc008e270"
+      }
+    ]
+  }
+}

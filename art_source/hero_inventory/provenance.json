@@ -1,0 +1,37 @@
+{
+  "empty": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/eqicon/third/wuping_kong.png",
+    "uuid": "9c6a48cf-a8d6-40ba-944d-b9c5bc77c608",
+    "sha256": "55b6f0e7dc923140f38c1f0c385fda24ef0d5aaa5ca5f07332be5387b67340d5"
+  },
+  "panel": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/b4705407-67be-4aee-9511-1e7b65f2ac24.png",
+    "uuid": "b4705407-67be-4aee-9511-1e7b65f2ac24",
+    "sha256": "30a0c7e38992413a8f3964886cfa6ce5b65964946ebf06e8a2af60d9b200cea7"
+  },
+  "line": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/887937bf-e9e1-4993-8d97-cc2826bf53cc.png",
+    "uuid": "887937bf-e9e1-4993-8d97-cc2826bf53cc",
+    "sha256": "bb85d5772fd41d43df98c18d68209b1441ea874264f5d22f966fdbec99725086"
+  },
+  "buyback": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/d21aea2d-4ef9-4bbb-9e35-e8601bc9bd5e.png",
+    "uuid": "d21aea2d-4ef9-4bbb-9e35-e8601bc9bd5e",
+    "sha256": "cc4a4d8e5527b62e3f278d641e1d821831ce8eeead4afa790c4a4f396b801b27"
+  },
+  "share": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/0f1b7352-6acc-4dc8-9775-1ba4ec676b83.png",
+    "uuid": "0f1b7352-6acc-4dc8-9775-1ba4ec676b83",
+    "sha256": "380b83632ca3fcd70d79588f1d79c07f7ee45f5b6df53dffa2e2df5e026ec049"
+  },
+  "underline": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/3997155e-9e85-4aff-9c86-30c6708e64f6.png",
+    "uuid": "3997155e-9e85-4aff-9c86-30c6708e64f6",
+    "sha256": "27ac910a4a3fe79a41b2c8f28c583db90cd81c448feef09176f673961bdb69ac"
+  },
+  "star": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_xinji.png",
+    "uuid": "ea0575fc-44b2-428c-9d00-4216fb434b80",
+    "sha256": "33f1ca4715628b277009b78378f87fb96cb5051d0bb24f53f0ed20ee94011050"
+  }
+}

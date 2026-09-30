@@ -1,0 +1,588 @@
+{
+  "difficulty": 1,
+  "stages": [
+    {
+      "id": 1,
+      "pic": "zhandoufangshi_ditu2-1",
+      "dt_pic": "zhandoufangshi_ditu2-1",
+      "map_name": 18015,
+      "info": 18016,
+      "gq_id": 0,
+      "nd": 1,
+      "level": 1,
+      "gw_pt": "1:3;2:3",
+      "gw_sl": "3:1;",
+      "sxd_pt": "1;2;3;8;9;10;11",
+      "sxd_sl": "5;9;14",
+      "f_pt": 10,
+      "f_sl": 60,
+      "f_by": 0,
+      "by_num": 30,
+      "sl_num": 5,
+      "sl_pro": 0,
+      "xl": 6,
+      "bl1": 0.475,
+      "bl2": 0.475,
+      "bl3": 0.05,
+      "md_unlock": 0,
+      "xzgw": "",
+      "xs_num": "6",
+      "xz_pt": "1;2",
+      "xz_by": ""
+    },
+    {
+      "id": 2,
+      "pic": "zhandoufangshi_ditu2-2",
+      "dt_pic": "zhandoufangshi_ditu2-2",
+      "map_name": 18017,
+      "info": 18018,
+      "gq_id": 0,
+      "nd": 1,
+      "level": 2,
+      "gw_pt": "1:4;2:4",
+      "gw_sl": "3:1;",
+      "sxd_pt": "1;2;3;8;9;10;11;12;13;14",
+      "sxd_sl": "5;9;14",
+      "f_pt": 10,
+      "f_sl": 60,
+      "f_by": 0,
+      "by_num": 30,
+      "sl_num": 5,
+      "sl_pro": 10000,
+      "xl": 8,
+      "bl1": 0.475,
+      "bl2": 0.475,
+      "bl3": 0.05,
+      "md_unlock": 0,
+      "xzgw": "3",
+      "xs_num": "9",
+      "xz_pt": "3",
+      "xz_by": ""
+    },
+    {
+      "id": 3,
+      "pic": "zhandoufangshi_ditu2-3",
+      "dt_pic": "zhandoufangshi_ditu2-3",
+      "map_name": 18019,
+      "info": 18020,
+      "gq_id": 30,
+      "nd": 1,
+      "level": 3,
+      "gw_pt": "1:5;2:5",
+      "gw_sl": "3:1;",
+      "sxd_pt": "1;2;3;4;5;6;7;8;9;10;11;12;13;14",
+      "sxd_sl": "5;9;14",
+      "f_pt": 10,
+      "f_sl": 60,
+      "f_by": 10000,
+      "by_num": 30,
+      "sl_num": 5,
+      "sl_pro": 10000,
+      "xl": 10,
+      "bl1": 0.475,
+      "bl2": 0.475,
+      "bl3": 0.05,
+      "md_unlock": 0,
+      "xzgw": "1;2",
+      "xs_num": "11",
+      "xz_pt": "",
+      "xz_by": "1;2"
+    },
+    {
+      "id": 1,
+      "pic": "zhandoufangshi_ditu2-1",
+      "dt_pic": "zhandoufangshi_ditu3-1",
+      "map_name": 18015,
+      "info": 18016,
+      "gq_id": 0,
+      "nd": 1,
+      "level": 1,
+      "gw_pt": "4:3;5:3",
+      "gw_sl": "6:1;",
+      "sxd_pt": "1;3;4;5;11;12;13;14",
+      "sxd_sl": "4;5;9;14",
+      "f_pt": 10,
+      "f_sl": 60,
+      "f_by": 0,
+      "by_num": 30,
+      "sl_num": 5,
+      "sl_pro": 0,
+      "xl": 6,
+      "bl1": 0.475,
+      "bl2": 0.475,
+      "bl3": 0.05,
+      "md_unlock": 0,
+      "xzgw": "",
+      "xs_num": "6",
+      "xz_pt": "4;5",
+      "xz_by": ""
+    },
+    {
+      "id": 2,
+      "pic": "zhandoufangshi_ditu2-2",
+      "dt_pic": "zhandoufangshi_ditu3-2",
+      "map_name": 18017,
+      "info": 18018,
+      "gq_id": 15,
+      "nd": 1,
+      "level": 2,
+      "gw_pt": "4:4;5:4",
+      "gw_sl": "6:1;",
+      "sxd_pt": "1;2;3;4;6;7;8;10;11;13;14",
+      "sxd_sl": "4;5;9;14",
+      "f_pt": 10,
+      "f_sl": 60,
+      "f_by": 0,
+      "by_num": 30,
+      "sl_num": 5,
+      "sl_pro": 10000,
+      "xl": 8,
+      "bl1": 0.475,
+      "bl2": 0.475,
+      "bl3": 0.05,
+      "md_unlock": 0,
+      "xzgw": "6",
+      "xs_num": "9",
+      "xz_pt": "6",
+      "xz_by": ""
+    },
+    {
+      "id": 3,
+      "pic": "zhandoufangshi_ditu2-3",
+      "dt_pic": "zhandoufangshi_ditu3-3",
+      "map_name": 18019,
+      "info": 18020,
+      "gq_id": 16,
+      "nd": 1,
+      "level": 3,
+      "gw_pt": "4:5;5:5",
+      "gw_sl": "6:1;",
+      "sxd_pt": "1;2;3;4;5;6;7;8;9;10;11;12;13;14",
+      "sxd_sl": "4;5;9;14",
+      "f_pt": 10,
+      "f_sl": 60,
+      "f_by": 10000,
+      "by_num": 30,
+      "sl_num": 5,
+      "sl_pro": 10000,
+      "xl": 10,
+      "bl1": 0.475,
+      "bl2": 0.475,
+      "bl3": 0.05,
+      "md_unlock": 0,
+      "xzgw": "4;5",
+      "xs_num": "11",
+      "xz_pt": "",
+      "xz_by": "4;5"
+    },
+    {
+      "id": 1,
+      "pic": "zhandoufangshi_ditu2-1",
+      "dt_pic": "zhandoufangshi_ditu2-1",
+      "map_name": 18015,
+      "info": 18016,
+      "gq_id": 0,
+      "nd": 1,
+      "level": 1,
+      "gw_pt": "7:3;8:3",
+      "gw_sl": "9:1;",
+      "sxd_pt": "1;2;3;4;5;6;7;8;9;10;11;12;13;14",
+      "sxd_sl": "4;7;8;11",
+      "f_pt": 12,
+      "f_sl": 60,
+      "f_by": 0,
+      "by_num": 30,
+      "sl_num": 5,
+      "sl_pro": 0,
+      "xl": 6,
+      "bl1": 0.475,
+      "bl2": 0.475,
+      "bl3": 0.05,
+      "md_unlock": 0,
+      "xzgw": "",
+      "xs_num": "6",
+      "xz_pt": "7;8",
+      "xz_by": ""
+    },
+    {
+      "id": 2,
+      "pic": "zhandoufangshi_ditu2-2",
+      "dt_pic": "zhandoufangshi_ditu2-2",
+      "map_name": 18017,
+      "info": 18018,
+      "gq_id": 21,
+      "nd": 1,
+      "level": 2,
+      "gw_pt": "7:4;8:4",
+      "gw_sl": "9:1;",
+      "sxd_pt": "1;2;3;4;5;6;7;8;9;10;11;12;13;14",
+      "sxd_sl": "4;7;8;11",
+      "f_pt": 12,
+      "f_sl": 60,
+      "f_by": 0,
+      "by_num": 30,
+      "sl_num": 5,
+      "sl_pro": 10000,
+      "xl": 8,
+      "bl1": 0.475,
+      "bl2": 0.475,
+      "bl3": 0.05,
+      "md_unlock": 0,
+      "xzgw": "9",
+      "xs_num": "9",
+      "xz_pt": "9",
+      "xz_by": ""
+    },
+    {
+      "id": 3,
+      "pic": "zhandoufangshi_ditu2-3",
+      "dt_pic": "zhandoufangshi_ditu2-3",
+      "map_name": 18019,
+      "info": 18020,
+      "gq_id": 24,
+      "nd": 1,
+      "level": 3,
+      "gw_pt": "7:5;8:5",
+      "gw_sl": "9:1;",
+      "sxd_pt": "1;2;3;4;5;6;7;8;9;10;11;12;13;14",
+      "sxd_sl": "4;7;8;11",
+      "f_pt": 12,
+      "f_sl": 60,
+      "f_by": 10000,
+      "by_num": 30,
+      "sl_num": 5,
+      "sl_pro": 10000,
+      "xl": 10,
+      "bl1": 0.475,
+      "bl2": 0.475,
+      "bl3": 0.05,
+      "md_unlock": 0,
+      "xzgw": "7;8",
+      "xs_num": "11",
+      "xz_pt": "",
+      "xz_by": "7;8"
+    }
+  ],
+  "spawns": [
+    {
+      "id": "field.spawn.1",
+      "area": "field",
+      "number": 1,
+      "grid_x": 32,
+      "grid_y": 34
+    },
+    {
+      "id": "field.spawn.2",
+      "area": "field",
+      "number": 2,
+      "grid_x": 26,
+      "grid_y": 34
+    },
+    {
+      "id": "field.spawn.3",
+      "area": "field",
+      "number": 3,
+      "grid_x": 17,
+      "grid_y": 34
+    },
+    {
+      "id": "field.spawn.4",
+      "area": "field",
+      "number": 4,
+      "grid_x": 22,
+      "grid_y": 21
+    },
+    {
+      "id": "field.spawn.5",
+      "area": "field",
+      "number": 5,
+      "grid_x": 28,
+      "grid_y": 30
+    },
+    {
+      "id": "field.spawn.6",
+      "area": "field",
+      "number": 6,
+      "grid_x": 17,
+      "grid_y": 22
+    },
+    {
+      "id": "field.spawn.7",
+      "area": "field",
+      "number": 7,
+      "grid_x": 26,
+      "grid_y": 22
+    },
+    {
+      "id": "field.spawn.8",
+      "area": "field",
+      "number": 8,
+      "grid_x": 31,
+      "grid_y": 27
+    },
+    {
+      "id": "field.spawn.9",
+      "area": "field",
+      "number": 9,
+      "grid_x": 23,
+      "grid_y": 25
+    },
+    {
+      "id": "field.spawn.10",
+      "area": "field",
+      "number": 10,
+      "grid_x": 15,
+      "grid_y": 25
+    },
+    {
+      "id": "field.spawn.11",
+      "area": "field",
+      "number": 11,
+      "grid_x": 19,
+      "grid_y": 17
+    },
+    {
+      "id": "field.spawn.12",
+      "area": "field",
+      "number": 12,
+      "grid_x": 13,
+      "grid_y": 17
+    },
+    {
+      "id": "field.spawn.13",
+      "area": "field",
+      "number": 13,
+      "grid_x": 26,
+      "grid_y": 18
+    },
+    {
+      "id": "field.spawn.14",
+      "area": "field",
+      "number": 14,
+      "grid_x": 21,
+      "grid_y": 29
+    },
+    {
+      "id": "field2.spawn.1",
+      "area": "field2",
+      "number": 1,
+      "grid_x": 44,
+      "grid_y": 31
+    },
+    {
+      "id": "field2.spawn.2",
+      "area": "field2",
+      "number": 2,
+      "grid_x": 45,
+      "grid_y": 24
+    },
+    {
+      "id": "field2.spawn.3",
+      "area": "field2",
+      "number": 3,
+      "grid_x": 45,
+      "grid_y": 16
+    },
+    {
+      "id": "field2.spawn.4",
+      "area": "field2",
+      "number": 4,
+      "grid_x": 39,
+      "grid_y": 28
+    },
+    {
+      "id": "field2.spawn.5",
+      "area": "field2",
+      "number": 5,
+      "grid_x": 41,
+      "grid_y": 23
+    },
+    {
+      "id": "field2.spawn.6",
+      "area": "field2",
+      "number": 6,
+      "grid_x": 32,
+      "grid_y": 27
+    },
+    {
+      "id": "field2.spawn.7",
+      "area": "field2",
+      "number": 7,
+      "grid_x": 32,
+      "grid_y": 16
+    },
+    {
+      "id": "field2.spawn.8",
+      "area": "field2",
+      "number": 8,
+      "grid_x": 37,
+      "grid_y": 32
+    },
+    {
+      "id": "field2.spawn.9",
+      "area": "field2",
+      "number": 9,
+      "grid_x": 38,
+      "grid_y": 23
+    },
+    {
+      "id": "field2.spawn.10",
+      "area": "field2",
+      "number": 10,
+      "grid_x": 36,
+      "grid_y": 13
+    },
+    {
+      "id": "field2.spawn.11",
+      "area": "field2",
+      "number": 11,
+      "grid_x": 26,
+      "grid_y": 21
+    },
+    {
+      "id": "field2.spawn.12",
+      "area": "field2",
+      "number": 12,
+      "grid_x": 26,
+      "grid_y": 30
+    },
+    {
+      "id": "field2.spawn.13",
+      "area": "field2",
+      "number": 13,
+      "grid_x": 27,
+      "grid_y": 10
+    },
+    {
+      "id": "field2.spawn.14",
+      "area": "field2",
+      "number": 14,
+      "grid_x": 40,
+      "grid_y": 18
+    },
+    {
+      "id": "field3.spawn.1",
+      "area": "field3",
+      "number": 1,
+      "grid_x": 40,
+      "grid_y": 18
+    },
+    {
+      "id": "field3.spawn.2",
+      "area": "field3",
+      "number": 2,
+      "grid_x": 27,
+      "grid_y": 15
+    },
+    {
+      "id": "field3.spawn.3",
+      "area": "field3",
+      "number": 3,
+      "grid_x": 41,
+      "grid_y": 23
+    },
+    {
+      "id": "field3.spawn.4",
+      "area": "field3",
+      "number": 4,
+      "grid_x": 37,
+      "grid_y": 20
+    },
+    {
+      "id": "field3.spawn.5",
+      "area": "field3",
+      "number": 5,
+      "grid_x": 36,
+      "grid_y": 25
+    },
+    {
+      "id": "field3.spawn.6",
+      "area": "field3",
+      "number": 6,
+      "grid_x": 29,
+      "grid_y": 24
+    },
+    {
+      "id": "field3.spawn.7",
+      "area": "field3",
+      "number": 7,
+      "grid_x": 24,
+      "grid_y": 22
+    },
+    {
+      "id": "field3.spawn.8",
+      "area": "field3",
+      "number": 8,
+      "grid_x": 19,
+      "grid_y": 18
+    },
+    {
+      "id": "field3.spawn.9",
+      "area": "field3",
+      "number": 9,
+      "grid_x": 32,
+      "grid_y": 21
+    },
+    {
+      "id": "field3.spawn.10",
+      "area": "field3",
+      "number": 10,
+      "grid_x": 41,
+      "grid_y": 28
+    },
+    {
+      "id": "field3.spawn.11",
+      "area": "field3",
+      "number": 11,
+      "grid_x": 34,
+      "grid_y": 29
+    },
+    {
+      "id": "field3.spawn.12",
+      "area": "field3",
+      "number": 12,
+      "grid_x": 25,
+      "grid_y": 27
+    },
+    {
+      "id": "field3.spawn.13",
+      "area": "field3",
+      "number": 13,
+      "grid_x": 20,
+      "grid_y": 12
+    },
+    {
+      "id": "field3.spawn.14",
+      "area": "field3",
+      "number": 14,
+      "grid_x": 24,
+      "grid_y": 18
+    }
+  ],
+  "sources": [
+    {
+      "path": "03_美术资源/04_预制体/resources/view/map/Map.json",
+      "sha256": "8ecd5ce139e7cd2926dec22097ed0b073e3cd8fdf0b4f90e07d162ce9abdf8d8"
+    },
+    {
+      "path": "04_配置表/JSON原表/resources/common/json/c2_guaiwu.json",
+      "sha256": "41876c8dcfc19f3e52398e4549300818216d027a9ac1319225d21348b7ec1da8"
+    },
+    {
+      "path": "04_配置表/JSON原表/resources/common/json/c59_guaiwu_model.json",
+      "sha256": "48b2547896820c3cbec577c741868373b4d4a5e33970f25f01b5a7d52cf80c6d"
+    },
+    {
+      "path": "04_配置表/JSON原表/resources/common/json/c6_map_1.json",
+      "sha256": "392f2af0fc390d2eee3f48b514c7de122ddf45538325353ea3f1f9c7f01315f6"
+    },
+    {
+      "path": "04_配置表/JSON原表/resources/common/json/c6_map_2.json",
+      "sha256": "838b7d1a12d9f5468c7eb2ab8f174327d9a6238325a4400cf5a4760dab3e367b"
+    },
+    {
+      "path": "04_配置表/JSON原表/resources/common/json/c6_map_3.json",
+      "sha256": "1a20746a27d6677faaa9684e028d119ab21058464c625460b4882e6a438317f8"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="佣兵小镇"
+config/description="小镇地图原型：地图浏览与建筑外观。"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "4.7.1", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=750
+window/size/viewport_height=1334
+window/size/window_width_override=750
+window/size/window_height_override=1334
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="佣兵小镇"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/combat_framework_editor/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.025, 0.035, 0.06, 1)

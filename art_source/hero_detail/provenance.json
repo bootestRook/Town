@@ -1,0 +1,1736 @@
+{
+  "power": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/78130bf1-b468-4241-a871-0e06ea885371.png",
+    "uuid": "78130bf1-b468-4241-a871-0e06ea885371",
+    "sha256": "bb0dc7c05e63342f53c753c80b28f1451bba4c8be6661135273405a73b445f9b"
+  },
+  "magic": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/6f67f658-5dd7-4b02-9055-5e7f894bdef8.png",
+    "uuid": "6f67f658-5dd7-4b02-9055-5e7f894bdef8",
+    "sha256": "7ca676c18dd99af1c6e1caab94bbdee3720ced9a3af783d961ba9978c7ca0e07"
+  },
+  "hunger": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/e4602f0a-ee4c-4aa1-b76e-8a3cae7d8625.png",
+    "uuid": "e4602f0a-ee4c-4aa1-b76e-8a3cae7d8625",
+    "sha256": "a89c7c3c5d828b88774029cc8c1c9e8fd0e7952c26e91251af71da7fa37ab05a"
+  },
+  "tired": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/32b22d0b-be48-45d8-874a-74fa543a3450.png",
+    "uuid": "32b22d0b-be48-45d8-874a-74fa543a3450",
+    "sha256": "8d51b8be5ea6d3ec59dc83d14e9cae1620aabcb945688aa86643e19bbd781e75"
+  },
+  "mood": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/3da37aa0-33cd-4b9b-aa89-ec078b4b4207.png",
+    "uuid": "3da37aa0-33cd-4b9b-aa89-ec078b4b4207",
+    "sha256": "b76100a0fbeef2e3e337d3a61738d3aa54d9816263abc0d6244716a687ecaf6a"
+  },
+  "hp": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/c67f8dea-ca26-42c7-a362-d91da454ce14.png",
+    "uuid": "c67f8dea-ca26-42c7-a362-d91da454ce14",
+    "sha256": "eae1a1d0c705c64d3927fdfcea95bc7916f5c989c066b63db44b7f78abf7964e"
+  },
+  "attack": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/5d531eac-ad95-4225-aa49-4b78a5f5c577.png",
+    "uuid": "5d531eac-ad95-4225-aa49-4b78a5f5c577",
+    "sha256": "854dfc26cd013bba54a7dbbf4327bfbf2af7fb03f299955345596af921ce2e5a"
+  },
+  "defense": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/f0b6f76f-7db8-48a7-9cb8-cde5b805904d.png",
+    "uuid": "f0b6f76f-7db8-48a7-9cb8-cde5b805904d",
+    "sha256": "b8a8c2ad2ddeefed8028c78d445f4cca0fd1893bc3153557f1deb7d344fa9739"
+  },
+  "info": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/e0733f82-b60d-44b5-8d0e-73e9b1ad9ce3.png",
+    "uuid": "e0733f82-b60d-44b5-8d0e-73e9b1ad9ce3",
+    "sha256": "2594786680ccf09662bed82bed1e39b640a234fe7bb741620e672fa0f665b198"
+  },
+  "tip_title": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/ed70e6c4-a022-4c95-a216-c55eab135d16.png",
+    "uuid": "ed70e6c4-a022-4c95-a216-c55eab135d16",
+    "sha256": "60d1ca6a0219a602fa8ea0276dce310b613f572b568a45803b82e0aba8675e18"
+  },
+  "tip_body": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/ee130e8f-3033-47c5-a284-a9f6e1ced5a6.png",
+    "uuid": "ee130e8f-3033-47c5-a284-a9f6e1ced5a6",
+    "sha256": "9ef6b36da66a427f9313eea68e01c90543a8260a4358460523389ffea27763d5"
+  },
+  "body": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/1a313651-536e-4e29-a55b-9489c0eb7149.png",
+    "uuid": "1a313651-536e-4e29-a55b-9489c0eb7149",
+    "sha256": "c6f0f5e1eec83fb672482136ebf6f585ee73481837ecc0cbea35f6fc60671b3f"
+  },
+  "change": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/4cc9a949-e08e-453a-9370-9fa01b46020e.png",
+    "uuid": "4cc9a949-e08e-453a-9370-9fa01b46020e",
+    "sha256": "4c3f38ad501ad556ebe8d285cc504ef4ed85b14f999c40c97f50f86e451e8e0d"
+  },
+  "wallet": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/d519f19a-56a4-43e6-97f2-f4878e2f0274.png",
+    "uuid": "d519f19a-56a4-43e6-97f2-f4878e2f0274",
+    "sha256": "408653e7d99e4e393515ff267b2bfe9a29a883fb71f0c3f1c398022f84da7651"
+  },
+  "top": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/f0808877-eb7e-4e64-9c61-031f88d2b225.png",
+    "uuid": "f0808877-eb7e-4e64-9c61-031f88d2b225",
+    "sha256": "b9ea864ea3a3abc790767f16e4f9f29f0bc182c2b8a5dd60b07200e0356723a2"
+  },
+  "gold": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/91c657f4-68e3-4622-bba5-7d4e0e527960.png",
+    "uuid": "91c657f4-68e3-4622-bba5-7d4e0e527960",
+    "sha256": "7b903d3fc30815d437641718354e9d7bc8d7a24b69fe0b5ca7068cfa0f1f4ec1"
+  },
+  "diamonds": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/1f582b14-5e47-4b87-92e1-8526a5ecd6c1.png",
+    "uuid": "1f582b14-5e47-4b87-92e1-8526a5ecd6c1",
+    "sha256": "070e1d0eb76f34a9668ef02dcb528a355310daa98ac5d939d99564daca46647b"
+  },
+  "arrow": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/3af1061e-5c3a-45b5-a848-b81f2b429ea7.png",
+    "uuid": "3af1061e-5c3a-45b5-a848-b81f2b429ea7",
+    "sha256": "06a85457d05c9f6c1aff3ffdff73060d67558b24496bfccff63b9dfb5fe3a5c6"
+  },
+  "bottom": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/9caedb34-1022-48e8-a223-199315d2f05b.png",
+    "uuid": "9caedb34-1022-48e8-a223-199315d2f05b",
+    "sha256": "e5ff2dc42c871fe493d5074b42fbdf9e3eff94cb5416a23d27a7aabb92d7d31d"
+  },
+  "back": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/e6d82e7f-9557-4b1b-8e09-08aef4128fc5.png",
+    "uuid": "e6d82e7f-9557-4b1b-8e09-08aef4128fc5",
+    "sha256": "2cd8d7b40fb402217cec9862ddb4094dcd3715cd092d6e39fb11f3bf52609ee7"
+  },
+  "tab_0_selected": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/42a94168-0569-439a-844c-e672a6608b2d.png",
+    "uuid": "42a94168-0569-439a-844c-e672a6608b2d",
+    "sha256": "7d1c2fc3bcb236ebd3c5ebb71e65d3e19b7f9507b9305223b8a24abdb8b434fe"
+  },
+  "tab_0": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/51f6e2f3-44d6-40fc-95e5-a3faa3b6e572.png",
+    "uuid": "51f6e2f3-44d6-40fc-95e5-a3faa3b6e572",
+    "sha256": "802d3ce5073467125ca952c9ef97d1fe56cb1bb58c9d69feebc97b1f6904ce5d"
+  },
+  "tab_1_selected": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/b9b5ce62-57d9-49e5-9174-10dd9a42e089.png",
+    "uuid": "b9b5ce62-57d9-49e5-9174-10dd9a42e089",
+    "sha256": "579c9d834deaac6bc1e2beeb3b509c3451e54d12a9021940c488e957c5e0318f"
+  },
+  "tab_1": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/5280f1c0-b401-4e19-8477-65201afff006.png",
+    "uuid": "5280f1c0-b401-4e19-8477-65201afff006",
+    "sha256": "00300bbdf4ae4c95118e5d5142792b610a9d1c1a2a64a03026464330b85646ba"
+  },
+  "tab_2_selected": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/0951464f-c76f-4c25-ab57-0c11e7e13825.png",
+    "uuid": "0951464f-c76f-4c25-ab57-0c11e7e13825",
+    "sha256": "dbe500cd2f86542c6c3f1efe5090ca0c5a0d2f51372152deffd040e47021b540"
+  },
+  "tab_2": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/7cf423c8-ce90-40c0-934b-488ec5a25f61.png",
+    "uuid": "7cf423c8-ce90-40c0-934b-488ec5a25f61",
+    "sha256": "e2302af7804e94dad299c261b88fb74e0874382b5513bd154faa1ad9fab28e63"
+  },
+  "tab_3_selected": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/1f735666-9040-484c-96ed-c641bbdcd916.png",
+    "uuid": "1f735666-9040-484c-96ed-c641bbdcd916",
+    "sha256": "37d60711ad0065f6a105fc84f74111132ebb6bde2282f20755933a1a43515d15"
+  },
+  "tab_3": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/8790f3bf-529b-478c-b11c-6459ed129987.png",
+    "uuid": "8790f3bf-529b-478c-b11c-6459ed129987",
+    "sha256": "575e8adfbc132dfac1f1172051897e7bfbcad1c500ac572042c6f88e4048a62a"
+  },
+  "skills_body": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/c16f1461-8ba7-4208-983d-df01c6d535df.png",
+    "uuid": "c16f1461-8ba7-4208-983d-df01c6d535df",
+    "sha256": "a97f2a4f0094da4321a1f5b1dbfcd653eada3681e7360ceaa10ac6b68db423ab"
+  },
+  "star_button": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/074ee034-010c-4d39-8cdc-1772bb2a33d1.png",
+    "uuid": "074ee034-010c-4d39-8cdc-1772bb2a33d1",
+    "sha256": "6052a63fc60d46c11c75324cae5a4937ab28f494f49c4fb80b3284891f215c80"
+  },
+  "cost": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/9f9c7bb2-aff9-4eed-bc1f-bb5a0be6622e.png",
+    "uuid": "9f9c7bb2-aff9-4eed-bc1f-bb5a0be6622e",
+    "sha256": "66ab543d24748239042662fbf456a00d4119f8787f76403ed24728ebde4a1a24"
+  },
+  "rank": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/roundIcon/yingxiong_pinjie1.png",
+    "uuid": "f8d31567-203b-4b10-90bf-65cd70caae43",
+    "sha256": "84750260b9fca0cf97e421ec4bb9b2a62e6174e5e2a010162895e6cd27e8c655"
+  },
+  "equipment_settings": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/pvp/pvp_anniu_fangshou.png",
+    "uuid": "fed39c10-cc2e-4907-a5fd-cb2995ae6cfc",
+    "sha256": "ae9d0847bdc94f8b3dc196a408d15635812789daf221a4effa6713d07890e9d1"
+  },
+  "skill_frame": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/talentIcon/tianfu_kuang01.png",
+    "uuid": "928ca8c2-694e-49c8-b9dc-2e915e3d01ab",
+    "sha256": "044c17cd917e73fb9617edf8e9608948c325def0fd32ac2e09005d1ffe2daa5d"
+  },
+  "skill_level": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/be738989-1a74-4d9b-9812-72480dbed4f0.png",
+    "uuid": "be738989-1a74-4d9b-9812-72480dbed4f0",
+    "sha256": "04128ddea50d8d6d522cb409efe5a580556d779ab8537283ed74e738a9f51a4b"
+  },
+  "skill_lock": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/4e2ceabc-d437-4e60-ba85-bb9f08ebb870.png",
+    "uuid": "4e2ceabc-d437-4e60-ba85-bb9f08ebb870",
+    "sha256": "80bc0a707790945ddd8cdc12448963939b3af2d3f45b6e0368b4f409d2570c61"
+  },
+  "background_1": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_beijing_1.png",
+    "uuid": "bffea62c-4b56-4ede-930c-159d6710d133",
+    "sha256": "4a7854573d0310e283ae3deff8f3a77cf0471583c8e51696f852791cfdc86cee"
+  },
+  "background_2": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_beijing_2.png",
+    "uuid": "176e57c9-b067-4439-81fc-c77b46e951d6",
+    "sha256": "acdbd32be482629037dc3160d9a7f4de8a977937b4f189993d91c54b79e24f91"
+  },
+  "background_3": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_beijing_3.png",
+    "uuid": "b0c21846-7640-4452-bee0-644b303d03f8",
+    "sha256": "4d7f40a86832bf8facbdd469597e40f5feb43a5cf2200db33f3a13906a3e2f6e"
+  },
+  "background_4": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_beijing_4.png",
+    "uuid": "a53ffe0c-40d5-44b1-894f-6aa46d284ac6",
+    "sha256": "b4e509aa01c3f05fca9ff8d6d202e39ad191cf92dd8b892f68c2f023bd469f7a"
+  },
+  "background_5": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/common/common_beijing_5.png",
+    "uuid": "dd2ed9bd-630c-4a1d-87c0-4822e5bd9c41",
+    "sha256": "533d8d9d46b5c8bda7818f8cde7c420fd268da82b053ffaf168f05ae92dc4c21"
+  },
+  "empty_1": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/eqicon/third/zhuangbei_01.png",
+    "uuid": "da434c42-84ef-4224-8c6e-198118a6df6a",
+    "sha256": "b48911fb34b73590829c8f48aacbc6802642c42b7dd1dca2f4232eaf053a6c0b"
+  },
+  "empty_2": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/eqicon/third/zhuangbei_02.png",
+    "uuid": "652b2903-334d-435a-b7ff-7e335e461b15",
+    "sha256": "f31f52c585917b6b5b05cffd60ecd9cf1f356786b53fbe2c3a07b92ac0c35660"
+  },
+  "empty_3": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/eqicon/third/zhuangbei_03.png",
+    "uuid": "f374ed1c-43e0-45f0-b0ac-a57445ab3f5d",
+    "sha256": "906b57f8dadaefe9af439296c62c6d25b8fa2c0ebed0c66c76df22049285e115"
+  },
+  "empty_4": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/eqicon/third/zhuangbei_04.png",
+    "uuid": "7c1de309-c7a9-434d-a4d7-1866292a97d7",
+    "sha256": "f21000da4411581a41317f26211e06838b5053c2649982738e14017ee01ff65d"
+  },
+  "empty_5": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/eqicon/third/zhuangbei_05.png",
+    "uuid": "ab0cdd47-0677-4122-802f-b0cd60a0abe3",
+    "sha256": "190b998615e5ff1e939c26aa0330276cb67c574ed45d13aff563705c84986c0d"
+  },
+  "empty_6": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/eqicon/third/zhuangbei_06.png",
+    "uuid": "a7470176-462a-4a10-b6ae-11c5397949f2",
+    "sha256": "199d7393804a55e5f4ffaabe888dde5bb43af72ec11f0529e6f3b572d503f963"
+  },
+  "empty_7": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/eqicon/third/zhuangbei_07.png",
+    "uuid": "6f0974e2-d5b9-4e1d-8806-2a002b46c05f",
+    "sha256": "49e26873877984af65ab61c9f7e45649ece78762aec8af5ca3311438dbf27e32"
+  },
+  "empty_8": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/eqicon/third/zhuangbei_08.png",
+    "uuid": "14968b34-9264-4b52-9c1a-67665003942f",
+    "sha256": "ed0bbeab3f790eadc4f133ce4bc187995abafd1d835a17a5c1aef0ec741c88b4"
+  },
+  "power_font": {
+    "source": "03_美术资源/02_透明切图/resources/__未命名/b290bfcd-36f8-4788-bc96-8a0e9a66f10b.png",
+    "uuid": "b290bfcd-36f8-4788-bc96-8a0e9a66f10b",
+    "sha256": "0c552543a9d9e3dab5860102fa908b46c7c3265c125c991e1d0b17d3c7d37d74"
+  },
+  "power_font_face": {
+    "source": "03_美术资源\\06_粒子材质字体\\resources\\__未命名\\e4dcc525-eb7b-417d-a092-3fc66b28d6d1.json",
+    "conversion": "Cocos BitmapFont to BMFont; source rects, baked colors and spacingX=-5 preserved"
+  },
+  "skill_1003": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_01.png",
+    "uuid": "b5aededf-5c61-4f43-8806-28d47af3e82f",
+    "sha256": "90feb38a5ec6c707ca79ca7f1bea58b24911842fd2cb3b4c745ee6673668343c"
+  },
+  "skill_1004": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_shui_01.png",
+    "uuid": "f0493f69-a84b-48c4-8dc8-99ead1c82799",
+    "sha256": "30f8838d2a7093f469b9e1633215223ff453e6fe5208e62b612de7e77071fa53"
+  },
+  "skill_1005": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_feng_01.png",
+    "uuid": "703cc497-fe9b-4359-af6c-3071733d9f40",
+    "sha256": "25fa8f1af1cfb6c30064abcde6c7221242e41d59f105cfb677019c3dac0f10f4"
+  },
+  "skill_1006": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_feng_01.png",
+    "uuid": "122d67ca-e097-4eab-bda2-e1cfaba05c0e",
+    "sha256": "5dc14d826cd51e7d27abf0fa3736437d98790380cbf274e327a15eada4806ab2"
+  },
+  "skill_1007": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_lr_shui_01.png",
+    "uuid": "85d0cc91-1859-4bfe-b54f-7385feaca877",
+    "sha256": "65260b274114028a6e05eb4fdf37c674345ac021f3586f9c82167b1fc735b763"
+  },
+  "skill_1008": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_shui_01.png",
+    "uuid": "e4c17700-abd0-4534-bcac-80182eedfaf2",
+    "sha256": "baf3782790e36b5110c4fa8a9533eb3eca004be1ef705bc4a8135842cbaedfa6"
+  },
+  "skill_1009": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_01.png",
+    "uuid": "5394b9cb-1930-421c-9a8b-c759049f60b4",
+    "sha256": "6f81cea26018ed25f0df4f1e92f1683540eb37671ebce8915f4f5822c23c8f34"
+  },
+  "skill_1010": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_huo_01.png",
+    "uuid": "47087b00-b945-4fd3-bf41-4f6ab36bcc43",
+    "sha256": "f6e0a8e6e61ec51b1bc5bba46d38ea148d256284e6df2db95bc2c2e6f4b9df87"
+  },
+  "skill_1011": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_01.png",
+    "uuid": "a7feacbc-3dc0-4f2c-92af-3b52ae4b53ad",
+    "sha256": "9fcb7c814aec1f0d6a812156dedbfaed39c368c390aae6980b795c0a2aaee44b"
+  },
+  "skill_1012": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_01.png",
+    "uuid": "f6efb3e0-8b47-479e-a001-bdef4f630335",
+    "sha256": "7112a6bbe231bf2859d533f7102623448508363669b9323dcff1dd61c0df0dfa"
+  },
+  "skill_1013": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_shui_01.png",
+    "uuid": "6fa316d2-3f0b-4062-ab58-890efac3a2ed",
+    "sha256": "08a09248f61ea45d0a059fa73b8965a6a13f0ac43cf1e0c68bcae24efa82df28"
+  },
+  "skill_1014": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_shui_01.png",
+    "uuid": "fac15a19-bc81-41b4-bad8-fb9634f86b9d",
+    "sha256": "0273cb86634d48a88fb3d1a8927c952e4a7efe944a2a7756f3f3ad06b50c1ab0"
+  },
+  "skill_1015": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_shui_01.png",
+    "uuid": "0f7ae595-a855-4401-8234-bb16d59ad2ca",
+    "sha256": "c65eab39d64bb87a4b3078c0f390778f382b43e5ce5f81f2c7c9565dc2c89b69"
+  },
+  "skill_1016": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_shui_02.png",
+    "uuid": "10c483f4-9a41-45f0-a230-1d95a230f285",
+    "sha256": "706fd8c424d4dbc07f6d9905da0b6efb605e07aa1d41964c01ce29becdc27e58"
+  },
+  "skill_1017": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_feng_01.png",
+    "uuid": "f9b3aeb5-cbf0-4ceb-b2cf-2fbc06e2a0c5",
+    "sha256": "8583fc21656a9be4f49df373c3a58f180fb7d7c561048df0fe8d64548eae1c58"
+  },
+  "skill_1018": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_01.png",
+    "uuid": "4c39c805-7dad-4ad8-b0bd-cd486e1d6804",
+    "sha256": "f621dda665ef2837a51b4bea71c826b5e98ac0cb0d42e75f457168681f8f55d4"
+  },
+  "skill_1019": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_huo_02.png",
+    "uuid": "c8dab6b1-b490-491a-82a2-87cd69d1a76b",
+    "sha256": "4351eb443247057dba63007040fefabd44cb039a26a855bdd6dfd422826c632e"
+  },
+  "skill_1020": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_02.png",
+    "uuid": "081d6ff1-22b1-4fa6-bdc7-84efa1f4a539",
+    "sha256": "431d177ad3e3ea17292e87c41aab415ad5f0486a11fa412303b7e783fc337560"
+  },
+  "skill_1021": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_shui_02.png",
+    "uuid": "26df2118-5ea9-4d21-b053-f46235dabf72",
+    "sha256": "a424a614a37307ea9eab90b7536f0d16208d2ae4c1d2a52d0f8a4c748818a181"
+  },
+  "skill_1022": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_shui_01.png",
+    "uuid": "4f940c47-5888-4587-a0c0-29a984a5288d",
+    "sha256": "abdc88b6cf45fde1b72b339785cd3713c3fb74910bf21cf16afeb7d6f8504f6e"
+  },
+  "skill_1023": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_01.png",
+    "uuid": "b318b087-fec6-49d4-b1e0-706559186567",
+    "sha256": "9d4c6b0eb977a974e12f3787f33557add2c651510d4bfba04120f3aa7523d623"
+  },
+  "skill_1024": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_feng_01.png",
+    "uuid": "f6ac0e2b-b6ee-4e64-a09b-0b41b50f16c4",
+    "sha256": "3ff2381d05a259547ade90d4043ab0387eb0082c42b7f1ebc83d0541cb4438c7"
+  },
+  "skill_1025": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_feng_01.png",
+    "uuid": "9976484d-dd5b-4413-9cb5-2b3e01aa0cd4",
+    "sha256": "951bbbb7667a3f6aa1b5f6857e47ced430ff74e5071d6278f4a9dc7b99185fa8"
+  },
+  "skill_1026": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_01.png",
+    "uuid": "17f34d67-9f21-494f-b516-2a8950f9c8af",
+    "sha256": "21e5cbce4ed8a908ddc3b24f100f520aaafe26521dfc4983ad0b03e07616a201"
+  },
+  "skill_1027": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_02.png",
+    "uuid": "5c8059c7-28c7-4e93-85cb-ddc27739b973",
+    "sha256": "686b3689d611f92a408a5638c4ce53d9dfb8066dfd32eb0deeb873b34a73d9ce"
+  },
+  "skill_1028": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_01.png",
+    "uuid": "40efbaf9-297e-436a-8bb2-e9a1f4579050",
+    "sha256": "012f4d5c0f2949b7f291374733c238ad1b5e7e56f39c040ed65291b08f03a354"
+  },
+  "skill_1029": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_huo_01.png",
+    "uuid": "b91c0705-981f-4a22-b625-0d8927a92c28",
+    "sha256": "f8c34382bd2e66b89ca008b8fcaf596620f7383b0d9da421cfbd75e600fca4e2"
+  },
+  "skill_1030": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_01.png",
+    "uuid": "b39d6bea-47ea-4603-b78d-0dcdbfa4cad0",
+    "sha256": "0ac06f29eb5d4aa10ba66f35cdbaf9f3a652fbf815082662b0730713c97bd7af"
+  },
+  "skill_1031": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_shui_02.png",
+    "uuid": "613461c5-759c-47a9-8ba7-5137f962902a",
+    "sha256": "1adf46d317d90d68cadcc5b252e6df2a68aac1b88cc1e17cf697e6ff5335b7e8"
+  },
+  "skill_1032": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_02.png",
+    "uuid": "79ed35b3-8fc6-4582-aa49-a42bce81e7fb",
+    "sha256": "d6806882272e56f74099afc0221ba80e5bba5d4e585b6cb404c2037c30e4c1f4"
+  },
+  "skill_1033": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_feng_02.png",
+    "uuid": "c4061995-cbff-453e-b5ed-742b56fb08d2",
+    "sha256": "b8673921bf42491de0be543ef9be9e6e180ab6a322a845ddce52f28b6763c32c"
+  },
+  "skill_1034": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_huo_01.png",
+    "uuid": "181fd905-a640-49cf-be78-3b5bb3ef907a",
+    "sha256": "9d1514866beb3b5992889b904fee1162241fe59546c9990cee7be9368ebda7f6"
+  },
+  "skill_1035": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_01.png",
+    "uuid": "c650ea08-297f-4e48-9e6e-478ac8299c4a",
+    "sha256": "715e9801ea707858d00031f442455ca83857f4ede8da149384e4da7dd977e4b5"
+  },
+  "skill_1036": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_01.png",
+    "uuid": "3a337cb2-efbb-4129-b530-63673da44502",
+    "sha256": "4f18340cb2d0bf1565fbbbcaf80ef839bf71f93467897e331f328bc417f3d0e2"
+  },
+  "skill_1037": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_02.png",
+    "uuid": "f77a0561-fc0f-4ad2-ad75-15dd5c9d4678",
+    "sha256": "637f5ee98ceb77ed87f86c9c6f04e44d5c31f76ec6012ce032d5ea070b9c6afa"
+  },
+  "skill_1038": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_03.png",
+    "uuid": "d7baca13-c5ab-43b4-a27a-c0daf5a48b11",
+    "sha256": "754369845a4359d1f7a291c53ba7536e8e69e2fa4b52757d77409774b51c0f1f"
+  },
+  "skill_1039": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_02.png",
+    "uuid": "b1683538-a0be-4024-bcca-cf4f94c3a08a",
+    "sha256": "89dd20f935b7aae8702732a0d726c081bb7a2ff2fdb1fcd4c4cc9fd3c96a7413"
+  },
+  "skill_1040": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_lr_huo_01.png",
+    "uuid": "f5dd8373-6c0e-41da-89d6-d8c290048824",
+    "sha256": "996e6b9309b773c32c139222074fa385b3b6957e18738d5a3083d016a25cae7f"
+  },
+  "skill_1041": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_huo_01.png",
+    "uuid": "19e0a609-5c61-44ac-85ab-47b25a76690d",
+    "sha256": "a1607bd34d1887b539efc0d02cff15fc1d335e06ed5b5bd636f99fc451026024"
+  },
+  "skill_1042": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_shui_01.png",
+    "uuid": "02d9f5a7-ed0c-4071-850b-21a13416e5e8",
+    "sha256": "39a373a289e48a02394b7774cb5baab21e07b06d6e2bcee0f575f1b2479080aa"
+  },
+  "skill_1043": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_02.png",
+    "uuid": "f0b11272-6473-4d38-b5b9-864b4a0a875c",
+    "sha256": "ebd70ff0758503e86ca9fcbda4c4f53bd3651005e8d8cab6578ec1289ada54e4"
+  },
+  "skill_1044": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_03.png",
+    "uuid": "59a39238-1442-4aec-bec7-6aa6a722002a",
+    "sha256": "dfd689a43a40c21c77aff8d3c3840651e4af5be216e7fc07bfba77b854d84b8d"
+  },
+  "skill_1045": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_huo_01.png",
+    "uuid": "33075d0f-ddab-46c7-a1d4-612d62c000ff",
+    "sha256": "887f4605b33ccddfcbb8c670a72acb1a5d1a8136d5bb70e43dca8efae77080a1"
+  },
+  "skill_1046": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_shui_02.png",
+    "uuid": "189b94b1-0f93-4dd2-9945-ed31f091e118",
+    "sha256": "3d96b4e0c4edbc20110d533e2e5794cb3ccdbcc82b323dc99462d59a2aced313"
+  },
+  "skill_1047": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_04.png",
+    "uuid": "5a4ddd70-4b8e-4094-901d-867a4b873e8f",
+    "sha256": "51607d61a643bedbe5041f6f45261c4108420a47555ba5ee6188484d9c2a61dc"
+  },
+  "skill_1048": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_02.png",
+    "uuid": "64ee1c2d-2fda-45d7-b909-abf528a829d5",
+    "sha256": "8e5e6c5ce4dfdb9399e56f682000ee3b33ae012ea96f8fdfcf569194a2289075"
+  },
+  "skill_1049": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_02.png",
+    "uuid": "c332ff90-86d4-4c34-a1a2-c87602945365",
+    "sha256": "ffe8c302a22da96c5225a9360950d1b996dd37794696dc2aab2c11c6e5eb5c35"
+  },
+  "skill_1050": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_01.png",
+    "uuid": "492f251b-e1a8-4e92-bba2-197aef74a361",
+    "sha256": "30b5f726372081b1ebdd2a761ebbec5c274ef4ed51d6c1b0daebe6cd4e408c71"
+  },
+  "skill_1051": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_feng_02.png",
+    "uuid": "e33939c2-502b-42f3-a8e6-c31dd9649127",
+    "sha256": "e21ec2c087fffa574ef61b8ddc66231e4095f96574b8110c3bfeaa1723904b23"
+  },
+  "skill_1052": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_huo_01.png",
+    "uuid": "1625f5e3-5fdf-4bff-886f-85f00f16f9e5",
+    "sha256": "84c6eef21b8e2b83476aed390ac63d9b470dd9c6873456cf9c096ab45344468c"
+  },
+  "skill_1053": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_shui_01.png",
+    "uuid": "8a630d63-15fb-4331-896e-bfe3b3fefb57",
+    "sha256": "a631b90ab3b939b5042a634b2b0f4aeea99612ded75785c2b2c4490b607a1766"
+  },
+  "skill_1054": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_huo_02.png",
+    "uuid": "4651ab89-9cbe-4be7-9d19-f4b654d5de97",
+    "sha256": "018cd7c7fe80e41bfe18ec1adc63099465cd59cf6d8309e53f3400292a3d39c1"
+  },
+  "skill_1055": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_feng_02.png",
+    "uuid": "3989b7c8-dbb5-4505-8ce3-b3f8999d3f02",
+    "sha256": "62a41b785303fd5c421272b35abe2bc7a95fcb406e260cbae8535019ecb21962"
+  },
+  "skill_1056": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_03.png",
+    "uuid": "b3377706-2f30-452c-b92c-b7be115f0264",
+    "sha256": "e7353d149a53f164a44b9d0ad2b897f58b282d73279509b02ce782cbac93702a"
+  },
+  "skill_1057": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_03.png",
+    "uuid": "6a8add9a-16fb-4a78-8c3a-e13cdef2c399",
+    "sha256": "49b8fea8f0d095287becc4fd64bf4b87ed8ffa7409925e7e427d0d5ec0da0592"
+  },
+  "skill_1058": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_02.png",
+    "uuid": "763615e6-6028-4a1c-94d8-39d8a1617a04",
+    "sha256": "bfa0daf3528344b7d75ee7ec142a8215fc9903377cd73e3a6d1cf782f84841ba"
+  },
+  "skill_1059": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_02.png",
+    "uuid": "c75d308d-8c1f-46c2-8a2e-46f49f6da4ea",
+    "sha256": "63fbcdc0879315de666192fc6caadf021b6d673c7ded18fcb3e4074b0ae42164"
+  },
+  "skill_1060": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_02.png",
+    "uuid": "249cb983-7719-4eb3-8ee0-372b6f8eabec",
+    "sha256": "ab39e5501bb5e1277e164df64245c0a7301853f45791c6d4f1d0af95e4c91703"
+  },
+  "skill_1061": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_02.png",
+    "uuid": "43fd9940-4591-48cc-91cc-47720e722a51",
+    "sha256": "4ab009ca5d6cffd9626b599b788131fc960e9767637ff2a3da2495eb85a022a0"
+  },
+  "skill_1062": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_guang_01.png",
+    "uuid": "e850dba9-33a4-4698-a641-2420283ca30d",
+    "sha256": "70f4d0105611af1e1b531178c74df8ce4e6aaffba89a27736b642f46ea54e71b"
+  },
+  "skill_1063": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_shui_03.png",
+    "uuid": "2799b5f0-1b25-49a5-a7e5-5a36c008e08f",
+    "sha256": "ecb173f42bc892a5d8ebbdbcfb42706b6d9f60f1e65dffc8724c7af3fa3dff3a"
+  },
+  "skill_1064": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_03.png",
+    "uuid": "c0a5d679-d468-4307-885e-a126567a3e86",
+    "sha256": "545c137c8ffd16cc83cfa30e3926b5ef441aede2411f9a4da5937ccd535c5cee"
+  },
+  "skill_1065": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_03.png",
+    "uuid": "8af9809a-3e65-42bb-83ad-f660a595d993",
+    "sha256": "e14ae2ed5af03a7b07a907dbbc730cb281a111c1d01f3c0399e100928ac67421"
+  },
+  "skill_1066": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_huo_02.png",
+    "uuid": "3e637044-5668-411f-bdc6-26dddc0a559f",
+    "sha256": "c4ccc3986a5d53d5c432d7497d8d6dc4a7558304b9411e568d7dc5051a22893a"
+  },
+  "skill_1067": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_03.png",
+    "uuid": "78a8bed2-74c7-4204-ac05-29cc5af60b26",
+    "sha256": "f1d63eeb9765897029b3cdeee7963dea787f962ead5329508e5a11d1e7d6d6f2"
+  },
+  "skill_1068": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_03.png",
+    "uuid": "a2e6015b-0a41-4e81-b4ce-18902f3ea14a",
+    "sha256": "7b5f31f4e7378c9375aa4da81548d08bb112955c0b0e35ab7eb49172b05e65e9"
+  },
+  "skill_1069": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_feng_02.png",
+    "uuid": "f0cb46ee-38c1-4a20-a80f-83807fc4b5d5",
+    "sha256": "55e34347722a8c13c4f99816b260f3e1ba3070e06e29188e0c9a0b8bcda565ec"
+  },
+  "skill_1070": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_03.png",
+    "uuid": "2113170a-4f1c-430f-b3f7-f7a1a2b6b62e",
+    "sha256": "630d966acc572d92768ba98ed073e666a9e2a38cf52d97ea8a2b1dca3a6362f9"
+  },
+  "skill_1071": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_03.png",
+    "uuid": "a227ca38-6f81-43ee-9486-6d9873d0fe03",
+    "sha256": "479b9c2749052b9dc3c4b9c5c7ea7c4707ddfc62b35ec0032b84e323c693c895"
+  },
+  "skill_1072": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_04.png",
+    "uuid": "46b0fdbd-5cc7-4a7b-88e1-45002fc71c42",
+    "sha256": "f1840e9db96d30aa24564f82034fe33807dad7e26f1de742e3775ae12364ec42"
+  },
+  "skill_1074": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_guang_01.png",
+    "uuid": "41aeab33-73f7-485d-aadf-bf4ac561e13c",
+    "sha256": "c2c2630b31d95e9ff1a75e9548365be834c8eb5e7505fe8773e59f7cbf494171"
+  },
+  "skill_1075": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_03.png",
+    "uuid": "66a22b7b-78fc-430b-8b54-92ca2fae7ec6",
+    "sha256": "1e8ba0b8a2c62117f2bcc6fbf9b80e51bf7f0bff3322a3719d90f047a431a7cd"
+  },
+  "skill_1076": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_04.png",
+    "uuid": "42dbc5eb-3b3e-463c-96f6-58121cf3e55a",
+    "sha256": "a98056b22c31188f1ae4924d8b1dc951b47813b81a22a424a3480d179883fe57"
+  },
+  "skill_1077": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_03.png",
+    "uuid": "dffdf306-2d3a-47d0-a544-d886c7cc7ffd",
+    "sha256": "1e9900e2be479bf1d99d7aa0bd14f23f5f3cd1d011d15b0330d13cafafcced5d"
+  },
+  "skill_3000": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_01_2.png",
+    "uuid": "55904f75-1984-44de-9ebe-f98ba42ff7f3",
+    "sha256": "1749e2911c47789dee8b8a31ecd41536c1b2b3f9ea5cabb4761909d6b703b4b3"
+  },
+  "skill_3001": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_01_3.png",
+    "uuid": "2e8897a7-410b-48ba-b958-bbc6228e7875",
+    "sha256": "1e58dbebdd9821b80bb92fcf997b933a8dabd963ab33db057de7bff30e1662bc"
+  },
+  "skill_3002": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_01_4.png",
+    "uuid": "112ebc33-6033-4cb4-9e66-dd851ed37b40",
+    "sha256": "b4bead70cf2cfffefc43e5e81afa0e93a1dfeddc193cf37f08ea901a6e6b06c8"
+  },
+  "skill_3003": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_shui_01_2.png",
+    "uuid": "3c1d6de6-9d06-4cef-af04-35ea098591b1",
+    "sha256": "7f6d4a83df6af5891e819407623c4f0802d84ceae76c7b06c0a12bcfc22b4fe9"
+  },
+  "skill_3004": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_shui_01_3.png",
+    "uuid": "6391c659-93c6-4e1a-8b17-03cb007d20a7",
+    "sha256": "29321a6a107abe1ef3e6a122421bd5ae3709800796c94e604f3520e44fb592b7"
+  },
+  "skill_3005": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_feng_01_2.png",
+    "uuid": "15c32246-8db2-406c-b4cb-3840adecca40",
+    "sha256": "0017f56696b0af43819f6b08dd9e37267c823d791a302dd66a62d661f67bce95"
+  },
+  "skill_3006": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_feng_01_3.png",
+    "uuid": "1ad96ed4-69b8-48ec-9240-fe33faf2a940",
+    "sha256": "1bbcb4346e82daafeb393fae39e08ae5463ef92c67478b3594672084e4b8905a"
+  },
+  "skill_3007": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_feng_01_2.png",
+    "uuid": "833fdbf0-7941-4a6f-bde9-5294a3c784ca",
+    "sha256": "5f868c97b48f55be5ec380a5b48d3bdd83ce501abfab2f6ffe748af6d7b526ff"
+  },
+  "skill_3008": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_feng_01_3.png",
+    "uuid": "b3ee69db-86ad-4bae-9d60-dea4b4a8ecb4",
+    "sha256": "201ec08c84ff3623a1202e12258a789a61fa43bf297b992d122a3964d8d856e7"
+  },
+  "skill_3009": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_lr_shui_01_2.png",
+    "uuid": "f3ff599a-9167-46a5-bbc1-126b1c5dcd91",
+    "sha256": "ea7583c2cce4235c41ee7c6187907fed6225ecba9c9d2ce04b8c0603401c190d"
+  },
+  "skill_3010": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_lr_shui_01_4.png",
+    "uuid": "b85e24b9-33f5-4234-ad21-5c73983383ce",
+    "sha256": "25208ac275909ff80e1334453037cd57e26f85acbf6a32a251de42b296503785"
+  },
+  "skill_3011": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_shui_01_2.png",
+    "uuid": "2aa3bd56-8741-42cb-aa60-86c4212fdb67",
+    "sha256": "c620abbe8ea31d0fba25ebe8232e27c1b7abd9129110b1dfc179aaa793b9dc98"
+  },
+  "skill_3012": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_shui_01_3.png",
+    "uuid": "5bc14ed0-6879-41c9-81e9-62cfe076a531",
+    "sha256": "f1e31588704b4cb9b17c8e4896b0db3eee1e8a32ecfb2c634de38a52b5aafce4"
+  },
+  "skill_3013": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_shui_01_4.png",
+    "uuid": "65c92a68-3380-474f-8482-053ef1ae4ab5",
+    "sha256": "14b7297d4aac47b20ccba89537727386c9f13393483d83424d86f617c818537b"
+  },
+  "skill_3014": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_01_2.png",
+    "uuid": "ba4fbe04-26c7-4435-8a77-f2736d83988e",
+    "sha256": "1454677c5ae8e47dd029936833a8e328cc64548eab2042c59aae60ee71a694ae"
+  },
+  "skill_3015": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_01_3.png",
+    "uuid": "e9174fda-adf7-43d2-80a2-f5a39616720b",
+    "sha256": "af53f55826573ce123ca6383c94b0427fa98c75ede872097cce781219c50229d"
+  },
+  "skill_3016": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_01_4.png",
+    "uuid": "ef0f8792-3c44-422e-9fd4-d995ae5b5bc3",
+    "sha256": "0417b2033bb516c2f9ab8695af5db3d520b568337249e065bd63f013a2a78a62"
+  },
+  "skill_3017": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_huo_01_2.png",
+    "uuid": "57153890-36a9-47c7-8603-c912bbd4270a",
+    "sha256": "57480d9b7ac061dcf5d24d5198af0ec4fde131b9903f037b0f805aeacb4966c3"
+  },
+  "skill_3018": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_huo_01_3.png",
+    "uuid": "e09ea76b-dd49-4e55-874c-93947e33f3cd",
+    "sha256": "82d0bcee24245c218e32a839544ed91cd146034098fdde9591b6b29631927d1d"
+  },
+  "skill_3019": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_01_2.png",
+    "uuid": "ac041159-0c31-4ebd-944d-2a22824be5be",
+    "sha256": "aa943868e2880af596493ad45321bc339ebf7a1d6ebde1be1413c5bcfd3cd82c"
+  },
+  "skill_3020": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_01_3.png",
+    "uuid": "ddef78cf-2521-45c3-a866-4678027fcb0d",
+    "sha256": "30afff92dc6312222b42fc3cee607ecc16e1b32e0d859610421dfd8d94ea00f9"
+  },
+  "skill_3021": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_01_3.png",
+    "uuid": "dc18b8a6-16b0-47e6-ba6f-57634a325535",
+    "sha256": "64a2e87f3e5cea9543ab8479621534dc225ef8010fd0a64b51243aa6e7eb5ab2"
+  },
+  "skill_3022": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_shui_01_2.png",
+    "uuid": "8b87679c-168f-495b-aa6e-644f21527631",
+    "sha256": "78bf8e243cd5d84c09ad5a603087b177e1729b8f2151fd554934e08188a636f1"
+  },
+  "skill_3023": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_shui_01_3.png",
+    "uuid": "c3319b88-9f31-4f14-8f3c-b65d302b3c7b",
+    "sha256": "8a75eaec1bcc1d744021bda5745dc8701c84c9b8c592fcd7302e65d097ef3fc1"
+  },
+  "skill_3024": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_shui_01_4.png",
+    "uuid": "8d020bd4-d7e2-412d-ae35-a1d9307353fa",
+    "sha256": "3c963ee10849b0b2937304291988d9c281aaaab38b6f313a1ce0727305d71631"
+  },
+  "skill_3025": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_shui_01_3.png",
+    "uuid": "74a4ce2e-77f8-47f3-9cd6-b43be7196bfa",
+    "sha256": "8c8c7286a6af10ae711a4ebcb282926e5712ca59dba4b5b6cb5aa827a2d8d77b"
+  },
+  "skill_3026": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_shui_01_4.png",
+    "uuid": "32bc87bc-3bd1-4f61-a513-651f3c2f9103",
+    "sha256": "6108a57c9eb914f87955df8c24aeb7ef2f44f48e148397982154cc324a50679f"
+  },
+  "skill_3027": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_shui_02_2.png",
+    "uuid": "f5d9fed2-47eb-4a70-96be-ed8790c0b222",
+    "sha256": "ee604603aa75eb4f8204b1cc3c5cfe72eb572a4f212535c8409d22b01b2c5a11"
+  },
+  "skill_3028": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_shui_02_3.png",
+    "uuid": "d66dfc3f-00f5-4c62-ab2e-6befdfcce97b",
+    "sha256": "751ab4cc8ef22c6c7842524275d8621d68e25030a183ff5d5bcc696dac1fa23e"
+  },
+  "skill_3029": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_shui_02_4.png",
+    "uuid": "951e383e-67a6-4c88-bb32-9ac4732ce88f",
+    "sha256": "15ce6b25bdeaab226d5178908cdefef25444773f271043fd13364fabcb50de71"
+  },
+  "skill_3030": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_feng_01_2.png",
+    "uuid": "25ef7893-d233-47c8-aeab-beb2dc16c483",
+    "sha256": "dd2ed28f2bcbaf76d69a4ec1db7c728c920387e5a6a97fabbecb7d7d28385391"
+  },
+  "skill_3031": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_feng_01_3.png",
+    "uuid": "c6b73b4a-393b-4e1e-b72c-db80f3d66c7b",
+    "sha256": "eee20a340f24465c4129eb1b9af71728d05e27070394814e2a4ea2bc88422787"
+  },
+  "skill_3032": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_feng_01_4.png",
+    "uuid": "39d3838e-ab0e-4084-ae24-552200818505",
+    "sha256": "fd06e3389435f54500d302efdfaf8ea0a1f606071933294d41acbcf673f67775"
+  },
+  "skill_3033": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_01_2.png",
+    "uuid": "da2025e0-97d3-454f-b89a-3c50960cd15d",
+    "sha256": "c29d3bcbdc3f63388e0206fd89ed544d298651b3acd7cfee6a723df945669ba1"
+  },
+  "skill_3034": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_huo_02_2.png",
+    "uuid": "4a76ea03-9735-446a-a500-5c8f492d7cf8",
+    "sha256": "c1b780b95d6b7dec3aa7d54e97cea7363abf3bee9a6a5dfdb9e38d7c120fc068"
+  },
+  "skill_3035": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_huo_02_3.png",
+    "uuid": "eb4d82d9-2656-4fcf-9a82-b50d2c3d46af",
+    "sha256": "5a3b12eef6ca01f4854d1549837289f198966ae587a187d271304549e304ca22"
+  },
+  "skill_3036": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_huo_02_4.png",
+    "uuid": "b000a1f8-82b4-4c4d-b88b-5177eb42f886",
+    "sha256": "941a18de67ba6d439958a5fdbb81539c8ceeca243cde09d23b0017c2b1da8830"
+  },
+  "skill_3037": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_02_2.png",
+    "uuid": "34b4547b-bbb6-45aa-b6f9-6e82fa196a07",
+    "sha256": "1c70b88bcecf44ee847443f11d8d065a425a9801ca19a7d7ddb0b99c17ff45dd"
+  },
+  "skill_3038": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_shui_02_2.png",
+    "uuid": "7c700af3-ba3c-4de7-9106-59f55289ea46",
+    "sha256": "42912676587c016e3f195f164e6d321f456a780a519483f77ce2900fd0a7550f"
+  },
+  "skill_3039": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_shui_02_3.png",
+    "uuid": "214c20fa-d07e-4fd9-80d6-9ada4cab0470",
+    "sha256": "483fc030a97dbb3411ffa1232453f5113a307bb230f8734a95f2c92319b6de2c"
+  },
+  "skill_3040": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_shui_02_4.png",
+    "uuid": "7e30abc4-fd56-4295-9a25-a6b4c10d19cb",
+    "sha256": "b63d39f7451b192cae4c311904dabaa1eaa277b7bd3ede55534ce9cc4d5b5761"
+  },
+  "skill_3041": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_shui_01_2.png",
+    "uuid": "9f0c2ea1-1367-4f9b-b4da-4d2e37ade54a",
+    "sha256": "56dc73db8badaaba3b6d05ce8f3f96dca7a208c1094091ee49f6bb9ebd2a38aa"
+  },
+  "skill_3042": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_01_2.png",
+    "uuid": "e04b39d3-0e2a-4205-80d3-f4ff00c8d9e6",
+    "sha256": "2e7143a25a7f4152b45529550e1dcbbb8a7c5b72be514916a9c64dadc0e919db"
+  },
+  "skill_3043": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_01_3.png",
+    "uuid": "a5d2829b-fc02-4fae-a327-7b6d7d3ab8e8",
+    "sha256": "a409af676787ced7ce59b0d6ccce2f2ac7b94a30544c8fc0f13cd6bb95a45c83"
+  },
+  "skill_3044": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_feng_01_2.png",
+    "uuid": "f2de32ba-4a91-4636-82fb-a8433b4fbb22",
+    "sha256": "09a68945939673a1356e587010a2ab0b0bf80799a2fda77a58c24b3244170181"
+  },
+  "skill_3045": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_feng_01_3.png",
+    "uuid": "11fbbe9a-efa9-43a7-bcc5-bb1a18512773",
+    "sha256": "c70c3fc1ffbfe89371fa39bafa5d73ae1e12d44cce6da31af96511ec4f905b6f"
+  },
+  "skill_3046": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_feng_01_2.png",
+    "uuid": "5d435ff5-3351-4c10-95e6-dea3f89e0c37",
+    "sha256": "a41a5fbf7b33dbc5b68699d4c958d57ed53f5a2514f1d292a17fb461a3ada850"
+  },
+  "skill_3047": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_feng_01_3.png",
+    "uuid": "54b01829-977e-4bab-9b7d-5b574c2816cb",
+    "sha256": "8b7ce46f2c86ac16bdb9fedfa221eb9e16100c24659653aa287947145929d698"
+  },
+  "skill_3048": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_feng_01_4.png",
+    "uuid": "1a37d68d-1fd1-409e-8d29-713e66d2325b",
+    "sha256": "652f8e39a4bd0be71b4c3173b12254c4c5d12d88a256bdd673138ded4970d5bc"
+  },
+  "skill_3049": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_01_2.png",
+    "uuid": "1aab0490-859d-48ce-b2be-b605774bc697",
+    "sha256": "fca985dcdb0769816165643f9112b94dfa229d98be8b1ad328447601e8126005"
+  },
+  "skill_3051": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_02_2.png",
+    "uuid": "a527ac19-36f5-4295-a373-c297f964ec1e",
+    "sha256": "41721023e043a190fe793ca1a581b971454393ab0d40592ab30107fa74e51ff6"
+  },
+  "skill_3052": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_02_3.png",
+    "uuid": "179dd4c4-4f81-49c6-9aa2-f4159e70b98c",
+    "sha256": "40683b30ba4c3a0f5e7107913569e6b7ca32b2def41fb1f25f4b69ff3efe510a"
+  },
+  "skill_3053": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_01_2.png",
+    "uuid": "3d559692-098f-4ec7-a0b0-1993071d16f5",
+    "sha256": "e5f985a643a9b4c8f21eaf2a5d762161e7fe0683ef49a96efe12714cc8c373ea"
+  },
+  "skill_3054": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_01_3.png",
+    "uuid": "c11fa7cd-04f3-4fd3-8849-7ff8cd159f29",
+    "sha256": "cd37bed7d9588af6c7c33d86905406e649384d03335b88fc032adb4d8a74ca0e"
+  },
+  "skill_3055": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_huo_01_2.png",
+    "uuid": "3492f65c-9cec-4735-ad73-09f3d275b83f",
+    "sha256": "1fa0a140164e6b04b541b61d899b760512b4467f3c312f6ced256626832f8eb8"
+  },
+  "skill_3056": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_huo_01_3.png",
+    "uuid": "668c5a01-16ba-4cb7-afcb-230d95997cb4",
+    "sha256": "23b675704b92016d8896ae669dea4144cb09a7457158745adf755a50b01dab52"
+  },
+  "skill_3057": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_01_2.png",
+    "uuid": "7ce67d80-ff38-45dc-9100-31669af774b9",
+    "sha256": "c03a6d554cf34dd879c4cca6046812adef6ce7bc61de50aa4b9c8acee730e46c"
+  },
+  "skill_3058": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_01_3.png",
+    "uuid": "c2cc2ef8-ea4f-4c20-9ebb-8e4698d90a30",
+    "sha256": "8ddac567f4b1e4f4c564cef7bab2704d1ebca85f721f47da9440b3ff8a00962e"
+  },
+  "skill_3059": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_shui_02_2.png",
+    "uuid": "8f01d68e-e95f-4792-92cf-6b7209521589",
+    "sha256": "4b27860eb79ac94d38dfde0bd100eaa9f242460a1885aca7c6e99fac88888592"
+  },
+  "skill_3060": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_shui_02_3.png",
+    "uuid": "57f5d40c-e724-4e8c-bea3-bd8e8840a822",
+    "sha256": "83da1fb4fe17bebc28d0af36a67e9c93565d3713a9deca32e83c73007bdf0a9b"
+  },
+  "skill_3061": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_02_2.png",
+    "uuid": "cfa85c44-2220-4658-a127-a54ae027f72a",
+    "sha256": "0614e9c7ab8fff030bcbc679e96c8b2d7c7da08e4397d3a2a12fd4d976692483"
+  },
+  "skill_3062": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_02_3.png",
+    "uuid": "9c2510b1-9c1b-499a-96a5-0e031c5e9b59",
+    "sha256": "ea1b2fb9184a4381a8d6019801d5a37caed976a20f47b1d87ff18a4aec987a29"
+  },
+  "skill_3063": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_feng_02_2.png",
+    "uuid": "6a30eac0-7522-47aa-bff0-567128b55099",
+    "sha256": "f24c571b5907eb129e02a6c91bd1e2326ed48e82a16b513078c51a73e9ca85fe"
+  },
+  "skill_3064": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_feng_02_3.png",
+    "uuid": "bafebcc0-c770-41d7-853e-4a70c46e6842",
+    "sha256": "7cf7fba121476a93ab15296c264a9672ad2b73e6efa7a53b75a7bc14645a82b2"
+  },
+  "skill_3065": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_zs_feng_02_4.png",
+    "uuid": "41668812-f2d8-4e49-a79a-ca505e1f58ed",
+    "sha256": "ef1f9731228cf85eb7cc61fbc8583bd16cb5b885bc1bcc26cf2801d0c9a8a105"
+  },
+  "skill_3066": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_huo_01_2.png",
+    "uuid": "bc769b97-cf5e-4845-8e54-4c7ca05444e7",
+    "sha256": "6892f2e0faf607c2b10d2b602dfdb5f6c9c378fab86a0d88d3324e0a63f130ad"
+  },
+  "skill_3067": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_huo_01_3.png",
+    "uuid": "74de0791-de95-4afe-b754-bfc748395c3a",
+    "sha256": "80ec129d33d342a11eb9bc5053e27dd11dd8b15f662ebf47b4ad7b053e482eb5"
+  },
+  "skill_3068": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_huo_01_4.png",
+    "uuid": "b502b7da-8211-44f6-a579-fabdcb0cb6ae",
+    "sha256": "d320e6500f968596a76535120196190f158827ffcd2365875c12bbab48453eba"
+  },
+  "skill_3069": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_01_2.png",
+    "uuid": "12b24966-cad8-459e-bd94-affec1bc5eb7",
+    "sha256": "b5b6e10d3b21112805e32e01a19332b9a65136182203a5084a14e24dbea9e548"
+  },
+  "skill_3070": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_01_3.png",
+    "uuid": "893d3ea3-451c-4edc-aecf-9096c81a0f28",
+    "sha256": "d7c7b4b994ec927ee6040797b17a2749df17a543ddf3271d01085efe8653d9bf"
+  },
+  "skill_3071": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_01_4.png",
+    "uuid": "a59a702e-2b51-487c-b9ef-9117d3a380c4",
+    "sha256": "a9b24c4910a01dac9bc437bdc7739a48939c8fe14087f66326e614e8c2ddf1ae"
+  },
+  "skill_3072": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_01_2.png",
+    "uuid": "3a637884-beaa-4b34-b37c-bb14080944bf",
+    "sha256": "bd8e71de08e90dd46d4aff64c2684a35806bed1406c689089ab2c80ae4533f5b"
+  },
+  "skill_3073": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_03_2.png",
+    "uuid": "b76afb30-a7fa-4a87-81c7-235f03565ca2",
+    "sha256": "bad789b12b1ae72876207940c799a356f4eab205120c1df55625c2aba3d87a6f"
+  },
+  "skill_3074": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_03_3.png",
+    "uuid": "dc404733-aac3-4043-a546-a52af51fff59",
+    "sha256": "9cd6cdedd6ff6bd8479ecdc7bfc2061d3da493099ddbc6d94f5fb26689c5c742"
+  },
+  "skill_3075": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_03_4.png",
+    "uuid": "1a0eb28b-5d80-4f2d-9675-78d2d023c73c",
+    "sha256": "45a9afb65ea3bf25ddc062da9d5b37ee8a54a332cb97c94987da2331d1882b6f"
+  },
+  "skill_3076": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_02_2.png",
+    "uuid": "cdd7cf76-09ad-4e20-b87e-a8ce0fe955f9",
+    "sha256": "bb67c58af49e5025473be2fc9e9db196f45327b7d0d32fb14a6f9d64fd7aea41"
+  },
+  "skill_3077": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_02_3.png",
+    "uuid": "f106d3cb-fa9b-4c2d-84fe-98267b83dbcd",
+    "sha256": "cf9cf4f74ad33a247f3430aaf0ce83f2370235f75205992d88ed3baa2c341b73"
+  },
+  "skill_3078": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_02_4.png",
+    "uuid": "0fa50b61-0d83-4a52-86d1-5e46b9f0f714",
+    "sha256": "1a6771ace0661f9c5559fb4f59501c258b1185f86901065d08063ce68d550ddf"
+  },
+  "skill_3079": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_lr_huo_01_2.png",
+    "uuid": "d805dd28-e551-4774-9a6d-ea5e41108c9c",
+    "sha256": "a20cdbc70db626a5bcf09d12800a2a0eecd15388ad5f945e316b45a1482b9ae8"
+  },
+  "skill_3080": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_lr_huo_01_3.png",
+    "uuid": "d8d252ff-c5cc-4622-ba2e-5ac9f62e3f5c",
+    "sha256": "d31492279d27b7e256cbb4ff78556a8369eb364b0fe19b81b1c0576df7cfed40"
+  },
+  "skill_3081": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_lr_huo_01_4.png",
+    "uuid": "fb648555-2920-45cd-adbc-169de0411337",
+    "sha256": "bf963b134ab089ab799be60ca8789c466064674c63f82b9341889af156040e0a"
+  },
+  "skill_3082": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_huo_01_2.png",
+    "uuid": "737507dc-1d88-4d4b-abde-651f75933f01",
+    "sha256": "bb5b78362e9b171248768873bad0e18b2fe3f2a6291248ec75cf845ea946f073"
+  },
+  "skill_3083": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_huo_01_3.png",
+    "uuid": "cbfbf823-529e-4e02-8bcc-8c0d62d1c1ce",
+    "sha256": "dc72e3ab0bfeca00cd235279c713c13811177384288e99ce49fd1d5749ffddef"
+  },
+  "skill_3084": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_shui_01_2.png",
+    "uuid": "ba02f004-8a4f-4d4d-b1f9-221705c6718e",
+    "sha256": "a15d25c40e713b0183486e6bed502df2f84f34b5a77209bdff2a85e7a815fafc"
+  },
+  "skill_3085": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_shui_01_3.png",
+    "uuid": "6e6055af-68ce-43aa-b303-690849966dad",
+    "sha256": "c804997a69b31fc5cf9174c5be2d4bcb22c494727d645fec6547eb4af17ec4b5"
+  },
+  "skill_3086": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_02_2.png",
+    "uuid": "93c4caae-382a-460a-9357-9679766ad06d",
+    "sha256": "94040f45fe27950df8b2dbab2cfc48cba524ff62f667f95d0f96f2214c6837b1"
+  },
+  "skill_3087": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_02_5.png",
+    "uuid": "bf926292-fb14-4c69-a4e2-5cad1524b0fc",
+    "sha256": "970e7b97c0ed07170340022a4f378779db736720df0b7c7eb465bf87417a126d"
+  },
+  "skill_3088": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_03_2.png",
+    "uuid": "d4f4db6b-8f7d-49a9-b9f3-3185a4df35e7",
+    "sha256": "14e939a7452370391d4852d97a127ef2ec438149e25f445a6ce27bc4ec4ae507"
+  },
+  "skill_3089": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_03_4.png",
+    "uuid": "4be500bf-5885-4400-a895-229b67e6d3d2",
+    "sha256": "04963b08d18791123fc3f5933bdcaee1ac0b219831f07e646b587fbfcbd43a08"
+  },
+  "skill_3090": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_huo_01_2.png",
+    "uuid": "8bdb6862-2bf7-4ca4-b049-46d958809781",
+    "sha256": "5a76ecb31ae2a2686836c9c4f3165154ad139a0367cc39dd137810d517ba9130"
+  },
+  "skill_3091": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_huo_01_4.png",
+    "uuid": "89dabec9-a068-48a4-9f28-1f4c80a86dc6",
+    "sha256": "3b7ea31d83a3c685c0283d78c6833cf47904f9767e4f61bee8b39d3ed8872d09"
+  },
+  "skill_3092": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_shui_02_2.png",
+    "uuid": "faf8df2c-96e5-4598-bb2e-e365fc25fd73",
+    "sha256": "f45d9249750a8f792ec269fb17a8699991d0772286f28a5646421b16d3bc448c"
+  },
+  "skill_3093": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_shui_02_4.png",
+    "uuid": "e055e00c-5b06-49b0-9c33-128277435792",
+    "sha256": "d167d21024bc13c94745dc8a410b455fe40d8967d34e3b54fe45803b4d8b4180"
+  },
+  "skill_3094": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_04_4.png",
+    "uuid": "dac235c6-27fe-44d3-9802-c7e1ba5cdc2a",
+    "sha256": "0263be8f4796c607857c97083de43972c9f914e8befb4c601b7d2ea147502e97"
+  },
+  "skill_3095": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_02_2.png",
+    "uuid": "88a78585-c332-4c77-a868-8d5cfc2cd184",
+    "sha256": "7ed35329b9197562008f3158a89ee3c4d4ddb4ff2e7ebc6ba0aa5b6c9c55d70d"
+  },
+  "skill_3096": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_02_3.png",
+    "uuid": "49fe167b-fdb5-482d-980a-e0230f207501",
+    "sha256": "2f51ca1184c737b37c882d8054b29afd0893f9c2bb433382e1a5b6a695c351a3"
+  },
+  "skill_3097": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_02_4.png",
+    "uuid": "8cdf2e6b-4251-4811-b5e9-cd7f756cbeb5",
+    "sha256": "2eb2ba7c039f7db8be90f078d36cd9c560cf0aa832e867dd319ea3ac1f6408d8"
+  },
+  "skill_3098": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_02_2.png",
+    "uuid": "f2046157-0475-4b42-923d-ee72f4b202c6",
+    "sha256": "25dadc107f7a7012d677145f7406418b189c00e266b4fbfd47da1d2b27f9949c"
+  },
+  "skill_3099": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_02_3.png",
+    "uuid": "7f776eb9-e466-473e-95c9-e2f39c74a7ee",
+    "sha256": "4553cb570b36207e5ca63be0437df81037831584cf3a31ab5e1483c3a81264b1"
+  },
+  "skill_3100": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_02_4.png",
+    "uuid": "87800798-16a0-43f5-8b0a-bff7151db26e",
+    "sha256": "0cc83cf4cc791ed4a8b67607a1f3d34e920d7b5701befaa4ef01ded088b16f5a"
+  },
+  "skill_3101": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_01_2.png",
+    "uuid": "bb49b140-6b6d-439c-9b8d-313091c893d6",
+    "sha256": "55f61e366e838ec5da6f130613184056401754ebd5dfa2bd3e8fed72aae8e0d3"
+  },
+  "skill_3102": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_01_3.png",
+    "uuid": "61c0dbe4-ec01-4437-b0a6-0551be335273",
+    "sha256": "d8ffa1407a95af27efd25fd6006ad7280d50b898b89c90bbb03dc9fa4aaf0672"
+  },
+  "skill_3103": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_01_4.png",
+    "uuid": "c8a9f6ee-48f1-43e5-8ee4-c0c4c08aea62",
+    "sha256": "902f399b9777fd1bbeff53e11781c64d17894ceabad252fda1a071613cf908b0"
+  },
+  "skill_3104": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_feng_02_2.png",
+    "uuid": "821a1279-472e-41a8-a2d3-2dd54d877d3b",
+    "sha256": "593c2c5b8b8e613bce48554bf62bcf82d2cea8276a7d42b0a592b5bde56e460b"
+  },
+  "skill_3105": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_feng_02_3.png",
+    "uuid": "51c9ea52-1c3b-473e-abd2-9dfde1d31458",
+    "sha256": "e8385386c879af13a21ff1a8cf8c738f1b18a4d7a45acaad309d9b481ab7ff91"
+  },
+  "skill_3106": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_huo_01_2.png",
+    "uuid": "152465e4-1c94-4ca7-b4c1-f9bb7aba1852",
+    "sha256": "94e50cbe52a411700fae5f1856b67193bfec6c913054f4770b7271f412f2311d"
+  },
+  "skill_3107": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_shui_01_2.png",
+    "uuid": "fef54a5b-ea6e-4827-bc4a-148f98d453ec",
+    "sha256": "71d462b1f72ebab61b82dbb5fee026100ebe20541e5890f73ef94eed1814a60d"
+  },
+  "skill_3108": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_huo_02_2.png",
+    "uuid": "4cbea240-c9b6-4bc2-80ca-ecdebbc2c4ca",
+    "sha256": "988c86e61de16276e18ffcac72b5d567a284b7738ca51dc87cf0eece43829326"
+  },
+  "skill_3109": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_huo_02_3.png",
+    "uuid": "446f9999-4b68-44ca-a8ce-826454a8bfeb",
+    "sha256": "b4a15e669409de0a62ab0a2b617a87356e7f894228cee018b839dcf5fbbd24a3"
+  },
+  "skill_3110": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_feng_02_3.png",
+    "uuid": "d92e2fcd-db9a-484c-a275-f4a2d5dfd5e3",
+    "sha256": "6f0cbbe087fc0645b7c4e639c131eade62f34b559a8e8a612323ca7eefb82d06"
+  },
+  "skill_3111": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_03_2.png",
+    "uuid": "bd44a2c5-3f9e-4054-b8fa-caf64dcf9ae4",
+    "sha256": "22526165e0f243723d8ffb32c7296d9fd52b1e95f3b087a27e54ef4efa2ef4f7"
+  },
+  "skill_3112": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_03_3.png",
+    "uuid": "565c5ea0-d918-4126-9ff4-e2076ad98c24",
+    "sha256": "67260ea7097e1c09d242229228180477b46216561c905d48e0c530f9dd371f85"
+  },
+  "skill_3113": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_04_2.png",
+    "uuid": "2da1736f-8af7-4c14-ae29-bd27cffe6653",
+    "sha256": "ba05f5d12bcbfa8a908b3fc6415882ebd6bc465bce2c82b22ca78d7b03e99256"
+  },
+  "skill_3114": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_02_2.png",
+    "uuid": "ea3e0012-22cf-4a29-b2be-b84aa4020e1d",
+    "sha256": "7928e76975cf957ce113c4a80c4625cff4899bd61253c8e08dd8303660703437"
+  },
+  "skill_3115": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_02_4.png",
+    "uuid": "9bb1beed-18ba-460e-a044-d7ff4c470811",
+    "sha256": "107f73822e8e27e205c98657089f417c10baff2e88ae7c6ddf7e63f369496f7c"
+  },
+  "skill_3116": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_02_2.png",
+    "uuid": "630aea4f-aa8d-4d0f-9122-9d0dd396e089",
+    "sha256": "9791056617d81bbbea03c910b2fc39a5f9f529886c371cd327919fdf1e4d599d"
+  },
+  "skill_3117": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_02_3.png",
+    "uuid": "a4c2518c-dcdd-4b92-8b0f-4a65c0d01567",
+    "sha256": "e4584911d56dd2dc386f816f51f86bbbf84af6699ae05deb7f1142665fba7677"
+  },
+  "skill_3118": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_02_2.png",
+    "uuid": "72bfb2a0-b97e-41c2-9d23-704971f27bfb",
+    "sha256": "bca00bc63bfbc8257957367e13640f9f5f7c5e3c5330835dbcb1ae57af5c146a"
+  },
+  "skill_3119": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_02_3.png",
+    "uuid": "fcb3d3e1-4d3d-47b1-ad1f-ce887b423f3a",
+    "sha256": "94e83cbcf31d7a568b8b014aa652fa30952848f19b493c6b725ec65a2c2246e9"
+  },
+  "skill_3120": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_02_2.png",
+    "uuid": "d3ac75cf-3f49-4d70-89ca-99fc6ba16ac2",
+    "sha256": "77808b237b7d81c24e5f5680bd70ff9673d6522bb5187a0cc7806df5613e11cd"
+  },
+  "skill_3121": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_02_3.png",
+    "uuid": "9460cdbb-de39-4c2b-9560-09a1517c8c05",
+    "sha256": "143486172976815818ab88777c65311b6c3c106938c916fa2d2ea6ba362e57ef"
+  },
+  "skill_3122": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_guang_01_2.png",
+    "uuid": "e40e3eed-9fb9-408a-bc6a-72e9eabed011",
+    "sha256": "0addb508dfa24f8c9b53120b9f6063a4d101912c633aa1142a0edf97d40ebf6f"
+  },
+  "skill_3123": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_guang_01_3.png",
+    "uuid": "bcf3c102-e47a-4d44-8818-963e58ff7256",
+    "sha256": "e303bb9ef32a8b1604756e39a4e643b88fc317317993a8b1d3c8f8e9f4d206b6"
+  },
+  "skill_3124": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_shui_03_2.png",
+    "uuid": "7636045d-8d61-4edc-a45d-053ef5855233",
+    "sha256": "07103e0eff2e52ac79e61e1c55c9f20a6ee42eef03d2ae7305316098054cd27e"
+  },
+  "skill_3125": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_shui_03_3.png",
+    "uuid": "a1acd44b-c6b3-484c-9240-2415535f58a3",
+    "sha256": "f54e1a252d32a6feba3cef4dc937e7f71a815d20c7ba539510118c68b39fab9c"
+  },
+  "skill_3126": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_shui_03_4.png",
+    "uuid": "4a38872d-61a3-4f41-afab-1939d73d65dc",
+    "sha256": "6e46793279bb9405fa51c45aed95342c62c28e57da71086cbbd092f9cc1a650c"
+  },
+  "skill_3127": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_03_02.png",
+    "uuid": "96ec14f9-5950-48eb-9172-8a055c7632e8",
+    "sha256": "5149729f8b70e8d6394999d60dcda80f4fc96f796ada1eec88be2b8c78aa580d"
+  },
+  "skill_3128": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_03_03.png",
+    "uuid": "8b6bc31a-c4db-40d0-999e-616500a045e5",
+    "sha256": "c9344609796d6fd7cb4fdb857c668b3d739f564b0f0f2f2f2a7bb47bcee08355"
+  },
+  "skill_3129": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_03_04.png",
+    "uuid": "e906e575-0386-45a5-9ae7-e05612ee23fd",
+    "sha256": "b9e64d8d25c2a5a39c4670ffc1ddde85a54265f904a530cdd2f829efac273f76"
+  },
+  "skill_3130": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_03_02.png",
+    "uuid": "d40607f2-1a72-4ed0-8061-cea78e2fe900",
+    "sha256": "6bd127673fd794b730fc78120529af341c5b7ddb8baece280e2cd3a7491548ef"
+  },
+  "skill_3131": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_03_03.png",
+    "uuid": "4df17023-47e5-4c40-b9e8-1325a94d1a88",
+    "sha256": "0d3ed4f91f0fb5e127436e706ce458cdb162645b9426e534b5eb2fa8e8b162ef"
+  },
+  "skill_3132": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_huo_02_02.png",
+    "uuid": "cb631c46-d120-4c3a-ada4-4f07d77feb82",
+    "sha256": "c9131fe4492787181fcee1ef6b90bdcbbc5e499f47f6a5c821a2f2973f85d1c3"
+  },
+  "skill_3133": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_huo_02_03.png",
+    "uuid": "e9302900-767c-4520-97a4-93dea86987f3",
+    "sha256": "3a0f3bf1818f47451b51b42e780b2edb5110ba7272af2dbfd81ac9494982c899"
+  },
+  "skill_3134": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_huo_02_04.png",
+    "uuid": "3520ac7b-056e-4c91-bcd5-52177e2d68a2",
+    "sha256": "6e6413df95028c52aa9a47ff99f1e3462cca57c8fbda2bf698293830529c08b8"
+  },
+  "skill_3135": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_03_02.png",
+    "uuid": "364e8f35-780e-41bf-8ecc-837722cfa729",
+    "sha256": "a8b5045cb4de3d9f3fc60862489cfb78de1f99984c7ff20cdc910f0b1c99cf9e"
+  },
+  "skill_3136": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_03_03.png",
+    "uuid": "4bab2574-d9d0-4a15-ba39-cf9ab9e7a2ee",
+    "sha256": "8d44fcd2eed60c1f471c01267ef43fc8e05531b2d50fc0a4c8e25e41a5bd8bd1"
+  },
+  "skill_3137": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_03_03.png",
+    "uuid": "3be7ea55-a757-4b4c-b260-d51f0219429f",
+    "sha256": "42f858cdef22017e3781a960d238e6f20b3c63f31269b85e92de29a8462371bc"
+  },
+  "skill_3138": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_03_04.png",
+    "uuid": "347c7e3e-da7c-4947-9e08-1a492a382019",
+    "sha256": "09043bca2bde29f87d081a0abdab1226fb68c152e7972ccbdd091495cf12f004"
+  },
+  "skill_3139": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_feng_02_02.png",
+    "uuid": "ac6c5cc2-79a0-477f-a068-c0eee251ec39",
+    "sha256": "022a5f1909891635d6551e1ac51dc124c1dfc485ad904a9ed36f201373910865"
+  },
+  "skill_3140": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_feng_02_03.png",
+    "uuid": "6939d836-7df2-4a67-b4db-080d0e25fd3f",
+    "sha256": "db81804a5dab8b3579ae5d82966f6ed60fe942e6087a856628c578e14f54cf06"
+  },
+  "skill_3141": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_03_02.png",
+    "uuid": "8b63e5f8-f8cf-4c7f-8ab0-56db387a8d7b",
+    "sha256": "91a270d8110cb328b13a48343aaf39b93911d2e33e77698654dbfb2700eb8d6e"
+  },
+  "skill_3142": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_03_03.png",
+    "uuid": "b72039f9-56f0-4d0c-8298-20436646d0cc",
+    "sha256": "72b173f237ee117a365f6af563b514210d36e6470be306e2b8c5997cde9ed10a"
+  },
+  "skill_3143": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_03_04.png",
+    "uuid": "9349fc24-26ec-4ca8-8cde-6ba7c4198b7b",
+    "sha256": "2dd0f74a434d4ed4564fbcf3bd232225b914f8f501b00993954bf5ccc8f792dd"
+  },
+  "skill_3144": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_03_02.png",
+    "uuid": "d35e9e14-44be-4e7b-8cdf-56d3f7f9011d",
+    "sha256": "955b2fcf8d6bbd071115c34c24799592b98351162711a7e2314906c9a045720c"
+  },
+  "skill_3145": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_04_02.png",
+    "uuid": "9407d509-b3a7-4437-b373-c57326fa0eca",
+    "sha256": "3ffdb0c8070960af218e1eb2109cf13b89e05e08c9410bcc0b591d74bb349b05"
+  },
+  "skill_3147": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_guang_01_02.png",
+    "uuid": "a007639e-c1e9-42d9-bed8-811c3a9b2a0f",
+    "sha256": "000c5fe4844b512e14b6d2c72a0702da435a60aed2ef45289586e600568da1c4"
+  },
+  "skill_3149": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_03_02.png",
+    "uuid": "722460db-7ee7-4233-8ccc-19b4fff0974b",
+    "sha256": "31b57e1c666737069771c312d23e207037573ced7fe07b061a996011188bfc84"
+  },
+  "skill_3150": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_03_03.png",
+    "uuid": "628327bf-f89d-42f1-938c-3bb4949be064",
+    "sha256": "0373891b1d932288079613639f64925ea3a9bf603d7fc754f4f972913f1d8b1f"
+  },
+  "skill_3151": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_huo_03_04.png",
+    "uuid": "4f223117-2e21-4b68-859c-04437e6625f9",
+    "sha256": "7cb3f3b4c30433fd7dbe94f1556ec9be360df947e7f7d2bcfc6872d35e73c0a6"
+  },
+  "skill_3152": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_04_02.png",
+    "uuid": "cbad4312-ae26-4b7e-8eda-6632a74413cf",
+    "sha256": "4b0f15e901c6fb042b8834dd141b8c2da73c853985063f2cf5ee8daf70d26c9d"
+  },
+  "skill_3153": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_04_03.png",
+    "uuid": "fb0b7075-a2e9-4546-87a3-cbdb75c977ab",
+    "sha256": "b4de8d01ea7a38dead61bf9d2be5ebe2a8a98e03c3ecb5684efc8fd8f34bfe69"
+  },
+  "skill_3154": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_04_04.png",
+    "uuid": "d8f01f11-4bbe-4e5b-9fb5-706f995711b9",
+    "sha256": "da1efadafa50eb3ee13d125818a8ea10880deb937b5ac382b2fe2afb3b7f88d7"
+  },
+  "skill_3155": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_03_02.png",
+    "uuid": "11cf6091-e54a-4e7c-95ba-0f9fc38a28da",
+    "sha256": "a2431d54bd662709757d8d4eb86e3da43c86fde4c3b110aa7dfda5495b934c35"
+  },
+  "skill_3156": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_03_03.png",
+    "uuid": "e01037a1-d6f6-40eb-8a14-c786541c8aaa",
+    "sha256": "0b3b7800572e407b51931d57fc290771e0435167b9105e49e7a3cb7ee2763f73"
+  },
+  "skill_3157": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_03_04.png",
+    "uuid": "a7aff481-27f5-4977-ac20-8c6d367f3677",
+    "sha256": "d70502eb8e8672e556bb7547de672ccc35a60b0f68cafe7634fe5768bce6c286"
+  },
+  "skill_3500": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_01_3.png",
+    "uuid": "fcb1ac0c-9897-4d58-8cf6-8c5e3b538d17",
+    "sha256": "9b4d15094c1197cd3bb47657c5c6225091a523e0e6835bff4cd05d947ad2c969"
+  },
+  "skill_3501": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_04_04.png",
+    "uuid": "5f1f0ef5-cb8e-4a1e-b5ec-c6ec20f092cc",
+    "sha256": "5bd5572956bb0b4d62901d5f959edadf1b7b1ecf9477802a8670984d73990ebc"
+  },
+  "skill_3502": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_guang_01_03.png",
+    "uuid": "026077cf-b2a6-4b81-87e4-8e4566c52965",
+    "sha256": "92cb6732bdcb0244f2597a3e963fd0dbc6b3504d2bce538d03787442ca8d5db3"
+  },
+  "skill_2001": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_shui_01_4.png",
+    "uuid": "5a755d2f-b678-41c4-b2f5-9443ad6b9a6d",
+    "sha256": "690005f002c063491d7b43a357826e0d9af42fb79f147364d8d8256a35978684"
+  },
+  "skill_2002": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_feng_01_4.png",
+    "uuid": "2c886f79-eb49-4e9d-9205-c01370dfaebc",
+    "sha256": "79836acf32a332d5de2eff028682c90b2a5edab62a69644b2167f23ccf0ed005"
+  },
+  "skill_2003": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_feng_01_4.png",
+    "uuid": "8aa9c20b-ed9a-4b0c-8fd5-6e8659503581",
+    "sha256": "52082ae62f9c0739ec367f0486e854a519ab703c357ab68e79e4cbc9c4abc9ba"
+  },
+  "skill_2004": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_lr_shui_01_3.png",
+    "uuid": "86cdabe9-82b3-4c0a-abc8-cd58000da01c",
+    "sha256": "321070a562917cc2b6bcb7b57476c4b9a397ef653b9f3a820f353e71ee4615e2"
+  },
+  "skill_2005": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_lr_huo_01_4.png",
+    "uuid": "4208adc6-816e-4ef2-b676-d03655820e82",
+    "sha256": "1908988c3ee28cce3fb11ad9604306b1a969b8a10486a523dcf24d1dd78e13d6"
+  },
+  "skill_2006": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_feng_01_4.png",
+    "uuid": "c1a1c31e-81c1-49f4-bf87-2d9b91a6a8d7",
+    "sha256": "227431a36ce918beefa4a36b6ccde5f50b15d45411ebe903245af7079ceb7cb0"
+  },
+  "skill_2007": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_01_2.png",
+    "uuid": "52c51791-8f66-476f-85a9-bc1dda5f9950",
+    "sha256": "e6aa2cc8a793cfed1347f2111e9ffc5e5ee057eff89e57bd95f3586fa10a1e93"
+  },
+  "skill_2008": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_01_4.png",
+    "uuid": "dda73dd8-b6e0-42bb-ad6e-674b881f44d8",
+    "sha256": "f9f8bedb5833661ea140a637464ebe35cd5d96ecb1488dfb954d69a162acaac7"
+  },
+  "skill_2009": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_shui_01_2.png",
+    "uuid": "3dca8600-353d-4e97-9aef-3e20374fd548",
+    "sha256": "1dbde34e08d3f38c4361313f3c91c2d60662db98e4d7052d9f6ab69ddf511c47"
+  },
+  "skill_2010": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_shui_01_3.png",
+    "uuid": "edb8c1b6-6d13-4594-a0ed-d17b0fd789b2",
+    "sha256": "80ef423ec09c25d9fb4c3475ec53110c53b7a7a2b8771e8421f726019b1ff19d"
+  },
+  "skill_2011": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_shui_01_4.png",
+    "uuid": "98f22dcf-3097-4298-89bb-c5f207f1f20e",
+    "sha256": "30ef01928669b9d0b43f1dc44f27bc0e5334bb59dbb609253438971093ee0d5e"
+  },
+  "skill_2012": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_shui_01_2.png",
+    "uuid": "f3daff4e-7d47-4649-9d9b-fc7ae6679edd",
+    "sha256": "5af183ae65b8511c79197333e2b06f4e8e40adb4c543c94b47734f42c69d57d7"
+  },
+  "skill_2013": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_01_3.png",
+    "uuid": "d2b22314-dd94-4cd6-a0a6-4e3e95a152f1",
+    "sha256": "eb8196aeb1b0fdb5b94c96caaff5c39a28189abf29d55e04efb60dacec2071c0"
+  },
+  "skill_2014": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_01_4.png",
+    "uuid": "b94594ed-a7d8-4604-9720-c85f5e864951",
+    "sha256": "99caca5c233d04153c0cecdacd1140a9205aebbf3cff9c03d58014ac7266c638"
+  },
+  "skill_2015": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_02_3.png",
+    "uuid": "be1ea8d5-44a7-4463-9413-4d7a02e66197",
+    "sha256": "e04e56fada07dc8048e7b3069711f1ebfbdb21f627516c0ae2613aa2a1842a5e"
+  },
+  "skill_2016": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_huo_02_4.png",
+    "uuid": "5e4fe023-c3fb-49b2-8a0d-cbdd7e6928f9",
+    "sha256": "987b7f62e8dd2a8c8ecd4672a6c4a3514de48074089636644ee6ab13ef0e1cdc"
+  },
+  "skill_2017": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_shui_01_3.png",
+    "uuid": "4d1f28a6-97bf-4e8c-91cc-9e365c10735c",
+    "sha256": "941e6d758562e9adfa6679c9c336989b615acd59b101cb241be3112d283a7f7d"
+  },
+  "skill_2018": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_shui_01_4.png",
+    "uuid": "7821b3f5-572b-4d61-8254-590c0ec11b7a",
+    "sha256": "4be6c3e40cd095503474ac184e0431462528f9001475341378acf297531023b2"
+  },
+  "skill_2019": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_01_4.png",
+    "uuid": "c94e37d3-fcbf-47a0-856c-5f190324ff86",
+    "sha256": "e8bc17e514a882a4bdf34ed3a063fd55aa8bcbe380b7056770118590b886cef0"
+  },
+  "skill_2020": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_feng_01_4.png",
+    "uuid": "e5286bad-0fca-4079-9f30-d385367001fa",
+    "sha256": "c9d30018141e4af3d7b285399900e0e83fc6c65de61db5479d3e7abea7e689ee"
+  },
+  "skill_2022": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_02_4.png",
+    "uuid": "2b7acbf4-e099-4182-b377-062c2931e46d",
+    "sha256": "bd1764ecabf57854063856134bdd81738f2844f2c41ebfa4acbf4c5fb0c83d11"
+  },
+  "skill_2023": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_01_4.png",
+    "uuid": "c82589c3-a143-4d74-897f-6af24f609b41",
+    "sha256": "92153af4795893f1ddeca0c54fd87ae7f0755ca012bd38cee831c1746521dac2"
+  },
+  "skill_2024": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_huo_01_4.png",
+    "uuid": "b51fb02b-063f-47ff-b435-f9e0e3ba0177",
+    "sha256": "9fc98028d67a639015b5dc3c264fb4ae54419c605208a74a182b1ab4c12d677c"
+  },
+  "skill_2025": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_01_4.png",
+    "uuid": "9e913f94-52be-4f42-be8b-b7e73d5e2580",
+    "sha256": "fabbe0744d599add39848bfd8b27c0a9212887eedc469fcb977a7b1783c098f6"
+  },
+  "skill_2026": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_shui_02_4.png",
+    "uuid": "0a15765d-8731-4258-b692-91b779943eae",
+    "sha256": "0fee851a0686cc98f0aeebe95e0560aa54290d09c39991a98e327931d21a2e07"
+  },
+  "skill_2027": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_02_4.png",
+    "uuid": "77c63f5a-cbb7-495f-b8b4-204443e50d40",
+    "sha256": "11ee3a4d989e12c8fc65248948caedea9e5a9850b169611cf9bafa000ee7621f"
+  },
+  "skill_2028": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_01_3.png",
+    "uuid": "febd62d2-dc4f-4980-9b79-705f9dd99a30",
+    "sha256": "de4aa4b599726972f99fba57d47ed8e69656e0108fc3f88aede71da50d1265d6"
+  },
+  "skill_2029": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_feng_01_4.png",
+    "uuid": "0def00ac-ec9b-42a0-8cbf-b6b0b8f07090",
+    "sha256": "813d58dd50e672fa3efc8c19b5590081d12351a93de89f3d45e73f032123cde8"
+  },
+  "skill_2030": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_02_2.png",
+    "uuid": "fbe08d82-19a4-4eff-9d76-a4eca270a415",
+    "sha256": "063f7e87d5a5a89d73fd37e793dcbe259448f771a71ffb4680eb62693179cc18"
+  },
+  "skill_2031": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_02_3.png",
+    "uuid": "aa2b71ff-4454-4627-a872-37df814ecd1b",
+    "sha256": "76cf870577929d9497d143328063f7bcdb12f5de0105a149c83e2fd1bd6aebc9"
+  },
+  "skill_2032": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_02_4.png",
+    "uuid": "f4c0b950-921f-4e1f-b8c7-d8ea65d94bb6",
+    "sha256": "e0b4a362c0cdade00ced54eb922a45eb6f11481e82ba9744edff166d2b782455"
+  },
+  "skill_2033": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_huo_01_4.png",
+    "uuid": "c961b8eb-3df4-4336-98d0-dd5d2177c8fc",
+    "sha256": "64eeca6c809678a57c620164e5ab39c2dedf779951fb1109371a4a9546474ffb"
+  },
+  "skill_2034": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_shui_01_4.png",
+    "uuid": "517e3aa3-2a2e-4ac4-a639-db776a1311c3",
+    "sha256": "db7907aa5e5c9dd92c54f4860f87b9d6fa8eee744e2517d00faac5a6efd191c4"
+  },
+  "skill_2035": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_02_4.png",
+    "uuid": "e3d9f18f-edf6-4dd3-a0a3-89b4ca5cda3b",
+    "sha256": "a208a46cec12a3295662e114aaf4c60c5726483fc651ea8f33d02b1a34da7c80"
+  },
+  "skill_2036": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_03_3.png",
+    "uuid": "41a15b64-4bd1-46fd-84cf-6820193ab9a0",
+    "sha256": "582f51bc36b22e89f47f76f8ff4646b659b6de8668dc584a582901728bcdfefc"
+  },
+  "skill_2037": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_huo_01_3.png",
+    "uuid": "5433a43a-4d89-4688-9d57-1a02a8c10a8f",
+    "sha256": "13cd7e139fd4b72c5da605b6be363c2ba002a76fd3f56b08c517ed988e889ef9"
+  },
+  "skill_2038": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_shui_02_3.png",
+    "uuid": "7c62347e-e4c9-4dbf-95fb-9c7b94180899",
+    "sha256": "7d2a8b6057240a8c0bbe03fba768c6b031c555afdb737bd8aef53cf45841e6c1"
+  },
+  "skill_2040": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_lr_feng_04_3.png",
+    "uuid": "24f951aa-a7c5-4471-bb81-5877de12c32d",
+    "sha256": "e3a5edb3984ed8fb5770e56ffee3e745827f811f7fdf6621d8d68eb8afa026e4"
+  },
+  "skill_2041": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_feng_02_4.png",
+    "uuid": "28e4c907-2b71-4106-b41e-102d1265ce03",
+    "sha256": "3d98cccf8993837dda5577209a5e0598a330f054239ee1c3ebca08f3242fe5fa"
+  },
+  "skill_2042": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_huo_01_3.png",
+    "uuid": "f28fb512-84eb-4591-abe6-7f1c45b2d7a4",
+    "sha256": "2cce09a29e9f2bf58ee3f0c13779c9d9900465e394a2bb678063d96f0b718753"
+  },
+  "skill_2043": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_huo_01_4.png",
+    "uuid": "b4459fe7-beb6-4f5d-8edb-ff735d654134",
+    "sha256": "68f5c582206ceb08165de686029c606abb6d660f2414081be316b3909220b920"
+  },
+  "skill_2044": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_shui_01_3.png",
+    "uuid": "f642918d-fe35-454e-977b-8c83e91d685e",
+    "sha256": "9388f76d7f57f0b8fe678b58d9d1c10310f9729a62b9473f490017e244c2b452"
+  },
+  "skill_2045": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/c_fs_shui_01_4.png",
+    "uuid": "279664f9-8750-4723-b34b-c3a512120f93",
+    "sha256": "1fcb75a3a1617cb03f7d2a3733bad9fc20927b68612ee8950f0e591a4b4e38e4"
+  },
+  "skill_2046": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_fs_huo_02_4.png",
+    "uuid": "cfbc8747-004b-4853-8282-b11c9dfd22d0",
+    "sha256": "13cddb75235cf16570ed5c3dc538608d390de2c5162342bfbf622dd76b4a35cf"
+  },
+  "skill_2047": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_feng_02_2.png",
+    "uuid": "2939d8b1-f072-4fbb-835d-e2f620cb25d0",
+    "sha256": "4481b1e36a4eaf7082847417616dd9925de935544658f26928154bf7ee56101c"
+  },
+  "skill_2048": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_zs_feng_02_4.png",
+    "uuid": "49e54815-0481-4bec-aeef-35e273a63467",
+    "sha256": "7d773451a5b3afb9a922b31d5b5074b342820ae15010567da1cd16416063f50e"
+  },
+  "skill_2049": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_03_2.png",
+    "uuid": "dd2b49c5-9992-47cf-8d89-cdce2f46c78b",
+    "sha256": "2f997a69d2e8976009e19a37fa9aa29a8e6fdd01d2153e285c2ab9b7269dc61a"
+  },
+  "skill_2050": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_03_3.png",
+    "uuid": "6b273eea-e526-41ce-91fd-d81b30d754e0",
+    "sha256": "9f688a5e4393934420d45daf2415c248166166e2ffd303f61f018876b4693a17"
+  },
+  "skill_2051": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_03_4.png",
+    "uuid": "6abee27e-202c-4299-ba7c-cb0b48c0ee92",
+    "sha256": "de308460174d4cee1b4488125d31ce73a5b5d633c676d7d40cbef406d30c2014"
+  },
+  "skill_2052": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/b_fs_feng_03_4.png",
+    "uuid": "0aba895a-44e0-4f8e-863c-187c3902501a",
+    "sha256": "7ceac6a5df4ba366e609ea2ce55a80fea04f827bb21ab28c456688a66566274e"
+  },
+  "skill_2053": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_shui_02_3.png",
+    "uuid": "eaf01dc7-5f2d-411a-8baa-41ff1585ec24",
+    "sha256": "ef0720cafd85cd73d2087ee1bf9a27429183a17251884c6cb2a8deba1a360942"
+  },
+  "skill_2054": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_02_4.png",
+    "uuid": "12f836b7-ffa6-4e9d-8688-130d184c89dc",
+    "sha256": "9765854ea02dd321f660a44687d74966b62dac2b00ca6a2424043968447beaa1"
+  },
+  "skill_2055": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_02_4.png",
+    "uuid": "58282225-b4d0-4c6e-b037-f4f2897fd570",
+    "sha256": "75584d012847e4748a40a3db86b75e088bdd394c9aac813e87f4c552ab6dc52b"
+  },
+  "skill_2056": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_02_4.png",
+    "uuid": "20fcf574-7c6b-4a29-b51f-f05ca0ffe54e",
+    "sha256": "665089696cb81d1644257589b69c9f2f17b433367868375fc978e23c2744e5af"
+  },
+  "skill_2057": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_zs_guang_01_4.png",
+    "uuid": "0c5445ca-0743-457f-805a-8089df054d22",
+    "sha256": "1e7f8a4a8226bc6bd3e415f9ac9d64856bafc107a80d2ba9e2bc25a4d8d17ec6"
+  },
+  "skill_2058": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_shui_03_04.png",
+    "uuid": "c57474bb-b31e-4047-8655-9e55c21ac787",
+    "sha256": "1d0b0d5aa495622bd99383c8223b9bb252b77adb5abc9ef060b6daaac81850dd"
+  },
+  "skill_2059": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_huo_03_04.png",
+    "uuid": "b1a28622-a63e-4d28-bc75-974a99565ae8",
+    "sha256": "7ebe404d649e1cfd2cb707d2cad0a251ef3e1a75276abe61baef67bb2de5fbd3"
+  },
+  "skill_2060": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_huo_03_02.png",
+    "uuid": "f24a1aac-b670-4cb9-a824-1d3a117bd598",
+    "sha256": "3132876dfb907742ae13d07e41bf8713a525fd568c8bc5db2b63db8bff976303"
+  },
+  "skill_2061": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/a_zs_feng_02_04.png",
+    "uuid": "d861026e-68cb-4a52-bb26-80a7342656b2",
+    "sha256": "a31d676ed9ce09a2bd65df1925c3c72440652f0cf976715c5cae41e48176eb11"
+  },
+  "skill_2062": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_03_03.png",
+    "uuid": "028ba08c-7e04-42f7-bd77-c6bcb8f8c6cf",
+    "sha256": "a9abf83e4e5f04cde8d821dce273c7d7cd37236b2b0e7eff981ee778c976b403"
+  },
+  "skill_2063": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_feng_03_04.png",
+    "uuid": "4d24ec70-6db8-4e1d-a972-d5c99fa87caf",
+    "sha256": "bc1ad7df908ddf4e3170fbca6f5e24226d8ce49648664489ac2b18dd93d224a4"
+  },
+  "skill_2064": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_04_03.png",
+    "uuid": "61b5e200-e884-45b5-bdbd-8beb7db2adde",
+    "sha256": "7897518724707e90fc65ef997f4958566d49eb9bcd293b201767a7e731514678"
+  },
+  "skill_2068": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_lr_guang_01_04.png",
+    "uuid": "46dbc792-7b72-46d0-b722-01c6b8426f17",
+    "sha256": "f5fca4c4c79c13b197d31e9ee5e81ce0eacdca14e8f0ed03e1b4c6d06014014c"
+  },
+  "skill_2500": {
+    "source": "03_美术资源/02_透明切图/resources/tmp/skillIcon/s_fs_shui_01_4.png",
+    "uuid": "8495bdfe-c77a-4795-b0d6-52dbcec4e3da",
+    "sha256": "53202422fb6b77df1e5b81ec7969c89237c690da8ffb5aacb61c8de62b214b28"
+  }
+}

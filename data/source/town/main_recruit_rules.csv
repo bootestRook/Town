@@ -1,0 +1,13 @@
+id,value,source_id
+duration,1800.0,1175
+refresh_limit,10.0,1177
+ad_limit,3.0,1178
+ad_cooldown,1.0,1179
+refresh_price,50.0,1180
+experience,5.0,1194
+discount,0.7,1210
+ticket,10001,0
+ticket_price,100,0
+wish_talent,1075004,0
+wish_multiplier,2,0
+wish_weight,100,0

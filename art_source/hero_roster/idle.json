@@ -1,0 +1,594 @@
+[
+  {
+    "id": "idle.11001",
+    "appearance": 11001,
+    "resource_id": "hero_roster.hero_11001",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.11002",
+    "appearance": 11002,
+    "resource_id": "hero_roster.hero_11002",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.11003",
+    "appearance": 11003,
+    "resource_id": "hero_roster.hero_11003",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.11004",
+    "appearance": 11004,
+    "resource_id": "hero_roster.hero_11004",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.11005",
+    "appearance": 11005,
+    "resource_id": "hero_roster.hero_11005",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.11006",
+    "appearance": 11006,
+    "resource_id": "hero_roster.hero_11006",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.11008",
+    "appearance": 11008,
+    "resource_id": "hero_roster.hero_11008",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.11010",
+    "appearance": 11010,
+    "resource_id": "hero_roster.hero_11010",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.11011",
+    "appearance": 11011,
+    "resource_id": "hero_roster.hero_11011",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.11012",
+    "appearance": 11012,
+    "resource_id": "hero_roster.hero_11012",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12001",
+    "appearance": 12001,
+    "resource_id": "hero_roster.hero_12001",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12003",
+    "appearance": 12003,
+    "resource_id": "hero_roster.hero_12003",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12004",
+    "appearance": 12004,
+    "resource_id": "hero_roster.hero_12004",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12005",
+    "appearance": 12005,
+    "resource_id": "hero_roster.hero_12005",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12006",
+    "appearance": 12006,
+    "resource_id": "hero_roster.hero_12006",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12007",
+    "appearance": 12007,
+    "resource_id": "hero_roster.hero_12007",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12009",
+    "appearance": 12009,
+    "resource_id": "hero_roster.hero_12009",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12010",
+    "appearance": 12010,
+    "resource_id": "hero_roster.hero_12010",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12011",
+    "appearance": 12011,
+    "resource_id": "hero_roster.hero_12011",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12012",
+    "appearance": 12012,
+    "resource_id": "hero_roster.hero_12012",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12013",
+    "appearance": 12013,
+    "resource_id": "hero_roster.hero_12013",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12014",
+    "appearance": 12014,
+    "resource_id": "hero_roster.hero_12014",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12015",
+    "appearance": 12015,
+    "resource_id": "hero_roster.hero_12015",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.12016",
+    "appearance": 12016,
+    "resource_id": "hero_roster.hero_12016",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.21001",
+    "appearance": 21001,
+    "resource_id": "hero_roster.hero_21001",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.21002",
+    "appearance": 21002,
+    "resource_id": "hero_roster.hero_21002",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.21003",
+    "appearance": 21003,
+    "resource_id": "hero_roster.hero_21003",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.21004",
+    "appearance": 21004,
+    "resource_id": "hero_roster.hero_21004",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.21005",
+    "appearance": 21005,
+    "resource_id": "hero_roster.hero_21005",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.21006",
+    "appearance": 21006,
+    "resource_id": "hero_roster.hero_21006",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.21008",
+    "appearance": 21008,
+    "resource_id": "hero_roster.hero_21008",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.21010",
+    "appearance": 21010,
+    "resource_id": "hero_roster.hero_21010",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.21011",
+    "appearance": 21011,
+    "resource_id": "hero_roster.hero_21011",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22001",
+    "appearance": 22001,
+    "resource_id": "hero_roster.hero_22001",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22003",
+    "appearance": 22003,
+    "resource_id": "hero_roster.hero_22003",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22004",
+    "appearance": 22004,
+    "resource_id": "hero_roster.hero_22004",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22006",
+    "appearance": 22006,
+    "resource_id": "hero_roster.hero_22006",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22007",
+    "appearance": 22007,
+    "resource_id": "hero_roster.hero_22007",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22008",
+    "appearance": 22008,
+    "resource_id": "hero_roster.hero_22008",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22010",
+    "appearance": 22010,
+    "resource_id": "hero_roster.hero_22010",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22011",
+    "appearance": 22011,
+    "resource_id": "hero_roster.hero_22011",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22012",
+    "appearance": 22012,
+    "resource_id": "hero_roster.hero_22012",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22013",
+    "appearance": 22013,
+    "resource_id": "hero_roster.hero_22013",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22014",
+    "appearance": 22014,
+    "resource_id": "hero_roster.hero_22014",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22015",
+    "appearance": 22015,
+    "resource_id": "hero_roster.hero_22015",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22016",
+    "appearance": 22016,
+    "resource_id": "hero_roster.hero_22016",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22017",
+    "appearance": 22017,
+    "resource_id": "hero_roster.hero_22017",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22018",
+    "appearance": 22018,
+    "resource_id": "hero_roster.hero_22018",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.22019",
+    "appearance": 22019,
+    "resource_id": "hero_roster.hero_22019",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.31001",
+    "appearance": 31001,
+    "resource_id": "hero_roster.hero_31001",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.31002",
+    "appearance": 31002,
+    "resource_id": "hero_roster.hero_31002",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.31004",
+    "appearance": 31004,
+    "resource_id": "hero_roster.hero_31004",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.31007",
+    "appearance": 31007,
+    "resource_id": "hero_roster.hero_31007",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.31008",
+    "appearance": 31008,
+    "resource_id": "hero_roster.hero_31008",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.31009",
+    "appearance": 31009,
+    "resource_id": "hero_roster.hero_31009",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.31011",
+    "appearance": 31011,
+    "resource_id": "hero_roster.hero_31011",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.31012",
+    "appearance": 31012,
+    "resource_id": "hero_roster.hero_31012",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32001",
+    "appearance": 32001,
+    "resource_id": "hero_roster.hero_32001",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32002",
+    "appearance": 32002,
+    "resource_id": "hero_roster.hero_32002",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32003",
+    "appearance": 32003,
+    "resource_id": "hero_roster.hero_32003",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32004",
+    "appearance": 32004,
+    "resource_id": "hero_roster.hero_32004",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32006",
+    "appearance": 32006,
+    "resource_id": "hero_roster.hero_32006",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32007",
+    "appearance": 32007,
+    "resource_id": "hero_roster.hero_32007",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32008",
+    "appearance": 32008,
+    "resource_id": "hero_roster.hero_32008",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32009",
+    "appearance": 32009,
+    "resource_id": "hero_roster.hero_32009",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32010",
+    "appearance": 32010,
+    "resource_id": "hero_roster.hero_32010",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32011",
+    "appearance": 32011,
+    "resource_id": "hero_roster.hero_32011",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32012",
+    "appearance": 32012,
+    "resource_id": "hero_roster.hero_32012",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32013",
+    "appearance": 32013,
+    "resource_id": "hero_roster.hero_32013",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32014",
+    "appearance": 32014,
+    "resource_id": "hero_roster.hero_32014",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32015",
+    "appearance": 32015,
+    "resource_id": "hero_roster.hero_32015",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32016",
+    "appearance": 32016,
+    "resource_id": "hero_roster.hero_32016",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32017",
+    "appearance": 32017,
+    "resource_id": "hero_roster.hero_32017",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  },
+  {
+    "id": "idle.32018",
+    "appearance": 32018,
+    "resource_id": "hero_roster.hero_32018",
+    "frames": 81,
+    "columns": 9,
+    "duration": 2.6666667461395264
+  }
+]
